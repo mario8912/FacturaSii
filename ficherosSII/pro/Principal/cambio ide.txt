@@ -1,0 +1,12 @@
+    '220526 Cambiar la base de datos cuando ESIDE
+    strArchivo = "..\principal\principal.ini"
+    gEsIde = EsIde
+    If gEsIde Then
+        NombreServidor = LeerINI(strArchivo, "SERVIDOR", "Nombre")
+        NombreBD = LeerINI(strArchivo, "BASE DATOS", "Nombre")
+    End If
+    '220526 Cambiar la base de datos cuando ESIDE fin
+
+
+ModuloConexion\MODULE1
+ModuloConexion\MODULEFAC

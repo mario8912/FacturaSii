@@ -1,0 +1,5 @@
+'221020 blnCancelado
+'221020 me.mousepointer en frmListados
+
+'220706 Cancelar el boton dialogo de impresora cuando se pincha en imprimir
+'220706 orientacion del report

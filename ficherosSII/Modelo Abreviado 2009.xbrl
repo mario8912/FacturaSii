@@ -1,0 +1,3012 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xbrli:xbrl xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:pgc07am="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/ModeloAbreviado/2009-01-01" xmlns:pgc07m-roles="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/roles/2009-01-01" xmlns:pgc-07-c-bs="http://www.icac.meh.es/es/fr/gaap/pgc07/comun-base/2009-01-01" xmlns:pgc07ma-apdo9="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/abreviado/apartado9/SituacionFiscal/2009-01-01" xmlns:pgc07ma-apdo4="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/abreviado/apartado4/NormasRegistroValoracion/2009-01-01" xmlns:pgc07a="http://www.icac.meh.es/es/fr/gaap/pgc07/cuentas/abreviado/2009-01-01" xmlns:pgc07cbs-dvs="http://www.icac.meh.es/es/fr/gaap/pgc07/cuentas/comunbase/EstadoTotalCambiosPatrimonioNeto/VariacionSaldo/Dimension/2009-01-01" xmlns:pgc07ma-apdo13="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/abreviada/apartado13/OtraInformacion/2009-01-01" xmlns:dgi-gen-ex="http://www.xbrl.org.es/es/2008/dgi/gp/gen-ex/2008-01-30" xmlns:pgc07ma-apdo5="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/abreviada/apartado5/InmovilizadoMaterialIntangibleInversionesInmoviliarias/2009-01-01" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:pgc-07-ref="http://www.icac.meh.es/es/fr/gaap/pgc07/referenceParts/2009-01-01" xmlns:pgc07cbs-dpn="http://www.icac.meh.es/es/fr/gaap/pgc07/cuentas/comunbase/EstadoTotalCambiosPatrimonioNeto/PatrimonioNeto/Dimension/2009-01-01" xmlns:dgi-rel="http://www.xbrl.org.es/es/2008/dgi/gp/rel/2008-01-30" xmlns:dgi-lc-int="http://www.xbrl.org.es/es/2008/dgi/gp/lc-int/2008-01-30" xmlns:pgc07ma-apdo7="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/abreviada/apartado7/PasivosFinancieros/2009-01-01" xmlns:pgc07mc-apdo0="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/apartado0/IdentificacionGeneral/2009-01-01" xmlns:pgc07ma-d-inm="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/abreviada/InmovilizadoMaterialIntangibleInversionesInmobiliarias/Dimension/2009-01-01" xmlns:pgc07a-etcpn="http://www.icac.meh.es/es/fr/gaap/pgc07/cuentas/abreviado/patrimonioNeto/B/EstadoTotalCambiosPatrimonioNeto/2009-01-01" xmlns:pgc07ma-apdo2="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/abreviado/apartado2/BasesPresentacionCuentasAnuales/2009-01-01" xmlns:pgc07ma-apdo10="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/abreviada/apartado10/IngresosGastos/2009-01-01" xmlns:dgi-eco-bas="http://www.xbrl.org.es/es/2008/dgi/gp/eco-bas/2008-01-30" xmlns:dgi-dat-inf="http://www.xbrl.org.es/es/2008/dgi/gp/dat-inf/2008-01-30" xmlns:pgc-07-a-pyg="http://www.icac.meh.es/es/fr/gaap/pgc07/cuentas/abreviado/PerdidasGanancias/2009-01-01" xmlns:pgc07a-d-vs="http://www.icac.meh.es/es/fr/gaap/pgc07/cuentas/abreviado/EstadoTotalCambiosPatrimonioNeto/VariacionSaldo/Dimension/2009-01-01" xmlns:pgc07ma-apdo12="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/abreviada/apartado12/OperacionesPartesVinculadas/2009-01-01" xmlns:pgc-07-a-pnA="http://www.icac.meh.es/es/fr/gaap/pgc07/cuentas/abreviado/patrimonioNeto/A/2009-01-01" xmlns:pgc-07-c-na="http://www.icac.meh.es/es/fr/gaap/pgc07/comun-normalabreviado/2009-01-01" xmlns:pgc-07-a-bal="http://www.icac.meh.es/es/fr/gaap/pgc07/cuentas/abreviado/balance/2009-01-01" xmlns:pgc07a-d-pn="http://www.icac.meh.es/es/fr/gaap/pgc07/cuentas/abreviado/EstadoTotalCambiosPatrimonioNeto/PatrimonioNeto/Dimension/2009-01-01" xmlns:pgc07d-reclsf="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/ReclasificacionInstrumentosFinancieros/Dimension/2009-01-01" xmlns:pgc07m-d-pv="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/PartesVinculadas/Dimension/2009-01-01" xmlns:pgc07ma-d-sf="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/abreviado/SituacionFiscal/Dimension/2009-01-01" xmlns:pgc07ma-apdo3="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/abreviada/apartado3/AplicacionResultados/2009-01-01" xmlns:pgc07mc-bs="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/base/2009-01-01" xmlns:pgc07d-plzven="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/PlazoVencimientoInstrumentosFinancieros/Dimension/2009-01-01" xmlns:dgi-est-gen="http://www.xbrl.org.es/es/2008/dgi/gp/est-gen/2008-01-30" xmlns:pgc-07-a="http://www.icac.meh.es/es/fr/gaap/pgc07/abreviado/2009-01-01" xmlns:pgc-07-types="http://www.icac.meh.es/es/fr/gaap/pgc07/types/2009-01-01" xmlns:pgc07ma-apdo11="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/abreviado/apartado11/SubvencionesDonancionesLegados/2009-01-01" xmlns:pgc07d-clase="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/ClasesInstrumentosFinancieros/Dimension/2009-01-01" xmlns:pgc07mc-ap="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/abreviadoPymes/2009-01-01" xmlns:pgc-07-roles="http://www.icac.meh.es/es/fr/gaap/pgc07/roles/2009-01-01" xmlns:dgi-lc-es="http://www.xbrl.org.es/es/2008/dgi/gp/lc-es/2008-01-30" xmlns:pgc07ma-rsm="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/abreviada/resumen/2009-01-01" xmlns:pgc07m-d-cp="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/CategoriasProfesionales/Dimension/2009-01-01" xmlns:dgi-types="http://www.xbrl.org.es/es/2008/dgi/gp/types/2008-01-30" xmlns:pgc07ma-apdo0="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/abreviada/apartado0/IdentificacionGeneral/2009-01-01" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:pgc07ma-apdo14="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/abreviada/apartado14/InformacionMedioAmbiente/2009-01-01" xmlns:pgc07mc-na="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/normalAbreviado/2009-01-01" xmlns:dgi-cnae-09="http://www.xbrl.org.es/es/2008/dgi/gp/lc-cnae-2009/2008-01-30" xmlns:pgc07ma-apdo8="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/abreviada/apartado8/FondosPropios/2009-01-01" xmlns:ref="http://www.xbrl.org/2004/ref" xmlns:pgc07ma-apdo6="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/abreviada/apartado6/ActivosFinancieros/2009-01-01" xmlns:pgc-07-c-ap="http://www.icac.meh.es/es/fr/gaap/pgc07/comun-abreviadopymes/2009-01-01" xmlns:dgi-gen-bas="http://www.xbrl.org.es/es/2008/dgi/gp/gen-bas/2008-01-30" xmlns:pgc07ma="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/abreviada/2009-01-01">
+  <link:schemaRef xlink:type="simple" xlink:href="http://www.icac.meh.es/taxonomia/pgc-2009-01-01/pgc07-abreviado-completo.xsd" />
+  <xbrli:context id="I.ACTUAL">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2009-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="I.ANTERIOR">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2008-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="D.ACTUAL">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="D.ANTERIOR">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2008-01-01</xbrli:startDate>
+      <xbrli:endDate>2008-12-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_etcpn_Duration_CambiosPatrimonioNetoPrimaEmision">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoPrimaEmision</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_etcpn_Duration_CambiosPatrimonioNetoReservas">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoReservas</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_etcpn_Duration_CambiosPatrimonioNetoAccionesParticipacionesPatrimonioPropias">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoAccionesParticipacionesPatrimonioPropias</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_etcpn_Duration_CambiosPatrimonioNetoResultadoEjerciciosAnteriores">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoResultadoEjerciciosAnteriores</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_etcpn_Duration_CambiosPatrimonioNetoOtrasAportacionesSocios">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoOtrasAportacionesSocios</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_etcpn_Duration_CambiosPatrimonioNetoResultadoEjercicio">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoResultadoEjercicio</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_etcpn_Duration_CambiosPatrimonioNetoDividendoCuenta">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoDividendoCuenta</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_etcpn_Duration_CambiosPatrimonioNetoOtrosInstrumentosPatrimonioNeto">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoOtrosInstrumentosPatrimonioNeto</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_etcpn_Duration_CambiosPatrimonioNetoAjustesCambioValor">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoAjustesCambioValor</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_etcpn_Duration_CambiosPatrimonioNetoSubvencionesDonacionesLegadosRecibidos">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoSubvencionesDonacionesLegadosRecibidos</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_etcpn_Duration_CambiosPatrimonioNetoTotalCambios">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoTotalCambios</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_etcpn_Duration_CambiosPatrimonioNetoCapitalEscriturado">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoCapitalEscriturado</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_etcpn_Duration_CambiosPatrimonioNetoCapitalNoExigido">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoCapitalNoExigido</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_etcpn_Instant_CambiosPatrimonioNetoPrimaEmision">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2009-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoPrimaEmision</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_etcpn_Instant_CambiosPatrimonioNetoReservas">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2009-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoReservas</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_etcpn_Instant_CambiosPatrimonioNetoAccionesParticipacionesPatrimonioPropias">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2009-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoAccionesParticipacionesPatrimonioPropias</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_etcpn_Instant_CambiosPatrimonioNetoResultadoEjerciciosAnteriores">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2009-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoResultadoEjerciciosAnteriores</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_etcpn_Instant_CambiosPatrimonioNetoOtrasAportacionesSocios">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2009-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoOtrasAportacionesSocios</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_etcpn_Instant_CambiosPatrimonioNetoResultadoEjercicio">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2009-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoResultadoEjercicio</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_etcpn_Instant_CambiosPatrimonioNetoDividendoCuenta">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2009-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoDividendoCuenta</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_etcpn_Instant_CambiosPatrimonioNetoOtrosInstrumentosPatrimonioNeto">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2009-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoOtrosInstrumentosPatrimonioNeto</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_etcpn_Instant_CambiosPatrimonioNetoAjustesCambioValor">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2009-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoAjustesCambioValor</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_etcpn_Instant_CambiosPatrimonioNetoSubvencionesDonacionesLegadosRecibidos">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2009-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoSubvencionesDonacionesLegadosRecibidos</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_etcpn_Instant_CambiosPatrimonioNetoTotalCambios">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2009-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoTotalCambios</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_etcpn_Instant_CambiosPatrimonioNetoCapitalEscriturado">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2009-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoCapitalEscriturado</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_etcpn_Instant_CambiosPatrimonioNetoCapitalNoExigido">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2009-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoCapitalNoExigido</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_etcpn_Duration_CambiosPatrimonioNetoPrimaEmision">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2008-01-01</xbrli:startDate>
+      <xbrli:endDate>2008-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoPrimaEmision</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_etcpn_Duration_CambiosPatrimonioNetoReservas">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2008-01-01</xbrli:startDate>
+      <xbrli:endDate>2008-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoReservas</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_etcpn_Duration_CambiosPatrimonioNetoAccionesParticipacionesPatrimonioPropias">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2008-01-01</xbrli:startDate>
+      <xbrli:endDate>2008-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoAccionesParticipacionesPatrimonioPropias</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_etcpn_Duration_CambiosPatrimonioNetoResultadoEjerciciosAnteriores">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2008-01-01</xbrli:startDate>
+      <xbrli:endDate>2008-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoResultadoEjerciciosAnteriores</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_etcpn_Duration_CambiosPatrimonioNetoOtrasAportacionesSocios">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2008-01-01</xbrli:startDate>
+      <xbrli:endDate>2008-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoOtrasAportacionesSocios</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_etcpn_Duration_CambiosPatrimonioNetoResultadoEjercicio">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2008-01-01</xbrli:startDate>
+      <xbrli:endDate>2008-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoResultadoEjercicio</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_etcpn_Duration_CambiosPatrimonioNetoDividendoCuenta">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2008-01-01</xbrli:startDate>
+      <xbrli:endDate>2008-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoDividendoCuenta</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_etcpn_Duration_CambiosPatrimonioNetoOtrosInstrumentosPatrimonioNeto">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2008-01-01</xbrli:startDate>
+      <xbrli:endDate>2008-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoOtrosInstrumentosPatrimonioNeto</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_etcpn_Duration_CambiosPatrimonioNetoAjustesCambioValor">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2008-01-01</xbrli:startDate>
+      <xbrli:endDate>2008-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoAjustesCambioValor</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_etcpn_Duration_CambiosPatrimonioNetoSubvencionesDonacionesLegadosRecibidos">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2008-01-01</xbrli:startDate>
+      <xbrli:endDate>2008-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoSubvencionesDonacionesLegadosRecibidos</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_etcpn_Duration_CambiosPatrimonioNetoTotalCambios">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2008-01-01</xbrli:startDate>
+      <xbrli:endDate>2008-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoTotalCambios</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_etcpn_Duration_CambiosPatrimonioNetoCapitalEscriturado">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2008-01-01</xbrli:startDate>
+      <xbrli:endDate>2008-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoCapitalEscriturado</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_etcpn_Duration_CambiosPatrimonioNetoCapitalNoExigido">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2008-01-01</xbrli:startDate>
+      <xbrli:endDate>2008-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoCapitalNoExigido</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_etcpn_Instant_CambiosPatrimonioNetoPrimaEmision">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2008-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoPrimaEmision</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_etcpn_Instant_CambiosPatrimonioNetoReservas">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2008-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoReservas</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_etcpn_Instant_CambiosPatrimonioNetoAccionesParticipacionesPatrimonioPropias">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2008-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoAccionesParticipacionesPatrimonioPropias</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_etcpn_Instant_CambiosPatrimonioNetoResultadoEjerciciosAnteriores">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2008-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoResultadoEjerciciosAnteriores</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_etcpn_Instant_CambiosPatrimonioNetoOtrasAportacionesSocios">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2008-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoOtrasAportacionesSocios</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_etcpn_Instant_CambiosPatrimonioNetoResultadoEjercicio">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2008-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoResultadoEjercicio</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_etcpn_Instant_CambiosPatrimonioNetoDividendoCuenta">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2008-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoDividendoCuenta</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_etcpn_Instant_CambiosPatrimonioNetoOtrosInstrumentosPatrimonioNeto">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2008-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoOtrosInstrumentosPatrimonioNeto</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_etcpn_Instant_CambiosPatrimonioNetoAjustesCambioValor">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2008-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoAjustesCambioValor</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_etcpn_Instant_CambiosPatrimonioNetoSubvencionesDonacionesLegadosRecibidos">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2008-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoSubvencionesDonacionesLegadosRecibidos</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_etcpn_Instant_CambiosPatrimonioNetoTotalCambios">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2008-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoTotalCambios</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_etcpn_Instant_CambiosPatrimonioNetoCapitalEscriturado">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2008-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoCapitalEscriturado</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_etcpn_Instant_CambiosPatrimonioNetoCapitalNoExigido">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2008-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoCapitalNoExigido</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo5_Duration_InmovilizadoMaterialIntangibleInversionesInmobiliariasPresentacion">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-d-inm:InmovilizadoMaterialIntangibleInversionesInmobiliariasInmovilizadoIntangibleMaterialInversionesInmobiliariasDesgloseDimension">pgc07mc-ap:InmovilizadoMaterialIntangibleInversionesInmobiliariasPresentacion</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo5_Duration_InmovilizadoMaterialIntangibleInversionesInmobiliariasInmovilizadoIntangiblePresentacion">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-d-inm:InmovilizadoMaterialIntangibleInversionesInmobiliariasInmovilizadoIntangibleMaterialInversionesInmobiliariasDesgloseDimension">pgc07mc-ap:InmovilizadoMaterialIntangibleInversionesInmobiliariasInmovilizadoIntangiblePresentacion</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo5_Duration_InmovilizadoMaterialIntangibleInversionesInmobiliariasInmovilizadoMaterialPresentacion">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-d-inm:InmovilizadoMaterialIntangibleInversionesInmobiliariasInmovilizadoIntangibleMaterialInversionesInmobiliariasDesgloseDimension">pgc07mc-ap:InmovilizadoMaterialIntangibleInversionesInmobiliariasInmovilizadoMaterialPresentacion</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo5_Duration_InmovilizadoMaterialIntangibleInversionesInmobiliariasInversionesInmobiliariasPresentacion">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-d-inm:InmovilizadoMaterialIntangibleInversionesInmobiliariasInmovilizadoIntangibleMaterialInversionesInmobiliariasDesgloseDimension">pgc07mc-ap:InmovilizadoMaterialIntangibleInversionesInmobiliariasInversionesInmobiliariasPresentacion</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo5_Instant_InmovilizadoMaterialIntangibleInversionesInmobiliariasPresentacion">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2009-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-d-inm:InmovilizadoMaterialIntangibleInversionesInmobiliariasInmovilizadoIntangibleMaterialInversionesInmobiliariasDesgloseDimension">pgc07mc-ap:InmovilizadoMaterialIntangibleInversionesInmobiliariasPresentacion</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo5_Instant_InmovilizadoMaterialIntangibleInversionesInmobiliariasInmovilizadoIntangiblePresentacion">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2009-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-d-inm:InmovilizadoMaterialIntangibleInversionesInmobiliariasInmovilizadoIntangibleMaterialInversionesInmobiliariasDesgloseDimension">pgc07mc-ap:InmovilizadoMaterialIntangibleInversionesInmobiliariasInmovilizadoIntangiblePresentacion</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo5_Instant_InmovilizadoMaterialIntangibleInversionesInmobiliariasInmovilizadoMaterialPresentacion">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2009-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-d-inm:InmovilizadoMaterialIntangibleInversionesInmobiliariasInmovilizadoIntangibleMaterialInversionesInmobiliariasDesgloseDimension">pgc07mc-ap:InmovilizadoMaterialIntangibleInversionesInmobiliariasInmovilizadoMaterialPresentacion</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo5_Instant_InmovilizadoMaterialIntangibleInversionesInmobiliariasInversionesInmobiliariasPresentacion">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2009-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-d-inm:InmovilizadoMaterialIntangibleInversionesInmobiliariasInmovilizadoIntangibleMaterialInversionesInmobiliariasDesgloseDimension">pgc07mc-ap:InmovilizadoMaterialIntangibleInversionesInmobiliariasInversionesInmobiliariasPresentacion</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo5_Duration_InmovilizadoMaterialIntangibleInversionesInmobiliariasInmovilizadoIntangiblePresentacion">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2008-01-01</xbrli:startDate>
+      <xbrli:endDate>2008-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-d-inm:InmovilizadoMaterialIntangibleInversionesInmobiliariasInmovilizadoIntangibleMaterialInversionesInmobiliariasDesgloseDimension">pgc07mc-ap:InmovilizadoMaterialIntangibleInversionesInmobiliariasInmovilizadoIntangiblePresentacion</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo5_Duration_InmovilizadoMaterialIntangibleInversionesInmobiliariasInmovilizadoMaterialPresentacion">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2008-01-01</xbrli:startDate>
+      <xbrli:endDate>2008-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-d-inm:InmovilizadoMaterialIntangibleInversionesInmobiliariasInmovilizadoIntangibleMaterialInversionesInmobiliariasDesgloseDimension">pgc07mc-ap:InmovilizadoMaterialIntangibleInversionesInmobiliariasInmovilizadoMaterialPresentacion</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo5_Duration_InmovilizadoMaterialIntangibleInversionesInmobiliariasInversionesInmobiliariasPresentacion">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2008-01-01</xbrli:startDate>
+      <xbrli:endDate>2008-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-d-inm:InmovilizadoMaterialIntangibleInversionesInmobiliariasInmovilizadoIntangibleMaterialInversionesInmobiliariasDesgloseDimension">pgc07mc-ap:InmovilizadoMaterialIntangibleInversionesInmobiliariasInversionesInmobiliariasPresentacion</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo5_Instant_InmovilizadoMaterialIntangibleInversionesInmobiliariasInmovilizadoIntangiblePresentacion">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2008-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-d-inm:InmovilizadoMaterialIntangibleInversionesInmobiliariasInmovilizadoIntangibleMaterialInversionesInmobiliariasDesgloseDimension">pgc07mc-ap:InmovilizadoMaterialIntangibleInversionesInmobiliariasInmovilizadoIntangiblePresentacion</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo5_Instant_InmovilizadoMaterialIntangibleInversionesInmobiliariasInmovilizadoMaterialPresentacion">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2008-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-d-inm:InmovilizadoMaterialIntangibleInversionesInmobiliariasInmovilizadoIntangibleMaterialInversionesInmobiliariasDesgloseDimension">pgc07mc-ap:InmovilizadoMaterialIntangibleInversionesInmobiliariasInmovilizadoMaterialPresentacion</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo5_Instant_InmovilizadoMaterialIntangibleInversionesInmobiliariasInversionesInmobiliariasPresentacion">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2008-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-d-inm:InmovilizadoMaterialIntangibleInversionesInmobiliariasInmovilizadoIntangibleMaterialInversionesInmobiliariasDesgloseDimension">pgc07mc-ap:InmovilizadoMaterialIntangibleInversionesInmobiliariasInversionesInmobiliariasPresentacion</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo6_Duration_InstrumentosFinancierosLargoPlazoClasesActivoInstrumentosPatrimonio">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosLargoPlazoClasesActivoInstrumentosPatrimonio</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo6_Duration_InstrumentosFinancierosLargoPlazoClasesActivoValoresRepresentativosDeuda">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosLargoPlazoClasesActivoValoresRepresentativosDeuda</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo6_Duration_InstrumentosFinancierosLargoPlazoClasesActivoCreditosDerivadosOtros">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosLargoPlazoClasesActivoCreditosDerivadosOtros</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo6_Duration_InstrumentosFinancierosLargoPlazoClasesActivoTotal">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosLargoPlazoClasesActivoTotal</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo6_Instant_InstrumentosFinancierosLargoPlazoClasesActivoInstrumentosPatrimonio">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2009-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosLargoPlazoClasesActivoInstrumentosPatrimonio</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo6_Instant_InstrumentosFinancierosLargoPlazoClasesActivoValoresRepresentativosDeuda">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2009-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosLargoPlazoClasesActivoValoresRepresentativosDeuda</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo6_Instant_InstrumentosFinancierosLargoPlazoClasesActivoCreditosDerivadosOtros">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2009-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosLargoPlazoClasesActivoCreditosDerivadosOtros</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo6_Instant_InstrumentosFinancierosLargoPlazoClasesActivoTotal">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2009-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosLargoPlazoClasesActivoTotal</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo6_Duration_InstrumentosFinancierosCortoPlazoClasesActivoInstrumentosPatrimonio">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosCortoPlazoClasesActivoInstrumentosPatrimonio</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo6_Duration_InstrumentosFinancierosCortoPlazoClasesActivoCreditosDerivadosOtros">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosCortoPlazoClasesActivoCreditosDerivadosOtros</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo6_Duration_InstrumentosFinancierosCortoPlazoClasesActivoTotal">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosCortoPlazoClasesActivoTotal</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo6_Instant_InstrumentosFinancierosCortoPlazoClasesActivoInstrumentosPatrimonio">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2009-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosCortoPlazoClasesActivoInstrumentosPatrimonio</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo6_Instant_InstrumentosFinancierosCortoPlazoClasesActivoCreditosDerivadosOtros">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2009-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosCortoPlazoClasesActivoCreditosDerivadosOtros</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo6_Instant_InstrumentosFinancierosCortoPlazoClasesActivoTotal">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2009-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosCortoPlazoClasesActivoTotal</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo6c_Duration_InstrumentosFinancierosReclasificacionInversionesMantenidasVencimiento">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-reclsf:InstrumentosFinancierosReclasificacionDimension">pgc07d-reclsf:InstrumentosFinancierosReclasificacionInversionesMantenidasVencimiento</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo6c_Duration_InstrumentosFinancierosReclasificacionInversionesPatrimonioEmpresasGrupoEmpresasMultigrupoEmpresasAsociadas">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-reclsf:InstrumentosFinancierosReclasificacionDimension">pgc07d-reclsf:InstrumentosFinancierosReclasificacionInversionesPatrimonioEmpresasGrupoEmpresasMultigrupoEmpresasAsociadas</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo6c_Duration_InstrumentosFinancierosReclasificacionActivosDisponiblesVenta">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-reclsf:InstrumentosFinancierosReclasificacionDimension">pgc07d-reclsf:InstrumentosFinancierosReclasificacionActivosDisponiblesVenta</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo6c_Instant_InstrumentosFinancierosReclasificacionInversionesMantenidasVencimiento">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2009-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-reclsf:InstrumentosFinancierosReclasificacionDimension">pgc07d-reclsf:InstrumentosFinancierosReclasificacionInversionesMantenidasVencimiento</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo6c_Instant_InstrumentosFinancierosReclasificacionInversionesPatrimonioEmpresasGrupoEmpresasMultigrupoEmpresasAsociadas">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2009-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-reclsf:InstrumentosFinancierosReclasificacionDimension">pgc07d-reclsf:InstrumentosFinancierosReclasificacionInversionesPatrimonioEmpresasGrupoEmpresasMultigrupoEmpresasAsociadas</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo6c_Instant_InstrumentosFinancierosReclasificacionActivosDisponiblesVenta">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2009-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-reclsf:InstrumentosFinancierosReclasificacionDimension">pgc07d-reclsf:InstrumentosFinancierosReclasificacionActivosDisponiblesVenta</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo6c_Duration_InstrumentosFinancierosReclasificacionInversionesMantenidasVencimiento">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2008-01-01</xbrli:startDate>
+      <xbrli:endDate>2008-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-reclsf:InstrumentosFinancierosReclasificacionDimension">pgc07d-reclsf:InstrumentosFinancierosReclasificacionInversionesMantenidasVencimiento</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo6c_Duration_InstrumentosFinancierosReclasificacionInversionesPatrimonioEmpresasGrupoEmpresasMultigrupoEmpresasAsociadas">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2008-01-01</xbrli:startDate>
+      <xbrli:endDate>2008-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-reclsf:InstrumentosFinancierosReclasificacionDimension">pgc07d-reclsf:InstrumentosFinancierosReclasificacionInversionesPatrimonioEmpresasGrupoEmpresasMultigrupoEmpresasAsociadas</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo6c_Duration_InstrumentosFinancierosReclasificacionActivosDisponiblesVenta">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2008-01-01</xbrli:startDate>
+      <xbrli:endDate>2008-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-reclsf:InstrumentosFinancierosReclasificacionDimension">pgc07d-reclsf:InstrumentosFinancierosReclasificacionActivosDisponiblesVenta</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo6c_Instant_InstrumentosFinancierosReclasificacionInversionesMantenidasVencimiento">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2008-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-reclsf:InstrumentosFinancierosReclasificacionDimension">pgc07d-reclsf:InstrumentosFinancierosReclasificacionInversionesMantenidasVencimiento</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo6c_Instant_InstrumentosFinancierosReclasificacionInversionesPatrimonioEmpresasGrupoEmpresasMultigrupoEmpresasAsociadas">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2008-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-reclsf:InstrumentosFinancierosReclasificacionDimension">pgc07d-reclsf:InstrumentosFinancierosReclasificacionInversionesPatrimonioEmpresasGrupoEmpresasMultigrupoEmpresasAsociadas</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo6c_Instant_InstrumentosFinancierosReclasificacionActivosDisponiblesVenta">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2008-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-reclsf:InstrumentosFinancierosReclasificacionDimension">pgc07d-reclsf:InstrumentosFinancierosReclasificacionActivosDisponiblesVenta</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo6d_Instant_InstrumentosFinancierosCortoPlazoClasesActivoValoresRepresentativosDeuda">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2009-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosCortoPlazoClasesActivoValoresRepresentativosDeuda</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo6d_Duration_InstrumentosFinancierosCortoPlazoClasesActivoValoresRepresentativosDeuda">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosCortoPlazoClasesActivoValoresRepresentativosDeuda</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo6d_Duration_InstrumentosFinancierosLargoPlazoClasesActivoValoresRepresentativosDeuda">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2008-01-01</xbrli:startDate>
+      <xbrli:endDate>2008-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosLargoPlazoClasesActivoValoresRepresentativosDeuda</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo6d_Duration_InstrumentosFinancierosCortoPlazoClasesActivoValoresRepresentativosDeuda">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2008-01-01</xbrli:startDate>
+      <xbrli:endDate>2008-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosCortoPlazoClasesActivoValoresRepresentativosDeuda</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo6d_Duration_InstrumentosFinancierosLargoPlazoClasesActivoCreditosDerivadosOtros">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2008-01-01</xbrli:startDate>
+      <xbrli:endDate>2008-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosLargoPlazoClasesActivoCreditosDerivadosOtros</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo6d_Duration_InstrumentosFinancierosCortoPlazoClasesActivoCreditosDerivadosOtros">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2008-01-01</xbrli:startDate>
+      <xbrli:endDate>2008-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosCortoPlazoClasesActivoCreditosDerivadosOtros</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo6d_Duration_InstrumentosFinancierosLargoPlazoClasesActivoTotal">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2008-01-01</xbrli:startDate>
+      <xbrli:endDate>2008-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosLargoPlazoClasesActivoTotal</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo6d_Duration_InstrumentosFinancierosCortoPlazoClasesActivoTotal">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2008-01-01</xbrli:startDate>
+      <xbrli:endDate>2008-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosCortoPlazoClasesActivoTotal</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo6d_Instant_InstrumentosFinancierosLargoPlazoClasesActivoValoresRepresentativosDeuda">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2008-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosLargoPlazoClasesActivoValoresRepresentativosDeuda</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo6d_Instant_InstrumentosFinancierosCortoPlazoClasesActivoValoresRepresentativosDeuda">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2008-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosCortoPlazoClasesActivoValoresRepresentativosDeuda</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo6d_Instant_InstrumentosFinancierosLargoPlazoClasesActivoCreditosDerivadosOtros">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2008-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosLargoPlazoClasesActivoCreditosDerivadosOtros</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo6d_Instant_InstrumentosFinancierosCortoPlazoClasesActivoCreditosDerivadosOtros">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2008-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosCortoPlazoClasesActivoCreditosDerivadosOtros</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo6d_Instant_InstrumentosFinancierosLargoPlazoClasesActivoTotal">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2008-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosLargoPlazoClasesActivoTotal</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo6d_Instant_InstrumentosFinancierosCortoPlazoClasesActivoTotal">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2008-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosCortoPlazoClasesActivoTotal</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo6e_Duration_InstrumentosFinancierosCategoriasActivosActivosValorRazonableCambiosPyG">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-apdo6:InstrumentosFinancierosCategoriasDimension">pgc07mc-bs:InstrumentosFinancierosCategoriasActivosActivosValorRazonableCambiosPyG</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo6e_Duration_InstrumentosFinancierosCategoriasActivosActivosMantenidosNegociar">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-apdo6:InstrumentosFinancierosCategoriasDimension">pgc07mc-bs:InstrumentosFinancierosCategoriasActivosActivosMantenidosNegociar</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo6e_Duration_InstrumentosFinancierosCategoriasActivosActivosDisponiblesVenta">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-apdo6:InstrumentosFinancierosCategoriasDimension">pgc07mc-bs:InstrumentosFinancierosCategoriasActivosActivosDisponiblesVenta</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo6e_Duration_InstrumentosFinancierosCategoriasActivosActivosTotal">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-apdo6:InstrumentosFinancierosCategoriasDimension">pgc07mc-bs:InstrumentosFinancierosCategoriasActivosActivosTotal</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo6e_Instant_InstrumentosFinancierosCategoriasActivosActivosValorRazonableCambiosPyG">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2009-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-apdo6:InstrumentosFinancierosCategoriasDimension">pgc07mc-bs:InstrumentosFinancierosCategoriasActivosActivosValorRazonableCambiosPyG</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo6e_Instant_InstrumentosFinancierosCategoriasActivosActivosMantenidosNegociar">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2009-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-apdo6:InstrumentosFinancierosCategoriasDimension">pgc07mc-bs:InstrumentosFinancierosCategoriasActivosActivosMantenidosNegociar</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo6e_Instant_InstrumentosFinancierosCategoriasActivosActivosDisponiblesVenta">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2009-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-apdo6:InstrumentosFinancierosCategoriasDimension">pgc07mc-bs:InstrumentosFinancierosCategoriasActivosActivosDisponiblesVenta</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo6e_Instant_InstrumentosFinancierosCategoriasActivosActivosTotal">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2009-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-apdo6:InstrumentosFinancierosCategoriasDimension">pgc07mc-bs:InstrumentosFinancierosCategoriasActivosActivosTotal</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo6e_Duration_InstrumentosFinancierosCategoriasActivosActivosValorRazonableCambiosPyG">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2008-01-01</xbrli:startDate>
+      <xbrli:endDate>2008-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-apdo6:InstrumentosFinancierosCategoriasDimension">pgc07mc-bs:InstrumentosFinancierosCategoriasActivosActivosValorRazonableCambiosPyG</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo6e_Duration_InstrumentosFinancierosCategoriasActivosActivosMantenidosNegociar">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2008-01-01</xbrli:startDate>
+      <xbrli:endDate>2008-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-apdo6:InstrumentosFinancierosCategoriasDimension">pgc07mc-bs:InstrumentosFinancierosCategoriasActivosActivosMantenidosNegociar</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo6e_Duration_InstrumentosFinancierosCategoriasActivosActivosDisponiblesVenta">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2008-01-01</xbrli:startDate>
+      <xbrli:endDate>2008-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-apdo6:InstrumentosFinancierosCategoriasDimension">pgc07mc-bs:InstrumentosFinancierosCategoriasActivosActivosDisponiblesVenta</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo6e_Duration_InstrumentosFinancierosCategoriasActivosActivosTotal">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2008-01-01</xbrli:startDate>
+      <xbrli:endDate>2008-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-apdo6:InstrumentosFinancierosCategoriasDimension">pgc07mc-bs:InstrumentosFinancierosCategoriasActivosActivosTotal</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo6e_Instant_InstrumentosFinancierosCategoriasActivosActivosValorRazonableCambiosPyG">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2008-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-apdo6:InstrumentosFinancierosCategoriasDimension">pgc07mc-bs:InstrumentosFinancierosCategoriasActivosActivosValorRazonableCambiosPyG</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo6e_Instant_InstrumentosFinancierosCategoriasActivosActivosMantenidosNegociar">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2008-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-apdo6:InstrumentosFinancierosCategoriasDimension">pgc07mc-bs:InstrumentosFinancierosCategoriasActivosActivosMantenidosNegociar</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo6e_Instant_InstrumentosFinancierosCategoriasActivosActivosDisponiblesVenta">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2008-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-apdo6:InstrumentosFinancierosCategoriasDimension">pgc07mc-bs:InstrumentosFinancierosCategoriasActivosActivosDisponiblesVenta</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo6e_Instant_InstrumentosFinancierosCategoriasActivosActivosTotal">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2008-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-apdo6:InstrumentosFinancierosCategoriasDimension">pgc07mc-bs:InstrumentosFinancierosCategoriasActivosActivosTotal</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo6f_Duration_InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasGrupo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-apdo6:InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresaDimension">pgc07mc-ap:InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasGrupo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo6f_Duration_InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasMultigrupo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-apdo6:InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresaDimension">pgc07mc-ap:InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasMultigrupo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo6f_Duration_InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasAsociadas">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-apdo6:InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresaDimension">pgc07mc-ap:InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasAsociadas</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo6f_Duration_InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasTotal">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-apdo6:InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresaDimension">pgc07mc-ap:InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasTotal</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo6f_Instant_InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasGrupo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2009-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-apdo6:InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresaDimension">pgc07mc-ap:InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasGrupo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo6f_Instant_InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasMultigrupo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2009-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-apdo6:InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresaDimension">pgc07mc-ap:InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasMultigrupo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo6f_Instant_InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasAsociadas">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2009-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-apdo6:InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresaDimension">pgc07mc-ap:InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasAsociadas</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo6f_Instant_InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasTotal">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2009-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-apdo6:InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresaDimension">pgc07mc-ap:InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasTotal</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo6f_Duration_InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasGrupo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2008-01-01</xbrli:startDate>
+      <xbrli:endDate>2008-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-apdo6:InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresaDimension">pgc07mc-ap:InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasGrupo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo6f_Duration_InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasMultigrupo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2008-01-01</xbrli:startDate>
+      <xbrli:endDate>2008-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-apdo6:InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresaDimension">pgc07mc-ap:InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasMultigrupo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo6f_Duration_InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasAsociadas">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2008-01-01</xbrli:startDate>
+      <xbrli:endDate>2008-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-apdo6:InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresaDimension">pgc07mc-ap:InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasAsociadas</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo6f_Duration_InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasTotal">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2008-01-01</xbrli:startDate>
+      <xbrli:endDate>2008-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-apdo6:InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresaDimension">pgc07mc-ap:InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasTotal</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo6f_Instant_InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasGrupo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2008-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-apdo6:InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresaDimension">pgc07mc-ap:InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasGrupo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo6f_Instant_InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasMultigrupo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2008-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-apdo6:InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresaDimension">pgc07mc-ap:InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasMultigrupo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo6f_Instant_InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasAsociadas">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2008-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-apdo6:InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresaDimension">pgc07mc-ap:InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasAsociadas</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo6f_Instant_InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasTotal">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2008-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-apdo6:InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresaDimension">pgc07mc-ap:InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasTotal</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo6_Instant_InstrumentosFinancierosCortoPlazoClasesActivoInstrumentosPatrimonio">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2008-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosCortoPlazoClasesActivoInstrumentosPatrimonio</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo6_Instant_InstrumentosFinancierosLargoPlazoClasesActivoInstrumentosPatrimonio">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2008-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosLargoPlazoClasesActivoInstrumentosPatrimonio</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo7_Duration_InstrumentosFinancierosLargoPlazoClasesPasivoDeudasEntidadesCredito">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosLargoPlazoClasesPasivoDeudasEntidadesCredito</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo7_Duration_InstrumentosFinancierosLargoPlazoClasesPasivoObligacionesOtrosValoresNegociables">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosLargoPlazoClasesPasivoObligacionesOtrosValoresNegociables</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo7_Duration_InstrumentosFinancierosLargoPlazoClasesPasivoDerivadosOtros">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosLargoPlazoClasesPasivoDerivadosOtros</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo7_Duration_InstrumentosFinancierosLargoPlazoClasesPasivoTotal">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosLargoPlazoClasesPasivoTotal</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo7_Instant_InstrumentosFinancierosLargoPlazoClasesPasivoDeudasEntidadesCredito">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2009-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosLargoPlazoClasesPasivoDeudasEntidadesCredito</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo7_Instant_InstrumentosFinancierosLargoPlazoClasesPasivoObligacionesOtrosValoresNegociables">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2009-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosLargoPlazoClasesPasivoObligacionesOtrosValoresNegociables</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo7_Instant_InstrumentosFinancierosLargoPlazoClasesPasivoDerivadosOtros">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2009-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosLargoPlazoClasesPasivoDerivadosOtros</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo7_Instant_InstrumentosFinancierosLargoPlazoClasesPasivoTotal">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2009-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosLargoPlazoClasesPasivoTotal</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo7_Duration_InstrumentosFinancierosCortoPlazoClasesPasivoDeudasEntidadesCredito">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosCortoPlazoClasesPasivoDeudasEntidadesCredito</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo7_Duration_InstrumentosFinancierosCortoPlazoClasesPasivoObligacionesOtrosValoresNegociables">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosCortoPlazoClasesPasivoObligacionesOtrosValoresNegociables</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo7_Duration_InstrumentosFinancierosCortoPlazoClasesPasivoDerivadosOtros">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosCortoPlazoClasesPasivoDerivadosOtros</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo7_Duration_InstrumentosFinancierosCortoPlazoClasesPasivoTotal">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosCortoPlazoClasesPasivoTotal</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo7_Instant_InstrumentosFinancierosCortoPlazoClasesPasivoDeudasEntidadesCredito">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2009-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosCortoPlazoClasesPasivoDeudasEntidadesCredito</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo7_Instant_InstrumentosFinancierosCortoPlazoClasesPasivoObligacionesOtrosValoresNegociables">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2009-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosCortoPlazoClasesPasivoObligacionesOtrosValoresNegociables</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo7_Instant_InstrumentosFinancierosCortoPlazoClasesPasivoDerivadosOtros">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2009-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosCortoPlazoClasesPasivoDerivadosOtros</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo7_Instant_InstrumentosFinancierosCortoPlazoClasesPasivoTotal">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2009-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosCortoPlazoClasesPasivoTotal</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo7c_Duration_InstrumentosFinancierosPlazoVencimientoPrimerPlazo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-plzven:InstrumentosFinancierosPlazoVencimientoDimension">pgc07d-plzven:InstrumentosFinancierosPlazoVencimientoPrimerPlazo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo7c_Duration_InstrumentosFinancierosPlazoVencimientoSegundoPlazo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-plzven:InstrumentosFinancierosPlazoVencimientoDimension">pgc07d-plzven:InstrumentosFinancierosPlazoVencimientoSegundoPlazo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo7c_Duration_InstrumentosFinancierosPlazoVencimientoTercerPlazo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-plzven:InstrumentosFinancierosPlazoVencimientoDimension">pgc07d-plzven:InstrumentosFinancierosPlazoVencimientoTercerPlazo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo7c_Duration_InstrumentosFinancierosPlazoVencimientoCuartoPlazo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-plzven:InstrumentosFinancierosPlazoVencimientoDimension">pgc07d-plzven:InstrumentosFinancierosPlazoVencimientoCuartoPlazo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo7c_Duration_InstrumentosFinancierosPlazoVencimientoQuintoPlazo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-plzven:InstrumentosFinancierosPlazoVencimientoDimension">pgc07d-plzven:InstrumentosFinancierosPlazoVencimientoQuintoPlazo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo7c_Duration_InstrumentosFinancierosPlazoVencimientoUltimoPlazo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-plzven:InstrumentosFinancierosPlazoVencimientoDimension">pgc07d-plzven:InstrumentosFinancierosPlazoVencimientoUltimoPlazo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo7c_Duration_InstrumentosFinancierosPlazoVencimientoTotalPlazo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-plzven:InstrumentosFinancierosPlazoVencimientoDimension">pgc07d-plzven:InstrumentosFinancierosPlazoVencimientoTotalPlazo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoPrimerPlazo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2009-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-plzven:InstrumentosFinancierosPlazoVencimientoDimension">pgc07d-plzven:InstrumentosFinancierosPlazoVencimientoPrimerPlazo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoSegundoPlazo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2009-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-plzven:InstrumentosFinancierosPlazoVencimientoDimension">pgc07d-plzven:InstrumentosFinancierosPlazoVencimientoSegundoPlazo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoTercerPlazo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2009-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-plzven:InstrumentosFinancierosPlazoVencimientoDimension">pgc07d-plzven:InstrumentosFinancierosPlazoVencimientoTercerPlazo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoCuartoPlazo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2009-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-plzven:InstrumentosFinancierosPlazoVencimientoDimension">pgc07d-plzven:InstrumentosFinancierosPlazoVencimientoCuartoPlazo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoQuintoPlazo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2009-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-plzven:InstrumentosFinancierosPlazoVencimientoDimension">pgc07d-plzven:InstrumentosFinancierosPlazoVencimientoQuintoPlazo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoUltimoPlazo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2009-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-plzven:InstrumentosFinancierosPlazoVencimientoDimension">pgc07d-plzven:InstrumentosFinancierosPlazoVencimientoUltimoPlazo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoTotalPlazo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2009-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-plzven:InstrumentosFinancierosPlazoVencimientoDimension">pgc07d-plzven:InstrumentosFinancierosPlazoVencimientoTotalPlazo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo7_Duration_InstrumentosFinancierosCortoPlazoClasesPasivoDeudasEntidadesCredito">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2008-01-01</xbrli:startDate>
+      <xbrli:endDate>2008-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosCortoPlazoClasesPasivoDeudasEntidadesCredito</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo7_Duration_InstrumentosFinancierosCortoPlazoClasesPasivoObligacionesOtrosValoresNegociables">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2008-01-01</xbrli:startDate>
+      <xbrli:endDate>2008-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosCortoPlazoClasesPasivoObligacionesOtrosValoresNegociables</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo7_Duration_InstrumentosFinancierosCortoPlazoClasesPasivoDerivadosOtros">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2008-01-01</xbrli:startDate>
+      <xbrli:endDate>2008-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosCortoPlazoClasesPasivoDerivadosOtros</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo7_Duration_InstrumentosFinancierosCortoPlazoClasesPasivoTotal">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2008-01-01</xbrli:startDate>
+      <xbrli:endDate>2008-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosCortoPlazoClasesPasivoTotal</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo7_Instant_InstrumentosFinancierosCortoPlazoClasesPasivoDeudasEntidadesCredito">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2008-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosCortoPlazoClasesPasivoDeudasEntidadesCredito</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo7_Instant_InstrumentosFinancierosCortoPlazoClasesPasivoObligacionesOtrosValoresNegociables">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2008-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosCortoPlazoClasesPasivoObligacionesOtrosValoresNegociables</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo7_Instant_InstrumentosFinancierosCortoPlazoClasesPasivoDerivadosOtros">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2008-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosCortoPlazoClasesPasivoDerivadosOtros</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo7_Instant_InstrumentosFinancierosCortoPlazoClasesPasivoTotal">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2008-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosCortoPlazoClasesPasivoTotal</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo7_Duration_InstrumentosFinancierosLargoPlazoClasesPasivoDeudasEntidadesCredito">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2008-01-01</xbrli:startDate>
+      <xbrli:endDate>2008-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosLargoPlazoClasesPasivoDeudasEntidadesCredito</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo7_Duration_InstrumentosFinancierosLargoPlazoClasesPasivoObligacionesOtrosValoresNegociables">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2008-01-01</xbrli:startDate>
+      <xbrli:endDate>2008-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosLargoPlazoClasesPasivoObligacionesOtrosValoresNegociables</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo7_Duration_InstrumentosFinancierosLargoPlazoClasesPasivoDerivadosOtros">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2008-01-01</xbrli:startDate>
+      <xbrli:endDate>2008-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosLargoPlazoClasesPasivoDerivadosOtros</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo7_Duration_InstrumentosFinancierosLargoPlazoClasesPasivoTotal">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2008-01-01</xbrli:startDate>
+      <xbrli:endDate>2008-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosLargoPlazoClasesPasivoTotal</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo7_Instant_InstrumentosFinancierosLargoPlazoClasesPasivoDeudasEntidadesCredito">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2008-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosLargoPlazoClasesPasivoDeudasEntidadesCredito</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo7_Instant_InstrumentosFinancierosLargoPlazoClasesPasivoObligacionesOtrosValoresNegociables">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2008-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosLargoPlazoClasesPasivoObligacionesOtrosValoresNegociables</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo7_Instant_InstrumentosFinancierosLargoPlazoClasesPasivoDerivadosOtros">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2008-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosLargoPlazoClasesPasivoDerivadosOtros</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo7_Instant_InstrumentosFinancierosLargoPlazoClasesPasivoTotal">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2008-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosLargoPlazoClasesPasivoTotal</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo12_Duration_OperacionesPartesVinculadasPartesVinculadasEntidadDominante">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasDimension">pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasEntidadDominante</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo12_Duration_OperacionesPartesVinculadasPartesVinculadasOtrasEmpresasGrupo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasDimension">pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasOtrasEmpresasGrupo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo12_Duration_OperacionesPartesVinculadasPartesVinculadasNegociosConjuntosEmpresaParticipe">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasDimension">pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasNegociosConjuntosEmpresaParticipe</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo12_Duration_OperacionesPartesVinculadasPartesVinculadasEmpresasAsociadas">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasDimension">pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasEmpresasAsociadas</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo12_Duration_OperacionesPartesVinculadasPartesVinculadasEmpresasControlConjuntoInfluenciaSignificativaEmpresa">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasDimension">pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasEmpresasControlConjuntoInfluenciaSignificativaEmpresa</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo12_Duration_OperacionesPartesVinculadasPartesVinculadasMiembrosConsejoAdministracion">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasDimension">pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasMiembrosConsejoAdministracion</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo12_Duration_OperacionesPartesVinculadasPartesVinculadasOtroPersonalAltaDireccionEmpresaEntidadDominante">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasDimension">pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasOtroPersonalAltaDireccionEmpresaEntidadDominante</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo12_Duration_OperacionesPartesVinculadasPartesVinculadasOtrasPartesVinculadas">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasDimension">pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasOtrasPartesVinculadas</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo12_Instant_OperacionesPartesVinculadasPartesVinculadasEntidadDominante">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2009-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasDimension">pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasEntidadDominante</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo12_Instant_OperacionesPartesVinculadasPartesVinculadasOtrasEmpresasGrupo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2009-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasDimension">pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasOtrasEmpresasGrupo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo12_Instant_OperacionesPartesVinculadasPartesVinculadasNegociosConjuntosEmpresaParticipe">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2009-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasDimension">pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasNegociosConjuntosEmpresaParticipe</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo12_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasAsociadas">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2009-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasDimension">pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasEmpresasAsociadas</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo12_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasControlConjuntoInfluenciaSignificativaEmpresa">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2009-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasDimension">pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasEmpresasControlConjuntoInfluenciaSignificativaEmpresa</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo12_Instant_OperacionesPartesVinculadasPartesVinculadasMiembrosConsejoAdministracion">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2009-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasDimension">pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasMiembrosConsejoAdministracion</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo12_Instant_OperacionesPartesVinculadasPartesVinculadasOtroPersonalAltaDireccionEmpresaEntidadDominante">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2009-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasDimension">pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasOtroPersonalAltaDireccionEmpresaEntidadDominante</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo12_Instant_OperacionesPartesVinculadasPartesVinculadasOtrasPartesVinculadas">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2009-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasDimension">pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasOtrasPartesVinculadas</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo12c_Duration_OperacionesPartesVinculadasPartesVinculadasEntidadDominante">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2008-01-01</xbrli:startDate>
+      <xbrli:endDate>2008-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasDimension">pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasEntidadDominante</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo12c_Duration_OperacionesPartesVinculadasPartesVinculadasOtrasEmpresasGrupo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2008-01-01</xbrli:startDate>
+      <xbrli:endDate>2008-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasDimension">pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasOtrasEmpresasGrupo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo12c_Duration_OperacionesPartesVinculadasPartesVinculadasNegociosConjuntosEmpresaParticipe">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2008-01-01</xbrli:startDate>
+      <xbrli:endDate>2008-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasDimension">pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasNegociosConjuntosEmpresaParticipe</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo12c_Duration_OperacionesPartesVinculadasPartesVinculadasEmpresasAsociadas">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2008-01-01</xbrli:startDate>
+      <xbrli:endDate>2008-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasDimension">pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasEmpresasAsociadas</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo12c_Duration_OperacionesPartesVinculadasPartesVinculadasEmpresasControlConjuntoInfluenciaSignificativaEmpresa">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2008-01-01</xbrli:startDate>
+      <xbrli:endDate>2008-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasDimension">pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasEmpresasControlConjuntoInfluenciaSignificativaEmpresa</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo12c_Duration_OperacionesPartesVinculadasPartesVinculadasOtroPersonalAltaDireccionEmpresaEntidadDominante">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2008-01-01</xbrli:startDate>
+      <xbrli:endDate>2008-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasDimension">pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasOtroPersonalAltaDireccionEmpresaEntidadDominante</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo12c_Duration_OperacionesPartesVinculadasPartesVinculadasOtrasPartesVinculadas">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2008-01-01</xbrli:startDate>
+      <xbrli:endDate>2008-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasDimension">pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasOtrasPartesVinculadas</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo12c_Instant_OperacionesPartesVinculadasPartesVinculadasEntidadDominante">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2008-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasDimension">pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasEntidadDominante</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo12c_Instant_OperacionesPartesVinculadasPartesVinculadasOtrasEmpresasGrupo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2008-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasDimension">pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasOtrasEmpresasGrupo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo12c_Instant_OperacionesPartesVinculadasPartesVinculadasNegociosConjuntosEmpresaParticipe">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2008-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasDimension">pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasNegociosConjuntosEmpresaParticipe</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo12c_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasAsociadas">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2008-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasDimension">pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasEmpresasAsociadas</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo12c_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasControlConjuntoInfluenciaSignificativaEmpresa">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2008-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasDimension">pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasEmpresasControlConjuntoInfluenciaSignificativaEmpresa</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo12c_Instant_OperacionesPartesVinculadasPartesVinculadasOtroPersonalAltaDireccionEmpresaEntidadDominante">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2008-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasDimension">pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasOtroPersonalAltaDireccionEmpresaEntidadDominante</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo12c_Instant_OperacionesPartesVinculadasPartesVinculadasOtrasPartesVinculadas">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2008-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasDimension">pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasOtrasPartesVinculadas</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo13_Duration_Xcode_CAP.2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-lc-es:Xcode_CAP.2</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo13_Duration_Xcode_CAP.3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-lc-es:Xcode_CAP.3</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo13_Duration_Xcode_CAP.4">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-lc-es:Xcode_CAP.4</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo13_Duration_Xcode_CAP.5">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-lc-es:Xcode_CAP.5</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo13_Duration_Xcode_CAP.6">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-lc-es:Xcode_CAP.6</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo13_Duration_Xcode_CAP.7">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-lc-es:Xcode_CAP.7</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo13_Duration_Xcode_CAP.8">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-lc-es:Xcode_CAP.8</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ACTUAL_apdo13_Duration_EmployeesPeriodAverageNumberTotal">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2009-01-01</xbrli:startDate>
+      <xbrli:endDate>2009-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-eco-bas:EmployeesPeriodAverageNumberTotal</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo13_Duration_Xcode_CAP.2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2008-01-01</xbrli:startDate>
+      <xbrli:endDate>2008-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-lc-es:Xcode_CAP.2</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo13_Duration_Xcode_CAP.3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2008-01-01</xbrli:startDate>
+      <xbrli:endDate>2008-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-lc-es:Xcode_CAP.3</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo13_Duration_Xcode_CAP.4">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2008-01-01</xbrli:startDate>
+      <xbrli:endDate>2008-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-lc-es:Xcode_CAP.4</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo13_Duration_Xcode_CAP.5">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2008-01-01</xbrli:startDate>
+      <xbrli:endDate>2008-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-lc-es:Xcode_CAP.5</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo13_Duration_Xcode_CAP.6">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2008-01-01</xbrli:startDate>
+      <xbrli:endDate>2008-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-lc-es:Xcode_CAP.6</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo13_Duration_Xcode_CAP.7">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2008-01-01</xbrli:startDate>
+      <xbrli:endDate>2008-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-lc-es:Xcode_CAP.7</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo13_Duration_Xcode_CAP.8">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2008-01-01</xbrli:startDate>
+      <xbrli:endDate>2008-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-lc-es:Xcode_CAP.8</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_ANTERIOR_apdo13_Duration_EmployeesPeriodAverageNumberTotal">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl">BXXXXXXXX</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2008-01-01</xbrli:startDate>
+      <xbrli:endDate>2008-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-eco-bas:EmployeesPeriodAverageNumberTotal</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:unit id="euro">
+    <xbrli:measure>iso4217:EUR</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="shares">
+    <xbrli:measure>xbrli:shares</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="pure">
+    <xbrli:measure>xbrli:pure</xbrli:measure>
+  </xbrli:unit>
+  <pgc-07-c-bs:ActivoNoCorriente decimals="0" contextRef="I.ACTUAL" unitRef="euro">2751.82</pgc-07-c-bs:ActivoNoCorriente>
+  <pgc-07-c-bs:ActivoNoCorrienteInmovilizadoIntangible decimals="0" contextRef="I.ACTUAL" unitRef="euro">1738.84</pgc-07-c-bs:ActivoNoCorrienteInmovilizadoIntangible>
+  <pgc-07-c-bs:ActivoNoCorrienteInmovilizadoMaterial decimals="0" contextRef="I.ACTUAL" unitRef="euro">1012.98</pgc-07-c-bs:ActivoNoCorrienteInmovilizadoMaterial>
+  <pgc-07-c-bs:ActivoNoCorriente decimals="0" contextRef="I.ANTERIOR" unitRef="euro">2904.43</pgc-07-c-bs:ActivoNoCorriente>
+  <pgc-07-c-bs:ActivoNoCorrienteInmovilizadoIntangible decimals="0" contextRef="I.ANTERIOR" unitRef="euro">1548.44</pgc-07-c-bs:ActivoNoCorrienteInmovilizadoIntangible>
+  <pgc-07-c-bs:ActivoNoCorrienteInmovilizadoMaterial decimals="0" contextRef="I.ANTERIOR" unitRef="euro">1355.99</pgc-07-c-bs:ActivoNoCorrienteInmovilizadoMaterial>
+  <pgc-07-c-bs:ActivoCorriente decimals="0" contextRef="I.ACTUAL" unitRef="euro">19592.91</pgc-07-c-bs:ActivoCorriente>
+  <pgc-07-c-bs:ActivoCorriente decimals="0" contextRef="I.ANTERIOR" unitRef="euro">24215.56</pgc-07-c-bs:ActivoCorriente>
+  <pgc-07-c-bs:ActivoCorrienteDeudoresComercialesOtrasCuentasCobrar decimals="0" contextRef="I.ACTUAL" unitRef="euro">10114.26</pgc-07-c-bs:ActivoCorrienteDeudoresComercialesOtrasCuentasCobrar>
+  <pgc-07-c-bs:ActivoCorrienteDeudoresComercialesOtrasCuentasCobrar decimals="0" contextRef="I.ANTERIOR" unitRef="euro">2913.92</pgc-07-c-bs:ActivoCorrienteDeudoresComercialesOtrasCuentasCobrar>
+  <pgc-07-c-bs:ActivoCorrienteEfectivoOtrosActivosLiquidosEquivalentes decimals="0" contextRef="I.ACTUAL" unitRef="euro">9478.65</pgc-07-c-bs:ActivoCorrienteEfectivoOtrosActivosLiquidosEquivalentes>
+  <pgc-07-c-bs:TotalActivo decimals="0" contextRef="I.ACTUAL" unitRef="euro">22344.73</pgc-07-c-bs:TotalActivo>
+  <pgc-07-c-bs:ActivoCorrienteEfectivoOtrosActivosLiquidosEquivalentes decimals="0" contextRef="I.ANTERIOR" unitRef="euro">21301.64</pgc-07-c-bs:ActivoCorrienteEfectivoOtrosActivosLiquidosEquivalentes>
+  <pgc-07-c-bs:TotalActivo decimals="0" contextRef="I.ANTERIOR" unitRef="euro">27119.99</pgc-07-c-bs:TotalActivo>
+  <pgc-07-c-bs:ActivoCorrienteDeudoresComercialesOtrasCuentasCobrarClientesVentasPrestacionesServicios decimals="0" contextRef="I.ACTUAL" unitRef="euro">3698.08</pgc-07-c-bs:ActivoCorrienteDeudoresComercialesOtrasCuentasCobrarClientesVentasPrestacionesServicios>
+  <pgc-07-c-bs:ActivoCorrienteDeudoresComercialesOtrasCuentasCobrarClientesVentasPrestacionesServicios decimals="0" contextRef="I.ANTERIOR" unitRef="euro">2913.92</pgc-07-c-bs:ActivoCorrienteDeudoresComercialesOtrasCuentasCobrarClientesVentasPrestacionesServicios>
+  <pgc-07-c-bs:ActivoCorrienteDeudoresComercialesOtrasCuentasCobrarClientesVentasPrestacionesServiciosCortoPlazo decimals="0" contextRef="I.ACTUAL" unitRef="euro">3698.08</pgc-07-c-bs:ActivoCorrienteDeudoresComercialesOtrasCuentasCobrarClientesVentasPrestacionesServiciosCortoPlazo>
+  <pgc-07-c-bs:ActivoCorrienteDeudoresComercialesOtrasCuentasCobrarClientesVentasPrestacionesServiciosCortoPlazo decimals="0" contextRef="I.ANTERIOR" unitRef="euro">2913.92</pgc-07-c-bs:ActivoCorrienteDeudoresComercialesOtrasCuentasCobrarClientesVentasPrestacionesServiciosCortoPlazo>
+  <pgc-07-c-ap:ActivoCorrienteDeudoresComercialesOtrasCuentasCobrarOtrosDeudores decimals="0" contextRef="I.ACTUAL" unitRef="euro">6416.18</pgc-07-c-ap:ActivoCorrienteDeudoresComercialesOtrasCuentasCobrarOtrosDeudores>
+  <pgc-07-c-bs:PatrimonioNeto decimals="0" contextRef="I.ACTUAL" unitRef="euro">4060.41</pgc-07-c-bs:PatrimonioNeto>
+  <pgc-07-c-bs:PatrimonioNeto decimals="0" contextRef="I.ANTERIOR" unitRef="euro">-4240.77</pgc-07-c-bs:PatrimonioNeto>
+  <pgc-07-c-bs:PatrimonioNetoFondosPropios decimals="0" contextRef="I.ACTUAL" unitRef="euro">4060.41</pgc-07-c-bs:PatrimonioNetoFondosPropios>
+  <pgc-07-c-bs:PatrimonioNetoFondosPropios decimals="0" contextRef="I.ANTERIOR" unitRef="euro">-4240.77</pgc-07-c-bs:PatrimonioNetoFondosPropios>
+  <pgc-07-c-bs:PatrimonioNetoFondosPropiosCapital decimals="0" contextRef="I.ACTUAL" unitRef="euro">3005.06</pgc-07-c-bs:PatrimonioNetoFondosPropiosCapital>
+  <pgc-07-c-bs:PatrimonioNetoFondosPropiosCapital decimals="0" contextRef="I.ANTERIOR" unitRef="euro">3005.06</pgc-07-c-bs:PatrimonioNetoFondosPropiosCapital>
+  <pgc-07-c-bs:PatrimonioNetoFondosPropiosCapitalEscriturado decimals="0" contextRef="I.ACTUAL" unitRef="euro">3005.06</pgc-07-c-bs:PatrimonioNetoFondosPropiosCapitalEscriturado>
+  <pgc-07-c-bs:PatrimonioNetoFondosPropiosCapitalEscriturado decimals="0" contextRef="I.ANTERIOR" unitRef="euro">3005.06</pgc-07-c-bs:PatrimonioNetoFondosPropiosCapitalEscriturado>
+  <pgc-07-c-bs:PatrimonioNetoFondosPropiosResultadosEjerciciosAnteriores decimals="0" contextRef="I.ACTUAL" unitRef="euro">-7245.83</pgc-07-c-bs:PatrimonioNetoFondosPropiosResultadosEjerciciosAnteriores>
+  <pgc-07-c-bs:PatrimonioNetoFondosPropiosResultadosEjerciciosAnteriores decimals="0" contextRef="I.ANTERIOR" unitRef="euro">-28772.53</pgc-07-c-bs:PatrimonioNetoFondosPropiosResultadosEjerciciosAnteriores>
+  <pgc-07-c-bs:PatrimonioNetoFondosPropiosResultadoEjercicio decimals="0" contextRef="I.ACTUAL" unitRef="euro">8301.18</pgc-07-c-bs:PatrimonioNetoFondosPropiosResultadoEjercicio>
+  <pgc-07-c-bs:PatrimonioNetoFondosPropiosResultadoEjercicio decimals="0" contextRef="I.ANTERIOR" unitRef="euro">21526.70</pgc-07-c-bs:PatrimonioNetoFondosPropiosResultadoEjercicio>
+  <pgc-07-c-bs:PasivoCorriente decimals="0" contextRef="I.ACTUAL" unitRef="euro">18284.32</pgc-07-c-bs:PasivoCorriente>
+  <pgc-07-c-bs:PasivoCorriente decimals="0" contextRef="I.ANTERIOR" unitRef="euro">31360.76</pgc-07-c-bs:PasivoCorriente>
+  <pgc-07-c-bs:PasivoCorrienteDeudasCortoPlazo decimals="0" contextRef="I.ACTUAL" unitRef="euro">9799.47</pgc-07-c-bs:PasivoCorrienteDeudasCortoPlazo>
+  <pgc-07-c-bs:PasivoCorrienteDeudasCortoPlazo decimals="0" contextRef="I.ANTERIOR" unitRef="euro">22008.93</pgc-07-c-bs:PasivoCorrienteDeudasCortoPlazo>
+  <pgc-07-c-bs:PasivoCorrienteDeudasCortoPlazoDeudasEntidadesCredito decimals="0" contextRef="I.ACTUAL" unitRef="euro">8886.91</pgc-07-c-bs:PasivoCorrienteDeudasCortoPlazoDeudasEntidadesCredito>
+  <pgc-07-c-bs:PasivoCorrienteDeudasCortoPlazoDeudasEntidadesCredito decimals="0" contextRef="I.ANTERIOR" unitRef="euro">17008.93</pgc-07-c-bs:PasivoCorrienteDeudasCortoPlazoDeudasEntidadesCredito>
+  <pgc-07-c-bs:PasivoCorrienteAcreedoresComercialesOtrasCuentasPagar decimals="0" contextRef="I.ACTUAL" unitRef="euro">8484.85</pgc-07-c-bs:PasivoCorrienteAcreedoresComercialesOtrasCuentasPagar>
+  <pgc-07-c-bs:PasivoCorrienteAcreedoresComercialesOtrasCuentasPagar decimals="0" contextRef="I.ANTERIOR" unitRef="euro">9351.83</pgc-07-c-bs:PasivoCorrienteAcreedoresComercialesOtrasCuentasPagar>
+  <pgc-07-c-bs:PatrimonioNetoPasivoTotal decimals="0" contextRef="I.ACTUAL" unitRef="euro">22344.73</pgc-07-c-bs:PatrimonioNetoPasivoTotal>
+  <pgc-07-c-bs:PatrimonioNetoPasivoTotal decimals="0" contextRef="I.ANTERIOR" unitRef="euro">27119.99</pgc-07-c-bs:PatrimonioNetoPasivoTotal>
+  <pgc-07-c-ap:PasivoCorrienteDeudasCortoPlazoOtrasDeudas decimals="0" contextRef="I.ACTUAL" unitRef="euro">912.56</pgc-07-c-ap:PasivoCorrienteDeudasCortoPlazoOtrasDeudas>
+  <pgc-07-c-ap:PasivoCorrienteDeudasCortoPlazoOtrasDeudas decimals="0" contextRef="I.ANTERIOR" unitRef="euro">5000</pgc-07-c-ap:PasivoCorrienteDeudasCortoPlazoOtrasDeudas>
+  <pgc-07-c-ap:PasivoCorrienteAcreedoresComercialesOtrasCuentasPagarOtrosAcreedores decimals="0" contextRef="I.ACTUAL" unitRef="euro">8484.85</pgc-07-c-ap:PasivoCorrienteAcreedoresComercialesOtrasCuentasPagarOtrosAcreedores>
+  <pgc-07-c-ap:PasivoCorrienteAcreedoresComercialesOtrasCuentasPagarOtrosAcreedores decimals="0" contextRef="I.ANTERIOR" unitRef="euro">9351.83</pgc-07-c-ap:PasivoCorrienteAcreedoresComercialesOtrasCuentasPagarOtrosAcreedores>
+  <pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasImporteNetoCifraNegocios decimals="0" contextRef="D.ACTUAL" unitRef="euro">80493.50</pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasImporteNetoCifraNegocios>
+  <pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasImporteNetoCifraNegocios decimals="0" contextRef="D.ANTERIOR" unitRef="euro">96694.22</pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasImporteNetoCifraNegocios>
+  <pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasOtrosIngresosExplotacion decimals="0" contextRef="D.ACTUAL" unitRef="euro">15100.97</pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasOtrosIngresosExplotacion>
+  <pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasOtrosIngresosExplotacion decimals="0" contextRef="D.ANTERIOR" unitRef="euro">11689.70</pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasOtrosIngresosExplotacion>
+  <pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasGestionPersonal decimals="0" contextRef="D.ACTUAL" unitRef="euro">-49149.92</pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasGestionPersonal>
+  <pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasGestionPersonal decimals="0" contextRef="D.ANTERIOR" unitRef="euro">-55341.27</pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasGestionPersonal>
+  <pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasOtrosGastosExplotacion decimals="0" contextRef="D.ACTUAL" unitRef="euro">-36103.80</pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasOtrosGastosExplotacion>
+  <pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasOtrosGastosExplotacion decimals="0" contextRef="D.ANTERIOR" unitRef="euro">-29471.06</pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasOtrosGastosExplotacion>
+  <pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasAmortizacionInmovilizado decimals="0" contextRef="D.ACTUAL" unitRef="euro">-1918.61</pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasAmortizacionInmovilizado>
+  <pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasAmortizacionInmovilizado decimals="0" contextRef="D.ANTERIOR" unitRef="euro">-1674.61</pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasAmortizacionInmovilizado>
+  <pgc-07-c-bs:PerdidasGananciasResultadoExplotacion decimals="0" contextRef="D.ACTUAL" unitRef="euro">8422.14</pgc-07-c-bs:PerdidasGananciasResultadoExplotacion>
+  <pgc-07-c-bs:PerdidasGananciasResultadoExplotacion decimals="0" contextRef="D.ANTERIOR" unitRef="euro">21896.98</pgc-07-c-bs:PerdidasGananciasResultadoExplotacion>
+  <pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasGastosFinancieros decimals="0" contextRef="D.ACTUAL" unitRef="euro">-120.96</pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasGastosFinancieros>
+  <pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasGastosFinancieros decimals="0" contextRef="D.ANTERIOR" unitRef="euro">-370.28</pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasGastosFinancieros>
+  <pgc-07-c-bs:PerdidasGananciasResultadoFinanciero decimals="0" contextRef="D.ACTUAL" unitRef="euro">-120.96</pgc-07-c-bs:PerdidasGananciasResultadoFinanciero>
+  <pgc-07-c-bs:PerdidasGananciasResultadoFinanciero decimals="0" contextRef="D.ANTERIOR" unitRef="euro">-370.28</pgc-07-c-bs:PerdidasGananciasResultadoFinanciero>
+  <pgc-07-c-bs:PerdidasGananciasResultadoAntesImpuestos decimals="0" contextRef="D.ACTUAL" unitRef="euro">8301.18</pgc-07-c-bs:PerdidasGananciasResultadoAntesImpuestos>
+  <pgc-07-c-bs:PerdidasGananciasResultadoAntesImpuestos decimals="0" contextRef="D.ANTERIOR" unitRef="euro">21526.70</pgc-07-c-bs:PerdidasGananciasResultadoAntesImpuestos>
+  <pgc-07-c-bs:PerdidasGananciasResultadoEjercicio decimals="0" contextRef="D.ACTUAL" unitRef="euro">8301.18</pgc-07-c-bs:PerdidasGananciasResultadoEjercicio>
+  <pgc-07-c-bs:PerdidasGananciasResultadoEjercicio decimals="0" contextRef="D.ANTERIOR" unitRef="euro">21526.70</pgc-07-c-bs:PerdidasGananciasResultadoEjercicio>
+  <pgc-07-c-bs:CambiosPatrimonioNetoIngresosGastosReconocidosResultadoCuentaPerdidasGanancias decimals="0" contextRef="D.ACTUAL" unitRef="euro">8301.18</pgc-07-c-bs:CambiosPatrimonioNetoIngresosGastosReconocidosResultadoCuentaPerdidasGanancias>
+  <pgc-07-c-bs:CambiosPatrimonioNetoIngresosGastosReconocidosTotal decimals="0" contextRef="D.ACTUAL" unitRef="euro">8301.18</pgc-07-c-bs:CambiosPatrimonioNetoIngresosGastosReconocidosTotal>
+  <pgc-07-c-bs:CambiosPatrimonioNetoIngresosGastosReconocidosTotal decimals="0" contextRef="D.ANTERIOR" unitRef="euro">21526.70</pgc-07-c-bs:CambiosPatrimonioNetoIngresosGastosReconocidosTotal>
+  <pgc-07-c-bs:CambiosPatrimonioNetoIngresosGastosReconocidosResultadoCuentaPerdidasGanancias decimals="0" contextRef="D.ANTERIOR" unitRef="euro">21526.70</pgc-07-c-bs:CambiosPatrimonioNetoIngresosGastosReconocidosResultadoCuentaPerdidasGanancias>
+  <pgc07mc-apdo0:IdentificacionEmpresaTupla>
+    <dgi-lc-es:Xcode_IDC.NIF contextRef="D.ACTUAL">NIF</dgi-lc-es:Xcode_IDC.NIF>
+    <dgi-est-gen:IdentifierValue contextRef="D.ACTUAL">BXXXXXXXX</dgi-est-gen:IdentifierValue>
+    <dgi-lc-es:Xcode_LFC.23 contextRef="D.ACTUAL">23</dgi-lc-es:Xcode_LFC.23>
+    <dgi-lc-es:Xcode_NMT.DS contextRef="D.ACTUAL">DS</dgi-lc-es:Xcode_NMT.DS>
+    <dgi-est-gen:LegalNameValue contextRef="D.ACTUAL">Modelo Abreviado, S.L.</dgi-est-gen:LegalNameValue>
+    <dgi-lc-es:Xcode_ADL.01 contextRef="D.ACTUAL">01</dgi-lc-es:Xcode_ADL.01>
+    <dgi-est-gen:AddressLine contextRef="D.ACTUAL">C/ AGUSTINA DE ARAGON, 12 BAJO</dgi-est-gen:AddressLine>
+    <dgi-est-gen:MunicipalityName contextRef="D.ACTUAL">VALENCIA</dgi-est-gen:MunicipalityName>
+    <dgi-lc-es:Xcode_RCI.46 contextRef="D.ACTUAL">46</dgi-lc-es:Xcode_RCI.46>
+    <dgi-est-gen:ZipPostalCode contextRef="D.ACTUAL">46017</dgi-est-gen:ZipPostalCode>
+    <dgi-lc-int:Xcode_UN3155.TE contextRef="D.ACTUAL">TE</dgi-lc-int:Xcode_UN3155.TE>
+    <dgi-est-gen:CommunicationValue contextRef="D.ACTUAL">902886648</dgi-est-gen:CommunicationValue>
+  </pgc07mc-apdo0:IdentificacionEmpresaTupla>
+  <pgc07mc-apdo0:UnidadesTupla>
+    <dgi-lc-es:Xcode_COT.01 contextRef="D.ACTUAL">01</dgi-lc-es:Xcode_COT.01>
+  </pgc07mc-apdo0:UnidadesTupla>
+  <pgc07mc-apdo0:ActividadTupla>
+    <dgi-eco-bas:ActivityDescription contextRef="D.ACTUAL">Otras actividades de apoyo a las empresas n.c.o.p.</dgi-eco-bas:ActivityDescription>
+    <dgi-eco-bas:ActivityCodeCNAE2009>
+      <dgi-cnae-09:Xcode_ACC.CNAE.8299 contextRef="D.ACTUAL">8299</dgi-cnae-09:Xcode_ACC.CNAE.8299>
+    </dgi-eco-bas:ActivityCodeCNAE2009>
+  </pgc07mc-apdo0:ActividadTupla>
+  <pgc07mc-apdo0:PersonalAsalariadoCifraMediaEjercicio>
+    <dgi-eco-bas:PermanentContractTotal decimals="0" contextRef="D.ACTUAL" unitRef="pure">3</dgi-eco-bas:PermanentContractTotal>
+    <dgi-eco-bas:TemporaryContractTotal decimals="0" contextRef="D.ACTUAL" unitRef="pure">0</dgi-eco-bas:TemporaryContractTotal>
+  </pgc07mc-apdo0:PersonalAsalariadoCifraMediaEjercicio>
+  <pgc07mc-apdo0:PersonalAsalariadoCifraMediaEjercicio>
+    <dgi-eco-bas:PermanentContractTotal decimals="0" contextRef="D.ANTERIOR" unitRef="pure">3</dgi-eco-bas:PermanentContractTotal>
+    <dgi-eco-bas:TemporaryContractTotal decimals="0" contextRef="D.ANTERIOR" unitRef="pure">0</dgi-eco-bas:TemporaryContractTotal>
+  </pgc07mc-apdo0:PersonalAsalariadoCifraMediaEjercicio>
+  <pgc07mc-apdo0:PresentacionCuentasTupla>
+    <pgc07mc-apdo0:YearFechaInicioCuentas contextRef="D.ACTUAL">2009</pgc07mc-apdo0:YearFechaInicioCuentas>
+    <pgc07mc-apdo0:MonthFechaInicioCuentas contextRef="D.ACTUAL">01</pgc07mc-apdo0:MonthFechaInicioCuentas>
+    <pgc07mc-apdo0:DayFechaInicioCuentas contextRef="D.ACTUAL">01</pgc07mc-apdo0:DayFechaInicioCuentas>
+    <pgc07mc-apdo0:YearFechaCierreCuentas contextRef="D.ACTUAL">2009</pgc07mc-apdo0:YearFechaCierreCuentas>
+    <pgc07mc-apdo0:MonthFechaCierreCuentas contextRef="D.ACTUAL">12</pgc07mc-apdo0:MonthFechaCierreCuentas>
+    <pgc07mc-apdo0:DayFechaCierreCuentas contextRef="D.ACTUAL">31</pgc07mc-apdo0:DayFechaCierreCuentas>
+    <dgi-dat-inf:TotalPagesPresented decimals="0" contextRef="D.ACTUAL" unitRef="pure">43</dgi-dat-inf:TotalPagesPresented>
+  </pgc07mc-apdo0:PresentacionCuentasTupla>
+  <pgc07mc-apdo0:PresentacionCuentasTupla>
+    <pgc07mc-apdo0:YearFechaInicioCuentas contextRef="D.ANTERIOR">2008</pgc07mc-apdo0:YearFechaInicioCuentas>
+    <pgc07mc-apdo0:MonthFechaInicioCuentas contextRef="D.ANTERIOR">01</pgc07mc-apdo0:MonthFechaInicioCuentas>
+    <pgc07mc-apdo0:DayFechaInicioCuentas contextRef="D.ANTERIOR">01</pgc07mc-apdo0:DayFechaInicioCuentas>
+    <pgc07mc-apdo0:YearFechaCierreCuentas contextRef="D.ANTERIOR">2008</pgc07mc-apdo0:YearFechaCierreCuentas>
+    <pgc07mc-apdo0:MonthFechaCierreCuentas contextRef="D.ANTERIOR">12</pgc07mc-apdo0:MonthFechaCierreCuentas>
+    <pgc07mc-apdo0:DayFechaCierreCuentas contextRef="D.ANTERIOR">31</pgc07mc-apdo0:DayFechaCierreCuentas>
+    <dgi-dat-inf:TotalPagesPresented decimals="0" contextRef="D.ANTERIOR" unitRef="pure">0</dgi-dat-inf:TotalPagesPresented>
+  </pgc07mc-apdo0:PresentacionCuentasTupla>
+  <pgc07mc-bs:AplicacionResultadosBaseRepartoResultadoSaldoCuentaPerdidasGanancias decimals="0" contextRef="D.ACTUAL" unitRef="euro">8301.18</pgc07mc-bs:AplicacionResultadosBaseRepartoResultadoSaldoCuentaPerdidasGanancias>
+  <pgc07mc-bs:AplicacionResultadosBaseTotalBaseRepartoResultadoTotalAplicacion decimals="0" contextRef="D.ACTUAL" unitRef="euro">8301.18</pgc07mc-bs:AplicacionResultadosBaseTotalBaseRepartoResultadoTotalAplicacion>
+  <pgc07mc-bs:AplicacionResultadosPropuestaAplicacionACompensacionPerdidasEjerciciosAnteriores decimals="0" contextRef="D.ACTUAL" unitRef="euro">8301.18</pgc07mc-bs:AplicacionResultadosPropuestaAplicacionACompensacionPerdidasEjerciciosAnteriores>
+  <pgc07mc-bs:AplicacionResultadosPropuestaAplicacionATotalAplicacionTotalBaseReparto decimals="0" contextRef="D.ACTUAL" unitRef="euro">8301.18</pgc07mc-bs:AplicacionResultadosPropuestaAplicacionATotalAplicacionTotalBaseReparto>
+  <pgc07mc-bs:AplicacionResultadosBaseRepartoResultadoSaldoCuentaPerdidasGanancias decimals="0" contextRef="D.ANTERIOR" unitRef="euro">21526.70</pgc07mc-bs:AplicacionResultadosBaseRepartoResultadoSaldoCuentaPerdidasGanancias>
+  <pgc07mc-bs:AplicacionResultadosBaseTotalBaseRepartoResultadoTotalAplicacion decimals="0" contextRef="D.ANTERIOR" unitRef="euro">21526.70</pgc07mc-bs:AplicacionResultadosBaseTotalBaseRepartoResultadoTotalAplicacion>
+  <pgc07mc-bs:AplicacionResultadosPropuestaAplicacionACompensacionPerdidasEjerciciosAnteriores decimals="0" contextRef="D.ANTERIOR" unitRef="euro">21526.70</pgc07mc-bs:AplicacionResultadosPropuestaAplicacionACompensacionPerdidasEjerciciosAnteriores>
+  <pgc07mc-bs:AplicacionResultadosPropuestaAplicacionATotalAplicacionTotalBaseReparto decimals="0" contextRef="D.ANTERIOR" unitRef="euro">21526.70</pgc07mc-bs:AplicacionResultadosPropuestaAplicacionATotalAplicacionTotalBaseReparto>
+  <dgi-eco-bas:EmployeeCategoryTotal decimals="0" contextRef="Y1_ACTUAL_apdo13_Duration_Xcode_CAP.3" unitRef="pure">1</dgi-eco-bas:EmployeeCategoryTotal>
+  <dgi-eco-bas:EmployeeCategoryTotal decimals="0" contextRef="Y1_ACTUAL_apdo13_Duration_Xcode_CAP.5" unitRef="pure">2</dgi-eco-bas:EmployeeCategoryTotal>
+  <dgi-eco-bas:EmployeeCategoryTotal decimals="0" contextRef="Y1_ACTUAL_apdo13_Duration_EmployeesPeriodAverageNumberTotal" unitRef="pure">3</dgi-eco-bas:EmployeeCategoryTotal>
+  <dgi-eco-bas:EmployeeCategoryTotal decimals="0" contextRef="Y1_ANTERIOR_apdo13_Duration_Xcode_CAP.3" unitRef="pure">1</dgi-eco-bas:EmployeeCategoryTotal>
+  <dgi-eco-bas:EmployeeCategoryTotal decimals="0" contextRef="Y1_ANTERIOR_apdo13_Duration_Xcode_CAP.5" unitRef="pure">2</dgi-eco-bas:EmployeeCategoryTotal>
+  <dgi-eco-bas:EmployeeCategoryTotal decimals="0" contextRef="Y1_ANTERIOR_apdo13_Duration_EmployeesPeriodAverageNumberTotal" unitRef="pure">3</dgi-eco-bas:EmployeeCategoryTotal>
+  <pgc07mc-ap:InmovilizadoMaterialIntangibleInversionesInmobiliariasEstadoMovimientosAnalisisMovimientosSaldosBrutosInmovilizadoMaterialIntangibleInversionesInmobiliariasSaldoInicialBrutoEjercicio decimals="0" contextRef="Y1_ACTUAL_apdo5_Instant_InmovilizadoMaterialIntangibleInversionesInmobiliariasInmovilizadoIntangiblePresentacion" unitRef="euro">2398.04</pgc07mc-ap:InmovilizadoMaterialIntangibleInversionesInmobiliariasEstadoMovimientosAnalisisMovimientosSaldosBrutosInmovilizadoMaterialIntangibleInversionesInmobiliariasSaldoInicialBrutoEjercicio>
+  <pgc07mc-ap:InmovilizadoMaterialIntangibleInversionesInmobiliariasEstadoMovimientosAnalisisMovimientosSaldosBrutosInmovilizadoMaterialIntangibleInversionesInmobiliariasEntradas decimals="0" contextRef="Y1_ACTUAL_apdo5_Duration_InmovilizadoMaterialIntangibleInversionesInmobiliariasInmovilizadoIntangiblePresentacion" unitRef="euro">790</pgc07mc-ap:InmovilizadoMaterialIntangibleInversionesInmobiliariasEstadoMovimientosAnalisisMovimientosSaldosBrutosInmovilizadoMaterialIntangibleInversionesInmobiliariasEntradas>
+  <pgc07mc-ap:InmovilizadoMaterialIntangibleInversionesInmobiliariasEstadoMovimientosAnalisisMovimientosSaldosBrutosInmovilizadoMaterialIntangibleInversionesInmobiliariasSaldoFinalBrutoEjercicio decimals="0" contextRef="Y1_ACTUAL_apdo5_Instant_InmovilizadoMaterialIntangibleInversionesInmobiliariasInmovilizadoIntangiblePresentacion" unitRef="euro">3188.04</pgc07mc-ap:InmovilizadoMaterialIntangibleInversionesInmobiliariasEstadoMovimientosAnalisisMovimientosSaldosBrutosInmovilizadoMaterialIntangibleInversionesInmobiliariasSaldoFinalBrutoEjercicio>
+  <pgc07mc-ap:InmovilizadoMaterialIntangibleInversionesInmobiliariasEstadoMovimientosAnalisisMovimientosSaldosBrutosInmovilizadoMaterialIntangibleInversionesInmobiliariasSaldoInicialBrutoEjercicio decimals="0" contextRef="Y1_ACTUAL_apdo5_Instant_InmovilizadoMaterialIntangibleInversionesInmobiliariasInmovilizadoMaterialPresentacion" unitRef="euro">4300.02</pgc07mc-ap:InmovilizadoMaterialIntangibleInversionesInmobiliariasEstadoMovimientosAnalisisMovimientosSaldosBrutosInmovilizadoMaterialIntangibleInversionesInmobiliariasSaldoInicialBrutoEjercicio>
+  <pgc07mc-ap:InmovilizadoMaterialIntangibleInversionesInmobiliariasEstadoMovimientosAnalisisMovimientosSaldosBrutosInmovilizadoMaterialIntangibleInversionesInmobiliariasEntradas decimals="0" contextRef="Y1_ACTUAL_apdo5_Duration_InmovilizadoMaterialIntangibleInversionesInmobiliariasInmovilizadoMaterialPresentacion" unitRef="euro">976</pgc07mc-ap:InmovilizadoMaterialIntangibleInversionesInmobiliariasEstadoMovimientosAnalisisMovimientosSaldosBrutosInmovilizadoMaterialIntangibleInversionesInmobiliariasEntradas>
+  <pgc07mc-ap:InmovilizadoMaterialIntangibleInversionesInmobiliariasEstadoMovimientosAnalisisMovimientosSaldosBrutosInmovilizadoMaterialIntangibleInversionesInmobiliariasSaldoFinalBrutoEjercicio decimals="0" contextRef="Y1_ACTUAL_apdo5_Instant_InmovilizadoMaterialIntangibleInversionesInmobiliariasInmovilizadoMaterialPresentacion" unitRef="euro">5276.02</pgc07mc-ap:InmovilizadoMaterialIntangibleInversionesInmobiliariasEstadoMovimientosAnalisisMovimientosSaldosBrutosInmovilizadoMaterialIntangibleInversionesInmobiliariasSaldoFinalBrutoEjercicio>
+  <pgc07mc-ap:InmovilizadoMaterialIntangibleInversionesInmobiliariasEstadoMovimientosAnalisisMovimientosSaldosBrutosInmovilizadoMaterialIntangibleInversionesInmobiliariasSaldoInicialBrutoEjercicio decimals="0" contextRef="Y1_ANTERIOR_apdo5_Instant_InmovilizadoMaterialIntangibleInversionesInmobiliariasInmovilizadoIntangiblePresentacion" unitRef="euro">2398.04</pgc07mc-ap:InmovilizadoMaterialIntangibleInversionesInmobiliariasEstadoMovimientosAnalisisMovimientosSaldosBrutosInmovilizadoMaterialIntangibleInversionesInmobiliariasSaldoInicialBrutoEjercicio>
+  <pgc07mc-ap:InmovilizadoMaterialIntangibleInversionesInmobiliariasEstadoMovimientosAnalisisMovimientosSaldosBrutosInmovilizadoMaterialIntangibleInversionesInmobiliariasSaldoFinalBrutoEjercicio decimals="0" contextRef="Y1_ANTERIOR_apdo5_Instant_InmovilizadoMaterialIntangibleInversionesInmobiliariasInmovilizadoIntangiblePresentacion" unitRef="euro">2398.04</pgc07mc-ap:InmovilizadoMaterialIntangibleInversionesInmobiliariasEstadoMovimientosAnalisisMovimientosSaldosBrutosInmovilizadoMaterialIntangibleInversionesInmobiliariasSaldoFinalBrutoEjercicio>
+  <pgc07mc-ap:InmovilizadoMaterialIntangibleInversionesInmobiliariasEstadoMovimientosAnalisisMovimientosSaldosBrutosInmovilizadoMaterialIntangibleInversionesInmobiliariasSaldoInicialBrutoEjercicio decimals="0" contextRef="Y1_ANTERIOR_apdo5_Instant_InmovilizadoMaterialIntangibleInversionesInmobiliariasInmovilizadoMaterialPresentacion" unitRef="euro">4300.02</pgc07mc-ap:InmovilizadoMaterialIntangibleInversionesInmobiliariasEstadoMovimientosAnalisisMovimientosSaldosBrutosInmovilizadoMaterialIntangibleInversionesInmobiliariasSaldoInicialBrutoEjercicio>
+  <pgc07mc-ap:InmovilizadoMaterialIntangibleInversionesInmobiliariasEstadoMovimientosAnalisisMovimientosSaldosBrutosInmovilizadoMaterialIntangibleInversionesInmobiliariasSaldoFinalBrutoEjercicio decimals="0" contextRef="Y1_ANTERIOR_apdo5_Instant_InmovilizadoMaterialIntangibleInversionesInmobiliariasInmovilizadoMaterialPresentacion" unitRef="euro">4300.02</pgc07mc-ap:InmovilizadoMaterialIntangibleInversionesInmobiliariasEstadoMovimientosAnalisisMovimientosSaldosBrutosInmovilizadoMaterialIntangibleInversionesInmobiliariasSaldoFinalBrutoEjercicio>
+  <pgc07mc-ap:InmovilizadoMaterialIntangibleInversionesInmobiliariasEstadoMovimientosAnalisisMovimientosAmortizacionesAcumuladasInmovilizadoMaterialIntangibleInversionesInmobiliariasDotacionAmortizacionEjercicio decimals="0" contextRef="Y1_ACTUAL_apdo5_Duration_InmovilizadoMaterialIntangibleInversionesInmobiliariasInmovilizadoIntangiblePresentacion" unitRef="euro">-599.60</pgc07mc-ap:InmovilizadoMaterialIntangibleInversionesInmobiliariasEstadoMovimientosAnalisisMovimientosAmortizacionesAcumuladasInmovilizadoMaterialIntangibleInversionesInmobiliariasDotacionAmortizacionEjercicio>
+  <pgc07mc-ap:InmovilizadoMaterialIntangibleInversionesInmobiliariasEstadoMovimientosAnalisisMovimientosAmortizacionesAcumuladasInmovilizadoMaterialIntangibleInversionesInmobiliariasAmortizacionAcumuladaSaldoInicialEjercicio decimals="0" contextRef="Y1_ACTUAL_apdo5_Instant_InmovilizadoMaterialIntangibleInversionesInmobiliariasInmovilizadoIntangiblePresentacion" unitRef="euro">-849.60</pgc07mc-ap:InmovilizadoMaterialIntangibleInversionesInmobiliariasEstadoMovimientosAnalisisMovimientosAmortizacionesAcumuladasInmovilizadoMaterialIntangibleInversionesInmobiliariasAmortizacionAcumuladaSaldoInicialEjercicio>
+  <pgc07mc-ap:InmovilizadoMaterialIntangibleInversionesInmobiliariasEstadoMovimientosAnalisisMovimientosAmortizacionesAcumuladasInmovilizadoMaterialIntangibleInversionesInmobiliariasAmortizacionAcumuladaSaldoFinalEjercicio decimals="0" contextRef="Y1_ACTUAL_apdo5_Instant_InmovilizadoMaterialIntangibleInversionesInmobiliariasInmovilizadoIntangiblePresentacion" unitRef="euro">-1449.20</pgc07mc-ap:InmovilizadoMaterialIntangibleInversionesInmobiliariasEstadoMovimientosAnalisisMovimientosAmortizacionesAcumuladasInmovilizadoMaterialIntangibleInversionesInmobiliariasAmortizacionAcumuladaSaldoFinalEjercicio>
+  <pgc07mc-ap:InmovilizadoMaterialIntangibleInversionesInmobiliariasEstadoMovimientosAnalisisMovimientosAmortizacionesAcumuladasInmovilizadoMaterialIntangibleInversionesInmobiliariasAmortizacionAcumuladaSaldoInicialEjercicio decimals="0" contextRef="Y1_ACTUAL_apdo5_Instant_InmovilizadoMaterialIntangibleInversionesInmobiliariasInmovilizadoMaterialPresentacion" unitRef="euro">-2944.03</pgc07mc-ap:InmovilizadoMaterialIntangibleInversionesInmobiliariasEstadoMovimientosAnalisisMovimientosAmortizacionesAcumuladasInmovilizadoMaterialIntangibleInversionesInmobiliariasAmortizacionAcumuladaSaldoInicialEjercicio>
+  <pgc07mc-ap:InmovilizadoMaterialIntangibleInversionesInmobiliariasEstadoMovimientosAnalisisMovimientosAmortizacionesAcumuladasInmovilizadoMaterialIntangibleInversionesInmobiliariasDotacionAmortizacionEjercicio decimals="0" contextRef="Y1_ACTUAL_apdo5_Duration_InmovilizadoMaterialIntangibleInversionesInmobiliariasInmovilizadoMaterialPresentacion" unitRef="euro">-1319.01</pgc07mc-ap:InmovilizadoMaterialIntangibleInversionesInmobiliariasEstadoMovimientosAnalisisMovimientosAmortizacionesAcumuladasInmovilizadoMaterialIntangibleInversionesInmobiliariasDotacionAmortizacionEjercicio>
+  <pgc07mc-ap:InmovilizadoMaterialIntangibleInversionesInmobiliariasEstadoMovimientosAnalisisMovimientosAmortizacionesAcumuladasInmovilizadoMaterialIntangibleInversionesInmobiliariasAmortizacionAcumuladaSaldoFinalEjercicio decimals="0" contextRef="Y1_ACTUAL_apdo5_Instant_InmovilizadoMaterialIntangibleInversionesInmobiliariasInmovilizadoMaterialPresentacion" unitRef="euro">-4263.04</pgc07mc-ap:InmovilizadoMaterialIntangibleInversionesInmobiliariasEstadoMovimientosAnalisisMovimientosAmortizacionesAcumuladasInmovilizadoMaterialIntangibleInversionesInmobiliariasAmortizacionAcumuladaSaldoFinalEjercicio>
+  <pgc07mc-ap:InmovilizadoMaterialIntangibleInversionesInmobiliariasEstadoMovimientosAnalisisMovimientosAmortizacionesAcumuladasInmovilizadoMaterialIntangibleInversionesInmobiliariasAmortizacionAcumuladaSaldoInicialEjercicio decimals="0" contextRef="Y1_ANTERIOR_apdo5_Instant_InmovilizadoMaterialIntangibleInversionesInmobiliariasInmovilizadoIntangiblePresentacion" unitRef="euro">-383.85</pgc07mc-ap:InmovilizadoMaterialIntangibleInversionesInmobiliariasEstadoMovimientosAnalisisMovimientosAmortizacionesAcumuladasInmovilizadoMaterialIntangibleInversionesInmobiliariasAmortizacionAcumuladaSaldoInicialEjercicio>
+  <pgc07mc-ap:InmovilizadoMaterialIntangibleInversionesInmobiliariasEstadoMovimientosAnalisisMovimientosAmortizacionesAcumuladasInmovilizadoMaterialIntangibleInversionesInmobiliariasDotacionAmortizacionEjercicio decimals="0" contextRef="Y1_ANTERIOR_apdo5_Duration_InmovilizadoMaterialIntangibleInversionesInmobiliariasInmovilizadoIntangiblePresentacion" unitRef="euro">-465.75</pgc07mc-ap:InmovilizadoMaterialIntangibleInversionesInmobiliariasEstadoMovimientosAnalisisMovimientosAmortizacionesAcumuladasInmovilizadoMaterialIntangibleInversionesInmobiliariasDotacionAmortizacionEjercicio>
+  <pgc07mc-ap:InmovilizadoMaterialIntangibleInversionesInmobiliariasEstadoMovimientosAnalisisMovimientosAmortizacionesAcumuladasInmovilizadoMaterialIntangibleInversionesInmobiliariasAmortizacionAcumuladaSaldoFinalEjercicio decimals="0" contextRef="Y1_ANTERIOR_apdo5_Instant_InmovilizadoMaterialIntangibleInversionesInmobiliariasInmovilizadoIntangiblePresentacion" unitRef="euro">-849.60</pgc07mc-ap:InmovilizadoMaterialIntangibleInversionesInmobiliariasEstadoMovimientosAnalisisMovimientosAmortizacionesAcumuladasInmovilizadoMaterialIntangibleInversionesInmobiliariasAmortizacionAcumuladaSaldoFinalEjercicio>
+  <pgc07mc-ap:InmovilizadoMaterialIntangibleInversionesInmobiliariasEstadoMovimientosAnalisisMovimientosAmortizacionesAcumuladasInmovilizadoMaterialIntangibleInversionesInmobiliariasAmortizacionAcumuladaSaldoInicialEjercicio decimals="0" contextRef="Y1_ANTERIOR_apdo5_Instant_InmovilizadoMaterialIntangibleInversionesInmobiliariasInmovilizadoMaterialPresentacion" unitRef="euro">-1869.02</pgc07mc-ap:InmovilizadoMaterialIntangibleInversionesInmobiliariasEstadoMovimientosAnalisisMovimientosAmortizacionesAcumuladasInmovilizadoMaterialIntangibleInversionesInmobiliariasAmortizacionAcumuladaSaldoInicialEjercicio>
+  <pgc07mc-ap:InmovilizadoMaterialIntangibleInversionesInmobiliariasEstadoMovimientosAnalisisMovimientosAmortizacionesAcumuladasInmovilizadoMaterialIntangibleInversionesInmobiliariasDotacionAmortizacionEjercicio decimals="0" contextRef="Y1_ANTERIOR_apdo5_Duration_InmovilizadoMaterialIntangibleInversionesInmobiliariasInmovilizadoMaterialPresentacion" unitRef="euro">-1075.01</pgc07mc-ap:InmovilizadoMaterialIntangibleInversionesInmobiliariasEstadoMovimientosAnalisisMovimientosAmortizacionesAcumuladasInmovilizadoMaterialIntangibleInversionesInmobiliariasDotacionAmortizacionEjercicio>
+  <pgc07mc-ap:InmovilizadoMaterialIntangibleInversionesInmobiliariasEstadoMovimientosAnalisisMovimientosAmortizacionesAcumuladasInmovilizadoMaterialIntangibleInversionesInmobiliariasAmortizacionAcumuladaSaldoFinalEjercicio decimals="0" contextRef="Y1_ANTERIOR_apdo5_Instant_InmovilizadoMaterialIntangibleInversionesInmobiliariasInmovilizadoMaterialPresentacion" unitRef="euro">-2944.03</pgc07mc-ap:InmovilizadoMaterialIntangibleInversionesInmobiliariasEstadoMovimientosAnalisisMovimientosAmortizacionesAcumuladasInmovilizadoMaterialIntangibleInversionesInmobiliariasAmortizacionAcumuladaSaldoFinalEjercicio>
+  <pgc07mc-ap:IngresosGastosOtrosGastosExplotacionPressentacion decimals="0" contextRef="D.ACTUAL" unitRef="euro">-36103.80</pgc07mc-ap:IngresosGastosOtrosGastosExplotacionPressentacion>
+  <pgc07mc-ap:IngresosGastosOtrosGastosExplotacionRestoGastosExplotacion decimals="0" contextRef="D.ACTUAL" unitRef="euro">-36103.80</pgc07mc-ap:IngresosGastosOtrosGastosExplotacionRestoGastosExplotacion>
+  <pgc07mc-ap:IngresosGastosOtrosGastosExplotacionPressentacion decimals="0" contextRef="D.ANTERIOR" unitRef="euro">-29471.06</pgc07mc-ap:IngresosGastosOtrosGastosExplotacionPressentacion>
+  <pgc07mc-ap:IngresosGastosOtrosGastosExplotacionRestoGastosExplotacion decimals="0" contextRef="D.ANTERIOR" unitRef="euro">-29471.06</pgc07mc-ap:IngresosGastosOtrosGastosExplotacionRestoGastosExplotacion>
+  <pgc07mc-bs:SubvencionesDonacionesLegadosRecibidosOtorgadosTercerosDistintosSociosResumenTotalImporteBalance decimals="0" contextRef="D.ACTUAL" unitRef="euro">15100.97</pgc07mc-bs:SubvencionesDonacionesLegadosRecibidosOtorgadosTercerosDistintosSociosResumenTotalImporteBalance>
+  <pgc07mc-bs:SubvencionesDonacionesLegadosRecibidosOtorgadosTercerosDistintosSociosResumenTotalImportePyG decimals="0" contextRef="D.ACTUAL" unitRef="euro">15100.97</pgc07mc-bs:SubvencionesDonacionesLegadosRecibidosOtorgadosTercerosDistintosSociosResumenTotalImportePyG>
+  <pgc07mc-bs:SubvencionesDonacionesLegadosRecibidosOtorgadosTercerosDistintosSociosResumenTotalImporteBalance decimals="0" contextRef="D.ANTERIOR" unitRef="euro">11689.70</pgc07mc-bs:SubvencionesDonacionesLegadosRecibidosOtorgadosTercerosDistintosSociosResumenTotalImporteBalance>
+  <pgc07mc-bs:SubvencionesDonacionesLegadosRecibidosOtorgadosTercerosDistintosSociosResumenTotalImportePyG decimals="0" contextRef="D.ANTERIOR" unitRef="euro">11689.70</pgc07mc-bs:SubvencionesDonacionesLegadosRecibidosOtorgadosTercerosDistintosSociosResumenTotalImportePyG>
+  <pgc07ma-rsm:DescripcionNoNormalizadaApartado1Resumen contextRef="D.ACTUAL">ACTIVIDAD DE LA EMPRESA.-
+
+LA MERCANTIL TIENE POR OBJETO SOCIAL LA SIGUIENTE ACTIVIDAD:
+
+EL ASESORAMIENTO LABORAL, FISCAL Y CONTABLE.</pgc07ma-rsm:DescripcionNoNormalizadaApartado1Resumen>
+  <pgc07ma-rsm:DescripcionNoNormalizadaApartado2Resumen contextRef="D.ACTUAL">1. Imagel Fiel
+
+Las cuentas anuales se han preparado a partir de los registros contables de la Sociedad, habiéndose aplicado por la Dirección de la misma las disposiciones legales vigentes en materia de contabilidad, con objeto de reflejar la imagen fiel del patrimonio, de la situación financiera y de los resultados de la empresa.
+
+No existe ninguna razón excepcional por la que para mostrar la imagen fiel, haya habido que incumplir alguna disposición legal en materia contable.
+
+Tampoco existe ninguna información complementaria, que resulte necesario incluir, ya que la aplicación de las disposiciones legales en materia de contabilidad y los principios contables generalmente aceptados, son suficientes para mostrar la imagen fiel de la empresa.
+
+2. Principios contables no obligatorios aplicados.
+
+3. Aspectos críticos de la valoración y estimación de la incertidumbre.
+
+No existen cambios en ninguna estimación contable qaue sea dignificativa ni que afecte al ejercicio actual.
+
+No se es consciente de la existencia de ninguna incertidumbre importante que pueda aportar dudas significativas sobre el futuro de la funcionalidad de la empresa.
+
+4. Comparación de la información.
+
+No existen razones exceptcionales que justifique la modificación de la estructura del balance y de la cuenta de pérdidas y ganancias del ejercicio anterior. Se permite en consecuencia la comparación de las cuentas de ambos ejercicios.
+
+5. Elementos recogidos en varias partidas.
+
+La sociedad no posee al cierre del ejercicio elementos patrimoniales que se hallen recogidos en más de una partida en el balance.
+
+6. Cambios en Criterios contables
+
+No han existido ajustes por cambio de criterios durante el ejercicio.
+
+7. Corrección de errores.
+
+No ha existido ninguna corrección de errores durante el ejercicio.</pgc07ma-rsm:DescripcionNoNormalizadaApartado2Resumen>
+  <pgc07ma-rsm:DescripcionNoNormalizadaApartado3Resumen contextRef="D.ACTUAL">Distribución de Resultados.
+
+Los administradores de la Sociedad propondrán a la Junta General de Accionistas la aprobación de la distribución de resultados que se indica a continuación:
+
+
+Pérdidas y ganancias....................         8301,18€
+A compensación Pérdidas ejercicios anteriores............      8301,18€
+
+Durante el ejercicio no se han entregado dividendos a cuenta de los resultados.
+
+La distribución prevista en el reparto de los resultados del ejercicio cumple con los requisitos y limitaciones establecidos en los estatutos de la Sociedad y en la normativa legal.</pgc07ma-rsm:DescripcionNoNormalizadaApartado3Resumen>
+  <pgc07ma-rsm:DescripcionNoNormalizadaApartado4Resumen contextRef="D.ACTUAL">1. Inmovilizado Intangible. 
+
+La Sociedad no posee al cierre del ejercicio ningún inmovilizado  intangible.
+
+2. Inmovilizado material.
+
+Los bienes comprendidos en el inmovilizado material se encuentran valorados a su precio de adquisición, el cual incluye los gastos adicionales que se producen hasta la puesta en condiciones de funcionamiento del bien, sin incluir gastos financieros.
+
+Las reparaciones que no representan una ampliación de la vida útil y los gastos de mantenimiento son cargados directamente a la cuenta de perdidas y ganancias.  Los costes de ampliación o mejora que dan lugar a una mayor duración del bien son capitalizados como mayor valor del mismo.
+
+La dotación anual a la amortización se calculas por el método lineal en función de la vida útil estimada de los diferentes bienes, la cual es como sigue:
+
+Otro Inmovilizado material........................      5 años
+
+3. Inversiones Inmobiliarias.  Sin contenido
+
+4. Permutas. Sin contenido.
+
+5. Activos financieros y pasivos financieros.  Sin contenido
+
+Valores de capital propio en poder de la empresa.  Sin contenido.
+
+7. Existencias. Sin contenido
+
+8. Transacciones en moneda extranjera.  Sin contenido
+
+9. Impuestos sobre beneficios. Sin contenido
+
+10. Ingresos y gastos.
+
+Siguiendo el principio de prudencia, la Sociedad únicamente contabiliza los ingresos realizados a la fecha del cierre del ejercicio, en tanto que los riesgos previsibles y las pérdidas, aún eventuales, se contabilizan tan pronto son conocidas.
+
+Los ingresos y gastos de la Sociedad se reconocen en función del criterio de devengo, es decir cuando se produce la corriente real de bienes sy servicios que los mismos representan, con independencia del momento en que se produzca la corriente monetaria o financiera derivada de los mismos.
+
+11. Provisiones y contingencias.  Sin contenido
+
+12. Subvenciones, donaciones y legados.  Sin contenido
+
+13. Negocios conjuntos.  Sin contenido
+
+14. Criterios empleados en trasacciones entre partes vinculadas.  Sin contenido.</pgc07ma-rsm:DescripcionNoNormalizadaApartado4Resumen>
+  <pgc07ma-rsm:DescripcionNoNormalizadaApartado5Resumen contextRef="D.ACTUAL">1. Analisis del movimiento.  Sin contenido
+
+2. Arrendamientos financieros.  Sin contenido.</pgc07ma-rsm:DescripcionNoNormalizadaApartado5Resumen>
+  <pgc07ma-rsm:DescripcionNoNormalizadaApartado6Resumen contextRef="D.ACTUAL">1. Valores. Sin contenido.
+
+2. Análisis del movimiento de las cuentas correctoras.  Sin contenido
+
+3. Valor razonable.  Sin contenido
+
+4. Empresas del grupo, multigrupo y asociadas.  Sin contenido</pgc07ma-rsm:DescripcionNoNormalizadaApartado6Resumen>
+  <pgc07ma-rsm:DescripcionNoNormalizadaApartado7Resumen contextRef="D.ACTUAL">1. Valores. Sin contenido.
+
+2. Otras informaciones.  Sin contenido.
+
+3. Préstamos pendientes de pago al cierre del ejercicio. Sin contenido.</pgc07ma-rsm:DescripcionNoNormalizadaApartado7Resumen>
+  <pgc07ma-rsm:DescripcionNoNormalizadaApartado8Resumen contextRef="D.ACTUAL">1. Valores. 
+
+El Capital social de la sociedad está compuesto por las siguientes participaciones sociales:
+
+500 participaciones sociales de 6,01€ cada una de valor nominal.
+
+2. Restricción de la disponibilidad.  Sin contenido.
+
+3. Número, valor y precio.
+
+500 participaciones de 6,01€ cada una.
+</pgc07ma-rsm:DescripcionNoNormalizadaApartado8Resumen>
+  <pgc07ma-rsm:DescripcionNoNormalizadaApartado9Resumen contextRef="D.ACTUAL">1. Impuesto sobre beneficios. Sin contenido.
+
+2. Otros tributos. 
+
+No ha habido ninguna circunstancia de carácter significativo.
+
+Actualmente la Sociedad se encuentra sujeta a revisión de los cuatro ejercicios anteriores.</pgc07ma-rsm:DescripcionNoNormalizadaApartado9Resumen>
+  <pgc07ma-rsm:DescripcionNoNormalizadaApartado11Resumen contextRef="D.ACTUAL">11. La Sociedad es un Centro Especial de Empleo, y por ello ha recibido durante el ejercicio 2008 la cantidad de 15.100,97 euros, en concepto de subvención salarial.</pgc07ma-rsm:DescripcionNoNormalizadaApartado11Resumen>
+  <pgc07ma-rsm:DescripcionNoNormalizadaApartado12Resumen contextRef="D.ACTUAL">SIN CONTENIDO.</pgc07ma-rsm:DescripcionNoNormalizadaApartado12Resumen>
+  <pgc07ma-rsm:DescripcionNoNormalizadaApartado13Resumen contextRef="D.ACTUAL">SIN CONTENIDO</pgc07ma-rsm:DescripcionNoNormalizadaApartado13Resumen>
+  <pgc07ma-rsm:DescripcionNoNormalizadaApartado14Resumen contextRef="D.ACTUAL">SIN CONTENIDO</pgc07ma-rsm:DescripcionNoNormalizadaApartado14Resumen>
+  <link:footnoteLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+  </link:footnoteLink>
+</xbrli:xbrl>
