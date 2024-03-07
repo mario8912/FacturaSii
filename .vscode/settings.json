@@ -1,0 +1,4 @@
+{
+    "dotnet.preferCSharpExtension": true,
+    "xml.symbols.maxItemsComputed": 20000
+}
