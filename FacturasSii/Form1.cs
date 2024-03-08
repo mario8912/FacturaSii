@@ -13,7 +13,7 @@ namespace FacturasSii
         {
             OpenFileDialog openFile = new OpenFileDialog
             {
-                InitialDirectory = @"\\SERVER2017\datos\hacienda\ROSELL",
+                InitialDirectory = @"E:\mipc\escritorio\FacturasSii\data",
                 Filter = "Excel Files|*.xlsx",
                 Title = "Selecciona un archivo"
             };

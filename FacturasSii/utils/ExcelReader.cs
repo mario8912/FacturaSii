@@ -1,3 +1,5 @@
+using FacturasSii.utils;
+using Microsoft.Office.Interop.Excel;
 using System;
 using System.Runtime.InteropServices;
 using Excel = Microsoft.Office.Interop.Excel;
@@ -8,27 +10,26 @@ namespace FacturasSii.Utils
     {
         public static void ReadExcel(string filePath)
         {
-            Excel.Application xlApp = new Excel.Application();
-            Excel.Workbook xlWorkbook = xlApp.Workbooks.Open(filePath);
-            Excel._Worksheet xlWorksheet = xlWorkbook.Sheets[1];
-            Excel.Range xlRange = xlWorksheet.UsedRange;
+            Application xlApp = new Excel.Application();
+            Workbook xlWorkbook = xlApp.Workbooks.Open(filePath);
+            _Worksheet xlWorksheet = xlWorkbook.Sheets[1];
+            Range xlRange = xlWorksheet.UsedRange;
 
             int rowCount = xlRange.Rows.Count;
-            int colCount = xlRange.Columns.Count;
+            //int columnas = 7;
 
-            for (int i = 1; i <= rowCount; i++)
+            for (int i = 2; i <= rowCount; i++)
             {
-                for (int j = 1; j <= colCount; j++)
+                foreach(var item in Listas.diccionarioCeldas)
                 {
-                    // New line
-                    if (j == 1)
-                        Console.Write("\r\n");
-
-                    // Write value to the console
-                    if (xlRange.Cells[i, j] != null && xlRange.Cells[i, j].Value2 != null)
-                        Console.Write(xlRange.Cells[i, j].Value2.ToString() + "\t");
+                    if (xlRange.Cells[i, item.Key] != null && xlRange.Cells[i, item.Key].Value2 != null)
+                    {
+                        item.Value.Valor = xlRange.Cells[i, item.Key].Value2.ToString();
+                    }
                 }
             }
+
+
 
             // Cleanup
             GC.Collect();
@@ -45,6 +46,10 @@ namespace FacturasSii.Utils
             Marshal.ReleaseComObject(xlApp);
             // Cleanup
             GC.Collect();
+
+            //generate a function that inserts the values of the class inside the dictionary into the xml  file
+
+
         }
     }
 }
