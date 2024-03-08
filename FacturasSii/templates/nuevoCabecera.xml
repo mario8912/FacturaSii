@@ -1,0 +1,8 @@
+<Cabecera>
+  <sii xmlns="IDVersion">1.1</sii>
+  <sii xmlns="Titular">
+    <sii xmlns="NombreRazon">Distribuciones Rosell SL</sii>
+    <sii xmlns="NIF">B12345678</sii>
+  </sii>
+  <sii xmlns="TipoComunicacion">A0</sii>
+</Cabecera>

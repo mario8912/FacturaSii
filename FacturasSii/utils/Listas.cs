@@ -4,28 +4,32 @@ namespace FacturasSii.utils
 {
     internal class Listas
     {
-        internal static Dictionary<int, TipoValor> diccionarioCeldas = new Dictionary<int, TipoValor>
+        internal Dictionary<int, TipoValor> DiccionarioCeldas()
         {
-            { 1, new TipoValor("NumFactura") },
-            { 2, new TipoValor("FechaExpedicion") },
-            { 3, new TipoValor("NIFID") },
-            { 4, new TipoValor("NombreRazon") },
-            { 5, new TipoValor("Base1") },
-            { 6, new TipoValor("Tipo1") },
-            { 7, new TipoValor("Cuota1") },
-            { 10, new TipoValor("Base2") },
-            { 11, new TipoValor("Tipo2") },
-            { 12, new TipoValor("Cuota2") },
-            { 15, new TipoValor("Base3") },
-            { 16, new TipoValor("Tipo3") },
-            { 17, new TipoValor("Cuota3") },
-            { 20, new TipoValor("Base4") },
-            { 21, new TipoValor("Tipo4") },
-            { 22, new TipoValor("Cuota4") },
-            { 25, new TipoValor("Base5") },
-            { 26, new TipoValor("Tipo5") },
-            { 27, new TipoValor("Cuota5") }
-        };
+            return new Dictionary<int, TipoValor>
+            {
+                { 1, new TipoValor("NumFactura") },
+                { 2, new TipoValor("FechaExpedicion") },
+                { 3, new TipoValor("NIFID") },
+                { 4, new TipoValor("NombreRazon") },
+                { 5, new TipoValor("Base1") },
+                { 6, new TipoValor("Tipo1") },
+                { 7, new TipoValor("Cuota1") },
+                { 10, new TipoValor("Base2") },
+                { 11, new TipoValor("Tipo2") },
+                { 12, new TipoValor("Cuota2") },
+                { 15, new TipoValor("Base3") },
+                { 16, new TipoValor("Tipo3") },
+                { 17, new TipoValor("Cuota3") },
+                { 20, new TipoValor("Base4") },
+                { 21, new TipoValor("Tipo4") },
+                { 22, new TipoValor("Cuota4") },
+                { 25, new TipoValor("Base5") },
+                { 26, new TipoValor("Tipo5") },
+                { 27, new TipoValor("Cuota5") }
+            };
+            
+        }
     }
 
     internal class TipoValor

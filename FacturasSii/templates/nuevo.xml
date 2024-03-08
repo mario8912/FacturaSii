@@ -1,0 +1,10 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:siiLR="https://www2.agenciatributaria.gob.es/static_files/common/internet/dep/aplicaciones/es/aeat/ssii/fact/ws/SuministroLR.xsd" xmlns:sii="https://www2.agenciatributaria.gob.es/static_files/common/internet/dep/aplicaciones/es/aeat/ssii/fact/ws/SuministroInformacion.xsd">
+  <soapenv:Body>
+    <siiLR:SuministroLRFacturasEmitidas>
+      <sii:Cabecera xmlns:sii="https://www2.agenciatributaria.gob.es/static_files/common/internet/dep/aplicaciones/es/aeat/ssii/fact/ws/SuministroLR.xsd">
+        <sii xmlns="Titular" />
+        <sii xmlns="IDVersionii">1.1</sii>
+      </sii:Cabecera>
+    </siiLR:SuministroLRFacturasEmitidas>
+  </soapenv:Body>
+</soapenv:Envelope>

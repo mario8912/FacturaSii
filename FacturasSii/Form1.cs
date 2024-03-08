@@ -20,7 +20,8 @@ namespace FacturasSii
 
             if (openFile.ShowDialog() == DialogResult.OK && openFile.CheckFileExists == true)
             {
-                ExcelReader.ReadExcel(openFile.FileName);
+                ExcelReader er = new ExcelReader();
+                er.ReadExcel(openFile.FileName);
             }
         }
     }
