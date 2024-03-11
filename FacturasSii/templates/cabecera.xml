@@ -1,8 +1,0 @@
-﻿<sii:Cabecera>            
-	<sii:IDVersionSii></sii:IDVersionSii>
-		<sii:Titular>
-			<sii:NombreRazon></sii:NombreRazon>
-			<sii:NIF></sii:NIF>
-		</sii:Titular>
-	<sii:TipoComunicacion></sii:TipoComunicacion>
-</sii:Cabecera>
