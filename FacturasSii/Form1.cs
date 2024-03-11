@@ -11,7 +11,7 @@ namespace FacturasSii
         }
         private void Form1_Load(object sender, System.EventArgs e)
         {
-            OpenFileDialog openFile = new OpenFileDialog
+            /*OpenFileDialog openFile = new OpenFileDialog
             {
                 InitialDirectory = @"E:\mipc\escritorio\FacturasSii\data",
                 Filter = "Excel Files|*.xlsx",
@@ -22,7 +22,10 @@ namespace FacturasSii
             {
                 ExcelReader er = new ExcelReader();
                 er.ReadExcel(openFile.FileName);
-            }
+            }*/
+            ExcelReader er = new ExcelReader();
+            er.CrearXml();
+            Close();
         }
     }
 }

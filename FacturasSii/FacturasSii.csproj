@@ -92,6 +92,7 @@
     <Content Include="templates\cabecera.xml" />
     <Content Include="templates\cuerpo.xml" />
     <Content Include="templates\entero.xml" />
+    <Content Include="templates\nuevo.xml" />
     <Content Include="templates\xml.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

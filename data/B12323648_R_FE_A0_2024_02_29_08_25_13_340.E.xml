@@ -6,7 +6,7 @@
 			<sii:Cabecera>
 				<sii:IDVersionSii>1.1</sii:IDVersionSii>
 				<sii:Titular>
-					<sii:NombreRazon>Distribuciones Rosell SL</sii:NombreRazon>
+				    <sii:NombreRazon>Distribuciones Rosell SL</sii:NombreRazon>
 					<sii:NIF>B12323648</sii:NIF>
 				</sii:Titular>
 				<sii:TipoComunicacion>A0</sii:TipoComunicacion>

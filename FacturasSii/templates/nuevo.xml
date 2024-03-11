@@ -1,10 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:siiLR="https://www2.agenciatributaria.gob.es/static_files/common/internet/dep/aplicaciones/es/aeat/ssii/fact/ws/SuministroLR.xsd" xmlns:sii="https://www2.agenciatributaria.gob.es/static_files/common/internet/dep/aplicaciones/es/aeat/ssii/fact/ws/SuministroInformacion.xsd">
+  <soapenv:Header />
   <soapenv:Body>
     <siiLR:SuministroLRFacturasEmitidas>
-      <sii:Cabecera xmlns:sii="https://www2.agenciatributaria.gob.es/static_files/common/internet/dep/aplicaciones/es/aeat/ssii/fact/ws/SuministroLR.xsd">
-        <sii xmlns="Titular" />
-        <sii xmlns="IDVersionii">1.1</sii>
+      <sii:Cabecera>
+        <sii:IDVersionii>1.1</sii:IDVersionii>
+        <sii:Titular>
+          <sii:NombreRazon>Distribuciones Rosell SL</sii:NombreRazon>
+          <sii:NIF>B12323648</sii:NIF>
+        </sii:Titular>
       </sii:Cabecera>
+      <siiLR:RegistroLRFacturasEmitidas>
+        <sii:PeriodoLiquidacion>
+          <sii:Ejercicio>2024</sii:Ejercicio>
+          <sii:Periodo>02</sii:Periodo>
+        </sii:PeriodoLiquidacion>
+        <siiLR:IDFactura>
+          <sii:IDEmisorFactura />
+          <sii:NumSerieFacturaEmisor />
+          <sii:FechaExpedicionFacturaEmisor />
+        </siiLR:IDFactura>
+        <siiLR:FacturaExpedida>
+          <sii:TipoFactura />
+          <sii:ClaveRegimenEspecialOTrascendencia />
+          <sii:ImporteTotal />
+          <sii:DescripcionOperacion />
+          <siiLR:Contraparte>
+            <sii:NombreRazon />
+            <sii:NIF />
+          </siiLR:Contraparte>
+        </siiLR:FacturaExpedida>
+      </siiLR:RegistroLRFacturasEmitidas>
     </siiLR:SuministroLRFacturasEmitidas>
   </soapenv:Body>
 </soapenv:Envelope>

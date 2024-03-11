@@ -26,6 +26,7 @@
 
 					<sii:NumSerieFacturaEmisor></sii:NumSerieFacturaEmisor>
 					<sii:FechaExpedicionFacturaEmisor></sii:FechaExpedicionFacturaEmisor>
+					
 				</siiLR:IDFactura>
 
 				<siiLR:FacturaExpedida>

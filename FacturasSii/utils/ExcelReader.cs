@@ -1,8 +1,10 @@
+using FacturasSii.entidades;
 using FacturasSii.utils;
 using Microsoft.Office.Interop.Excel;
 using System;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
+using System.Windows.Forms;
 using System.Xml;
 using Excel = Microsoft.Office.Interop.Excel;
 
@@ -10,12 +12,15 @@ namespace FacturasSii.Utils
 {
     public class ExcelReader
     {
+        private const string SII = "https://www2.agenciatributaria.gob.es/static_files/common/internet/dep/aplicaciones/es/aeat/ssii/fact/ws/SuministroInformacion.xsd";
+        private const string SII_LR = "https://www2.agenciatributaria.gob.es/static_files/common/internet/dep/aplicaciones/es/aeat/ssii/fact/ws/SuministroLR.xsd";
+        private const string SOAPENV = "http://schemas.xmlsoap.org/soap/envelope/";
         private Dictionary<int, TipoValor> _diccionarioValores;
 
         public void ReadExcel(string filePath)
         {
             Listas listas = new Listas();
-            Application xlApp = new Excel.Application();
+            Excel.Application xlApp = new Excel.Application();
             Workbook xlWorkbook = xlApp.Workbooks.Open(filePath);
             _Worksheet xlWorksheet = xlWorkbook.Sheets[1];
             Range xlRange = xlWorksheet.UsedRange;
@@ -56,10 +61,9 @@ namespace FacturasSii.Utils
             CrearXml();
         }
         
-        private void CrearXml()
+        public void CrearXml()
         {
             EstructuraExternaXml();
-            CabeceraXml();
             /*foreach (var item in _diccionarioValores)
             {
                 if (item.Value.Valor != null)
@@ -69,82 +73,126 @@ namespace FacturasSii.Utils
                     Console.WriteLine();
                 }
             }*/
+            MessageBox.Show("Archivo creado");
         }
 
-        private void CabeceraXml()
-        {
-            XmlDocument doc = new XmlDocument();
-
-            XmlElement cabecera = doc.CreateElement("sii:Cabecera");
-            doc.AppendChild(cabecera);
-
-            XmlElement idVersion = doc.CreateElement("sii", "IDVersion");
-            idVersion.InnerText = "1.1";
-            cabecera.AppendChild(idVersion);
-
-            XmlElement titular = doc.CreateElement("sii", "Titular");   
-            cabecera.AppendChild(titular);
-
-            XmlElement nombreRazon = doc.CreateElement("sii", "NombreRazon");
-            nombreRazon.InnerText = "Distribuciones Rosell SL";
-            titular.AppendChild(nombreRazon);
-
-            XmlElement nif = doc.CreateElement("sii", "NIF");
-            nif.InnerText = "B12345678";
-            titular.AppendChild(nif);
-
-            XmlElement tipoComunicacion = doc.CreateElement("sii", "TipoComunicacion");
-            tipoComunicacion.InnerText = "A0";
-            cabecera.AppendChild(tipoComunicacion);
-
-            doc.Save(@"E:\mipc\escritorio\FacturasSii\FacturasSii\templates\nuevoCabecera.xml");
-        }
+        
         private void EstructuraExternaXml()
         {
             XmlDocument doc = new XmlDocument();
+            XmlDeclaration xmlDeclaration = doc.CreateXmlDeclaration("1.0", "UTF-8", null);
+            xmlDeclaration.Encoding = "UTF-8";
+            doc.AppendChild(xmlDeclaration);
 
-            // Crear el nodo raíz (Envelope)
-            XmlElement envelope = doc.CreateElement("soapenv", "Envelope", "http://schemas.xmlsoap.org/soap/envelope/");
-
-            // Agregar los atributos de los espacios de nombres
-            envelope.SetAttribute("xmlns:soapenv", "http://schemas.xmlsoap.org/soap/envelope/");
-            envelope.SetAttribute("xmlns:siiLR", "https://www2.agenciatributaria.gob.es/static_files/common/internet/dep/aplicaciones/es/aeat/ssii/fact/ws/SuministroLR.xsd");
-            envelope.SetAttribute("xmlns:sii", "https://www2.agenciatributaria.gob.es/static_files/common/internet/dep/aplicaciones/es/aeat/ssii/fact/ws/SuministroInformacion.xsd");
-
-            // Crear el nodo Body dentro de Envelope
-            XmlElement body = doc.CreateElement("soapenv", "Body", "http://schemas.xmlsoap.org/soap/envelope/");
-
-            // Crear el nodo SuministroLRFacturasEmitidas dentro de Body
-            XmlElement suministroLR = doc.CreateElement("siiLR", "SuministroLRFacturasEmitidas", "https://www2.agenciatributaria.gob.es/static_files/common/internet/dep/aplicaciones/es/aeat/ssii/fact/ws/SuministroLR.xsd");
-
-            XmlElement cabecera = doc.CreateElement("sii", "Cabecera", "https://www2.agenciatributaria.gob.es/static_files/common/internet/dep/aplicaciones/es/aeat/ssii/fact/ws/SuministroLR.xsd");
-
-            XmlElement idVersion = doc.CreateElement("sii", "IDVersionii");
-            idVersion.InnerText = "1.1";
-            
-            XmlElement titular = doc.CreateElement("sii", "Titular");
-
-            XmlDocumentFragment cabeceraFragment = doc.CreateDocumentFragment();
-            cabeceraFragment.AppendChild(titular);
-
-            cabecera.AppendChild(titular);
-
-            cabecera.AppendChild(idVersion);
-
-            suministroLR.AppendChild(cabecera);
-            // Agregar SuministroLRFacturasEmitidas dentro de Body
-            body.AppendChild(suministroLR);
-
-            // Agregar Body dentro de Envelope
-            envelope.AppendChild(body);
-
-            // Agregar Envelope como nodo raíz del documento
+            XmlElement envelope = doc.CreateElement("soapenv", "Envelope", SOAPENV);
+            envelope.SetAttribute("xmlns:soapenv", SOAPENV);
+            envelope.SetAttribute("xmlns:siiLR", SII_LR);
+            envelope.SetAttribute("xmlns:sii", SII);
             doc.AppendChild(envelope);
 
-            // Mostrar el XML resultante
+            XmlElement header = doc.CreateElement("soapenv", "Header", SOAPENV);
+            envelope.AppendChild(header);
+
+            XmlElement body = doc.CreateElement("soapenv", "Body", SOAPENV);
+            envelope.AppendChild(body);
+
+            XmlElement suministroLR = doc.CreateElement("siiLR", "SuministroLRFacturasEmitidas", SII_LR);
+            body.AppendChild(suministroLR);
+
+            #region Cabecera
+            suministroLR.AppendChild(CabeceraXml(doc));
+            #endregion
+
+            suministroLR.AppendChild(XmlFactura(doc));
+
             doc.Save(@"E:\mipc\escritorio\FacturasSii\FacturasSii\templates\nuevo.xml");
+        }
+
+        private XmlDocumentFragment XmlFactura(XmlDocument doc)
+        {
+            XmlElement registroLRFacturasEmitidas = doc.CreateElement("siiLR", "RegistroLRFacturasEmitidas", SII_LR);
+
+            XmlElement periodoLiquidacion = doc.CreateElement("sii", "PeriodoLiquidacion", SII);
+            registroLRFacturasEmitidas.AppendChild(periodoLiquidacion);
+
+            XmlElement ejercicio = doc.CreateElement("sii", "Ejercicio", SII);
+            ejercicio.InnerText = "2024";
+            periodoLiquidacion.AppendChild(ejercicio);
+
+            XmlElement periodo = doc.CreateElement("sii", "Periodo", SII);
+            periodo.InnerText = "02"; // Febrero
+            periodoLiquidacion.AppendChild(periodo);
+
+            XmlElement idFactura = doc.CreateElement("siiLR", "IDFactura", SII_LR);
+            registroLRFacturasEmitidas.AppendChild(idFactura);
+
+            XmlElement IDEmisorFactura = doc.CreateElement("sii", "IDEmisorFactura", SII);
+            idFactura.AppendChild(IDEmisorFactura);
+
+            XmlElement nif = doc.CreateElement("sii", "NIF", SII);
+            nif.InnerText = "ejemplo nif"; // NIF del cliente
+
+            XmlElement NumSerieFacturaEmisor = doc.CreateElement("sii", "NumSerieFacturaEmisor", SII);
+            idFactura.AppendChild(NumSerieFacturaEmisor);
+
+            XmlElement FechaExpedicionFacturaEmisor = doc.CreateElement("sii", "FechaExpedicionFacturaEmisor", SII);
+            idFactura.AppendChild(FechaExpedicionFacturaEmisor);
+
+            XmlElement facturaExpeddia = doc.CreateElement("siiLR", "FacturaExpedida", SII_LR);
+            registroLRFacturasEmitidas.AppendChild(facturaExpeddia);
+
+            XmlElement TipoFactura = doc.CreateElement("sii", "TipoFactura", SII);
+            facturaExpeddia.AppendChild(TipoFactura);
+
+            XmlElement ClaveRegimenEspecialOTrascendencia = doc.CreateElement("sii", "ClaveRegimenEspecialOTrascendencia", SII);    
+            facturaExpeddia.AppendChild(ClaveRegimenEspecialOTrascendencia);
+
+            XmlElement ImporteTotal = doc.CreateElement("sii", "ImporteTotal", SII);
+            facturaExpeddia.AppendChild(ImporteTotal);
+
+            XmlElement DescripcionOperacion = doc.CreateElement("sii", "DescripcionOperacion", SII);
+            facturaExpeddia.AppendChild(DescripcionOperacion);
+
+            XmlElement Contraparte = doc.CreateElement("siiLR", "Contraparte", SII_LR);  
+            facturaExpeddia.AppendChild(Contraparte);   
+
+            XmlElement NombreRazon = doc.CreateElement("sii", "NombreRazon", SII);
+            Contraparte.AppendChild(NombreRazon);
+
+            XmlElement NIF = doc.CreateElement("sii", "NIF", SII);
+            Contraparte.AppendChild(NIF);
 
 
+
+            XmlDocumentFragment frag = doc.CreateDocumentFragment();
+            frag.AppendChild(registroLRFacturasEmitidas);
+
+            return frag;
+        }
+
+        private XmlDocumentFragment CabeceraXml(XmlDocument doc)
+        {
+            XmlElement cabecera = doc.CreateElement("sii", "Cabecera", SII);
+            
+            XmlElement idVersion = doc.CreateElement("sii", "IDVersionii", SII);
+            idVersion.InnerText = "1.1";
+            cabecera.AppendChild(idVersion);
+
+            XmlElement titular = doc.CreateElement("sii", "Titular", SII);
+            cabecera.AppendChild(titular);
+
+            XmlElement nombreRazon = doc.CreateElement("sii", "NombreRazon", SII);
+            nombreRazon.InnerText = "Distribuciones Rosell SL";
+            titular.AppendChild(nombreRazon);
+
+            XmlElement nif = doc.CreateElement("sii", "NIF", SII);
+            nif.InnerText = "B12323648";
+            titular.AppendChild(nif);
+
+            XmlDocumentFragment frag = doc.CreateDocumentFragment();
+            frag.AppendChild(cabecera);
+
+            return frag;
         }
     }
 }
