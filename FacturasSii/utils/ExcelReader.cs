@@ -1,4 +1,3 @@
-using FacturasSii.entidades;
 using FacturasSii.utils;
 using Microsoft.Office.Interop.Excel;
 using System;
@@ -17,7 +16,7 @@ namespace FacturasSii.Utils
         private const string SOAPENV = "http://schemas.xmlsoap.org/soap/envelope/";
         private Dictionary<int, TipoValor> _diccionarioValores;
 
-        public void ReadExcel(string filePath)
+        public void LeerExcel(string filePath)
         {
             Listas listas = new Listas();
             Excel.Application xlApp = new Excel.Application();
@@ -38,24 +37,21 @@ namespace FacturasSii.Utils
                         item.Value.Valor = xlRange.Cells[i, item.Key].Value2.ToString();
                     }
                 }
-                //CrearXml();
                 
             }
 
-            // Cleanup
             GC.Collect();
             GC.WaitForPendingFinalizers();
-            // Close and release
             Marshal.ReleaseComObject(xlRange);
             Marshal.ReleaseComObject(xlWorksheet);
 
-            // Close and release
+
             xlWorkbook.Close();
             Marshal.ReleaseComObject(xlWorkbook);
-            // Quit and release
+            
             xlApp.Quit();
             Marshal.ReleaseComObject(xlApp);
-            // Cleanup
+            
             GC.Collect();
 
             CrearXml();
@@ -131,6 +127,7 @@ namespace FacturasSii.Utils
 
             XmlElement nif = doc.CreateElement("sii", "NIF", SII);
             nif.InnerText = "ejemplo nif"; // NIF del cliente
+            IDEmisorFactura.AppendChild(nif);
 
             XmlElement NumSerieFacturaEmisor = doc.CreateElement("sii", "NumSerieFacturaEmisor", SII);
             idFactura.AppendChild(NumSerieFacturaEmisor);
@@ -138,30 +135,59 @@ namespace FacturasSii.Utils
             XmlElement FechaExpedicionFacturaEmisor = doc.CreateElement("sii", "FechaExpedicionFacturaEmisor", SII);
             idFactura.AppendChild(FechaExpedicionFacturaEmisor);
 
-            XmlElement facturaExpeddia = doc.CreateElement("siiLR", "FacturaExpedida", SII_LR);
-            registroLRFacturasEmitidas.AppendChild(facturaExpeddia);
+            XmlElement FacturaExpedida = doc.CreateElement("siiLR", "FacturaExpedida", SII_LR);
+            registroLRFacturasEmitidas.AppendChild(FacturaExpedida);
 
             XmlElement TipoFactura = doc.CreateElement("sii", "TipoFactura", SII);
-            facturaExpeddia.AppendChild(TipoFactura);
+            FacturaExpedida.AppendChild(TipoFactura);
 
             XmlElement ClaveRegimenEspecialOTrascendencia = doc.CreateElement("sii", "ClaveRegimenEspecialOTrascendencia", SII);    
-            facturaExpeddia.AppendChild(ClaveRegimenEspecialOTrascendencia);
+            FacturaExpedida.AppendChild(ClaveRegimenEspecialOTrascendencia);
 
             XmlElement ImporteTotal = doc.CreateElement("sii", "ImporteTotal", SII);
-            facturaExpeddia.AppendChild(ImporteTotal);
+            FacturaExpedida.AppendChild(ImporteTotal);
 
             XmlElement DescripcionOperacion = doc.CreateElement("sii", "DescripcionOperacion", SII);
-            facturaExpeddia.AppendChild(DescripcionOperacion);
+            FacturaExpedida.AppendChild(DescripcionOperacion);
 
-            XmlElement Contraparte = doc.CreateElement("siiLR", "Contraparte", SII_LR);  
-            facturaExpeddia.AppendChild(Contraparte);   
+            XmlElement Contraparte = doc.CreateElement("sii", "Contraparte", SII);  
+            FacturaExpedida.AppendChild(Contraparte);   
 
             XmlElement NombreRazon = doc.CreateElement("sii", "NombreRazon", SII);
             Contraparte.AppendChild(NombreRazon);
 
-            XmlElement NIF = doc.CreateElement("sii", "NIF", SII);
+            XmlElement NIF = doc.CreateElement("sii", "NIF", SII); // NIF del emisor de la factura, empresa Rosell
             Contraparte.AppendChild(NIF);
 
+            XmlElement TipoDesglose = doc.CreateElement("sii", "TipoDesglose", SII);    
+            FacturaExpedida.AppendChild(TipoDesglose);
+
+            XmlElement DesgloseFactura = doc.CreateElement("sii", "DesgloseFactura", SII);
+            TipoDesglose.AppendChild(DesgloseFactura);
+
+            XmlElement Sujeta = doc.CreateElement("sii", "Sujeta", SII);    
+            DesgloseFactura.AppendChild(Sujeta);
+
+            XmlElement NoExenta = doc.CreateElement("sii", "NoExenta", SII);
+            Sujeta.AppendChild(NoExenta);
+
+            XmlElement TipoNoExenta = doc.CreateElement("sii", "TipoNoExenta", SII);
+            NoExenta.AppendChild(TipoNoExenta);
+
+            XmlElement DesgloseIVA = doc.CreateElement("sii", "DesgloseIVA", SII);
+            NoExenta.AppendChild(DesgloseIVA);
+
+            XmlElement DetalleIVA = doc.CreateElement("sii", "DetalleIVA", SII);
+            DesgloseIVA.AppendChild(DetalleIVA);
+
+            XmlElement TipoImpositivo = doc.CreateElement("sii", "TipoImpositivo", SII);
+            DetalleIVA.AppendChild(TipoImpositivo);
+
+            XmlElement BaseImponible = doc.CreateElement("sii", "BaseImponible", SII);
+            DetalleIVA.AppendChild(BaseImponible);
+
+            XmlElement CuotaRepercutida = doc.CreateElement("sii", "CuotaRepercutida", SII);
+            DetalleIVA.AppendChild(CuotaRepercutida);
 
 
             XmlDocumentFragment frag = doc.CreateDocumentFragment();
@@ -185,9 +211,12 @@ namespace FacturasSii.Utils
             nombreRazon.InnerText = "Distribuciones Rosell SL";
             titular.AppendChild(nombreRazon);
 
-            XmlElement nif = doc.CreateElement("sii", "NIF", SII);
+            XmlElement nif = doc.CreateElement("sii", "NIF", SII); //nif del emisor encargado, en este caso a nombre de Rosell  
             nif.InnerText = "B12323648";
             titular.AppendChild(nif);
+
+            XmlElement TipoComunicacion = doc.CreateElement("sii", "TipoComunicacion", SII);    
+            cabecera.AppendChild(TipoComunicacion);
 
             XmlDocumentFragment frag = doc.CreateDocumentFragment();
             frag.AppendChild(cabecera);

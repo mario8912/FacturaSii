@@ -51,8 +51,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="entidades\Cabecera.cs" />
-    <Compile Include="entidades\Cuerpo.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
