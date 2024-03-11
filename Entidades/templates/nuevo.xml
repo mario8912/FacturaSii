@@ -9,7 +9,7 @@
           <sii:NombreRazon>Distribuciones Rosell SL</sii:NombreRazon>
           <sii:NIF>B12323648</sii:NIF>
         </sii:Titular>
-        <sii:TipoComunicacion />
+        <sii:TipoComunicacion>A0</sii:TipoComunicacion>
       </sii:Cabecera>
       <siiLR:RegistroLRFacturasEmitidas>
         <sii:PeriodoLiquidacion>

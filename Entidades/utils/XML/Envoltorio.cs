@@ -1,4 +1,5 @@
-﻿using System.Xml;
+﻿using System.Collections.Generic;
+using System.Xml;
 
 namespace Entidades.utils.XML
 {
@@ -7,8 +8,14 @@ namespace Entidades.utils.XML
         internal const string SII = "https://www2.agenciatributaria.gob.es/static_files/common/internet/dep/aplicaciones/es/aeat/ssii/fact/ws/SuministroInformacion.xsd";
         internal const string SII_LR = "https://www2.agenciatributaria.gob.es/static_files/common/internet/dep/aplicaciones/es/aeat/ssii/fact/ws/SuministroLR.xsd";
         internal const string SOAPENV = "http://schemas.xmlsoap.org/soap/envelope/";
+        internal static Dictionary<int, TipoValor> _diccionarioValores;
 
-        public static void EstructuraExternaXml()
+        public void CrearXml(Dictionary<int, TipoValor> diccionario)
+        {
+            _diccionarioValores = diccionario;
+            EstructuraExternaXml();
+        }
+        private static void EstructuraExternaXml()
         {
             XmlDocument doc = new XmlDocument();
             XmlDeclaration xmlDeclaration = doc.CreateXmlDeclaration("1.0", "UTF-8", null);
@@ -35,10 +42,10 @@ namespace Entidades.utils.XML
             #endregion
 
             #region Registro de Facturas
-            suministroLR.AppendChild(Factura.XmlFactura(doc));
+            suministroLR.AppendChild(Factura.XmlFactura(doc, _diccionarioValores));
             #endregion
 
-            doc.Save(@"E:\mipc\escritorio\FacturaSii\templates\nuevo.xml");
+            doc.Save(@"E:\mipc\escritorio\FacturaSii\Entidades\templates\nuevo.xml");
         }
 
     }

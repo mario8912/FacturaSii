@@ -11,17 +11,25 @@ namespace Datos.Excel
 {
     public class ExcelReader
     {
-        private Dictionary<int, TipoValor> _diccionarioValores;
+        private static Dictionary<int, TipoValor> _diccionarioValores;
 
-        public void LeerExcel(string filePath)
+        private static uExcel.Application _excelApp;
+        private static Workbook _libro;
+        private static Worksheet _hoja;
+        private static Range _rango;
+
+        public static void LeerExcel(string filePath)
         {
             Listas listas = new Listas();
-            uExcel.Application xlApp = new uExcel.Application();
-            Workbook xlWorkbook = xlApp.Workbooks.Open(filePath);
-            _Worksheet xlWorksheet = xlWorkbook.Sheets[1];
-            Range xlRange = xlWorksheet.UsedRange;
 
-            int rowCount = xlRange.Rows.Count;
+            _excelApp = new uExcel.Application();
+            _libro = _excelApp.Workbooks.Open(filePath);
+            _hoja = _libro.Sheets[1];
+            _rango = _hoja.UsedRange;
+
+            int rowCount = _rango.Rows.Count;
+
+
 
             for (int i = 2; i <= 2; i++)
             {
@@ -29,33 +37,35 @@ namespace Datos.Excel
 
                 foreach (var item in _diccionarioValores)
                 {
-                    if (xlRange.Cells[i, item.Key] != null && xlRange.Cells[i, item.Key].Value2 != null)
-                        item.Value.Valor = xlRange.Cells[i, item.Key].Value2.ToString();
+                    var rango = _rango.Cells[i, item.Key];
+
+                    if (rango != null && rango.Value2 != null)
+                    {
+                        item.Value.Valor = rango.Value2.ToString();
+
+                        NegocioXml().CrearXml(_diccionarioValores);
+                    }
                 }   
             }
 
-            GC.Collect();
-            GC.WaitForPendingFinalizers();
-            Marshal.ReleaseComObject(xlRange);
-            Marshal.ReleaseComObject(xlWorksheet);
-
-
-            xlWorkbook.Close();
-            Marshal.ReleaseComObject(xlWorkbook);
-            
-            xlApp.Quit();
-            Marshal.ReleaseComObject(xlApp);
-            
-            GC.Collect();
-
-            CrearXml();
+            LimpiarRecursos();
         }
         
-        public void CrearXml()
+        private static void LimpiarRecursos()
         {
+            GC.Collect();
+            GC.WaitForPendingFinalizers();
+            Marshal.ReleaseComObject(_rango);
+            Marshal.ReleaseComObject(_hoja);
 
-            Envoltorio.EstructuraExternaXml();
-            MessageBox.Show("Archivo creado");
+
+            _libro.Close();
+            Marshal.ReleaseComObject(_libro);
+
+            _excelApp.Quit();
+            Marshal.ReleaseComObject(_excelApp);
+
+            GC.Collect();
         }
     }
 }

@@ -1,4 +1,6 @@
-﻿using System.Xml;
+﻿using System;
+using System.Collections.Generic;
+using System.Xml;
 
 namespace Entidades.utils.XML
 {
@@ -25,6 +27,7 @@ namespace Entidades.utils.XML
             titular.AppendChild(nif);
 
             XmlElement TipoComunicacion = doc.CreateElement("sii", "TipoComunicacion", SII);
+            TipoComunicacion.InnerText = "A0";
             cabecera.AppendChild(TipoComunicacion);
 
             XmlDocumentFragment frag = doc.CreateDocumentFragment();

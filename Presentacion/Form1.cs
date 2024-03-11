@@ -11,9 +11,15 @@ namespace Presentacion
         }
         private void Form1_Load(object sender, System.EventArgs e)
         {
+            DialogoSeleccionExcel();
+            //Close();
+        }
+
+        private void DialogoSeleccionExcel()
+        {
             OpenFileDialog openFile = new OpenFileDialog
             {
-                InitialDirectory = @"E:\mipc\escritorio\FacturasSii\data",
+                InitialDirectory = @"E:\mipc\escritorio\FacturaSii\data",
                 Filter = "Excel Files|*.xlsx",
                 Title = "Selecciona un archivo"
             };
@@ -22,8 +28,6 @@ namespace Presentacion
             {
                 NegocioExcel.LeerExcel(openFile.FileName);
             }
-
-            Close();
         }
     }
 }

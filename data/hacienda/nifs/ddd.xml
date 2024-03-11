@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<wsdl:definitions xmlns:vnifv2=" it/ws/vnifv2.wsdl" xmlns:vnifv2ent=" /jdit/ws/vnifv2ent.xsd" /jdit/ws/vnifv2sal.xsd" xmlns:wsdl=" xmlns:wsdlsoap=" xmlns:xsd=" targetnamespace=" /jdit/ws/vnifv2.wsdl"> <wsdl:types> <schema elementformdefault="qualified" targetnamespace=" /jdit/ws/vnifv2.wsdl" xmlns:vnifv2ent=" /jdit/ws/vnifv2ent.xsd" /jdit/ws/vnifv2sal.xsd" xmlns=" <xsd:import namespace=" ws/vnifv2ent.xsd" schemalocation="vnifv2ent.xsd"/> <xsd:import namespace=" ws/vnifv2sal.xsd" schemalocation="vnifv2sal.xsd"/> </schema> </wsdl:types> <wsdl:message name="entrada"> <wsdl:part name="vnifv2ent" element="vnifv2ent:vnifv2ent"/> </wsdl:message> <wsdl:message name="salida"> <wsdl:part name="vnifv2sal" element="vnifv2sal:vnifv2sal"/> </wsdl:message> <wsdl:porttype name="vnifv2"> <wsdl:operation name="vnifv2"> <wsdl:input name="entrada" message="vnifv2:entrada"/> <wsdl:output name="salida" message="vnifv2:salida"/> </wsdl:operation> </wsdl:porttype> <wsdl:binding name="vnifv2soapbinding" type="vnifv2:vnifv2"> <wsdlsoap:binding style="document" transport=" <wsdl:operation name="vnifv2"> <wsdlsoap:operation soapaction=""/> <wsdl:input name="entrada"> <wsdlsoap:body use="literal"/> </wsdl:input> <wsdl:output name="salida"> <wsdlsoap:body use="literal"/> </wsdl:output> </wsdl:operation> </wsdl:binding> 
+<wsdl:service name="vnifv2service"> 
+<!--Puerto para conexiones desde internet en DESA --> 
+<wsdl:port name="vnifport1" binding="vnifv2:vnifv2soapbinding"> 
+<wsdlsoap:address location=" JDIT/ws/VNifV2SOAP"/> 
+</wsdl:port> 
+</wsdl:service> 
+</wsdl:definitions>

@@ -1,4 +1,5 @@
-﻿using System.Xml;
+﻿using System.Collections.Generic;
+using System.Xml;
 
 namespace Entidades.utils.XML
 {
@@ -7,10 +8,12 @@ namespace Entidades.utils.XML
         private const string SII = Envoltorio.SII;
         private const string SII_LR = Envoltorio.SII_LR;
         private static XmlDocument _doc = new XmlDocument();
+        private static Dictionary<int, TipoValor> _diccionarioValores;
 
-        internal static XmlDocumentFragment XmlFactura(XmlDocument doc)
+        internal static XmlDocumentFragment XmlFactura(XmlDocument doc, Dictionary<int, TipoValor> diccionario)
         {
             _doc = doc;
+            _diccionarioValores = diccionario;
 
             XmlElement registroLRFacturasEmitidas = _doc.CreateElement("siiLR", "RegistroLRFacturasEmitidas", SII_LR);
 
@@ -63,11 +66,11 @@ namespace Entidades.utils.XML
             XmlElement periodoLiquidacion = _doc.CreateElement("sii", "PeriodoLiquidacion", SII);
 
             XmlElement ejercicio = _doc.CreateElement("sii", "Ejercicio", SII);
-            ejercicio.InnerText = "2024";
+            ejercicio.InnerText = FormatoDatosLista.FormatoEjercicio(_diccionarioValores[2].Valor);
             periodoLiquidacion.AppendChild(ejercicio);
 
             XmlElement periodo = _doc.CreateElement("sii", "Periodo", SII);
-            periodo.InnerText = "02"; // Febrero
+            periodo.InnerText = FormatoDatosLista.FormatoPeriodo(_diccionarioValores[2].Valor); // Febrero
             periodoLiquidacion.AppendChild(periodo);
 
             XmlDocumentFragment frag = _doc.CreateDocumentFragment();

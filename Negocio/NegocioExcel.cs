@@ -1,4 +1,7 @@
-﻿using Datos.Excel;
+﻿using Entidades.utils;
+using Datos.Excel;
+using System.Collections.Generic;
+using System;
 
 namespace Negocio
 {
@@ -6,8 +9,7 @@ namespace Negocio
     {
         public static void LeerExcel(string file)
         {
-            ExcelReader er = new ExcelReader();
-            er.LeerExcel(file);
+            ExcelReader.LeerExcel(file);
         }
     }
 }

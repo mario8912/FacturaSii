@@ -1,0 +1,6 @@
+http://www.agenciatributaria.es/AEAT.internet/Inicio/Ayuda/Manuales__Folletos_y_Videos/Manuales_tecnicos/Web_service/Modelos_030__036__037/Informacion_sobre_Web_Services_de_Calidad_de_Datos_Identificativos/Informacion_sobre_Web_Services_de_Calidad_de_Datos_Identificativos.shtml
+
+
+http://www2.agenciatributaria.gob.es/static_files/common/internet/dep/aplicaciones/es/aeat/burt/jdit/ws/VNifV2.wsdl
+http://www2.agenciatributaria.gob.es/static_files/common/internet/dep/aplicaciones/es/aeat/burt/jdit/ws/VNifV2Ent.xsd
+http://www2.agenciatributaria.gob.es/static_files/common/internet/dep/aplicaciones/es/aeat/burt/jdit/ws/VNifV2Sal.xsd
