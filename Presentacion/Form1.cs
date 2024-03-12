@@ -1,14 +1,17 @@
 ﻿using G = Entidades.utils.Global;   
 using System.Windows.Forms;
+using Negocio;
 
 namespace Presentacion
 {
     public partial class Form1 : Form
     {
+
         public Form1()
         {
             InitializeComponent();
         }
+
         private void Form1_Load(object sender, System.EventArgs e)
         {
             btnCrearXml.Enabled = false;
@@ -44,11 +47,20 @@ namespace Presentacion
 
         private void btnCrearXml_Click(object sender, System.EventArgs e)
         {
-            Negocio.NegocioXml.CrearXml();
-            MessageBox.Show("Archivo creado con éxito");
             textBox1.Text = string.Empty;
             btnCrearXml.Enabled = false;
             progressBar1.Visible = true;
+            CrearXml();
+
+            MessageBox.Show("Archivo creado con éxito");
+            
         }
+
+        private void CrearXml()
+        {
+            NegocioXml negocioXml = new NegocioXml();
+            negocioXml.CrearXml();
+        }
+
     }
 }

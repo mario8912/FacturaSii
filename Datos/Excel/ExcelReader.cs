@@ -9,16 +9,16 @@ namespace Datos.Excel
 {
     public class ExcelReader
     {
-        public static event EventHandler<int> ProgressChanged;
 
-        private static Dictionary<int, TipoValor> _diccionarioValores;
-        private static readonly IEnumerable<Dictionary<int, TipoValor>> _listaDiccionarios;
+        private Dictionary<int, TipoValor> _diccionarioValores;
+        private readonly IEnumerable<Dictionary<int, TipoValor>> _listaDiccionarios;
 
-        private static Application _excelApp;
-        private static Workbook _libro;
-        private static Worksheet _hoja;
-        private static Range _rango;
-        public static IEnumerable<Dictionary<int, TipoValor>> LeerExcel()
+        private Application _excelApp;
+        private Workbook _libro;
+        private Worksheet _hoja;
+        private Range _rango;
+
+        public  IEnumerable<Dictionary<int, TipoValor>> LeerExcel()
         {
             Listas listas = new Listas();
             
@@ -42,18 +42,12 @@ namespace Datos.Excel
                         item.Value.Valor = rango.Value2.ToString();
                     }
                 }
-                OnProgressChanged(i);
                 yield return _diccionarioValores;
             }
             LimpiarRecursos();
         }
 
-        protected static virtual void OnProgressChanged(int progress)
-        {
-            ProgressChanged?.Invoke(this, progress);
-        }
-
-        private static void LimpiarRecursos()
+        private void LimpiarRecursos()
         {
             GC.Collect();
             GC.WaitForPendingFinalizers();

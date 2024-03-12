@@ -3,6 +3,7 @@ using Entidades.utils.XML;
 using System.Xml;
 using System.Collections.Generic;
 using Entidades.utils;
+using System.IO;
 
 namespace Datos.XML
 {
@@ -29,7 +30,7 @@ namespace Datos.XML
 
         public void GuardarXML()
         {
-            G.XmlDocument.Save(@"E:\mipc\escritorio\FacturaSii\Entidades\templates\nuevo.xml");
+            G.XmlDocument.Save(G.RutaApplicacion + "\\nuevo.xml");
         }
     }
 }

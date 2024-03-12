@@ -66,12 +66,12 @@ namespace Entidades.utils.XML
 
         private static string SumaBases()
         {
-            int suma = 0;
+            float suma = 0;
 
             foreach (TipoValor tipoValor in _diccionarioValores.Values)
             {
-                if(Listas.stringsAComparar.Contains(tipoValor.Campo))
-                    suma += int.Parse(tipoValor.Valor);
+                if(Listas.stringsAComparar.Contains(tipoValor.Campo) && tipoValor.Valor != null)
+                    suma += float.Parse(tipoValor.Valor);
             }
 
             return suma.ToString();
@@ -170,12 +170,15 @@ namespace Entidades.utils.XML
             XmlElement DetalleIVA = G.XmlDocument.CreateElement("sii", "DetalleIVA", G.SII);
 
             XmlElement TipoImpositivo = G.XmlDocument.CreateElement("sii", "TipoImpositivo", G.SII);
+            TipoImpositivo.InnerText = _diccionarioValores[6].Valor;
             DetalleIVA.AppendChild(TipoImpositivo);
 
             XmlElement BaseImponible = G.XmlDocument.CreateElement("sii", "BaseImponible", G.SII);
+            BaseImponible.InnerText = _diccionarioValores[5].Valor;
             DetalleIVA.AppendChild(BaseImponible);
 
             XmlElement CuotaRepercutida = G.XmlDocument.CreateElement("sii", "CuotaRepercutida", G.SII);
+            CuotaRepercutida.InnerText = _diccionarioValores[7].Valor;
             DetalleIVA.AppendChild(CuotaRepercutida);
 
             XmlDocumentFragment frag = G.XmlDocument.CreateDocumentFragment();
