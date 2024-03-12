@@ -2,13 +2,12 @@
 using Entidades.utils.XML;
 using System.Xml;
 using System.Collections.Generic;
-using Entidades.utils;
 
 namespace Datos.XML
 {
-    public class ConstructorXML
+    public class ConstructorXML : IConstructorXML
     {
-        private static XmlElement _ultimoIndexado;
+        private XmlElement _ultimoIndexado;
         public void EstructuraXML()
         {
             _ultimoIndexado = Envoltorio.EstructuraPrincipalXML();
@@ -17,16 +16,12 @@ namespace Datos.XML
         public void EstructuraCabeceraXML()
         {
             _ultimoIndexado.AppendChild(Cabecera.CabeceraXml());
-            _ultimoIndexado = Cabecera.UltimoIndexado;
         }
 
-        public void EstructuraFacturaXML(IEnumerable<Dictionary<int, TipoValor>> diccionarioValores)
+        public void EstructuraFacturaXML(IEnumerable<Dictionary<int, dynamic>> diccionarioValores)
         {
-            foreach (Dictionary<int, TipoValor> item in diccionarioValores)
-            {
+            foreach (Dictionary<int, dynamic> item in diccionarioValores)
                 _ultimoIndexado.AppendChild(Factura.XmlFactura(item));
-            }
-            
         }
 
         public void GuardarXML()

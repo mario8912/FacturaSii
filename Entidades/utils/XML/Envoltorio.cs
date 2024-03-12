@@ -6,7 +6,6 @@ namespace Entidades.utils.XML
 {
     public class Envoltorio
     {  
-        
         public static XmlElement EstructuraPrincipalXML()
         {
             G.XmlDocument  = new XmlDocument();
@@ -32,11 +31,5 @@ namespace Entidades.utils.XML
 
             return suministroLR;
         }
-
-        /*public void AppendFactura(XmlDocument doc, XmlElement suministroLR)
-        {
-            suministroLR.AppendChild(Factura.XmlFactura(doc, _listaDiccionarioValores));
-            doc.Save(@"E:\mipc\escritorio\FacturaSii\Entidades\templates\nuevo.xml");
-        }*/
     }
 }

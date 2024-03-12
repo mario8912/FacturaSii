@@ -10,748 +10,748 @@
           <sii:NIF>B12323648</sii:NIF>
         </sii:Titular>
         <sii:TipoComunicacion>A0</sii:TipoComunicacion>
-        <siiLR:RegistroLRFacturasEmitidas>
-          <sii:PeriodoLiquidacion>
-            <sii:Ejercicio>2024</sii:Ejercicio>
-            <sii:Periodo>02</sii:Periodo>
-          </sii:PeriodoLiquidacion>
-          <siiLR:IDFactura>
-            <sii:IDEmisorFactura>
-              <sii:NIF>ejemplo nif</sii:NIF>
-            </sii:IDEmisorFactura>
-            <sii:NumSerieFacturaEmisor />
-            <sii:FechaExpedicionFacturaEmisor />
-          </siiLR:IDFactura>
-          <siiLR:FacturaExpedida>
-            <sii:TipoFactura />
-            <sii:ClaveRegimenEspecialOTrascendencia />
-            <sii:ImporteTotal />
-            <sii:DescripcionOperacion />
-            <sii:Contraparte>
-              <sii:NombreRazon />
-              <sii:NIF />
-            </sii:Contraparte>
-            <sii:TipoDesglose>
-              <sii:DesgloseFactura>
-                <sii:Sujeta>
-                  <sii:NoExenta>
-                    <sii:TipoNoExenta />
-                    <sii:DesgloseIVA>
-                      <sii:DetalleIVA>
-                        <sii:TipoImpositivo />
-                        <sii:BaseImponible />
-                        <sii:CuotaRepercutida />
-                      </sii:DetalleIVA>
-                    </sii:DesgloseIVA>
-                  </sii:NoExenta>
-                </sii:Sujeta>
-              </sii:DesgloseFactura>
-            </sii:TipoDesglose>
-          </siiLR:FacturaExpedida>
-        </siiLR:RegistroLRFacturasEmitidas>
-        <siiLR:RegistroLRFacturasEmitidas>
-          <sii:PeriodoLiquidacion>
-            <sii:Ejercicio>2024</sii:Ejercicio>
-            <sii:Periodo>02</sii:Periodo>
-          </sii:PeriodoLiquidacion>
-          <siiLR:IDFactura>
-            <sii:IDEmisorFactura>
-              <sii:NIF>ejemplo nif</sii:NIF>
-            </sii:IDEmisorFactura>
-            <sii:NumSerieFacturaEmisor />
-            <sii:FechaExpedicionFacturaEmisor />
-          </siiLR:IDFactura>
-          <siiLR:FacturaExpedida>
-            <sii:TipoFactura />
-            <sii:ClaveRegimenEspecialOTrascendencia />
-            <sii:ImporteTotal />
-            <sii:DescripcionOperacion />
-            <sii:Contraparte>
-              <sii:NombreRazon />
-              <sii:NIF />
-            </sii:Contraparte>
-            <sii:TipoDesglose>
-              <sii:DesgloseFactura>
-                <sii:Sujeta>
-                  <sii:NoExenta>
-                    <sii:TipoNoExenta />
-                    <sii:DesgloseIVA>
-                      <sii:DetalleIVA>
-                        <sii:TipoImpositivo />
-                        <sii:BaseImponible />
-                        <sii:CuotaRepercutida />
-                      </sii:DetalleIVA>
-                    </sii:DesgloseIVA>
-                  </sii:NoExenta>
-                </sii:Sujeta>
-              </sii:DesgloseFactura>
-            </sii:TipoDesglose>
-          </siiLR:FacturaExpedida>
-        </siiLR:RegistroLRFacturasEmitidas>
-        <siiLR:RegistroLRFacturasEmitidas>
-          <sii:PeriodoLiquidacion>
-            <sii:Ejercicio>2024</sii:Ejercicio>
-            <sii:Periodo>02</sii:Periodo>
-          </sii:PeriodoLiquidacion>
-          <siiLR:IDFactura>
-            <sii:IDEmisorFactura>
-              <sii:NIF>ejemplo nif</sii:NIF>
-            </sii:IDEmisorFactura>
-            <sii:NumSerieFacturaEmisor />
-            <sii:FechaExpedicionFacturaEmisor />
-          </siiLR:IDFactura>
-          <siiLR:FacturaExpedida>
-            <sii:TipoFactura />
-            <sii:ClaveRegimenEspecialOTrascendencia />
-            <sii:ImporteTotal />
-            <sii:DescripcionOperacion />
-            <sii:Contraparte>
-              <sii:NombreRazon />
-              <sii:NIF />
-            </sii:Contraparte>
-            <sii:TipoDesglose>
-              <sii:DesgloseFactura>
-                <sii:Sujeta>
-                  <sii:NoExenta>
-                    <sii:TipoNoExenta />
-                    <sii:DesgloseIVA>
-                      <sii:DetalleIVA>
-                        <sii:TipoImpositivo />
-                        <sii:BaseImponible />
-                        <sii:CuotaRepercutida />
-                      </sii:DetalleIVA>
-                    </sii:DesgloseIVA>
-                  </sii:NoExenta>
-                </sii:Sujeta>
-              </sii:DesgloseFactura>
-            </sii:TipoDesglose>
-          </siiLR:FacturaExpedida>
-        </siiLR:RegistroLRFacturasEmitidas>
-        <siiLR:RegistroLRFacturasEmitidas>
-          <sii:PeriodoLiquidacion>
-            <sii:Ejercicio>2024</sii:Ejercicio>
-            <sii:Periodo>02</sii:Periodo>
-          </sii:PeriodoLiquidacion>
-          <siiLR:IDFactura>
-            <sii:IDEmisorFactura>
-              <sii:NIF>ejemplo nif</sii:NIF>
-            </sii:IDEmisorFactura>
-            <sii:NumSerieFacturaEmisor />
-            <sii:FechaExpedicionFacturaEmisor />
-          </siiLR:IDFactura>
-          <siiLR:FacturaExpedida>
-            <sii:TipoFactura />
-            <sii:ClaveRegimenEspecialOTrascendencia />
-            <sii:ImporteTotal />
-            <sii:DescripcionOperacion />
-            <sii:Contraparte>
-              <sii:NombreRazon />
-              <sii:NIF />
-            </sii:Contraparte>
-            <sii:TipoDesglose>
-              <sii:DesgloseFactura>
-                <sii:Sujeta>
-                  <sii:NoExenta>
-                    <sii:TipoNoExenta />
-                    <sii:DesgloseIVA>
-                      <sii:DetalleIVA>
-                        <sii:TipoImpositivo />
-                        <sii:BaseImponible />
-                        <sii:CuotaRepercutida />
-                      </sii:DetalleIVA>
-                    </sii:DesgloseIVA>
-                  </sii:NoExenta>
-                </sii:Sujeta>
-              </sii:DesgloseFactura>
-            </sii:TipoDesglose>
-          </siiLR:FacturaExpedida>
-        </siiLR:RegistroLRFacturasEmitidas>
-        <siiLR:RegistroLRFacturasEmitidas>
-          <sii:PeriodoLiquidacion>
-            <sii:Ejercicio>2024</sii:Ejercicio>
-            <sii:Periodo>02</sii:Periodo>
-          </sii:PeriodoLiquidacion>
-          <siiLR:IDFactura>
-            <sii:IDEmisorFactura>
-              <sii:NIF>ejemplo nif</sii:NIF>
-            </sii:IDEmisorFactura>
-            <sii:NumSerieFacturaEmisor />
-            <sii:FechaExpedicionFacturaEmisor />
-          </siiLR:IDFactura>
-          <siiLR:FacturaExpedida>
-            <sii:TipoFactura />
-            <sii:ClaveRegimenEspecialOTrascendencia />
-            <sii:ImporteTotal />
-            <sii:DescripcionOperacion />
-            <sii:Contraparte>
-              <sii:NombreRazon />
-              <sii:NIF />
-            </sii:Contraparte>
-            <sii:TipoDesglose>
-              <sii:DesgloseFactura>
-                <sii:Sujeta>
-                  <sii:NoExenta>
-                    <sii:TipoNoExenta />
-                    <sii:DesgloseIVA>
-                      <sii:DetalleIVA>
-                        <sii:TipoImpositivo />
-                        <sii:BaseImponible />
-                        <sii:CuotaRepercutida />
-                      </sii:DetalleIVA>
-                    </sii:DesgloseIVA>
-                  </sii:NoExenta>
-                </sii:Sujeta>
-              </sii:DesgloseFactura>
-            </sii:TipoDesglose>
-          </siiLR:FacturaExpedida>
-        </siiLR:RegistroLRFacturasEmitidas>
-        <siiLR:RegistroLRFacturasEmitidas>
-          <sii:PeriodoLiquidacion>
-            <sii:Ejercicio>2024</sii:Ejercicio>
-            <sii:Periodo>02</sii:Periodo>
-          </sii:PeriodoLiquidacion>
-          <siiLR:IDFactura>
-            <sii:IDEmisorFactura>
-              <sii:NIF>ejemplo nif</sii:NIF>
-            </sii:IDEmisorFactura>
-            <sii:NumSerieFacturaEmisor />
-            <sii:FechaExpedicionFacturaEmisor />
-          </siiLR:IDFactura>
-          <siiLR:FacturaExpedida>
-            <sii:TipoFactura />
-            <sii:ClaveRegimenEspecialOTrascendencia />
-            <sii:ImporteTotal />
-            <sii:DescripcionOperacion />
-            <sii:Contraparte>
-              <sii:NombreRazon />
-              <sii:NIF />
-            </sii:Contraparte>
-            <sii:TipoDesglose>
-              <sii:DesgloseFactura>
-                <sii:Sujeta>
-                  <sii:NoExenta>
-                    <sii:TipoNoExenta />
-                    <sii:DesgloseIVA>
-                      <sii:DetalleIVA>
-                        <sii:TipoImpositivo />
-                        <sii:BaseImponible />
-                        <sii:CuotaRepercutida />
-                      </sii:DetalleIVA>
-                    </sii:DesgloseIVA>
-                  </sii:NoExenta>
-                </sii:Sujeta>
-              </sii:DesgloseFactura>
-            </sii:TipoDesglose>
-          </siiLR:FacturaExpedida>
-        </siiLR:RegistroLRFacturasEmitidas>
-        <siiLR:RegistroLRFacturasEmitidas>
-          <sii:PeriodoLiquidacion>
-            <sii:Ejercicio>2024</sii:Ejercicio>
-            <sii:Periodo>02</sii:Periodo>
-          </sii:PeriodoLiquidacion>
-          <siiLR:IDFactura>
-            <sii:IDEmisorFactura>
-              <sii:NIF>ejemplo nif</sii:NIF>
-            </sii:IDEmisorFactura>
-            <sii:NumSerieFacturaEmisor />
-            <sii:FechaExpedicionFacturaEmisor />
-          </siiLR:IDFactura>
-          <siiLR:FacturaExpedida>
-            <sii:TipoFactura />
-            <sii:ClaveRegimenEspecialOTrascendencia />
-            <sii:ImporteTotal />
-            <sii:DescripcionOperacion />
-            <sii:Contraparte>
-              <sii:NombreRazon />
-              <sii:NIF />
-            </sii:Contraparte>
-            <sii:TipoDesglose>
-              <sii:DesgloseFactura>
-                <sii:Sujeta>
-                  <sii:NoExenta>
-                    <sii:TipoNoExenta />
-                    <sii:DesgloseIVA>
-                      <sii:DetalleIVA>
-                        <sii:TipoImpositivo />
-                        <sii:BaseImponible />
-                        <sii:CuotaRepercutida />
-                      </sii:DetalleIVA>
-                    </sii:DesgloseIVA>
-                  </sii:NoExenta>
-                </sii:Sujeta>
-              </sii:DesgloseFactura>
-            </sii:TipoDesglose>
-          </siiLR:FacturaExpedida>
-        </siiLR:RegistroLRFacturasEmitidas>
-        <siiLR:RegistroLRFacturasEmitidas>
-          <sii:PeriodoLiquidacion>
-            <sii:Ejercicio>2024</sii:Ejercicio>
-            <sii:Periodo>02</sii:Periodo>
-          </sii:PeriodoLiquidacion>
-          <siiLR:IDFactura>
-            <sii:IDEmisorFactura>
-              <sii:NIF>ejemplo nif</sii:NIF>
-            </sii:IDEmisorFactura>
-            <sii:NumSerieFacturaEmisor />
-            <sii:FechaExpedicionFacturaEmisor />
-          </siiLR:IDFactura>
-          <siiLR:FacturaExpedida>
-            <sii:TipoFactura />
-            <sii:ClaveRegimenEspecialOTrascendencia />
-            <sii:ImporteTotal />
-            <sii:DescripcionOperacion />
-            <sii:Contraparte>
-              <sii:NombreRazon />
-              <sii:NIF />
-            </sii:Contraparte>
-            <sii:TipoDesglose>
-              <sii:DesgloseFactura>
-                <sii:Sujeta>
-                  <sii:NoExenta>
-                    <sii:TipoNoExenta />
-                    <sii:DesgloseIVA>
-                      <sii:DetalleIVA>
-                        <sii:TipoImpositivo />
-                        <sii:BaseImponible />
-                        <sii:CuotaRepercutida />
-                      </sii:DetalleIVA>
-                    </sii:DesgloseIVA>
-                  </sii:NoExenta>
-                </sii:Sujeta>
-              </sii:DesgloseFactura>
-            </sii:TipoDesglose>
-          </siiLR:FacturaExpedida>
-        </siiLR:RegistroLRFacturasEmitidas>
-        <siiLR:RegistroLRFacturasEmitidas>
-          <sii:PeriodoLiquidacion>
-            <sii:Ejercicio>2024</sii:Ejercicio>
-            <sii:Periodo>02</sii:Periodo>
-          </sii:PeriodoLiquidacion>
-          <siiLR:IDFactura>
-            <sii:IDEmisorFactura>
-              <sii:NIF>ejemplo nif</sii:NIF>
-            </sii:IDEmisorFactura>
-            <sii:NumSerieFacturaEmisor />
-            <sii:FechaExpedicionFacturaEmisor />
-          </siiLR:IDFactura>
-          <siiLR:FacturaExpedida>
-            <sii:TipoFactura />
-            <sii:ClaveRegimenEspecialOTrascendencia />
-            <sii:ImporteTotal />
-            <sii:DescripcionOperacion />
-            <sii:Contraparte>
-              <sii:NombreRazon />
-              <sii:NIF />
-            </sii:Contraparte>
-            <sii:TipoDesglose>
-              <sii:DesgloseFactura>
-                <sii:Sujeta>
-                  <sii:NoExenta>
-                    <sii:TipoNoExenta />
-                    <sii:DesgloseIVA>
-                      <sii:DetalleIVA>
-                        <sii:TipoImpositivo />
-                        <sii:BaseImponible />
-                        <sii:CuotaRepercutida />
-                      </sii:DetalleIVA>
-                    </sii:DesgloseIVA>
-                  </sii:NoExenta>
-                </sii:Sujeta>
-              </sii:DesgloseFactura>
-            </sii:TipoDesglose>
-          </siiLR:FacturaExpedida>
-        </siiLR:RegistroLRFacturasEmitidas>
-        <siiLR:RegistroLRFacturasEmitidas>
-          <sii:PeriodoLiquidacion>
-            <sii:Ejercicio>2024</sii:Ejercicio>
-            <sii:Periodo>02</sii:Periodo>
-          </sii:PeriodoLiquidacion>
-          <siiLR:IDFactura>
-            <sii:IDEmisorFactura>
-              <sii:NIF>ejemplo nif</sii:NIF>
-            </sii:IDEmisorFactura>
-            <sii:NumSerieFacturaEmisor />
-            <sii:FechaExpedicionFacturaEmisor />
-          </siiLR:IDFactura>
-          <siiLR:FacturaExpedida>
-            <sii:TipoFactura />
-            <sii:ClaveRegimenEspecialOTrascendencia />
-            <sii:ImporteTotal />
-            <sii:DescripcionOperacion />
-            <sii:Contraparte>
-              <sii:NombreRazon />
-              <sii:NIF />
-            </sii:Contraparte>
-            <sii:TipoDesglose>
-              <sii:DesgloseFactura>
-                <sii:Sujeta>
-                  <sii:NoExenta>
-                    <sii:TipoNoExenta />
-                    <sii:DesgloseIVA>
-                      <sii:DetalleIVA>
-                        <sii:TipoImpositivo />
-                        <sii:BaseImponible />
-                        <sii:CuotaRepercutida />
-                      </sii:DetalleIVA>
-                    </sii:DesgloseIVA>
-                  </sii:NoExenta>
-                </sii:Sujeta>
-              </sii:DesgloseFactura>
-            </sii:TipoDesglose>
-          </siiLR:FacturaExpedida>
-        </siiLR:RegistroLRFacturasEmitidas>
-        <siiLR:RegistroLRFacturasEmitidas>
-          <sii:PeriodoLiquidacion>
-            <sii:Ejercicio>2024</sii:Ejercicio>
-            <sii:Periodo>02</sii:Periodo>
-          </sii:PeriodoLiquidacion>
-          <siiLR:IDFactura>
-            <sii:IDEmisorFactura>
-              <sii:NIF>ejemplo nif</sii:NIF>
-            </sii:IDEmisorFactura>
-            <sii:NumSerieFacturaEmisor />
-            <sii:FechaExpedicionFacturaEmisor />
-          </siiLR:IDFactura>
-          <siiLR:FacturaExpedida>
-            <sii:TipoFactura />
-            <sii:ClaveRegimenEspecialOTrascendencia />
-            <sii:ImporteTotal />
-            <sii:DescripcionOperacion />
-            <sii:Contraparte>
-              <sii:NombreRazon />
-              <sii:NIF />
-            </sii:Contraparte>
-            <sii:TipoDesglose>
-              <sii:DesgloseFactura>
-                <sii:Sujeta>
-                  <sii:NoExenta>
-                    <sii:TipoNoExenta />
-                    <sii:DesgloseIVA>
-                      <sii:DetalleIVA>
-                        <sii:TipoImpositivo />
-                        <sii:BaseImponible />
-                        <sii:CuotaRepercutida />
-                      </sii:DetalleIVA>
-                    </sii:DesgloseIVA>
-                  </sii:NoExenta>
-                </sii:Sujeta>
-              </sii:DesgloseFactura>
-            </sii:TipoDesglose>
-          </siiLR:FacturaExpedida>
-        </siiLR:RegistroLRFacturasEmitidas>
-        <siiLR:RegistroLRFacturasEmitidas>
-          <sii:PeriodoLiquidacion>
-            <sii:Ejercicio>2024</sii:Ejercicio>
-            <sii:Periodo>02</sii:Periodo>
-          </sii:PeriodoLiquidacion>
-          <siiLR:IDFactura>
-            <sii:IDEmisorFactura>
-              <sii:NIF>ejemplo nif</sii:NIF>
-            </sii:IDEmisorFactura>
-            <sii:NumSerieFacturaEmisor />
-            <sii:FechaExpedicionFacturaEmisor />
-          </siiLR:IDFactura>
-          <siiLR:FacturaExpedida>
-            <sii:TipoFactura />
-            <sii:ClaveRegimenEspecialOTrascendencia />
-            <sii:ImporteTotal />
-            <sii:DescripcionOperacion />
-            <sii:Contraparte>
-              <sii:NombreRazon />
-              <sii:NIF />
-            </sii:Contraparte>
-            <sii:TipoDesglose>
-              <sii:DesgloseFactura>
-                <sii:Sujeta>
-                  <sii:NoExenta>
-                    <sii:TipoNoExenta />
-                    <sii:DesgloseIVA>
-                      <sii:DetalleIVA>
-                        <sii:TipoImpositivo />
-                        <sii:BaseImponible />
-                        <sii:CuotaRepercutida />
-                      </sii:DetalleIVA>
-                    </sii:DesgloseIVA>
-                  </sii:NoExenta>
-                </sii:Sujeta>
-              </sii:DesgloseFactura>
-            </sii:TipoDesglose>
-          </siiLR:FacturaExpedida>
-        </siiLR:RegistroLRFacturasEmitidas>
-        <siiLR:RegistroLRFacturasEmitidas>
-          <sii:PeriodoLiquidacion>
-            <sii:Ejercicio>2024</sii:Ejercicio>
-            <sii:Periodo>02</sii:Periodo>
-          </sii:PeriodoLiquidacion>
-          <siiLR:IDFactura>
-            <sii:IDEmisorFactura>
-              <sii:NIF>ejemplo nif</sii:NIF>
-            </sii:IDEmisorFactura>
-            <sii:NumSerieFacturaEmisor />
-            <sii:FechaExpedicionFacturaEmisor />
-          </siiLR:IDFactura>
-          <siiLR:FacturaExpedida>
-            <sii:TipoFactura />
-            <sii:ClaveRegimenEspecialOTrascendencia />
-            <sii:ImporteTotal />
-            <sii:DescripcionOperacion />
-            <sii:Contraparte>
-              <sii:NombreRazon />
-              <sii:NIF />
-            </sii:Contraparte>
-            <sii:TipoDesglose>
-              <sii:DesgloseFactura>
-                <sii:Sujeta>
-                  <sii:NoExenta>
-                    <sii:TipoNoExenta />
-                    <sii:DesgloseIVA>
-                      <sii:DetalleIVA>
-                        <sii:TipoImpositivo />
-                        <sii:BaseImponible />
-                        <sii:CuotaRepercutida />
-                      </sii:DetalleIVA>
-                    </sii:DesgloseIVA>
-                  </sii:NoExenta>
-                </sii:Sujeta>
-              </sii:DesgloseFactura>
-            </sii:TipoDesglose>
-          </siiLR:FacturaExpedida>
-        </siiLR:RegistroLRFacturasEmitidas>
-        <siiLR:RegistroLRFacturasEmitidas>
-          <sii:PeriodoLiquidacion>
-            <sii:Ejercicio>2024</sii:Ejercicio>
-            <sii:Periodo>02</sii:Periodo>
-          </sii:PeriodoLiquidacion>
-          <siiLR:IDFactura>
-            <sii:IDEmisorFactura>
-              <sii:NIF>ejemplo nif</sii:NIF>
-            </sii:IDEmisorFactura>
-            <sii:NumSerieFacturaEmisor />
-            <sii:FechaExpedicionFacturaEmisor />
-          </siiLR:IDFactura>
-          <siiLR:FacturaExpedida>
-            <sii:TipoFactura />
-            <sii:ClaveRegimenEspecialOTrascendencia />
-            <sii:ImporteTotal />
-            <sii:DescripcionOperacion />
-            <sii:Contraparte>
-              <sii:NombreRazon />
-              <sii:NIF />
-            </sii:Contraparte>
-            <sii:TipoDesglose>
-              <sii:DesgloseFactura>
-                <sii:Sujeta>
-                  <sii:NoExenta>
-                    <sii:TipoNoExenta />
-                    <sii:DesgloseIVA>
-                      <sii:DetalleIVA>
-                        <sii:TipoImpositivo />
-                        <sii:BaseImponible />
-                        <sii:CuotaRepercutida />
-                      </sii:DetalleIVA>
-                    </sii:DesgloseIVA>
-                  </sii:NoExenta>
-                </sii:Sujeta>
-              </sii:DesgloseFactura>
-            </sii:TipoDesglose>
-          </siiLR:FacturaExpedida>
-        </siiLR:RegistroLRFacturasEmitidas>
-        <siiLR:RegistroLRFacturasEmitidas>
-          <sii:PeriodoLiquidacion>
-            <sii:Ejercicio>2024</sii:Ejercicio>
-            <sii:Periodo>02</sii:Periodo>
-          </sii:PeriodoLiquidacion>
-          <siiLR:IDFactura>
-            <sii:IDEmisorFactura>
-              <sii:NIF>ejemplo nif</sii:NIF>
-            </sii:IDEmisorFactura>
-            <sii:NumSerieFacturaEmisor />
-            <sii:FechaExpedicionFacturaEmisor />
-          </siiLR:IDFactura>
-          <siiLR:FacturaExpedida>
-            <sii:TipoFactura />
-            <sii:ClaveRegimenEspecialOTrascendencia />
-            <sii:ImporteTotal />
-            <sii:DescripcionOperacion />
-            <sii:Contraparte>
-              <sii:NombreRazon />
-              <sii:NIF />
-            </sii:Contraparte>
-            <sii:TipoDesglose>
-              <sii:DesgloseFactura>
-                <sii:Sujeta>
-                  <sii:NoExenta>
-                    <sii:TipoNoExenta />
-                    <sii:DesgloseIVA>
-                      <sii:DetalleIVA>
-                        <sii:TipoImpositivo />
-                        <sii:BaseImponible />
-                        <sii:CuotaRepercutida />
-                      </sii:DetalleIVA>
-                    </sii:DesgloseIVA>
-                  </sii:NoExenta>
-                </sii:Sujeta>
-              </sii:DesgloseFactura>
-            </sii:TipoDesglose>
-          </siiLR:FacturaExpedida>
-        </siiLR:RegistroLRFacturasEmitidas>
-        <siiLR:RegistroLRFacturasEmitidas>
-          <sii:PeriodoLiquidacion>
-            <sii:Ejercicio>2024</sii:Ejercicio>
-            <sii:Periodo>02</sii:Periodo>
-          </sii:PeriodoLiquidacion>
-          <siiLR:IDFactura>
-            <sii:IDEmisorFactura>
-              <sii:NIF>ejemplo nif</sii:NIF>
-            </sii:IDEmisorFactura>
-            <sii:NumSerieFacturaEmisor />
-            <sii:FechaExpedicionFacturaEmisor />
-          </siiLR:IDFactura>
-          <siiLR:FacturaExpedida>
-            <sii:TipoFactura />
-            <sii:ClaveRegimenEspecialOTrascendencia />
-            <sii:ImporteTotal />
-            <sii:DescripcionOperacion />
-            <sii:Contraparte>
-              <sii:NombreRazon />
-              <sii:NIF />
-            </sii:Contraparte>
-            <sii:TipoDesglose>
-              <sii:DesgloseFactura>
-                <sii:Sujeta>
-                  <sii:NoExenta>
-                    <sii:TipoNoExenta />
-                    <sii:DesgloseIVA>
-                      <sii:DetalleIVA>
-                        <sii:TipoImpositivo />
-                        <sii:BaseImponible />
-                        <sii:CuotaRepercutida />
-                      </sii:DetalleIVA>
-                    </sii:DesgloseIVA>
-                  </sii:NoExenta>
-                </sii:Sujeta>
-              </sii:DesgloseFactura>
-            </sii:TipoDesglose>
-          </siiLR:FacturaExpedida>
-        </siiLR:RegistroLRFacturasEmitidas>
-        <siiLR:RegistroLRFacturasEmitidas>
-          <sii:PeriodoLiquidacion>
-            <sii:Ejercicio>2024</sii:Ejercicio>
-            <sii:Periodo>02</sii:Periodo>
-          </sii:PeriodoLiquidacion>
-          <siiLR:IDFactura>
-            <sii:IDEmisorFactura>
-              <sii:NIF>ejemplo nif</sii:NIF>
-            </sii:IDEmisorFactura>
-            <sii:NumSerieFacturaEmisor />
-            <sii:FechaExpedicionFacturaEmisor />
-          </siiLR:IDFactura>
-          <siiLR:FacturaExpedida>
-            <sii:TipoFactura />
-            <sii:ClaveRegimenEspecialOTrascendencia />
-            <sii:ImporteTotal />
-            <sii:DescripcionOperacion />
-            <sii:Contraparte>
-              <sii:NombreRazon />
-              <sii:NIF />
-            </sii:Contraparte>
-            <sii:TipoDesglose>
-              <sii:DesgloseFactura>
-                <sii:Sujeta>
-                  <sii:NoExenta>
-                    <sii:TipoNoExenta />
-                    <sii:DesgloseIVA>
-                      <sii:DetalleIVA>
-                        <sii:TipoImpositivo />
-                        <sii:BaseImponible />
-                        <sii:CuotaRepercutida />
-                      </sii:DetalleIVA>
-                    </sii:DesgloseIVA>
-                  </sii:NoExenta>
-                </sii:Sujeta>
-              </sii:DesgloseFactura>
-            </sii:TipoDesglose>
-          </siiLR:FacturaExpedida>
-        </siiLR:RegistroLRFacturasEmitidas>
-        <siiLR:RegistroLRFacturasEmitidas>
-          <sii:PeriodoLiquidacion>
-            <sii:Ejercicio>2024</sii:Ejercicio>
-            <sii:Periodo>02</sii:Periodo>
-          </sii:PeriodoLiquidacion>
-          <siiLR:IDFactura>
-            <sii:IDEmisorFactura>
-              <sii:NIF>ejemplo nif</sii:NIF>
-            </sii:IDEmisorFactura>
-            <sii:NumSerieFacturaEmisor />
-            <sii:FechaExpedicionFacturaEmisor />
-          </siiLR:IDFactura>
-          <siiLR:FacturaExpedida>
-            <sii:TipoFactura />
-            <sii:ClaveRegimenEspecialOTrascendencia />
-            <sii:ImporteTotal />
-            <sii:DescripcionOperacion />
-            <sii:Contraparte>
-              <sii:NombreRazon />
-              <sii:NIF />
-            </sii:Contraparte>
-            <sii:TipoDesglose>
-              <sii:DesgloseFactura>
-                <sii:Sujeta>
-                  <sii:NoExenta>
-                    <sii:TipoNoExenta />
-                    <sii:DesgloseIVA>
-                      <sii:DetalleIVA>
-                        <sii:TipoImpositivo />
-                        <sii:BaseImponible />
-                        <sii:CuotaRepercutida />
-                      </sii:DetalleIVA>
-                    </sii:DesgloseIVA>
-                  </sii:NoExenta>
-                </sii:Sujeta>
-              </sii:DesgloseFactura>
-            </sii:TipoDesglose>
-          </siiLR:FacturaExpedida>
-        </siiLR:RegistroLRFacturasEmitidas>
-        <siiLR:RegistroLRFacturasEmitidas>
-          <sii:PeriodoLiquidacion>
-            <sii:Ejercicio>2024</sii:Ejercicio>
-            <sii:Periodo>02</sii:Periodo>
-          </sii:PeriodoLiquidacion>
-          <siiLR:IDFactura>
-            <sii:IDEmisorFactura>
-              <sii:NIF>ejemplo nif</sii:NIF>
-            </sii:IDEmisorFactura>
-            <sii:NumSerieFacturaEmisor />
-            <sii:FechaExpedicionFacturaEmisor />
-          </siiLR:IDFactura>
-          <siiLR:FacturaExpedida>
-            <sii:TipoFactura />
-            <sii:ClaveRegimenEspecialOTrascendencia />
-            <sii:ImporteTotal />
-            <sii:DescripcionOperacion />
-            <sii:Contraparte>
-              <sii:NombreRazon />
-              <sii:NIF />
-            </sii:Contraparte>
-            <sii:TipoDesglose>
-              <sii:DesgloseFactura>
-                <sii:Sujeta>
-                  <sii:NoExenta>
-                    <sii:TipoNoExenta />
-                    <sii:DesgloseIVA>
-                      <sii:DetalleIVA>
-                        <sii:TipoImpositivo />
-                        <sii:BaseImponible />
-                        <sii:CuotaRepercutida />
-                      </sii:DetalleIVA>
-                    </sii:DesgloseIVA>
-                  </sii:NoExenta>
-                </sii:Sujeta>
-              </sii:DesgloseFactura>
-            </sii:TipoDesglose>
-          </siiLR:FacturaExpedida>
-        </siiLR:RegistroLRFacturasEmitidas>
       </sii:Cabecera>
+      <siiLR:RegistroLRFacturasEmitidas>
+        <sii:PeriodoLiquidacion>
+          <sii:Ejercicio>2024</sii:Ejercicio>
+          <sii:Periodo>02</sii:Periodo>
+        </sii:PeriodoLiquidacion>
+        <siiLR:IDFactura>
+          <sii:IDEmisorFactura>
+            <sii:NIF>B12323648</sii:NIF>
+          </sii:IDEmisorFactura>
+          <sii:NumSerieFacturaEmisor>A10918</sii:NumSerieFacturaEmisor>
+          <sii:FechaExpedicionFacturaEmisor>28/02/2024</sii:FechaExpedicionFacturaEmisor>
+        </siiLR:IDFactura>
+        <siiLR:FacturaExpedida>
+          <sii:TipoFactura>F1</sii:TipoFactura>
+          <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
+          <sii:ImporteTotal>409,87</sii:ImporteTotal>
+          <sii:DescripcionOperacion>Venta de productos de hostelería a TUDOR CATALIN CALIN, f. A10918</sii:DescripcionOperacion>
+          <sii:Contraparte>
+            <sii:NombreRazon>TUDOR CATALIN CALIN</sii:NombreRazon>
+            <sii:NIF>X3181111G</sii:NIF>
+          </sii:Contraparte>
+          <sii:TipoDesglose>
+            <sii:DesgloseFactura>
+              <sii:Sujeta>
+                <sii:NoExenta>
+                  <sii:TipoNoExenta>S1</sii:TipoNoExenta>
+                  <sii:DesgloseIVA>
+                    <sii:DetalleIVA>
+                      <sii:TipoImpositivo />
+                      <sii:BaseImponible />
+                      <sii:CuotaRepercutida />
+                    </sii:DetalleIVA>
+                  </sii:DesgloseIVA>
+                </sii:NoExenta>
+              </sii:Sujeta>
+            </sii:DesgloseFactura>
+          </sii:TipoDesglose>
+        </siiLR:FacturaExpedida>
+      </siiLR:RegistroLRFacturasEmitidas>
+      <siiLR:RegistroLRFacturasEmitidas>
+        <sii:PeriodoLiquidacion>
+          <sii:Ejercicio>2024</sii:Ejercicio>
+          <sii:Periodo>02</sii:Periodo>
+        </sii:PeriodoLiquidacion>
+        <siiLR:IDFactura>
+          <sii:IDEmisorFactura>
+            <sii:NIF>B12323648</sii:NIF>
+          </sii:IDEmisorFactura>
+          <sii:NumSerieFacturaEmisor>A10919</sii:NumSerieFacturaEmisor>
+          <sii:FechaExpedicionFacturaEmisor>28/02/2024</sii:FechaExpedicionFacturaEmisor>
+        </siiLR:IDFactura>
+        <siiLR:FacturaExpedida>
+          <sii:TipoFactura>F1</sii:TipoFactura>
+          <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
+          <sii:ImporteTotal>116,67</sii:ImporteTotal>
+          <sii:DescripcionOperacion>Venta de productos de hostelería a AC GRUPOADESA,S.L., f. A10919</sii:DescripcionOperacion>
+          <sii:Contraparte>
+            <sii:NombreRazon>AC GRUPOADESA,S.L.</sii:NombreRazon>
+            <sii:NIF>B12880134</sii:NIF>
+          </sii:Contraparte>
+          <sii:TipoDesglose>
+            <sii:DesgloseFactura>
+              <sii:Sujeta>
+                <sii:NoExenta>
+                  <sii:TipoNoExenta>S1</sii:TipoNoExenta>
+                  <sii:DesgloseIVA>
+                    <sii:DetalleIVA>
+                      <sii:TipoImpositivo />
+                      <sii:BaseImponible />
+                      <sii:CuotaRepercutida />
+                    </sii:DetalleIVA>
+                  </sii:DesgloseIVA>
+                </sii:NoExenta>
+              </sii:Sujeta>
+            </sii:DesgloseFactura>
+          </sii:TipoDesglose>
+        </siiLR:FacturaExpedida>
+      </siiLR:RegistroLRFacturasEmitidas>
+      <siiLR:RegistroLRFacturasEmitidas>
+        <sii:PeriodoLiquidacion>
+          <sii:Ejercicio>2024</sii:Ejercicio>
+          <sii:Periodo>02</sii:Periodo>
+        </sii:PeriodoLiquidacion>
+        <siiLR:IDFactura>
+          <sii:IDEmisorFactura>
+            <sii:NIF>B12323648</sii:NIF>
+          </sii:IDEmisorFactura>
+          <sii:NumSerieFacturaEmisor>A10920</sii:NumSerieFacturaEmisor>
+          <sii:FechaExpedicionFacturaEmisor>28/02/2024</sii:FechaExpedicionFacturaEmisor>
+        </siiLR:IDFactura>
+        <siiLR:FacturaExpedida>
+          <sii:TipoFactura>F1</sii:TipoFactura>
+          <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
+          <sii:ImporteTotal>1334,49</sii:ImporteTotal>
+          <sii:DescripcionOperacion>Venta de productos de hostelería a ASÍ.COLLA.XIM PUM TRACATA, f. A10920</sii:DescripcionOperacion>
+          <sii:Contraparte>
+            <sii:NombreRazon>ASÍ.COLLA.XIM PUM TRACATA</sii:NombreRazon>
+            <sii:NIF>G12921383</sii:NIF>
+          </sii:Contraparte>
+          <sii:TipoDesglose>
+            <sii:DesgloseFactura>
+              <sii:Sujeta>
+                <sii:NoExenta>
+                  <sii:TipoNoExenta>S1</sii:TipoNoExenta>
+                  <sii:DesgloseIVA>
+                    <sii:DetalleIVA>
+                      <sii:TipoImpositivo />
+                      <sii:BaseImponible />
+                      <sii:CuotaRepercutida />
+                    </sii:DetalleIVA>
+                  </sii:DesgloseIVA>
+                </sii:NoExenta>
+              </sii:Sujeta>
+            </sii:DesgloseFactura>
+          </sii:TipoDesglose>
+        </siiLR:FacturaExpedida>
+      </siiLR:RegistroLRFacturasEmitidas>
+      <siiLR:RegistroLRFacturasEmitidas>
+        <sii:PeriodoLiquidacion>
+          <sii:Ejercicio>2024</sii:Ejercicio>
+          <sii:Periodo>02</sii:Periodo>
+        </sii:PeriodoLiquidacion>
+        <siiLR:IDFactura>
+          <sii:IDEmisorFactura>
+            <sii:NIF>B12323648</sii:NIF>
+          </sii:IDEmisorFactura>
+          <sii:NumSerieFacturaEmisor>A10921</sii:NumSerieFacturaEmisor>
+          <sii:FechaExpedicionFacturaEmisor>28/02/2024</sii:FechaExpedicionFacturaEmisor>
+        </siiLR:IDFactura>
+        <siiLR:FacturaExpedida>
+          <sii:TipoFactura>F1</sii:TipoFactura>
+          <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
+          <sii:ImporteTotal>207,49</sii:ImporteTotal>
+          <sii:DescripcionOperacion>Venta de productos de hostelería a ALMERICH BIOSCA,C.B., f. A10921</sii:DescripcionOperacion>
+          <sii:Contraparte>
+            <sii:NombreRazon>ALMERICH BIOSCA,C.B.</sii:NombreRazon>
+            <sii:NIF>E12946216</sii:NIF>
+          </sii:Contraparte>
+          <sii:TipoDesglose>
+            <sii:DesgloseFactura>
+              <sii:Sujeta>
+                <sii:NoExenta>
+                  <sii:TipoNoExenta>S1</sii:TipoNoExenta>
+                  <sii:DesgloseIVA>
+                    <sii:DetalleIVA>
+                      <sii:TipoImpositivo />
+                      <sii:BaseImponible />
+                      <sii:CuotaRepercutida />
+                    </sii:DetalleIVA>
+                  </sii:DesgloseIVA>
+                </sii:NoExenta>
+              </sii:Sujeta>
+            </sii:DesgloseFactura>
+          </sii:TipoDesglose>
+        </siiLR:FacturaExpedida>
+      </siiLR:RegistroLRFacturasEmitidas>
+      <siiLR:RegistroLRFacturasEmitidas>
+        <sii:PeriodoLiquidacion>
+          <sii:Ejercicio>2024</sii:Ejercicio>
+          <sii:Periodo>02</sii:Periodo>
+        </sii:PeriodoLiquidacion>
+        <siiLR:IDFactura>
+          <sii:IDEmisorFactura>
+            <sii:NIF>B12323648</sii:NIF>
+          </sii:IDEmisorFactura>
+          <sii:NumSerieFacturaEmisor>A10922</sii:NumSerieFacturaEmisor>
+          <sii:FechaExpedicionFacturaEmisor>28/02/2024</sii:FechaExpedicionFacturaEmisor>
+        </siiLR:IDFactura>
+        <siiLR:FacturaExpedida>
+          <sii:TipoFactura>F1</sii:TipoFactura>
+          <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
+          <sii:ImporteTotal>21</sii:ImporteTotal>
+          <sii:DescripcionOperacion>Venta de productos de hostelería a FUERTES ROMERO MARIA ROSA, f. A10922</sii:DescripcionOperacion>
+          <sii:Contraparte>
+            <sii:NombreRazon>FUERTES ROMERO MARIA ROSA</sii:NombreRazon>
+            <sii:NIF>18953608K</sii:NIF>
+          </sii:Contraparte>
+          <sii:TipoDesglose>
+            <sii:DesgloseFactura>
+              <sii:Sujeta>
+                <sii:NoExenta>
+                  <sii:TipoNoExenta>S1</sii:TipoNoExenta>
+                  <sii:DesgloseIVA>
+                    <sii:DetalleIVA>
+                      <sii:TipoImpositivo />
+                      <sii:BaseImponible />
+                      <sii:CuotaRepercutida />
+                    </sii:DetalleIVA>
+                  </sii:DesgloseIVA>
+                </sii:NoExenta>
+              </sii:Sujeta>
+            </sii:DesgloseFactura>
+          </sii:TipoDesglose>
+        </siiLR:FacturaExpedida>
+      </siiLR:RegistroLRFacturasEmitidas>
+      <siiLR:RegistroLRFacturasEmitidas>
+        <sii:PeriodoLiquidacion>
+          <sii:Ejercicio>2024</sii:Ejercicio>
+          <sii:Periodo>02</sii:Periodo>
+        </sii:PeriodoLiquidacion>
+        <siiLR:IDFactura>
+          <sii:IDEmisorFactura>
+            <sii:NIF>B12323648</sii:NIF>
+          </sii:IDEmisorFactura>
+          <sii:NumSerieFacturaEmisor>A10923</sii:NumSerieFacturaEmisor>
+          <sii:FechaExpedicionFacturaEmisor>28/02/2024</sii:FechaExpedicionFacturaEmisor>
+        </siiLR:IDFactura>
+        <siiLR:FacturaExpedida>
+          <sii:TipoFactura>F1</sii:TipoFactura>
+          <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
+          <sii:ImporteTotal>21</sii:ImporteTotal>
+          <sii:DescripcionOperacion>Venta de productos de hostelería a FUERTES ROMERO MARIA ROSA, f. A10923</sii:DescripcionOperacion>
+          <sii:Contraparte>
+            <sii:NombreRazon>FUERTES ROMERO MARIA ROSA</sii:NombreRazon>
+            <sii:NIF>18953608K</sii:NIF>
+          </sii:Contraparte>
+          <sii:TipoDesglose>
+            <sii:DesgloseFactura>
+              <sii:Sujeta>
+                <sii:NoExenta>
+                  <sii:TipoNoExenta>S1</sii:TipoNoExenta>
+                  <sii:DesgloseIVA>
+                    <sii:DetalleIVA>
+                      <sii:TipoImpositivo />
+                      <sii:BaseImponible />
+                      <sii:CuotaRepercutida />
+                    </sii:DetalleIVA>
+                  </sii:DesgloseIVA>
+                </sii:NoExenta>
+              </sii:Sujeta>
+            </sii:DesgloseFactura>
+          </sii:TipoDesglose>
+        </siiLR:FacturaExpedida>
+      </siiLR:RegistroLRFacturasEmitidas>
+      <siiLR:RegistroLRFacturasEmitidas>
+        <sii:PeriodoLiquidacion>
+          <sii:Ejercicio>2024</sii:Ejercicio>
+          <sii:Periodo>02</sii:Periodo>
+        </sii:PeriodoLiquidacion>
+        <siiLR:IDFactura>
+          <sii:IDEmisorFactura>
+            <sii:NIF>B12323648</sii:NIF>
+          </sii:IDEmisorFactura>
+          <sii:NumSerieFacturaEmisor>A10924</sii:NumSerieFacturaEmisor>
+          <sii:FechaExpedicionFacturaEmisor>28/02/2024</sii:FechaExpedicionFacturaEmisor>
+        </siiLR:IDFactura>
+        <siiLR:FacturaExpedida>
+          <sii:TipoFactura>F1</sii:TipoFactura>
+          <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
+          <sii:ImporteTotal>21,15</sii:ImporteTotal>
+          <sii:DescripcionOperacion>Venta de productos de hostelería a BELENGUER MARTINEZ JONATAN , f. A10924</sii:DescripcionOperacion>
+          <sii:Contraparte>
+            <sii:NombreRazon>BELENGUER MARTINEZ JONATAN </sii:NombreRazon>
+            <sii:NIF>20478007A</sii:NIF>
+          </sii:Contraparte>
+          <sii:TipoDesglose>
+            <sii:DesgloseFactura>
+              <sii:Sujeta>
+                <sii:NoExenta>
+                  <sii:TipoNoExenta>S1</sii:TipoNoExenta>
+                  <sii:DesgloseIVA>
+                    <sii:DetalleIVA>
+                      <sii:TipoImpositivo />
+                      <sii:BaseImponible />
+                      <sii:CuotaRepercutida />
+                    </sii:DetalleIVA>
+                  </sii:DesgloseIVA>
+                </sii:NoExenta>
+              </sii:Sujeta>
+            </sii:DesgloseFactura>
+          </sii:TipoDesglose>
+        </siiLR:FacturaExpedida>
+      </siiLR:RegistroLRFacturasEmitidas>
+      <siiLR:RegistroLRFacturasEmitidas>
+        <sii:PeriodoLiquidacion>
+          <sii:Ejercicio>2024</sii:Ejercicio>
+          <sii:Periodo>02</sii:Periodo>
+        </sii:PeriodoLiquidacion>
+        <siiLR:IDFactura>
+          <sii:IDEmisorFactura>
+            <sii:NIF>B12323648</sii:NIF>
+          </sii:IDEmisorFactura>
+          <sii:NumSerieFacturaEmisor>A10925</sii:NumSerieFacturaEmisor>
+          <sii:FechaExpedicionFacturaEmisor>28/02/2024</sii:FechaExpedicionFacturaEmisor>
+        </siiLR:IDFactura>
+        <siiLR:FacturaExpedida>
+          <sii:TipoFactura>F1</sii:TipoFactura>
+          <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
+          <sii:ImporteTotal>21</sii:ImporteTotal>
+          <sii:DescripcionOperacion>Venta de productos de hostelería a BRECCIA ANDINO FLOR MARINA, f. A10925</sii:DescripcionOperacion>
+          <sii:Contraparte>
+            <sii:NombreRazon>BRECCIA ANDINO FLOR MARINA</sii:NombreRazon>
+            <sii:NIF>X6738651L</sii:NIF>
+          </sii:Contraparte>
+          <sii:TipoDesglose>
+            <sii:DesgloseFactura>
+              <sii:Sujeta>
+                <sii:NoExenta>
+                  <sii:TipoNoExenta>S1</sii:TipoNoExenta>
+                  <sii:DesgloseIVA>
+                    <sii:DetalleIVA>
+                      <sii:TipoImpositivo />
+                      <sii:BaseImponible />
+                      <sii:CuotaRepercutida />
+                    </sii:DetalleIVA>
+                  </sii:DesgloseIVA>
+                </sii:NoExenta>
+              </sii:Sujeta>
+            </sii:DesgloseFactura>
+          </sii:TipoDesglose>
+        </siiLR:FacturaExpedida>
+      </siiLR:RegistroLRFacturasEmitidas>
+      <siiLR:RegistroLRFacturasEmitidas>
+        <sii:PeriodoLiquidacion>
+          <sii:Ejercicio>2024</sii:Ejercicio>
+          <sii:Periodo>02</sii:Periodo>
+        </sii:PeriodoLiquidacion>
+        <siiLR:IDFactura>
+          <sii:IDEmisorFactura>
+            <sii:NIF>B12323648</sii:NIF>
+          </sii:IDEmisorFactura>
+          <sii:NumSerieFacturaEmisor>A10926</sii:NumSerieFacturaEmisor>
+          <sii:FechaExpedicionFacturaEmisor>28/02/2024</sii:FechaExpedicionFacturaEmisor>
+        </siiLR:IDFactura>
+        <siiLR:FacturaExpedida>
+          <sii:TipoFactura>F1</sii:TipoFactura>
+          <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
+          <sii:ImporteTotal>401,76</sii:ImporteTotal>
+          <sii:DescripcionOperacion>Venta de productos de hostelería a LILIANA NITU NORA, f. A10926</sii:DescripcionOperacion>
+          <sii:Contraparte>
+            <sii:NombreRazon>LILIANA NITU NORA</sii:NombreRazon>
+            <sii:NIF>X6477419K</sii:NIF>
+          </sii:Contraparte>
+          <sii:TipoDesglose>
+            <sii:DesgloseFactura>
+              <sii:Sujeta>
+                <sii:NoExenta>
+                  <sii:TipoNoExenta>S1</sii:TipoNoExenta>
+                  <sii:DesgloseIVA>
+                    <sii:DetalleIVA>
+                      <sii:TipoImpositivo />
+                      <sii:BaseImponible />
+                      <sii:CuotaRepercutida />
+                    </sii:DetalleIVA>
+                  </sii:DesgloseIVA>
+                </sii:NoExenta>
+              </sii:Sujeta>
+            </sii:DesgloseFactura>
+          </sii:TipoDesglose>
+        </siiLR:FacturaExpedida>
+      </siiLR:RegistroLRFacturasEmitidas>
+      <siiLR:RegistroLRFacturasEmitidas>
+        <sii:PeriodoLiquidacion>
+          <sii:Ejercicio>2024</sii:Ejercicio>
+          <sii:Periodo>02</sii:Periodo>
+        </sii:PeriodoLiquidacion>
+        <siiLR:IDFactura>
+          <sii:IDEmisorFactura>
+            <sii:NIF>B12323648</sii:NIF>
+          </sii:IDEmisorFactura>
+          <sii:NumSerieFacturaEmisor>A10927</sii:NumSerieFacturaEmisor>
+          <sii:FechaExpedicionFacturaEmisor>28/02/2024</sii:FechaExpedicionFacturaEmisor>
+        </siiLR:IDFactura>
+        <siiLR:FacturaExpedida>
+          <sii:TipoFactura>F1</sii:TipoFactura>
+          <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
+          <sii:ImporteTotal>21</sii:ImporteTotal>
+          <sii:DescripcionOperacion>Venta de productos de hostelería a STAMATE ADRIANA, f. A10927</sii:DescripcionOperacion>
+          <sii:Contraparte>
+            <sii:NombreRazon>STAMATE ADRIANA</sii:NombreRazon>
+            <sii:NIF>X6515500Z</sii:NIF>
+          </sii:Contraparte>
+          <sii:TipoDesglose>
+            <sii:DesgloseFactura>
+              <sii:Sujeta>
+                <sii:NoExenta>
+                  <sii:TipoNoExenta>S1</sii:TipoNoExenta>
+                  <sii:DesgloseIVA>
+                    <sii:DetalleIVA>
+                      <sii:TipoImpositivo />
+                      <sii:BaseImponible />
+                      <sii:CuotaRepercutida />
+                    </sii:DetalleIVA>
+                  </sii:DesgloseIVA>
+                </sii:NoExenta>
+              </sii:Sujeta>
+            </sii:DesgloseFactura>
+          </sii:TipoDesglose>
+        </siiLR:FacturaExpedida>
+      </siiLR:RegistroLRFacturasEmitidas>
+      <siiLR:RegistroLRFacturasEmitidas>
+        <sii:PeriodoLiquidacion>
+          <sii:Ejercicio>2024</sii:Ejercicio>
+          <sii:Periodo>02</sii:Periodo>
+        </sii:PeriodoLiquidacion>
+        <siiLR:IDFactura>
+          <sii:IDEmisorFactura>
+            <sii:NIF>B12323648</sii:NIF>
+          </sii:IDEmisorFactura>
+          <sii:NumSerieFacturaEmisor>A10929</sii:NumSerieFacturaEmisor>
+          <sii:FechaExpedicionFacturaEmisor>28/02/2024</sii:FechaExpedicionFacturaEmisor>
+        </siiLR:IDFactura>
+        <siiLR:FacturaExpedida>
+          <sii:TipoFactura>F1</sii:TipoFactura>
+          <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
+          <sii:ImporteTotal>21</sii:ImporteTotal>
+          <sii:DescripcionOperacion>Venta de productos de hostelería a ROMPLAST GROUP, f. A10929</sii:DescripcionOperacion>
+          <sii:Contraparte>
+            <sii:NombreRazon>ROMPLAST GROUP</sii:NombreRazon>
+            <sii:NIF>B09625328</sii:NIF>
+          </sii:Contraparte>
+          <sii:TipoDesglose>
+            <sii:DesgloseFactura>
+              <sii:Sujeta>
+                <sii:NoExenta>
+                  <sii:TipoNoExenta>S1</sii:TipoNoExenta>
+                  <sii:DesgloseIVA>
+                    <sii:DetalleIVA>
+                      <sii:TipoImpositivo />
+                      <sii:BaseImponible />
+                      <sii:CuotaRepercutida />
+                    </sii:DetalleIVA>
+                  </sii:DesgloseIVA>
+                </sii:NoExenta>
+              </sii:Sujeta>
+            </sii:DesgloseFactura>
+          </sii:TipoDesglose>
+        </siiLR:FacturaExpedida>
+      </siiLR:RegistroLRFacturasEmitidas>
+      <siiLR:RegistroLRFacturasEmitidas>
+        <sii:PeriodoLiquidacion>
+          <sii:Ejercicio>2024</sii:Ejercicio>
+          <sii:Periodo>02</sii:Periodo>
+        </sii:PeriodoLiquidacion>
+        <siiLR:IDFactura>
+          <sii:IDEmisorFactura>
+            <sii:NIF>B12323648</sii:NIF>
+          </sii:IDEmisorFactura>
+          <sii:NumSerieFacturaEmisor>A10930</sii:NumSerieFacturaEmisor>
+          <sii:FechaExpedicionFacturaEmisor>28/02/2024</sii:FechaExpedicionFacturaEmisor>
+        </siiLR:IDFactura>
+        <siiLR:FacturaExpedida>
+          <sii:TipoFactura>F1</sii:TipoFactura>
+          <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
+          <sii:ImporteTotal>21</sii:ImporteTotal>
+          <sii:DescripcionOperacion>Venta de productos de hostelería a LUIS DOMINGUEZ LOPEZ, f. A10930</sii:DescripcionOperacion>
+          <sii:Contraparte>
+            <sii:NombreRazon>LUIS DOMINGUEZ LOPEZ</sii:NombreRazon>
+            <sii:NIF>18933181H</sii:NIF>
+          </sii:Contraparte>
+          <sii:TipoDesglose>
+            <sii:DesgloseFactura>
+              <sii:Sujeta>
+                <sii:NoExenta>
+                  <sii:TipoNoExenta>S1</sii:TipoNoExenta>
+                  <sii:DesgloseIVA>
+                    <sii:DetalleIVA>
+                      <sii:TipoImpositivo />
+                      <sii:BaseImponible />
+                      <sii:CuotaRepercutida />
+                    </sii:DetalleIVA>
+                  </sii:DesgloseIVA>
+                </sii:NoExenta>
+              </sii:Sujeta>
+            </sii:DesgloseFactura>
+          </sii:TipoDesglose>
+        </siiLR:FacturaExpedida>
+      </siiLR:RegistroLRFacturasEmitidas>
+      <siiLR:RegistroLRFacturasEmitidas>
+        <sii:PeriodoLiquidacion>
+          <sii:Ejercicio>2024</sii:Ejercicio>
+          <sii:Periodo>02</sii:Periodo>
+        </sii:PeriodoLiquidacion>
+        <siiLR:IDFactura>
+          <sii:IDEmisorFactura>
+            <sii:NIF>B12323648</sii:NIF>
+          </sii:IDEmisorFactura>
+          <sii:NumSerieFacturaEmisor>A10931</sii:NumSerieFacturaEmisor>
+          <sii:FechaExpedicionFacturaEmisor>28/02/2024</sii:FechaExpedicionFacturaEmisor>
+        </siiLR:IDFactura>
+        <siiLR:FacturaExpedida>
+          <sii:TipoFactura>F1</sii:TipoFactura>
+          <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
+          <sii:ImporteTotal>21</sii:ImporteTotal>
+          <sii:DescripcionOperacion>Venta de productos de hostelería a BAR BLESA S L, f. A10931</sii:DescripcionOperacion>
+          <sii:Contraparte>
+            <sii:NombreRazon>BAR BLESA S L</sii:NombreRazon>
+            <sii:NIF>B12424974</sii:NIF>
+          </sii:Contraparte>
+          <sii:TipoDesglose>
+            <sii:DesgloseFactura>
+              <sii:Sujeta>
+                <sii:NoExenta>
+                  <sii:TipoNoExenta>S1</sii:TipoNoExenta>
+                  <sii:DesgloseIVA>
+                    <sii:DetalleIVA>
+                      <sii:TipoImpositivo />
+                      <sii:BaseImponible />
+                      <sii:CuotaRepercutida />
+                    </sii:DetalleIVA>
+                  </sii:DesgloseIVA>
+                </sii:NoExenta>
+              </sii:Sujeta>
+            </sii:DesgloseFactura>
+          </sii:TipoDesglose>
+        </siiLR:FacturaExpedida>
+      </siiLR:RegistroLRFacturasEmitidas>
+      <siiLR:RegistroLRFacturasEmitidas>
+        <sii:PeriodoLiquidacion>
+          <sii:Ejercicio>2024</sii:Ejercicio>
+          <sii:Periodo>02</sii:Periodo>
+        </sii:PeriodoLiquidacion>
+        <siiLR:IDFactura>
+          <sii:IDEmisorFactura>
+            <sii:NIF>B12323648</sii:NIF>
+          </sii:IDEmisorFactura>
+          <sii:NumSerieFacturaEmisor>A10932</sii:NumSerieFacturaEmisor>
+          <sii:FechaExpedicionFacturaEmisor>28/02/2024</sii:FechaExpedicionFacturaEmisor>
+        </siiLR:IDFactura>
+        <siiLR:FacturaExpedida>
+          <sii:TipoFactura>F1</sii:TipoFactura>
+          <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
+          <sii:ImporteTotal>21</sii:ImporteTotal>
+          <sii:DescripcionOperacion>Venta de productos de hostelería a DOBRE CASTELLON CB, f. A10932</sii:DescripcionOperacion>
+          <sii:Contraparte>
+            <sii:NombreRazon>DOBRE CASTELLON CB</sii:NombreRazon>
+            <sii:NIF>E12882254</sii:NIF>
+          </sii:Contraparte>
+          <sii:TipoDesglose>
+            <sii:DesgloseFactura>
+              <sii:Sujeta>
+                <sii:NoExenta>
+                  <sii:TipoNoExenta>S1</sii:TipoNoExenta>
+                  <sii:DesgloseIVA>
+                    <sii:DetalleIVA>
+                      <sii:TipoImpositivo />
+                      <sii:BaseImponible />
+                      <sii:CuotaRepercutida />
+                    </sii:DetalleIVA>
+                  </sii:DesgloseIVA>
+                </sii:NoExenta>
+              </sii:Sujeta>
+            </sii:DesgloseFactura>
+          </sii:TipoDesglose>
+        </siiLR:FacturaExpedida>
+      </siiLR:RegistroLRFacturasEmitidas>
+      <siiLR:RegistroLRFacturasEmitidas>
+        <sii:PeriodoLiquidacion>
+          <sii:Ejercicio>2024</sii:Ejercicio>
+          <sii:Periodo>02</sii:Periodo>
+        </sii:PeriodoLiquidacion>
+        <siiLR:IDFactura>
+          <sii:IDEmisorFactura>
+            <sii:NIF>B12323648</sii:NIF>
+          </sii:IDEmisorFactura>
+          <sii:NumSerieFacturaEmisor>A10933</sii:NumSerieFacturaEmisor>
+          <sii:FechaExpedicionFacturaEmisor>28/02/2024</sii:FechaExpedicionFacturaEmisor>
+        </siiLR:IDFactura>
+        <siiLR:FacturaExpedida>
+          <sii:TipoFactura>F1</sii:TipoFactura>
+          <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
+          <sii:ImporteTotal>21</sii:ImporteTotal>
+          <sii:DescripcionOperacion>Venta de productos de hostelería a GEORGETA USURELLU,ELENA, f. A10933</sii:DescripcionOperacion>
+          <sii:Contraparte>
+            <sii:NombreRazon>GEORGETA USURELLU,ELENA</sii:NombreRazon>
+            <sii:NIF>X9194976J</sii:NIF>
+          </sii:Contraparte>
+          <sii:TipoDesglose>
+            <sii:DesgloseFactura>
+              <sii:Sujeta>
+                <sii:NoExenta>
+                  <sii:TipoNoExenta>S1</sii:TipoNoExenta>
+                  <sii:DesgloseIVA>
+                    <sii:DetalleIVA>
+                      <sii:TipoImpositivo />
+                      <sii:BaseImponible />
+                      <sii:CuotaRepercutida />
+                    </sii:DetalleIVA>
+                  </sii:DesgloseIVA>
+                </sii:NoExenta>
+              </sii:Sujeta>
+            </sii:DesgloseFactura>
+          </sii:TipoDesglose>
+        </siiLR:FacturaExpedida>
+      </siiLR:RegistroLRFacturasEmitidas>
+      <siiLR:RegistroLRFacturasEmitidas>
+        <sii:PeriodoLiquidacion>
+          <sii:Ejercicio>2024</sii:Ejercicio>
+          <sii:Periodo>02</sii:Periodo>
+        </sii:PeriodoLiquidacion>
+        <siiLR:IDFactura>
+          <sii:IDEmisorFactura>
+            <sii:NIF>B12323648</sii:NIF>
+          </sii:IDEmisorFactura>
+          <sii:NumSerieFacturaEmisor>A10934</sii:NumSerieFacturaEmisor>
+          <sii:FechaExpedicionFacturaEmisor>28/02/2024</sii:FechaExpedicionFacturaEmisor>
+        </siiLR:IDFactura>
+        <siiLR:FacturaExpedida>
+          <sii:TipoFactura>F1</sii:TipoFactura>
+          <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
+          <sii:ImporteTotal>21</sii:ImporteTotal>
+          <sii:DescripcionOperacion>Venta de productos de hostelería a BASICO GASTRONIMIA, S.L., f. A10934</sii:DescripcionOperacion>
+          <sii:Contraparte>
+            <sii:NombreRazon>BASICO GASTRONIMIA, S.L.</sii:NombreRazon>
+            <sii:NIF>B12882643</sii:NIF>
+          </sii:Contraparte>
+          <sii:TipoDesglose>
+            <sii:DesgloseFactura>
+              <sii:Sujeta>
+                <sii:NoExenta>
+                  <sii:TipoNoExenta>S1</sii:TipoNoExenta>
+                  <sii:DesgloseIVA>
+                    <sii:DetalleIVA>
+                      <sii:TipoImpositivo />
+                      <sii:BaseImponible />
+                      <sii:CuotaRepercutida />
+                    </sii:DetalleIVA>
+                  </sii:DesgloseIVA>
+                </sii:NoExenta>
+              </sii:Sujeta>
+            </sii:DesgloseFactura>
+          </sii:TipoDesglose>
+        </siiLR:FacturaExpedida>
+      </siiLR:RegistroLRFacturasEmitidas>
+      <siiLR:RegistroLRFacturasEmitidas>
+        <sii:PeriodoLiquidacion>
+          <sii:Ejercicio>2024</sii:Ejercicio>
+          <sii:Periodo>02</sii:Periodo>
+        </sii:PeriodoLiquidacion>
+        <siiLR:IDFactura>
+          <sii:IDEmisorFactura>
+            <sii:NIF>B12323648</sii:NIF>
+          </sii:IDEmisorFactura>
+          <sii:NumSerieFacturaEmisor>A10935</sii:NumSerieFacturaEmisor>
+          <sii:FechaExpedicionFacturaEmisor>28/02/2024</sii:FechaExpedicionFacturaEmisor>
+        </siiLR:IDFactura>
+        <siiLR:FacturaExpedida>
+          <sii:TipoFactura>F1</sii:TipoFactura>
+          <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
+          <sii:ImporteTotal>21</sii:ImporteTotal>
+          <sii:DescripcionOperacion>Venta de productos de hostelería a DHAIDAH RADOUAN, f. A10935</sii:DescripcionOperacion>
+          <sii:Contraparte>
+            <sii:NombreRazon>DHAIDAH RADOUAN</sii:NombreRazon>
+            <sii:NIF>X1435478W</sii:NIF>
+          </sii:Contraparte>
+          <sii:TipoDesglose>
+            <sii:DesgloseFactura>
+              <sii:Sujeta>
+                <sii:NoExenta>
+                  <sii:TipoNoExenta>S1</sii:TipoNoExenta>
+                  <sii:DesgloseIVA>
+                    <sii:DetalleIVA>
+                      <sii:TipoImpositivo />
+                      <sii:BaseImponible />
+                      <sii:CuotaRepercutida />
+                    </sii:DetalleIVA>
+                  </sii:DesgloseIVA>
+                </sii:NoExenta>
+              </sii:Sujeta>
+            </sii:DesgloseFactura>
+          </sii:TipoDesglose>
+        </siiLR:FacturaExpedida>
+      </siiLR:RegistroLRFacturasEmitidas>
+      <siiLR:RegistroLRFacturasEmitidas>
+        <sii:PeriodoLiquidacion>
+          <sii:Ejercicio>2024</sii:Ejercicio>
+          <sii:Periodo>02</sii:Periodo>
+        </sii:PeriodoLiquidacion>
+        <siiLR:IDFactura>
+          <sii:IDEmisorFactura>
+            <sii:NIF>B12323648</sii:NIF>
+          </sii:IDEmisorFactura>
+          <sii:NumSerieFacturaEmisor>A10936</sii:NumSerieFacturaEmisor>
+          <sii:FechaExpedicionFacturaEmisor>28/02/2024</sii:FechaExpedicionFacturaEmisor>
+        </siiLR:IDFactura>
+        <siiLR:FacturaExpedida>
+          <sii:TipoFactura>F1</sii:TipoFactura>
+          <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
+          <sii:ImporteTotal>21</sii:ImporteTotal>
+          <sii:DescripcionOperacion>Venta de productos de hostelería a VILA-REAL CASINO S.L, f. A10936</sii:DescripcionOperacion>
+          <sii:Contraparte>
+            <sii:NombreRazon>VILA-REAL CASINO S.L</sii:NombreRazon>
+            <sii:NIF>B05399886</sii:NIF>
+          </sii:Contraparte>
+          <sii:TipoDesglose>
+            <sii:DesgloseFactura>
+              <sii:Sujeta>
+                <sii:NoExenta>
+                  <sii:TipoNoExenta>S1</sii:TipoNoExenta>
+                  <sii:DesgloseIVA>
+                    <sii:DetalleIVA>
+                      <sii:TipoImpositivo />
+                      <sii:BaseImponible />
+                      <sii:CuotaRepercutida />
+                    </sii:DetalleIVA>
+                  </sii:DesgloseIVA>
+                </sii:NoExenta>
+              </sii:Sujeta>
+            </sii:DesgloseFactura>
+          </sii:TipoDesglose>
+        </siiLR:FacturaExpedida>
+      </siiLR:RegistroLRFacturasEmitidas>
+      <siiLR:RegistroLRFacturasEmitidas>
+        <sii:PeriodoLiquidacion>
+          <sii:Ejercicio>2024</sii:Ejercicio>
+          <sii:Periodo>02</sii:Periodo>
+        </sii:PeriodoLiquidacion>
+        <siiLR:IDFactura>
+          <sii:IDEmisorFactura>
+            <sii:NIF>B12323648</sii:NIF>
+          </sii:IDEmisorFactura>
+          <sii:NumSerieFacturaEmisor>A10937</sii:NumSerieFacturaEmisor>
+          <sii:FechaExpedicionFacturaEmisor>28/02/2024</sii:FechaExpedicionFacturaEmisor>
+        </siiLR:IDFactura>
+        <siiLR:FacturaExpedida>
+          <sii:TipoFactura>F1</sii:TipoFactura>
+          <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
+          <sii:ImporteTotal>21</sii:ImporteTotal>
+          <sii:DescripcionOperacion>Venta de productos de hostelería a PARLA DINO, f. A10937</sii:DescripcionOperacion>
+          <sii:Contraparte>
+            <sii:NombreRazon>PARLA DINO</sii:NombreRazon>
+            <sii:NIF>Y4290857Z</sii:NIF>
+          </sii:Contraparte>
+          <sii:TipoDesglose>
+            <sii:DesgloseFactura>
+              <sii:Sujeta>
+                <sii:NoExenta>
+                  <sii:TipoNoExenta>S1</sii:TipoNoExenta>
+                  <sii:DesgloseIVA>
+                    <sii:DetalleIVA>
+                      <sii:TipoImpositivo />
+                      <sii:BaseImponible />
+                      <sii:CuotaRepercutida />
+                    </sii:DetalleIVA>
+                  </sii:DesgloseIVA>
+                </sii:NoExenta>
+              </sii:Sujeta>
+            </sii:DesgloseFactura>
+          </sii:TipoDesglose>
+        </siiLR:FacturaExpedida>
+      </siiLR:RegistroLRFacturasEmitidas>
     </siiLR:SuministroLRFacturasEmitidas>
   </soapenv:Body>
 </soapenv:Envelope>
