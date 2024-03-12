@@ -43,16 +43,11 @@
   <ItemGroup>
     <Compile Include="utils\FormatoDatosLista.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="utils\Global.cs" />
     <Compile Include="utils\Listas.cs" />
     <Compile Include="utils\XML\Cabecera.cs" />
     <Compile Include="utils\XML\Envoltorio.cs" />
     <Compile Include="utils\XML\Factura.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="templates\B12323648_R_FE_A0_2024_02_29_08_25_13_340.E.xml" />
-    <Content Include="templates\entero.xml" />
-    <Content Include="templates\nuevo.xml" />
-    <Content Include="templates\nuevoCabecera.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

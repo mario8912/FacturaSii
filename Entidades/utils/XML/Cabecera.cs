@@ -1,37 +1,38 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using G = Entidades.utils.Global;
 using System.Xml;
 
 namespace Entidades.utils.XML
 {
-    internal class Cabecera
+    public class Cabecera
     {
-        private const string SII = Envoltorio.SII;
-        internal static XmlDocumentFragment CabeceraXml(XmlDocument doc)
+        public  static XmlElement UltimoIndexado { get; set; }
+        public static XmlDocumentFragment CabeceraXml()
         {
-            XmlElement cabecera = doc.CreateElement("sii", "Cabecera", SII);
+            XmlElement cabecera = G.XmlDocument.CreateElement("sii", "Cabecera", G.SII);
 
-            XmlElement idVersion = doc.CreateElement("sii", "IDVersionii", SII);
+            XmlElement idVersion = G.XmlDocument.CreateElement("sii", "IDVersionii", G.SII);
             idVersion.InnerText = "1.1";
             cabecera.AppendChild(idVersion);
 
-            XmlElement titular = doc.CreateElement("sii", "Titular", SII);
+            XmlElement titular = G.XmlDocument.CreateElement("sii", "Titular", G.SII);
             cabecera.AppendChild(titular);
 
-            XmlElement nombreRazon = doc.CreateElement("sii", "NombreRazon", SII);
+            XmlElement nombreRazon = G.XmlDocument.CreateElement("sii", "NombreRazon", G.SII);
             nombreRazon.InnerText = "Distribuciones Rosell SL";
             titular.AppendChild(nombreRazon);
 
-            XmlElement nif = doc.CreateElement("sii", "NIF", SII); //nif del emisor encargado, en este caso a nombre de Rosell  
+            XmlElement nif = G.XmlDocument.CreateElement("sii", "NIF", G.SII);
             nif.InnerText = "B12323648";
             titular.AppendChild(nif);
 
-            XmlElement TipoComunicacion = doc.CreateElement("sii", "TipoComunicacion", SII);
+            XmlElement TipoComunicacion = G.XmlDocument.CreateElement("sii", "TipoComunicacion", G.SII);
             TipoComunicacion.InnerText = "A0";
             cabecera.AppendChild(TipoComunicacion);
 
-            XmlDocumentFragment frag = doc.CreateDocumentFragment();
+            XmlDocumentFragment frag = G.XmlDocument.CreateDocumentFragment();
             frag.AppendChild(cabecera);
+
+            UltimoIndexado = cabecera;  
 
             return frag;
         }

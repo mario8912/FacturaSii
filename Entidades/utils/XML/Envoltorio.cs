@@ -1,52 +1,42 @@
-﻿using System.Collections.Generic;
+﻿using G = Entidades.utils.Global;
+using System.Collections.Generic;
 using System.Xml;
 
 namespace Entidades.utils.XML
 {
     public class Envoltorio
-    {
-        internal const string SII = "https://www2.agenciatributaria.gob.es/static_files/common/internet/dep/aplicaciones/es/aeat/ssii/fact/ws/SuministroInformacion.xsd";
-        internal const string SII_LR = "https://www2.agenciatributaria.gob.es/static_files/common/internet/dep/aplicaciones/es/aeat/ssii/fact/ws/SuministroLR.xsd";
-        internal const string SOAPENV = "http://schemas.xmlsoap.org/soap/envelope/";
-        internal static Dictionary<int, TipoValor> _diccionarioValores;
+    {  
+        
+        public static XmlElement EstructuraPrincipalXML()
+        {
+            G.XmlDocument  = new XmlDocument();
 
-        public void CrearXml(Dictionary<int, TipoValor> diccionario)
-        {
-            _diccionarioValores = diccionario;
-            EstructuraExternaXml();
-        }
-        private static void EstructuraExternaXml()
-        {
-            XmlDocument doc = new XmlDocument();
-            XmlDeclaration xmlDeclaration = doc.CreateXmlDeclaration("1.0", "UTF-8", null);
+            XmlDeclaration xmlDeclaration = G.XmlDocument.CreateXmlDeclaration("1.0", "UTF-8", null);
             xmlDeclaration.Encoding = "UTF-8";
-            doc.AppendChild(xmlDeclaration);
+            G.XmlDocument.AppendChild(xmlDeclaration);
 
-            XmlElement envelope = doc.CreateElement("soapenv", "Envelope", SOAPENV);
-            envelope.SetAttribute("xmlns:soapenv", SOAPENV);
-            envelope.SetAttribute("xmlns:siiLR", SII_LR);
-            envelope.SetAttribute("xmlns:sii", SII);
-            doc.AppendChild(envelope);
+            XmlElement envelope = G.XmlDocument.CreateElement("soapenv", "Envelope", G.SOAPENV);
+            envelope.SetAttribute("xmlns:soapenv", G.SOAPENV);
+            envelope.SetAttribute("xmlns:siiLR", G.SII_LR);
+            envelope.SetAttribute("xmlns:sii", G.SII);
+            G.XmlDocument.AppendChild(envelope);
 
-            XmlElement header = doc.CreateElement("soapenv", "Header", SOAPENV);
+            XmlElement header = G.XmlDocument.CreateElement("soapenv", "Header", G.SOAPENV);
             envelope.AppendChild(header);
 
-            XmlElement body = doc.CreateElement("soapenv", "Body", SOAPENV);
+            XmlElement body = G.XmlDocument.CreateElement("soapenv", "Body", G.SOAPENV);
             envelope.AppendChild(body);
 
-            XmlElement suministroLR = doc.CreateElement("siiLR", "SuministroLRFacturasEmitidas", SII_LR);
+            XmlElement suministroLR = G.XmlDocument.CreateElement("siiLR", "SuministroLRFacturasEmitidas", G.SII_LR);
             body.AppendChild(suministroLR);
 
-            #region Cabecera
-            suministroLR.AppendChild(Cabecera.CabeceraXml(doc));
-            #endregion
-
-            #region Registro de Facturas
-            suministroLR.AppendChild(Factura.XmlFactura(doc, _diccionarioValores));
-            #endregion
-
-            doc.Save(@"E:\mipc\escritorio\FacturaSii\Entidades\templates\nuevo.xml");
+            return suministroLR;
         }
 
+        /*public void AppendFactura(XmlDocument doc, XmlElement suministroLR)
+        {
+            suministroLR.AppendChild(Factura.XmlFactura(doc, _listaDiccionarioValores));
+            doc.Save(@"E:\mipc\escritorio\FacturaSii\Entidades\templates\nuevo.xml");
+        }*/
     }
 }

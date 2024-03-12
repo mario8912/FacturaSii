@@ -1,15 +1,31 @@
-﻿using Entidades.utils;
-using Entidades.utils.XML;
-using System.Collections.Generic;
+﻿using Datos.Excel;
+using Datos.XML;
 
 namespace Negocio
 {
-    internal class NegocioXml
+    public class NegocioXml
     {
-        public static void CrearXml(Dictionary<int, TipoValor> diccionario)
+        private static ConstructorXML _constructor;
+        public static void CrearXml()
         {
-            Envoltorio envoltorio = new Envoltorio();
-            envoltorio.CrearXml(diccionario);
+            _constructor = new ConstructorXML();
+
+            try
+            {
+                _constructor.EstructuraXML();
+                _constructor.EstructuraCabeceraXML();
+                CrearFacturas();
+                _constructor.GuardarXML();
+            }
+            catch 
+            {
+                throw new System.Exception();
+            }
+        }
+
+        public static void CrearFacturas()
+        {
+            _constructor.EstructuraFacturaXML(ExcelReader.LeerExcel());
         }
     }
 }

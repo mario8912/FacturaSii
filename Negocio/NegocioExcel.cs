@@ -1,15 +1,13 @@
-﻿using Entidades.utils;
+﻿using System;
 using Datos.Excel;
-using System.Collections.Generic;
-using System;
 
 namespace Negocio
 {
-    public class NegocioExcel
+    internal class NegocioExcel
     {
-        public static void LeerExcel(string file)
+        public static void CrearExcel()
         {
-            ExcelReader.LeerExcel(file);
-        }
+            
+        }   
     }
 }

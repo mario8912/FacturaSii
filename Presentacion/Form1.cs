@@ -1,4 +1,4 @@
-﻿using Negocio;
+﻿using G = Entidades.utils.Global;   
 using System.Windows.Forms;
 
 namespace Presentacion
@@ -12,7 +12,6 @@ namespace Presentacion
         private void Form1_Load(object sender, System.EventArgs e)
         {
             DialogoSeleccionExcel();
-            //Close();
         }
 
         private void DialogoSeleccionExcel()
@@ -25,9 +24,12 @@ namespace Presentacion
             };
 
             if (openFile.ShowDialog() == DialogResult.OK && openFile.CheckFileExists == true)
-            {
-                NegocioExcel.LeerExcel(openFile.FileName);
-            }
+                G.ExcelFile = openFile.FileName;
+        }
+
+        private void button1_Click(object sender, System.EventArgs e)
+        {
+            Negocio.NegocioXml.CrearXml();
         }
     }
 }

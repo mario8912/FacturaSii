@@ -1,21 +1,18 @@
-﻿using System.Collections.Generic;
+﻿using G = Entidades.utils.Global;
+using System.Collections.Generic;
 using System.Xml;
 
 namespace Entidades.utils.XML
 {
-    internal class Factura
+    public class Factura
     {
-        private const string SII = Envoltorio.SII;
-        private const string SII_LR = Envoltorio.SII_LR;
-        private static XmlDocument _doc = new XmlDocument();
         private static Dictionary<int, TipoValor> _diccionarioValores;
 
-        internal static XmlDocumentFragment XmlFactura(XmlDocument doc, Dictionary<int, TipoValor> diccionario)
+        public static XmlDocumentFragment XmlFactura(Dictionary<int, TipoValor> diccionario)
         {
-            _doc = doc;
             _diccionarioValores = diccionario;
 
-            XmlElement registroLRFacturasEmitidas = _doc.CreateElement("siiLR", "RegistroLRFacturasEmitidas", SII_LR);
+            XmlElement registroLRFacturasEmitidas = G.XmlDocument.CreateElement("siiLR", "RegistroLRFacturasEmitidas", G.SII_LR);
 
             #region PeriodoLiquidacion
             registroLRFacturasEmitidas.AppendChild(XmlPeriodoLiquidacion());
@@ -25,21 +22,21 @@ namespace Entidades.utils.XML
             registroLRFacturasEmitidas.AppendChild(XmlIDFactura());
             #endregion
 
-            XmlElement FacturaExpedida = _doc.CreateElement("siiLR", "FacturaExpedida", SII_LR);
+            XmlElement FacturaExpedida = G.XmlDocument.CreateElement("siiLR", "FacturaExpedida", G.SII_LR);
             registroLRFacturasEmitidas.AppendChild(FacturaExpedida);
 
             #region Bloque primero Factura Expedida
 
-            XmlElement TipoFactura = _doc.CreateElement("sii", "TipoFactura", SII);
+            XmlElement TipoFactura = G.XmlDocument.CreateElement("sii", "TipoFactura", G.SII);
             FacturaExpedida.AppendChild(TipoFactura);
 
-            XmlElement ClaveRegimenEspecialOTrascendencia = _doc.CreateElement("sii", "ClaveRegimenEspecialOTrascendencia", SII);
+            XmlElement ClaveRegimenEspecialOTrascendencia = G.XmlDocument.CreateElement("sii", "ClaveRegimenEspecialOTrascendencia", G.SII);
             FacturaExpedida.AppendChild(ClaveRegimenEspecialOTrascendencia);
 
-            XmlElement ImporteTotal = _doc.CreateElement("sii", "ImporteTotal", SII);
+            XmlElement ImporteTotal = G.XmlDocument.CreateElement("sii", "ImporteTotal", G.SII);
             FacturaExpedida.AppendChild(ImporteTotal);
 
-            XmlElement DescripcionOperacion = _doc.CreateElement("sii", "DescripcionOperacion", SII);
+            XmlElement DescripcionOperacion = G.XmlDocument.CreateElement("sii", "DescripcionOperacion", G.SII);
             FacturaExpedida.AppendChild(DescripcionOperacion);
 
             #endregion
@@ -48,14 +45,14 @@ namespace Entidades.utils.XML
             FacturaExpedida.AppendChild(XmlContraparte());
             #endregion
 
-            XmlElement TipoDesglose = _doc.CreateElement("sii", "TipoDesglose", SII);
+            XmlElement TipoDesglose = G.XmlDocument.CreateElement("sii", "TipoDesglose", G.SII);
             FacturaExpedida.AppendChild(TipoDesglose);
 
             #region DesgloseFactura
             TipoDesglose.AppendChild(XmlDesgloseFactura());
             #endregion
 
-            XmlDocumentFragment frag = _doc.CreateDocumentFragment();
+            XmlDocumentFragment frag = G.XmlDocument.CreateDocumentFragment();
             frag.AppendChild(registroLRFacturasEmitidas);
 
             return frag;
@@ -63,17 +60,17 @@ namespace Entidades.utils.XML
 
         private static XmlDocumentFragment XmlPeriodoLiquidacion()
         {
-            XmlElement periodoLiquidacion = _doc.CreateElement("sii", "PeriodoLiquidacion", SII);
+            XmlElement periodoLiquidacion = G.XmlDocument.CreateElement("sii", "PeriodoLiquidacion", G.SII);
 
-            XmlElement ejercicio = _doc.CreateElement("sii", "Ejercicio", SII);
+            XmlElement ejercicio = G.XmlDocument.CreateElement("sii", "Ejercicio", G.SII);
             ejercicio.InnerText = FormatoDatosLista.FormatoEjercicio(_diccionarioValores[2].Valor);
             periodoLiquidacion.AppendChild(ejercicio);
 
-            XmlElement periodo = _doc.CreateElement("sii", "Periodo", SII);
+            XmlElement periodo = G.XmlDocument.CreateElement("sii", "Periodo", G.SII);
             periodo.InnerText = FormatoDatosLista.FormatoPeriodo(_diccionarioValores[2].Valor); // Febrero
             periodoLiquidacion.AppendChild(periodo);
 
-            XmlDocumentFragment frag = _doc.CreateDocumentFragment();
+            XmlDocumentFragment frag = G.XmlDocument.CreateDocumentFragment();
             frag.AppendChild(periodoLiquidacion);
 
             return frag;
@@ -81,22 +78,22 @@ namespace Entidades.utils.XML
 
         private static XmlDocumentFragment XmlIDFactura()
         {
-            XmlElement IDFactura = _doc.CreateElement("siiLR", "IDFactura", SII_LR);
+            XmlElement IDFactura = G.XmlDocument.CreateElement("siiLR", "IDFactura", G.SII_LR);
 
-            XmlElement IDEmisorFactura = _doc.CreateElement("sii", "IDEmisorFactura", SII);
+            XmlElement IDEmisorFactura = G.XmlDocument.CreateElement("sii", "IDEmisorFactura", G.SII);
             IDFactura.AppendChild(IDEmisorFactura);
 
-            XmlElement nif = _doc.CreateElement("sii", "NIF", SII);
+            XmlElement nif = G.XmlDocument.CreateElement("sii", "NIF", G.SII);
             nif.InnerText = "ejemplo nif";
             IDEmisorFactura.AppendChild(nif);
 
-            XmlElement NumSerieFacturaEmisor = _doc.CreateElement("sii", "NumSerieFacturaEmisor", SII);
+            XmlElement NumSerieFacturaEmisor = G.XmlDocument.CreateElement("sii", "NumSerieFacturaEmisor", G.SII);
             IDFactura.AppendChild(NumSerieFacturaEmisor);
 
-            XmlElement FechaExpedicionFacturaEmisor = _doc.CreateElement("sii", "FechaExpedicionFacturaEmisor", SII);
+            XmlElement FechaExpedicionFacturaEmisor = G.XmlDocument.CreateElement("sii", "FechaExpedicionFacturaEmisor", G.SII);
             IDFactura.AppendChild(FechaExpedicionFacturaEmisor);
 
-            XmlDocumentFragment frag = _doc.CreateDocumentFragment();
+            XmlDocumentFragment frag = G.XmlDocument.CreateDocumentFragment();
             frag.AppendChild(IDFactura);
 
             return frag;
@@ -104,15 +101,15 @@ namespace Entidades.utils.XML
 
         private static XmlDocumentFragment XmlContraparte()
         {
-            XmlElement Contraparte = _doc.CreateElement("sii", "Contraparte", SII);
+            XmlElement Contraparte = G.XmlDocument.CreateElement("sii", "Contraparte", G.SII);
 
-            XmlElement NombreRazon = _doc.CreateElement("sii", "NombreRazon", SII);
+            XmlElement NombreRazon = G.XmlDocument.CreateElement("sii", "NombreRazon", G.SII);
             Contraparte.AppendChild(NombreRazon);
 
-            XmlElement NIF = _doc.CreateElement("sii", "NIF", SII); // NIF del emisor de la factura, empresa Rosell
+            XmlElement NIF = G.XmlDocument.CreateElement("sii", "NIF", G.SII); // NIF del emisor de la factura, empresa Rosell
             Contraparte.AppendChild(NIF);
 
-            XmlDocumentFragment frag = _doc.CreateDocumentFragment();
+            XmlDocumentFragment frag = G.XmlDocument.CreateDocumentFragment();
             frag.AppendChild(Contraparte);
 
             return frag;
@@ -120,25 +117,25 @@ namespace Entidades.utils.XML
 
         private static XmlDocumentFragment XmlDesgloseFactura()
         {
-            XmlElement DesgloseFactura = _doc.CreateElement("sii", "DesgloseFactura", SII);
+            XmlElement DesgloseFactura = G.XmlDocument.CreateElement("sii", "DesgloseFactura", G.SII);
 
-            XmlElement Sujeta = _doc.CreateElement("sii", "Sujeta", SII);
+            XmlElement Sujeta = G.XmlDocument.CreateElement("sii", "Sujeta", G.SII);
             DesgloseFactura.AppendChild(Sujeta);
 
-            XmlElement NoExenta = _doc.CreateElement("sii", "NoExenta", SII);
+            XmlElement NoExenta = G.XmlDocument.CreateElement("sii", "NoExenta", G.SII);
             Sujeta.AppendChild(NoExenta);
 
-            XmlElement TipoNoExenta = _doc.CreateElement("sii", "TipoNoExenta", SII);
+            XmlElement TipoNoExenta = G.XmlDocument.CreateElement("sii", "TipoNoExenta", G.SII);
             NoExenta.AppendChild(TipoNoExenta);
 
-            XmlElement DesgloseIVA = _doc.CreateElement("sii", "DesgloseIVA", SII);
+            XmlElement DesgloseIVA = G.XmlDocument.CreateElement("sii", "DesgloseIVA", G.SII);
             NoExenta.AppendChild(DesgloseIVA);
 
             #region DetalleIVA
             DesgloseIVA.AppendChild(XmlDetalleIva());
             #endregion
 
-            XmlDocumentFragment frag = _doc.CreateDocumentFragment();
+            XmlDocumentFragment frag = G.XmlDocument.CreateDocumentFragment();
             frag.AppendChild(DesgloseFactura);
 
             return frag;
@@ -146,18 +143,18 @@ namespace Entidades.utils.XML
 
         private static XmlDocumentFragment XmlDetalleIva()
         {
-            XmlElement DetalleIVA = _doc.CreateElement("sii", "DetalleIVA", SII);
+            XmlElement DetalleIVA = G.XmlDocument.CreateElement("sii", "DetalleIVA", G.SII);
 
-            XmlElement TipoImpositivo = _doc.CreateElement("sii", "TipoImpositivo", SII);
+            XmlElement TipoImpositivo = G.XmlDocument.CreateElement("sii", "TipoImpositivo", G.SII);
             DetalleIVA.AppendChild(TipoImpositivo);
 
-            XmlElement BaseImponible = _doc.CreateElement("sii", "BaseImponible", SII);
+            XmlElement BaseImponible = G.XmlDocument.CreateElement("sii", "BaseImponible", G.SII);
             DetalleIVA.AppendChild(BaseImponible);
 
-            XmlElement CuotaRepercutida = _doc.CreateElement("sii", "CuotaRepercutida", SII);
+            XmlElement CuotaRepercutida = G.XmlDocument.CreateElement("sii", "CuotaRepercutida", G.SII);
             DetalleIVA.AppendChild(CuotaRepercutida);
 
-            XmlDocumentFragment frag = _doc.CreateDocumentFragment();
+            XmlDocumentFragment frag = G.XmlDocument.CreateDocumentFragment();
             frag.AppendChild(DetalleIVA);
 
             return frag;

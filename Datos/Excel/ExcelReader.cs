@@ -1,10 +1,10 @@
 using Entidades.utils;
 using Entidades.utils.XML;  
+using G = Entidades.utils.Global;
 using Microsoft.Office.Interop.Excel;
 using System;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
-using System.Windows.Forms;
 using uExcel = Microsoft.Office.Interop.Excel;
 
 namespace Datos.Excel
@@ -12,26 +12,25 @@ namespace Datos.Excel
     public class ExcelReader
     {
         private static Dictionary<int, TipoValor> _diccionarioValores;
+        private static readonly IEnumerable<Dictionary<int, TipoValor>> _listaDiccionarios;
 
-        private static uExcel.Application _excelApp;
+
+        private static Application _excelApp;
         private static Workbook _libro;
         private static Worksheet _hoja;
         private static Range _rango;
-
-        public static void LeerExcel(string filePath)
+        public static IEnumerable<Dictionary<int, TipoValor>> LeerExcel()
         {
             Listas listas = new Listas();
 
-            _excelApp = new uExcel.Application();
-            _libro = _excelApp.Workbooks.Open(filePath);
+            _excelApp = new Application();
+            _libro = _excelApp.Workbooks.Open(G.ExcelFile);
             _hoja = _libro.Sheets[1];
             _rango = _hoja.UsedRange;
 
             int rowCount = _rango.Rows.Count;
 
-
-
-            for (int i = 2; i <= 2; i++)
+            for (int i = 2; i <= 20; i++)
             {
                 _diccionarioValores = listas.DiccionarioCeldas();
 
@@ -42,12 +41,10 @@ namespace Datos.Excel
                     if (rango != null && rango.Value2 != null)
                     {
                         item.Value.Valor = rango.Value2.ToString();
-
-                        NegocioXml().CrearXml(_diccionarioValores);
                     }
-                }   
+                }
+                yield return _diccionarioValores;
             }
-
             LimpiarRecursos();
         }
         
