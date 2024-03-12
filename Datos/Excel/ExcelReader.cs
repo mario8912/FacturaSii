@@ -1,19 +1,18 @@
 using Entidades.utils;
-using Entidades.utils.XML;  
 using G = Entidades.utils.Global;
 using Microsoft.Office.Interop.Excel;
 using System;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
-using uExcel = Microsoft.Office.Interop.Excel;
 
 namespace Datos.Excel
 {
     public class ExcelReader
     {
+        public static event EventHandler<int> ProgressChanged;
+
         private static Dictionary<int, TipoValor> _diccionarioValores;
         private static readonly IEnumerable<Dictionary<int, TipoValor>> _listaDiccionarios;
-
 
         private static Application _excelApp;
         private static Workbook _libro;
@@ -22,7 +21,7 @@ namespace Datos.Excel
         public static IEnumerable<Dictionary<int, TipoValor>> LeerExcel()
         {
             Listas listas = new Listas();
-
+            
             _excelApp = new Application();
             _libro = _excelApp.Workbooks.Open(G.ExcelFile);
             _hoja = _libro.Sheets[1];
@@ -30,7 +29,7 @@ namespace Datos.Excel
 
             int rowCount = _rango.Rows.Count;
 
-            for (int i = 2; i <= 20; i++)
+            for (int i = 2; i <= rowCount; i++)
             {
                 _diccionarioValores = listas.DiccionarioCeldas();
 
@@ -43,11 +42,17 @@ namespace Datos.Excel
                         item.Value.Valor = rango.Value2.ToString();
                     }
                 }
+                OnProgressChanged(i);
                 yield return _diccionarioValores;
             }
             LimpiarRecursos();
         }
-        
+
+        protected static virtual void OnProgressChanged(int progress)
+        {
+            ProgressChanged?.Invoke(this, progress);
+        }
+
         private static void LimpiarRecursos()
         {
             GC.Collect();

@@ -4,6 +4,7 @@ namespace Entidades.utils
 {
     public class Listas
     {
+        public static string[] stringsAComparar = {"Base1", "Cuota1", "Base2", "Cuota2", "Base3", "Cuota3", "Base4", "Cuota4", "Base5", "Cuota5"};
         public Dictionary<int, TipoValor> DiccionarioCeldas()
         {
             return new Dictionary<int, TipoValor>

@@ -6,7 +6,7 @@ using Entidades.utils;
 
 namespace Datos.XML
 {
-    public class ConstructorXML
+    public class ConstructorXML : IConstructorXML
     {
         private static XmlElement _ultimoIndexado;
         public void EstructuraXML()
@@ -17,7 +17,6 @@ namespace Datos.XML
         public void EstructuraCabeceraXML()
         {
             _ultimoIndexado.AppendChild(Cabecera.CabeceraXml());
-            _ultimoIndexado = Cabecera.UltimoIndexado;
         }
 
         public void EstructuraFacturaXML(IEnumerable<Dictionary<int, TipoValor>> diccionarioValores)
@@ -26,7 +25,6 @@ namespace Datos.XML
             {
                 _ultimoIndexado.AppendChild(Factura.XmlFactura(item));
             }
-            
         }
 
         public void GuardarXML()
