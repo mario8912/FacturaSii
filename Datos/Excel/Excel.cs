@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 
 namespace Datos.Excel
 {
-    internal class Excel : IDisposable
+    internal class Excel
     {
         public Application ExcelApp { get; private set; }
         public Workbook Libro { get; private set; }
@@ -33,7 +33,6 @@ namespace Datos.Excel
             Marshal.ReleaseComObject(Rango);
             Marshal.ReleaseComObject(Hoja);
             Marshal.ReleaseComObject(Libro);
-            ExcelApp.Quit();
             Marshal.ReleaseComObject(ExcelApp);
         }
 

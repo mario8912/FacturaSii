@@ -1,6 +1,5 @@
 using Entidades.utils;
 using System.Collections.Generic;
-using ProgressBar = Entidades.utils;
 
 
 namespace Datos.Excel
@@ -8,38 +7,44 @@ namespace Datos.Excel
     public class ExcelReader
     {
         private static Dictionary<int, dynamic> _diccionarioValores;
-        private Helper _listas;
-        private EventoProgreso _eventoProgreso;
+        private readonly Helper _listas;
+        private readonly Excel _excel;
 
-        public IEnumerable<Dictionary<int, dynamic>> LeerExcel()
+        public ExcelReader()
         {
-            _eventoProgreso = new EventoProgreso();
-            _listas = new Helper(); 
+            _listas = new Helper();
+            _excel = new Excel();
+        }
 
-            using (Excel excel = new Excel())
+        public IEnumerable<Dictionary<int, dynamic>> LeerExcel(EventoProgreso eventoProgreso)
+        {
+            
+            int rowCount = _excel.Rango.Rows.Count;
+            eventoProgreso.ValorMaximoBarraProgreso = rowCount;
+
+            for (int i = 2; i <= rowCount; i++)
             {
-                int rowCount = excel.Rango.Rows.Count;
-                _eventoProgreso.ValorMaximoBarraProgreso = rowCount;
+                _diccionarioValores = _listas.GetDiccionarioColumnasExcel();
+                var tempDic = new Dictionary<int, dynamic>(_diccionarioValores);
 
-                for (int i = 2; i <= rowCount; i++)
+                foreach (KeyValuePair<int, dynamic> item in _diccionarioValores)
                 {
-                    _diccionarioValores = _listas.GetDiccionarioColumnasExcel();
-                    var tempDic = new Dictionary<int, dynamic>(_diccionarioValores);
+                    var rango = _excel.Rango.Cells[i, item.Key];
 
-                    foreach (KeyValuePair<int, dynamic> item in _diccionarioValores)
-                    {
-                        var rango = excel.Rango.Cells[i, item.Key];
-
-                        if (rango != null && rango.Value2 != null)
-                            tempDic[item.Key] = rango.Value2.ToString();
-                    }
-
-                    _eventoProgreso.AumentarProgreso();
-
-                    _diccionarioValores = tempDic;
-                    yield return _diccionarioValores;
+                    if (rango != null && rango.Value2 != null)
+                        tempDic[item.Key] = rango.Value2.ToString();
                 }
+
+                eventoProgreso.AumentarProgreso();
+
+                _diccionarioValores = tempDic;
+                yield return _diccionarioValores;
             }
+        }
+
+        ~ExcelReader()
+        {
+            _excel.Dispose();
         }
     }
 }

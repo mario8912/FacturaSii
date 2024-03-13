@@ -4,6 +4,7 @@ using System.Windows.Forms;
 using System;
 using System.Diagnostics;
 using System.Threading.Tasks;
+using Negocio;
 
 namespace Presentacion
 {
@@ -52,18 +53,20 @@ namespace Presentacion
             textBox1.Text = G.ExcelFile;
         }
 
-        private void btnCrearXml_Click(object sender, EventArgs e)
+        private async void btnCrearXml_Click(object sender, EventArgs e)
         {
+            NegocioXml negocioXml = new NegocioXml();
+
             textBox1.Text = string.Empty;
             btnCrearXml.Enabled = false;
 
-            //Negocio.NegocioXml;
+            var task = new Task(() => { negocioXml.CrearXml(_eventoProgreso); });
+            task.Start();   
+            
             //TestProgressBar();
             ProgressBarStatus();
 
-
-            
-            
+            await task;
             MensajeXMLCreado();
             LimpiarRecursos();
         }
@@ -80,15 +83,27 @@ namespace Presentacion
         private void ProgressBarStatus()
         {
             progressBar1.Visible = true;
+            progressBar1.Minimum = 0;
             progressBar1.Maximum = _eventoProgreso.ValorMaximoBarraProgreso;
         }
 
         private void ProgresoCambiado(object sender, int aumento)
         {
+
             if (InvokeRequired)
+            {
+                Invoke(new Action(() => { SetMaxProgressBar(); }));
                 Invoke(new Action(() => progressBar1.Value = aumento));
+            }
+                
             else
                 progressBar1.Value = aumento;
+        }
+
+        private void SetMaxProgressBar()
+        {
+            if(progressBar1.Maximum != _eventoProgreso.ValorMaximoBarraProgreso)
+                progressBar1.Maximum = _eventoProgreso.ValorMaximoBarraProgreso-1;
         }
 
         private void MensajeXMLCreado()

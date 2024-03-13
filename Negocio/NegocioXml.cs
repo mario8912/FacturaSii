@@ -1,15 +1,17 @@
 ﻿using Datos.Excel;
 using Datos.XML;
-using System;
+using Entidades.utils;
 
 namespace Negocio
 {
     public class NegocioXml
     {
         private IConstructorXML _constructor;
+        private EventoProgreso _eventoProgreso;
 
-        public void CrearXml()
+        public void CrearXml(EventoProgreso eventoProgreso)
         {
+            _eventoProgreso = eventoProgreso;
             _constructor = new ConstructorXML();
             EsructuraXML();
         }
@@ -25,7 +27,7 @@ namespace Negocio
         private void CrearFacturas()
         {
             ExcelReader excelReader = new ExcelReader();
-            _constructor.EstructuraFacturaXML(excelReader.LeerExcel());
+            _constructor.EstructuraFacturaXML(excelReader.LeerExcel(_eventoProgreso));
         }
     }
 }
