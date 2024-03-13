@@ -11,6 +11,7 @@
         </sii:Titular>
         <sii:TipoComunicacion>A0</sii:TipoComunicacion>
       </sii:Cabecera>
+<<<<<<< HEAD
       <siiLR:RegistroLRFacturasEmitidas>
         <sii:PeriodoLiquidacion>
           <sii:Ejercicio>2024</sii:Ejercicio>
@@ -14579,6 +14580,8 @@
           </sii:TipoDesglose>
         </siiLR:FacturaExpedida>
       </siiLR:RegistroLRFacturasEmitidas>
+=======
+>>>>>>> add5f18f21e0d10e840cb6ffa99816e69bd86f6a
     </siiLR:SuministroLRFacturasEmitidas>
   </soapenv:Body>
 </soapenv:Envelope>

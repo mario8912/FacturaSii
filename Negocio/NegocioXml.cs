@@ -7,20 +7,10 @@ namespace Negocio
     public class NegocioXml
     {
         private IConstructorXML _constructor;
-        private readonly ExcelReader _reader = new ExcelReader();
 
         public void CrearXml()
         {
             _constructor = new ConstructorXML();
-
-            //try
-            //{
-            //    EsructuraXML();
-            //}
-            //catch 
-            //{
-            //    throw new Exception();
-            //}
             EsructuraXML();
         }
 
@@ -32,9 +22,10 @@ namespace Negocio
             _constructor.GuardarXML();
         }
 
-        public void CrearFacturas()
+        private void CrearFacturas()
         {
-            _constructor.EstructuraFacturaXML(_reader.LeerExcel());
+            ExcelReader excelReader = new ExcelReader();
+            _constructor.EstructuraFacturaXML(excelReader.LeerExcel());
         }
     }
 }

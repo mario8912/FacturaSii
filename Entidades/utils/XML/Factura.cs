@@ -1,16 +1,15 @@
-﻿using Entidades.utils;
-using G = Entidades.utils.Global;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Xml;
-using System.Linq;
+using G = Entidades.utils.Global;
+using H = Entidades.utils.Helper;
 
 namespace Entidades.utils.XML
 {
     public class Factura
     {
-        private static Dictionary<int, TipoValor> _diccionarioValores;
+        private static Dictionary<int, dynamic> _diccionarioValores;
 
-        public static XmlDocumentFragment XmlFactura(Dictionary<int, TipoValor> diccionario)
+        public static XmlDocumentFragment XmlFactura(Dictionary<int, dynamic> diccionario)
         {
             _diccionarioValores = diccionario;
 
@@ -38,11 +37,11 @@ namespace Entidades.utils.XML
             FacturaExpedida.AppendChild(ClaveRegimenEspecialOTrascendencia);
 
             XmlElement ImporteTotal = G.XmlDocument.CreateElement("sii", "ImporteTotal", G.SII);
-            ImporteTotal.InnerText = SumaBases(); //base1
+            ImporteTotal.InnerText = H.SumaBases(_diccionarioValores); //base1
             FacturaExpedida.AppendChild(ImporteTotal);
 
             XmlElement DescripcionOperacion = G.XmlDocument.CreateElement("sii", "DescripcionOperacion", G.SII);
-            DescripcionOperacion.InnerText = string.Format("Venta de productos de hostelería a {0}, f. {1}", _diccionarioValores[4].Valor, _diccionarioValores[1].Valor); //descripcion   
+            DescripcionOperacion.InnerText = string.Format("Venta de productos de hostelería a {0}, f. {1}", _diccionarioValores[4], _diccionarioValores[1]); //descripcion   
             FacturaExpedida.AppendChild(DescripcionOperacion);
 
             #endregion
@@ -64,29 +63,18 @@ namespace Entidades.utils.XML
             return frag;
         }
 
-        private static string SumaBases()
-        {
-            float suma = 0;
 
-            foreach (TipoValor tipoValor in _diccionarioValores.Values)
-            {
-                if(Listas.stringsAComparar.Contains(tipoValor.Campo) && tipoValor.Valor != null)
-                    suma += float.Parse(tipoValor.Valor);
-            }
-
-            return suma.ToString();
-        }
 
         private static XmlDocumentFragment XmlPeriodoLiquidacion()
         {
             XmlElement periodoLiquidacion = G.XmlDocument.CreateElement("sii", "PeriodoLiquidacion", G.SII);
 
             XmlElement ejercicio = G.XmlDocument.CreateElement("sii", "Ejercicio", G.SII);
-            ejercicio.InnerText = FormatoDatosLista.FormatoEjercicio(_diccionarioValores[2].Valor); //ejercicio
+            ejercicio.InnerText = FormatoDatosLista.FormatoEjercicio(_diccionarioValores[2]); //ejercicio
             periodoLiquidacion.AppendChild(ejercicio);
 
             XmlElement periodo = G.XmlDocument.CreateElement("sii", "Periodo", G.SII);
-            periodo.InnerText = FormatoDatosLista.FormatoPeriodo(_diccionarioValores[2].Valor); //periodo
+            periodo.InnerText = FormatoDatosLista.FormatoPeriodo(_diccionarioValores[2]); //periodo
             periodoLiquidacion.AppendChild(periodo);
 
             XmlDocumentFragment frag = G.XmlDocument.CreateDocumentFragment();
@@ -107,29 +95,29 @@ namespace Entidades.utils.XML
             IDEmisorFactura.AppendChild(nif);
 
             XmlElement NumSerieFacturaEmisor = G.XmlDocument.CreateElement("sii", "NumSerieFacturaEmisor", G.SII);
-            NumSerieFacturaEmisor.InnerText = _diccionarioValores[1].Valor; //numSerie
+            NumSerieFacturaEmisor.InnerText = _diccionarioValores[1]; //numSerie
             IDFactura.AppendChild(NumSerieFacturaEmisor);
 
             XmlElement FechaExpedicionFacturaEmisor = G.XmlDocument.CreateElement("sii", "FechaExpedicionFacturaEmisor", G.SII);
-            FechaExpedicionFacturaEmisor.InnerText = _diccionarioValores[2].Valor; //fechaExpedicion
+            FechaExpedicionFacturaEmisor.InnerText = _diccionarioValores[2]; //fechaExpedicion
             IDFactura.AppendChild(FechaExpedicionFacturaEmisor);
 
             XmlDocumentFragment frag = G.XmlDocument.CreateDocumentFragment();
             frag.AppendChild(IDFactura);
 
             return frag;
-        }   
+        }
 
         private static XmlDocumentFragment XmlContraparte()
         {
             XmlElement Contraparte = G.XmlDocument.CreateElement("sii", "Contraparte", G.SII);
 
             XmlElement NombreRazon = G.XmlDocument.CreateElement("sii", "NombreRazon", G.SII);
-            NombreRazon.InnerText = _diccionarioValores[4].Valor; //nombreRazon
+            NombreRazon.InnerText = _diccionarioValores[4]; //nombreRazon
             Contraparte.AppendChild(NombreRazon);
 
             XmlElement NIF = G.XmlDocument.CreateElement("sii", "NIF", G.SII); // NIF del emisor de la factura, empresa Rosell
-            NIF.InnerText = _diccionarioValores[3].Valor;
+            NIF.InnerText = _diccionarioValores[3];
             Contraparte.AppendChild(NIF);
 
             XmlDocumentFragment frag = G.XmlDocument.CreateDocumentFragment();
@@ -155,8 +143,8 @@ namespace Entidades.utils.XML
             XmlElement DesgloseIVA = G.XmlDocument.CreateElement("sii", "DesgloseIVA", G.SII);
             NoExenta.AppendChild(DesgloseIVA);
 
-            #region DetalleIVA
-            DesgloseIVA.AppendChild(XmlDetalleIva()); //
+            #region DetalleIVA!!!!!!!!!
+            DesgloseIVA.AppendChild(XmlDetalleIva());
             #endregion
 
             XmlDocumentFragment frag = G.XmlDocument.CreateDocumentFragment();
@@ -170,15 +158,15 @@ namespace Entidades.utils.XML
             XmlElement DetalleIVA = G.XmlDocument.CreateElement("sii", "DetalleIVA", G.SII);
 
             XmlElement TipoImpositivo = G.XmlDocument.CreateElement("sii", "TipoImpositivo", G.SII);
-            TipoImpositivo.InnerText = _diccionarioValores[6].Valor;
+            TipoImpositivo.InnerText = _diccionarioValores[6]; //tipoImpositivo
             DetalleIVA.AppendChild(TipoImpositivo);
 
             XmlElement BaseImponible = G.XmlDocument.CreateElement("sii", "BaseImponible", G.SII);
-            BaseImponible.InnerText = _diccionarioValores[5].Valor;
+            BaseImponible.InnerText = _diccionarioValores[5]; //baseImponible
             DetalleIVA.AppendChild(BaseImponible);
 
             XmlElement CuotaRepercutida = G.XmlDocument.CreateElement("sii", "CuotaRepercutida", G.SII);
-            CuotaRepercutida.InnerText = _diccionarioValores[7].Valor;
+            CuotaRepercutida.InnerText = _diccionarioValores[7]; //cuotaRepercutida
             DetalleIVA.AppendChild(CuotaRepercutida);
 
             XmlDocumentFragment frag = G.XmlDocument.CreateDocumentFragment();

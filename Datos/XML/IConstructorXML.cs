@@ -1,5 +1,5 @@
-﻿using Entidades.utils;
-using System.Collections.Generic;
+
+﻿using System.Collections.Generic;
 
 namespace Datos.XML
 {
@@ -7,7 +7,7 @@ namespace Datos.XML
     {
         void EstructuraXML();
         void EstructuraCabeceraXML();
-        void EstructuraFacturaXML(IEnumerable<Dictionary<int, TipoValor>> diccionarioValores);
+        void EstructuraFacturaXML(IEnumerable<Dictionary<int, dynamic>> diccionarioValores);
         void GuardarXML();
     }
 }

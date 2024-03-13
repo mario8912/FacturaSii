@@ -1,4 +1,6 @@
-﻿namespace Presentacion
+﻿using System.Windows.Forms;
+
+namespace Presentacion
 {
     partial class Form1
     {
@@ -87,6 +89,8 @@
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(472, 19);
             this.progressBar1.TabIndex = 4;
+            this.progressBar1.Minimum = 0;
+            this.progressBar1.Style = ProgressBarStyle.Continuous;
             // 
             // Form1
             // 
