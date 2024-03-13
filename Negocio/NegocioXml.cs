@@ -1,29 +1,26 @@
 ﻿using Datos.Excel;
 using Datos.XML;
+using System.Threading.Tasks;
 
 namespace Negocio
 {
     public class NegocioXml
     {
         private static IConstructorXML _constructor;
-        public static void CrearXml()
+        static NegocioXml()
         {
             _constructor = new ConstructorXML();
-            EsructuraXML();
-        }
 
-        private static void EsructuraXML()
-        {
             _constructor.EstructuraXML();
             _constructor.EstructuraCabeceraXML();
             CrearFacturas();
             _constructor.GuardarXML();
         }
-
-        public static void CrearFacturas()
+        private static void CrearFacturas()
         {
-            ExcelReader excelReader = new ExcelReader();
-            _constructor.EstructuraFacturaXML(excelReader.LeerExcel());
+                ExcelReader excelReader = new ExcelReader();
+                _constructor.EstructuraFacturaXML(excelReader.LeerExcel());
+            
         }
     }
 }

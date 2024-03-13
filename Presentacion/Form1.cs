@@ -1,21 +1,31 @@
-﻿using G = Entidades.utils.Global;   
+﻿using G = Entidades.utils.Global;
+using Entidades.utils;
 using System.Windows.Forms;
+using System;
+using System.Diagnostics;
+using System.Threading.Tasks;
 
 namespace Presentacion
 {
     public partial class Form1 : Form
     {
+        private EventoProgreso _eventoProgreso;
+
         public Form1()
         {
             InitializeComponent();
         }
-        private void Form1_Load(object sender, System.EventArgs e)
+
+        private void Form1_Load(object sender, EventArgs e)
         {
+            _eventoProgreso = new EventoProgreso();
+            _eventoProgreso.ProgresoCambiado += ProgresoCambiado;
+
             btnCrearXml.Enabled = false;
             progressBar1.Visible = false;
         }
 
-        private void button2_Click(object sender, System.EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
             SelectorDeArchivo();
         }
@@ -42,17 +52,59 @@ namespace Presentacion
             textBox1.Text = G.ExcelFile;
         }
 
-        private void btnCrearXml_Click(object sender, System.EventArgs e)
+        private void btnCrearXml_ClickAsync(object sender, EventArgs e)
         {
             textBox1.Text = string.Empty;
             btnCrearXml.Enabled = false;
 
-            Negocio.NegocioXml.CrearXml();
+            Negocio.NegocioXml;
+            //TestProgressBar();
+            ProgressBarStatus();
 
-            MessageBox.Show("Archivo creado con éxito");
 
-            this.Dispose();
-            this.Close();
+            
+            
+            MensajeXMLCreado();
+            LimpiarRecursos();
         }
+
+        private void TestProgressBar()
+        {
+            _eventoProgreso.ValorMaximoBarraProgreso = 150;
+            for (int i = 0; i < 100; i++)
+            {
+                _eventoProgreso.AumentarProgreso();
+            }
+        }
+
+        private void ProgressBarStatus()
+        {
+            progressBar1.Visible = true;
+            progressBar1.Maximum = _eventoProgreso.ValorMaximoBarraProgreso;
+        }
+
+        private void ProgresoCambiado(object sender, int aumento)
+        {
+            if (InvokeRequired)
+                Invoke(new Action(() => progressBar1.Value = aumento));
+            else
+                progressBar1.Value = aumento;
+        }
+
+        private void MensajeXMLCreado()
+        {
+            DialogResult result = MessageBox.Show("XML creado\n¿Desea visualizarlo?", "Aviso", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (result is DialogResult.Yes)
+                Process.Start(G.RutaGuardarXml);
+        }
+
+        private void LimpiarRecursos()
+        {
+            GC.Collect();
+            GC.WaitForPendingFinalizers();
+            Dispose();
+            Close();
+        }   
     }
 }

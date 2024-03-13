@@ -1,5 +1,6 @@
 using Entidades.utils;
 using System.Collections.Generic;
+using ProgressBar = Entidades.utils;
 
 
 namespace Datos.Excel
@@ -7,17 +8,20 @@ namespace Datos.Excel
     public class ExcelReader
     {
         private static Dictionary<int, dynamic> _diccionarioValores;
-        private Listas _listas;
+        private Helper _listas;
+        private EventoProgreso _eventoProgreso;
 
         public IEnumerable<Dictionary<int, dynamic>> LeerExcel()
         {
-            _listas = new Listas(); 
+            _eventoProgreso = new EventoProgreso();
+            _listas = new Helper(); 
 
             using (Excel excel = new Excel())
             {
                 int rowCount = excel.Rango.Rows.Count;
+                _eventoProgreso.ValorMaximoBarraProgreso = rowCount;
 
-                for (int i = 2; i <= 20; i++)
+                for (int i = 2; i <= rowCount; i++)
                 {
                     _diccionarioValores = _listas.GetDiccionarioColumnasExcel();
                     var tempDic = new Dictionary<int, dynamic>(_diccionarioValores);
@@ -29,6 +33,8 @@ namespace Datos.Excel
                         if (rango != null && rango.Value2 != null)
                             tempDic[item.Key] = rango.Value2.ToString();
                     }
+
+                    _eventoProgreso.AumentarProgreso();
 
                     _diccionarioValores = tempDic;
                     yield return _diccionarioValores;

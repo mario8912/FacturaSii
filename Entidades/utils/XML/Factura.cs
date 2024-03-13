@@ -143,8 +143,8 @@ namespace Entidades.utils.XML
             XmlElement DesgloseIVA = G.XmlDocument.CreateElement("sii", "DesgloseIVA", G.SII);
             NoExenta.AppendChild(DesgloseIVA);
 
-            #region DetalleIVA
-            DesgloseIVA.AppendChild(XmlDetalleIva()); //
+            #region DetalleIVA!!!!!!!!!
+            DesgloseIVA.AppendChild(XmlDetalleIva()); 
             #endregion
 
             XmlDocumentFragment frag = G.XmlDocument.CreateDocumentFragment();
@@ -158,12 +158,15 @@ namespace Entidades.utils.XML
             XmlElement DetalleIVA = G.XmlDocument.CreateElement("sii", "DetalleIVA", G.SII);
 
             XmlElement TipoImpositivo = G.XmlDocument.CreateElement("sii", "TipoImpositivo", G.SII);
+            TipoImpositivo.InnerText = _diccionarioValores[6]; //tipoImpositivo
             DetalleIVA.AppendChild(TipoImpositivo);
 
             XmlElement BaseImponible = G.XmlDocument.CreateElement("sii", "BaseImponible", G.SII);
+            BaseImponible.InnerText = _diccionarioValores[5]; //baseImponible
             DetalleIVA.AppendChild(BaseImponible);
 
             XmlElement CuotaRepercutida = G.XmlDocument.CreateElement("sii", "CuotaRepercutida", G.SII);
+            CuotaRepercutida.InnerText = _diccionarioValores[7]; //cuotaRepercutida
             DetalleIVA.AppendChild(CuotaRepercutida);
 
             XmlDocumentFragment frag = G.XmlDocument.CreateDocumentFragment();
