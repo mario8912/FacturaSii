@@ -1,53 +1,46 @@
-﻿using G = Entidades.utils.Global;
-using Entidades.utils;
-using System.Windows.Forms;
+﻿using Entidades.utils;
+using Negocio;
 using System;
 using System.Diagnostics;
+using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
-using Negocio;
+using System.Windows.Forms;
 
 namespace Presentacion
 {
     public partial class Form1 : Form
     {
+        private static OpenFileDialog _openFileDialog;
         public Form1()
         {
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void botonSelecionArchivo_Click(object sender, EventArgs e)
         {
-            btnCrearXml.Enabled = false;
+            if (MostrarSelectorDeArchivo().ComprobarArchivoSeleccionadoExiste())
+            {
+                textBox1.Text = Global.ExcelFile = _openFileDialog.FileName;
+                btnCrearXml.Enabled = true;
+            }
+
+            btnCrearXml.Focus();
+            _openFileDialog.Dispose();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private Form1 MostrarSelectorDeArchivo()
         {
-            SelectorDeArchivo();
-        }
-
-        private void SelectorDeArchivo()
-        {
-            OpenFileDialog dialogoElegirExcel = new OpenFileDialog
+            _openFileDialog = new OpenFileDialog
             {
                 InitialDirectory = @"E:\mipc\escritorio\FacturaSii\data",
                 Filter = "Excel Files|*.xlsx",
                 Title = "Selecciona un archivo"
             };
 
-            if (dialogoElegirExcel.ShowDialog() == DialogResult.OK && dialogoElegirExcel.CheckFileExists == true)
-            {
-                G.ExcelFile = dialogoElegirExcel.FileName;
-                btnCrearXml.Enabled = true;
-                AgregarRutaTextbox();
-
-                dialogoElegirExcel.Dispose();
-            }
+            return this;
         }
 
-        private void AgregarRutaTextbox()
-        {
-            textBox1.Text = G.ExcelFile;
-        }
+        private readonly Func<bool> ComprobarArchivoSeleccionadoExiste = () => (_openFileDialog.ShowDialog() == DialogResult.OK && _openFileDialog.CheckFileExists);
 
         private async void btnCrearXml_Click(object sender, EventArgs e)
         {
@@ -55,11 +48,12 @@ namespace Presentacion
 
             textBox1.Text = string.Empty;
             btnCrearXml.Enabled = false;
-
-            var task = new Task(() => { negocioXml.CrearXml(); });
+            
+            negocioXml.CrearXml();
+            /*var task = new Task(() => { negocioXml.CrearXml(); });
             task.Start();
 
-            await task;
+            await task;*/
             MensajeXMLCreado();
             LimpiarRecursos();
         }
@@ -69,7 +63,7 @@ namespace Presentacion
             DialogResult result = MessageBox.Show("XML creado\n¿Desea visualizarlo?", "Aviso", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
             if (result is DialogResult.Yes)
-                Process.Start(G.RutaGuardarXml);
+                Process.Start(Global.RutaGuardarXml);
         }
 
         private void LimpiarRecursos()
@@ -78,6 +72,8 @@ namespace Presentacion
             GC.WaitForPendingFinalizers();
             Dispose();
             Close();
-        }   
+        }
+
+        
     }
 }

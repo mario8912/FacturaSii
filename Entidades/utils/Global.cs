@@ -15,6 +15,4 @@ namespace Entidades.utils
         public static XmlDocument XmlDocument { get; set; }
         public static string ExcelFile { get; set; }
     }
-
-    
 }

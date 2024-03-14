@@ -5,8 +5,8 @@ namespace Datos.XML
 {
     public interface IConstructorXML
     {
-        void EstructuraXML();
-        void EstructuraCabeceraXML();
+        ConstructorXML EstructuraXML();
+        ConstructorXML EstructuraCabeceraXML();
         void EstructuraFacturaXML(IEnumerable<Dictionary<int, dynamic>> diccionarioValores);
         void GuardarXML();
     }

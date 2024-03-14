@@ -63,18 +63,16 @@ namespace Entidades.utils.XML
             return frag;
         }
 
-
-
         private static XmlDocumentFragment XmlPeriodoLiquidacion()
         {
             XmlElement periodoLiquidacion = G.XmlDocument.CreateElement("sii", "PeriodoLiquidacion", G.SII);
 
             XmlElement ejercicio = G.XmlDocument.CreateElement("sii", "Ejercicio", G.SII);
-            ejercicio.InnerText = FormatoDatosLista.FormatoEjercicio(_diccionarioValores[1]); //ejercicio
+            ejercicio.InnerText = _diccionarioValores[1].Substring(6, 4); //ejercicio
             periodoLiquidacion.AppendChild(ejercicio);
 
             XmlElement periodo = G.XmlDocument.CreateElement("sii", "Periodo", G.SII);
-            periodo.InnerText = FormatoDatosLista.FormatoPeriodo(_diccionarioValores[1]); //periodo
+            periodo.InnerText = _diccionarioValores[1].Substring(3, 2); //periodo
             periodoLiquidacion.AppendChild(periodo);
 
             XmlDocumentFragment frag = G.XmlDocument.CreateDocumentFragment();
@@ -144,7 +142,7 @@ namespace Entidades.utils.XML
             NoExenta.AppendChild(DesgloseIVA);
 
             #region DetalleIVA!!!!!!!!!
-            DesgloseIVA.AppendChild(XmlDetalleIva());
+            //DesgloseIVA.AppendChild(XmlDetalleIva());
             #endregion
 
             XmlDocumentFragment frag = G.XmlDocument.CreateDocumentFragment();
@@ -153,7 +151,7 @@ namespace Entidades.utils.XML
             return frag;
         }
 
-        private static XmlDocumentFragment XmlDetalleIva()
+        public static XmlDocumentFragment XmlDetalleIva()
         {
             XmlElement DetalleIVA = G.XmlDocument.CreateElement("sii", "DetalleIVA", G.SII);
 

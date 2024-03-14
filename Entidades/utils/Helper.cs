@@ -47,9 +47,6 @@ namespace Entidades.utils
                 {
                     suma += float.Parse(itemDiccionario.Value);
                 }
-
-                    
-
             return suma.ToString();
         }
     }

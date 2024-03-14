@@ -5,8 +5,10 @@ using System.Xml;
 namespace Entidades.utils.XML
 {
     public class Envoltorio
-    {  
-        public static XmlElement EstructuraPrincipalXML()
+    {
+        public static XmlElement SuministroLR { get; private set; }
+
+        public Envoltorio EstructuraPrincipalXML()
         {
             G.XmlDocument  = new XmlDocument();
 
@@ -26,10 +28,10 @@ namespace Entidades.utils.XML
             XmlElement body = G.XmlDocument.CreateElement("soapenv", "Body", G.SOAPENV);
             envelope.AppendChild(body);
 
-            XmlElement suministroLR = G.XmlDocument.CreateElement("siiLR", "SuministroLRFacturasEmitidas", G.SII_LR);
-            body.AppendChild(suministroLR);
+            SuministroLR = G.XmlDocument.CreateElement("siiLR", "SuministroLRFacturasEmitidas", G.SII_LR);
+            body.AppendChild(SuministroLR);
 
-            return suministroLR;
+            return this;
         }
     }
 }
