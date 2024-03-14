@@ -1,5 +1,14 @@
+using G = Entidades.utils.Global;   
 using Entidades.utils;
+using OfficeOpenXml;
 using System.Collections.Generic;
+using DT = System.Data;
+using System.Diagnostics;
+using System;
+using System.Data.OleDb;
+using Microsoft.Office.Interop.Excel;
+using System.Windows.Forms;
+using System.Data;
 
 
 namespace Datos.Excel
@@ -40,11 +49,84 @@ namespace Datos.Excel
                 _diccionarioValores = tempDic;
                 yield return _diccionarioValores;
             }
+
+            _excel.Dispose();
+        }
+    }
+
+    public class ExcelReader1
+    {
+        private readonly Excel _excel;  
+        private DT.DataTable _dataTable;
+
+        public ExcelReader1()
+        { 
+            _dataTable = new DT.DataTable();
         }
 
-        ~ExcelReader()
+        public void LeerExcel()
         {
-            _excel.Dispose();
+            Stopwatch st = new Stopwatch();
+            st.Start();
+
+            ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
+            using (ExcelPackage package = new ExcelPackage(new System.IO.FileInfo(G.ExcelFile)))
+            {
+                ExcelWorksheet worksheet = package.Workbook.Worksheets[0]; // Selecciona la primera hoja del libro
+
+                // Agregar las columnas al DataTable
+                for (int col = 1; col <= worksheet.Dimension.End.Column; col++)
+                {
+                    _dataTable.Columns.Add(worksheet.Cells[1, col].Value.ToString());
+                }
+
+                // Agregar las filas al DataTable
+                for (int row = 2; row <= worksheet.Dimension.End.Row; row++)
+                {
+                    DataRow newRow = _dataTable.Rows.Add();
+                    for (int col = 1; col <= worksheet.Dimension.End.Column; col++)
+                    {
+                        newRow[col - 1] = worksheet.Cells[row, col].Value;
+                    }
+                }
+                
+                _excel.Dispose();
+            }
+            st.Stop();
+
+            Console.WriteLine("bucle:" + st.Elapsed);
+
+            
+        }
+
+        public /*DT.DataTable*/ DataSet LeerExcelRs()
+        {
+            var sConnectionString = "" + 
+            "Provider=Microsoft.Jet.OLEDB.4.0;" +
+            "Data Source=" + G.ExcelFile + ";" +
+            "Extended Properties=Excel 8.0;";
+
+            using (new Excel())
+            {
+                using (OleDbConnection objConn = new OleDbConnection(sConnectionString))
+                {
+                    objConn.Open();
+
+                    OleDbCommand objCmdSelect = new OleDbCommand("SELECT * FROM [Hoja1$]", objConn);
+
+                    OleDbDataAdapter objAdapter1 = new OleDbDataAdapter
+                    {
+                        SelectCommand = objCmdSelect
+                    };
+
+                    DataSet objDataset1 = new DataSet();
+                    objAdapter1.Fill(objDataset1);
+
+                    objConn.Close();
+
+                    return objDataset1;//.Tables[1];
+                }
+            }
         }
     }
 }

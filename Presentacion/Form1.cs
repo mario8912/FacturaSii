@@ -33,18 +33,20 @@ namespace Presentacion
 
         private void SelectorDeArchivo()
         {
-            OpenFileDialog openFile = new OpenFileDialog
+            OpenFileDialog dialogoElegirExcel = new OpenFileDialog
             {
                 InitialDirectory = @"E:\mipc\escritorio\FacturaSii\data",
                 Filter = "Excel Files|*.xlsx",
                 Title = "Selecciona un archivo"
             };
 
-            if (openFile.ShowDialog() == DialogResult.OK && openFile.CheckFileExists == true)
+            if (dialogoElegirExcel.ShowDialog() == DialogResult.OK && dialogoElegirExcel.CheckFileExists == true)
             {
-                G.ExcelFile = openFile.FileName;
+                G.ExcelFile = dialogoElegirExcel.FileName;
                 btnCrearXml.Enabled = true;
                 AgregarRutaTextbox();
+
+                dialogoElegirExcel.Dispose();
             }
         }
 

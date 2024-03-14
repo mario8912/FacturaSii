@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 
 namespace Datos.Excel
 {
-    internal class Excel
+    internal class Excel : IDisposable
     {
         public Application ExcelApp { get; private set; }
         public Workbook Libro { get; private set; }
@@ -22,8 +22,9 @@ namespace Datos.Excel
 
         public void Dispose()
         {
+            Libro?.Close();  
+            ExcelApp?.Quit();
             LimpiarRecursos();
-            GC.SuppressFinalize(this);
         }
 
         private void LimpiarRecursos()
@@ -34,11 +35,6 @@ namespace Datos.Excel
             Marshal.ReleaseComObject(Hoja);
             Marshal.ReleaseComObject(Libro);
             Marshal.ReleaseComObject(ExcelApp);
-        }
-
-        ~Excel()
-        {
-            LimpiarRecursos();
         }
     }
 }

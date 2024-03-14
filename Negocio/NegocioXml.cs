@@ -1,6 +1,8 @@
 ﻿using Datos.Excel;
 using Datos.XML;
 using Entidades.utils;
+using System;
+using System.Data;
 
 namespace Negocio
 {
@@ -13,7 +15,25 @@ namespace Negocio
         {
             _eventoProgreso = eventoProgreso;
             _constructor = new ConstructorXML();
-            EsructuraXML();
+            //EsructuraXML();
+            LeerExcel1();
+        }
+
+        private void LeerExcel1()
+        {
+            ExcelReader1 excelReader = new ExcelReader1();
+            DataSet dataSet = excelReader.LeerExcelRs();
+            DataTable dt = excelReader.LeerExcelRs().Tables[0];
+
+            foreach (var item in dt.AsEnumerable())
+            {
+                Console.WriteLine("fila" + item.ToString());   
+                foreach (var item2 in item.ItemArray)
+                {
+                    System.Console.Write(item2.ToString() + "\t");
+                }
+                Console.WriteLine();
+            }
         }
 
         private void EsructuraXML()
