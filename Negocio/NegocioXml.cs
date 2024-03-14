@@ -9,31 +9,11 @@ namespace Negocio
     public class NegocioXml
     {
         private IConstructorXML _constructor;
-        private EventoProgreso _eventoProgreso;
 
-        public void CrearXml(EventoProgreso eventoProgreso)
+        public void CrearXml()
         {
-            _eventoProgreso = eventoProgreso;
             _constructor = new ConstructorXML();
-            //EsructuraXML();
-            LeerExcel1();
-        }
-
-        private void LeerExcel1()
-        {
-            ExcelReader1 excelReader = new ExcelReader1();
-            DataSet dataSet = excelReader.LeerExcelRs();
-            DataTable dt = excelReader.LeerExcelRs().Tables[0];
-
-            foreach (var item in dt.AsEnumerable())
-            {
-                Console.WriteLine("fila" + item.ToString());   
-                foreach (var item2 in item.ItemArray)
-                {
-                    System.Console.Write(item2.ToString() + "\t");
-                }
-                Console.WriteLine();
-            }
+            EsructuraXML();
         }
 
         private void EsructuraXML()
@@ -47,7 +27,7 @@ namespace Negocio
         private void CrearFacturas()
         {
             ExcelReader excelReader = new ExcelReader();
-            _constructor.EstructuraFacturaXML(excelReader.LeerExcel(_eventoProgreso));
+            _constructor.EstructuraFacturaXML(excelReader.LeerExcel());
         }
     }
 }

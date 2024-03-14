@@ -10,8 +10,6 @@ namespace Presentacion
 {
     public partial class Form1 : Form
     {
-        private EventoProgreso _eventoProgreso;
-
         public Form1()
         {
             InitializeComponent();
@@ -19,11 +17,7 @@ namespace Presentacion
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            _eventoProgreso = new EventoProgreso();
-            _eventoProgreso.ProgresoCambiado += ProgresoCambiado;
-
             btnCrearXml.Enabled = false;
-            progressBar1.Visible = false;
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -62,50 +56,12 @@ namespace Presentacion
             textBox1.Text = string.Empty;
             btnCrearXml.Enabled = false;
 
-            var task = new Task(() => { negocioXml.CrearXml(_eventoProgreso); });
-            task.Start();   
-            
-            //TestProgressBar();
-            ProgressBarStatus();
+            var task = new Task(() => { negocioXml.CrearXml(); });
+            task.Start();
 
             await task;
             MensajeXMLCreado();
             LimpiarRecursos();
-        }
-
-        private void TestProgressBar()
-        {
-            _eventoProgreso.ValorMaximoBarraProgreso = 150;
-            for (int i = 0; i < 100; i++)
-            {
-                _eventoProgreso.AumentarProgreso();
-            }
-        }
-
-        private void ProgressBarStatus()
-        {
-            progressBar1.Visible = true;
-            progressBar1.Minimum = 0;
-            progressBar1.Maximum = _eventoProgreso.ValorMaximoBarraProgreso;
-        }
-
-        private void ProgresoCambiado(object sender, int aumento)
-        {
-
-            if (InvokeRequired)
-            {
-                Invoke(new Action(() => { SetMaxProgressBar(); }));
-                Invoke(new Action(() => progressBar1.Value = aumento));
-            }
-                
-            else
-                progressBar1.Value = aumento;
-        }
-
-        private void SetMaxProgressBar()
-        {
-            if(progressBar1.Maximum != _eventoProgreso.ValorMaximoBarraProgreso)
-                progressBar1.Maximum = _eventoProgreso.ValorMaximoBarraProgreso-1;
         }
 
         private void MensajeXMLCreado()
