@@ -11,7 +11,6 @@ namespace Datos.Excel
         private static Dictionary<int, dynamic> _diccionarioValores;
         private readonly DataTable _dataTable;
         private readonly Helper _listas;
-        private readonly Excel _excel;
 
         public ExcelReader()
         {
@@ -55,15 +54,15 @@ namespace Datos.Excel
             var tempDic = new Dictionary<int, dynamic>(_diccionarioValores);
 
             foreach (DataRow fila in _dataTable.AsEnumerable())
-                foreach (KeyValuePair<int, dynamic> itemDiccionario in _diccionarioValores)
+            {
+                var tempDicForLoop = new Dictionary<int, dynamic>(_diccionarioValores);
+                foreach (KeyValuePair<int, dynamic> itemDiccionario in tempDicForLoop)
                     if (fila[itemDiccionario.Key] != null)
                         tempDic[itemDiccionario.Key] = fila[itemDiccionario.Key].ToString();
 
-
-            _diccionarioValores = tempDic;
-            yield return _diccionarioValores;
-
-            _excel.Dispose();
+                _diccionarioValores = tempDic;
+                yield return _diccionarioValores;
+            }
         }
     }
 }

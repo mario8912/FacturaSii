@@ -1,38 +1,39 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace Entidades.utils
 {
     public class Helper
     {
-        public static List<int> listaBaseCuotaTipo = new List<int> {5, 6, 7, 10, 11, 12, 15, 16 ,17, 20, 21, 22, 25, 26, 27 };
+        public static List<int> listaBaseCuotaTipo = new List<int> { 4, 6, 9, 11, 14, 16, 19, 21, 24, 26 };
         public Dictionary<int, dynamic> GetDiccionarioColumnasExcel()
         {
             return new Dictionary<int, dynamic>
             {
-                { 1, null }, //num factura
-                { 2, null }, //fecha expedicion
-                { 3, null }, //nifid
-                { 4, null }, //nombre razon
+                { 0, null }, //num factura
+                { 1, null }, //fecha expedicion
+                { 2, null }, //nifid
+                { 3, null }, //nombre razon
 
-                { 5, null }, //b1
-                { 6, null }, //t1
-                { 7, null }, //c1
+                { 4, null }, //b1
+                { 5, null }, //t1
+                { 6, null }, //c1
 
-                { 10, null }, //b2
-                { 11, null }, //t2
-                { 12, null }, //c2
+                { 9, null }, //b2
+                { 10, null }, //t2
+                { 11, null }, //c2
 
-                { 15, null }, //b3
-                { 16, null }, //t3
-                { 17, null }, //c3
+                { 14, null }, //b3
+                { 15, null }, //t3
+                { 16, null }, //c3
 
-                { 20, null }, //b4
-                { 21, null }, //t4
-                { 22, null }, //c4
+                { 19, null }, //b4
+                { 20, null }, //t4
+                { 21, null }, //c4
 
-                { 25, null }, //b5
-                { 26, null }, //t5
-                { 27, null }  //c5
+                { 24, null }, //b5
+                { 25, null }, //t5
+                { 26, null }  //c5
             };
             
         }
@@ -42,8 +43,12 @@ namespace Entidades.utils
             float suma = 0;
 
             foreach (KeyValuePair<int, dynamic> itemDiccionario in diccionarioValores)
-                if (listaBaseCuotaTipo.Contains(itemDiccionario.Key) && itemDiccionario.Value != null)
+                if (listaBaseCuotaTipo.Contains(itemDiccionario.Key) && itemDiccionario.Value != null && itemDiccionario.Value != "")
+                {
                     suma += float.Parse(itemDiccionario.Value);
+                }
+
+                    
 
             return suma.ToString();
         }

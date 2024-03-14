@@ -26,7 +26,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>409,87</sii:ImporteTotal>
+          <sii:ImporteTotal>388,87</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a TUDOR CATALIN CALIN, f. A10918</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>TUDOR CATALIN CALIN</sii:NombreRazon>
@@ -65,7 +65,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>116,67</sii:ImporteTotal>
+          <sii:ImporteTotal>95,67</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a AC GRUPOADESA,S.L., f. A10919</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>AC GRUPOADESA,S.L.</sii:NombreRazon>
@@ -104,7 +104,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>1334,49</sii:ImporteTotal>
+          <sii:ImporteTotal>1313,49</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a ASÍ.COLLA.XIM PUM TRACATA, f. A10920</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>ASÍ.COLLA.XIM PUM TRACATA</sii:NombreRazon>
@@ -143,7 +143,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>207,49</sii:ImporteTotal>
+          <sii:ImporteTotal>186,49</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a ALMERICH BIOSCA,C.B., f. A10921</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>ALMERICH BIOSCA,C.B.</sii:NombreRazon>
@@ -182,7 +182,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>21</sii:ImporteTotal>
+          <sii:ImporteTotal>0</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a FUERTES ROMERO MARIA ROSA, f. A10922</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>FUERTES ROMERO MARIA ROSA</sii:NombreRazon>
@@ -221,7 +221,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>21</sii:ImporteTotal>
+          <sii:ImporteTotal>0</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a FUERTES ROMERO MARIA ROSA, f. A10923</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>FUERTES ROMERO MARIA ROSA</sii:NombreRazon>
@@ -260,7 +260,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>21,15</sii:ImporteTotal>
+          <sii:ImporteTotal>0,15</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a BELENGUER MARTINEZ JONATAN , f. A10924</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>BELENGUER MARTINEZ JONATAN </sii:NombreRazon>
@@ -299,7 +299,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>21</sii:ImporteTotal>
+          <sii:ImporteTotal>0</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a BRECCIA ANDINO FLOR MARINA, f. A10925</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>BRECCIA ANDINO FLOR MARINA</sii:NombreRazon>
@@ -338,7 +338,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>401,76</sii:ImporteTotal>
+          <sii:ImporteTotal>380,76</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a LILIANA NITU NORA, f. A10926</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>LILIANA NITU NORA</sii:NombreRazon>
@@ -377,7 +377,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>21</sii:ImporteTotal>
+          <sii:ImporteTotal>0</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a STAMATE ADRIANA, f. A10927</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>STAMATE ADRIANA</sii:NombreRazon>
@@ -416,7 +416,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>21</sii:ImporteTotal>
+          <sii:ImporteTotal>0</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a ROMPLAST GROUP, f. A10929</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>ROMPLAST GROUP</sii:NombreRazon>
@@ -455,7 +455,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>21</sii:ImporteTotal>
+          <sii:ImporteTotal>0</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a LUIS DOMINGUEZ LOPEZ, f. A10930</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>LUIS DOMINGUEZ LOPEZ</sii:NombreRazon>
@@ -494,7 +494,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>21</sii:ImporteTotal>
+          <sii:ImporteTotal>0</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a BAR BLESA S L, f. A10931</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>BAR BLESA S L</sii:NombreRazon>
@@ -533,7 +533,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>21</sii:ImporteTotal>
+          <sii:ImporteTotal>0</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a DOBRE CASTELLON CB, f. A10932</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>DOBRE CASTELLON CB</sii:NombreRazon>
@@ -572,7 +572,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>21</sii:ImporteTotal>
+          <sii:ImporteTotal>0</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a GEORGETA USURELLU,ELENA, f. A10933</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>GEORGETA USURELLU,ELENA</sii:NombreRazon>
@@ -611,7 +611,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>21</sii:ImporteTotal>
+          <sii:ImporteTotal>0</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a BASICO GASTRONIMIA, S.L., f. A10934</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>BASICO GASTRONIMIA, S.L.</sii:NombreRazon>
@@ -650,7 +650,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>21</sii:ImporteTotal>
+          <sii:ImporteTotal>0</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a DHAIDAH RADOUAN, f. A10935</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>DHAIDAH RADOUAN</sii:NombreRazon>
@@ -689,7 +689,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>21</sii:ImporteTotal>
+          <sii:ImporteTotal>0</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a VILA-REAL CASINO S.L, f. A10936</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>VILA-REAL CASINO S.L</sii:NombreRazon>
@@ -728,7 +728,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>21</sii:ImporteTotal>
+          <sii:ImporteTotal>0</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a PARLA DINO, f. A10937</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>PARLA DINO</sii:NombreRazon>
@@ -767,7 +767,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>21</sii:ImporteTotal>
+          <sii:ImporteTotal>0</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a EBISU GOURMETS SLU, f. A10938</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>EBISU GOURMETS SLU</sii:NombreRazon>
@@ -806,7 +806,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>85,65</sii:ImporteTotal>
+          <sii:ImporteTotal>64,65</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a MARIA CARMEN GIL MARIN, f. A10939</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>MARIA CARMEN GIL MARIN</sii:NombreRazon>
@@ -845,7 +845,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>728,34</sii:ImporteTotal>
+          <sii:ImporteTotal>697,34</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a LICHE JULIANA ANDREEA, f. A10940</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>LICHE JULIANA ANDREEA</sii:NombreRazon>
@@ -884,7 +884,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>406,78</sii:ImporteTotal>
+          <sii:ImporteTotal>385,78</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a CASTELLON KEBAP 1 SL, f. A10941</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>CASTELLON KEBAP 1 SL</sii:NombreRazon>
@@ -923,7 +923,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>911,14</sii:ImporteTotal>
+          <sii:ImporteTotal>880,14</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a GONZALEZ RUIZ JUANA, f. A10942</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>GONZALEZ RUIZ JUANA</sii:NombreRazon>
@@ -962,7 +962,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>337,73</sii:ImporteTotal>
+          <sii:ImporteTotal>316,73</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a MARIN CERASELA FLORENTINA, f. A10943</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>MARIN CERASELA FLORENTINA</sii:NombreRazon>
@@ -1001,7 +1001,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>214,58</sii:ImporteTotal>
+          <sii:ImporteTotal>193,58</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a CASTROM GASTRONOMIA Y HOSTELERIA S.L, f. A10944</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>CASTROM GASTRONOMIA Y HOSTELERIA S.L</sii:NombreRazon>
@@ -1040,7 +1040,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>228,01</sii:ImporteTotal>
+          <sii:ImporteTotal>207,01</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a LES ELISETES S.C., f. A10945</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>LES ELISETES S.C.</sii:NombreRazon>
@@ -1079,7 +1079,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>1284,21</sii:ImporteTotal>
+          <sii:ImporteTotal>1248,21</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a PEREZ GOMEZ LIMON MARIA DOLORES, f. A10946</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>PEREZ GOMEZ LIMON MARIA DOLORES</sii:NombreRazon>
@@ -1118,7 +1118,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>176,69</sii:ImporteTotal>
+          <sii:ImporteTotal>145,69</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a PEREZ GOMEZ LIMON MARIA DOLORES, f. A10947</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>PEREZ GOMEZ LIMON MARIA DOLORES</sii:NombreRazon>
@@ -1157,7 +1157,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>2088,71</sii:ImporteTotal>
+          <sii:ImporteTotal>2067,71</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a CABA BEATRICE, f. A10948</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>CABA BEATRICE</sii:NombreRazon>
@@ -1196,7 +1196,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>3035,02</sii:ImporteTotal>
+          <sii:ImporteTotal>3004,02</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a CABA EDUARD CORVIN , f. A10949</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>CABA EDUARD CORVIN </sii:NombreRazon>
@@ -1235,7 +1235,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>364,35</sii:ImporteTotal>
+          <sii:ImporteTotal>343,35</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a EDO SAURA TANIA, f. A10950</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>EDO SAURA TANIA</sii:NombreRazon>
@@ -1274,7 +1274,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>62,22</sii:ImporteTotal>
+          <sii:ImporteTotal>41,22</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a  IULIANA NAE ALINA, f. A10951</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon> IULIANA NAE ALINA</sii:NombreRazon>
@@ -1313,7 +1313,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>1199,78</sii:ImporteTotal>
+          <sii:ImporteTotal>1168,78</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a CAFE SOPHIE C.B., f. A10952</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>CAFE SOPHIE C.B.</sii:NombreRazon>
@@ -1352,7 +1352,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>971,54</sii:ImporteTotal>
+          <sii:ImporteTotal>940,54</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a IORDACHE IOANA ALIS, f. A10953</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>IORDACHE IOANA ALIS</sii:NombreRazon>
@@ -1391,7 +1391,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>204,3</sii:ImporteTotal>
+          <sii:ImporteTotal>173,3</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a STELUTA GHERGA NINA, f. A10954</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>STELUTA GHERGA NINA</sii:NombreRazon>
@@ -1430,7 +1430,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>94,36</sii:ImporteTotal>
+          <sii:ImporteTotal>73,36</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a STELUTA GHERGA NINA, f. A10955</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>STELUTA GHERGA NINA</sii:NombreRazon>
@@ -1469,7 +1469,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>104,39</sii:ImporteTotal>
+          <sii:ImporteTotal>83,39</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a BRECCIA ANDINO FLOR MARINA, f. A10956</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>BRECCIA ANDINO FLOR MARINA</sii:NombreRazon>
@@ -1508,7 +1508,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>73,17999</sii:ImporteTotal>
+          <sii:ImporteTotal>52,18</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a LAZARO GIL EZEQUIEL SALVADOR, f. A10957</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>LAZARO GIL EZEQUIEL SALVADOR</sii:NombreRazon>
@@ -1547,7 +1547,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>114,42</sii:ImporteTotal>
+          <sii:ImporteTotal>93,42</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a MARTINEZ MONTANO ROSA MARIA, f. A10958</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>MARTINEZ MONTANO ROSA MARIA</sii:NombreRazon>
@@ -1586,7 +1586,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>5287,17</sii:ImporteTotal>
+          <sii:ImporteTotal>5256,17</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a AGUILAR MARTIN, OSCAR, f. A10959</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>AGUILAR MARTIN, OSCAR</sii:NombreRazon>
@@ -1625,7 +1625,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>1122,99</sii:ImporteTotal>
+          <sii:ImporteTotal>1091,99</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a AÑO94 SL, f. A10960</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>AÑO94 SL</sii:NombreRazon>
@@ -1664,7 +1664,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>233,68</sii:ImporteTotal>
+          <sii:ImporteTotal>212,68</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a GIMENEZ BEIVIDE FERNANDO MANUEL, f. A10962</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>GIMENEZ BEIVIDE FERNANDO MANUEL</sii:NombreRazon>
@@ -1703,7 +1703,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>49,85</sii:ImporteTotal>
+          <sii:ImporteTotal>39,85</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a ASADOR REST. PAIRAL S.L., f. A10963</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>ASADOR REST. PAIRAL S.L.</sii:NombreRazon>
@@ -1745,7 +1745,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>655,06</sii:ImporteTotal>
+          <sii:ImporteTotal>634,06</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a MARIN EDO, FRANCISCO JOSE, f. A10964</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>MARIN EDO, FRANCISCO JOSE</sii:NombreRazon>
@@ -1784,7 +1784,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>2712,49</sii:ImporteTotal>
+          <sii:ImporteTotal>2691,49</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a DOBRE CASTELLON CB, f. A10965</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>DOBRE CASTELLON CB</sii:NombreRazon>
@@ -1823,7 +1823,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>144,65</sii:ImporteTotal>
+          <sii:ImporteTotal>123,65</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a VILLALONGA ALCACER MARISOL, f. A10966</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>VILLALONGA ALCACER MARISOL</sii:NombreRazon>
@@ -1862,7 +1862,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>459,47</sii:ImporteTotal>
+          <sii:ImporteTotal>438,47</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a FENER XIA, f. A10967</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>FENER XIA</sii:NombreRazon>
@@ -1901,7 +1901,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>169,29</sii:ImporteTotal>
+          <sii:ImporteTotal>148,29</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a RUBIO EIXAU DANIEL , f. A10968</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>RUBIO EIXAU DANIEL </sii:NombreRazon>
@@ -1940,7 +1940,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>21</sii:ImporteTotal>
+          <sii:ImporteTotal>0</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a CAMPING TORRELASAL SL, f. A10969</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>CAMPING TORRELASAL SL</sii:NombreRazon>
@@ -1979,7 +1979,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>21</sii:ImporteTotal>
+          <sii:ImporteTotal>0</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a CAMPING TORRELASAL SL, f. A10970</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>CAMPING TORRELASAL SL</sii:NombreRazon>
@@ -2018,7 +2018,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>41,67</sii:ImporteTotal>
+          <sii:ImporteTotal>10,67</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a BONICA EVENTOS S.L., f. A10971</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>BONICA EVENTOS S.L.</sii:NombreRazon>
@@ -2057,7 +2057,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>170,17</sii:ImporteTotal>
+          <sii:ImporteTotal>149,17</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a GRUPO HOSTELERO SGM 2023 S.L., f. A10972</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>GRUPO HOSTELERO SGM 2023 S.L.</sii:NombreRazon>
@@ -2096,7 +2096,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>173,72</sii:ImporteTotal>
+          <sii:ImporteTotal>142,72</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a LIMBO, f. A10973</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>LIMBO</sii:NombreRazon>
@@ -2135,7 +2135,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>197,93</sii:ImporteTotal>
+          <sii:ImporteTotal>176,93</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a HELADERIA EL MADRIGAL S.L., f. A10974</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>HELADERIA EL MADRIGAL S.L.</sii:NombreRazon>
@@ -2174,7 +2174,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>57,87</sii:ImporteTotal>
+          <sii:ImporteTotal>36,87</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a MENFIS MENDOS,C.B., f. A10975</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>MENFIS MENDOS,C.B.</sii:NombreRazon>
@@ -2213,7 +2213,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>1327,76</sii:ImporteTotal>
+          <sii:ImporteTotal>1296,76</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a DHAIDAH RADOUAN, f. A10976</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>DHAIDAH RADOUAN</sii:NombreRazon>
@@ -2252,7 +2252,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>1466,3</sii:ImporteTotal>
+          <sii:ImporteTotal>1435,3</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a ROMPLAST GROUP, f. A10977</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>ROMPLAST GROUP</sii:NombreRazon>
@@ -2291,7 +2291,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>23,58</sii:ImporteTotal>
+          <sii:ImporteTotal>2,58</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a ROMPLAST GROUP, f. A10978</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>ROMPLAST GROUP</sii:NombreRazon>
@@ -2330,7 +2330,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>249,74</sii:ImporteTotal>
+          <sii:ImporteTotal>228,74</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a BRENDORFER HERMINA , f. A10979</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>BRENDORFER HERMINA </sii:NombreRazon>
@@ -2369,7 +2369,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>21</sii:ImporteTotal>
+          <sii:ImporteTotal>0</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a BRENDORFER HERMINA , f. A10980</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>BRENDORFER HERMINA </sii:NombreRazon>
@@ -2408,7 +2408,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>29,89</sii:ImporteTotal>
+          <sii:ImporteTotal>19,89</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a RAMIREZ MUÑOZ MARIA DOLORES, f. A10981</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>RAMIREZ MUÑOZ MARIA DOLORES</sii:NombreRazon>
@@ -2450,7 +2450,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>18,84</sii:ImporteTotal>
+          <sii:ImporteTotal>8,84</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a JOSE CHAVARRI MEYBIN, f. A10982</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>JOSE CHAVARRI MEYBIN</sii:NombreRazon>
@@ -2492,7 +2492,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>21</sii:ImporteTotal>
+          <sii:ImporteTotal>0</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a LILIANA NITU NORA, f. A10983</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>LILIANA NITU NORA</sii:NombreRazon>
@@ -2531,7 +2531,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>21</sii:ImporteTotal>
+          <sii:ImporteTotal>0</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a LILIANA NITU NORA, f. A10984</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>LILIANA NITU NORA</sii:NombreRazon>
@@ -2570,7 +2570,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>21</sii:ImporteTotal>
+          <sii:ImporteTotal>0</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a FLAVIUS ZAFIAN MURGU, f. A10985</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>FLAVIUS ZAFIAN MURGU</sii:NombreRazon>
@@ -2609,7 +2609,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>21</sii:ImporteTotal>
+          <sii:ImporteTotal>0</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a ASOCIACION COSA NOSTRA, f. A10986</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>ASOCIACION COSA NOSTRA</sii:NombreRazon>
@@ -2648,7 +2648,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>21</sii:ImporteTotal>
+          <sii:ImporteTotal>0</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a ASOCIACION COSA NOSTRA, f. A10987</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>ASOCIACION COSA NOSTRA</sii:NombreRazon>
@@ -2687,7 +2687,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>81,25</sii:ImporteTotal>
+          <sii:ImporteTotal>60,25</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a CAFE 56 REY DON JAIME SL, f. A10988</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>CAFE 56 REY DON JAIME SL</sii:NombreRazon>
@@ -2726,7 +2726,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>-186,22</sii:ImporteTotal>
+          <sii:ImporteTotal>-207,22</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a BRENDORFER HERMINA , f. A10989</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>BRENDORFER HERMINA </sii:NombreRazon>
@@ -2765,7 +2765,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>20,54</sii:ImporteTotal>
+          <sii:ImporteTotal>-0,46</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a ZHENG CHEN SIA HAO, f. A10990</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>ZHENG CHEN SIA HAO</sii:NombreRazon>
@@ -2804,7 +2804,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>-71,99</sii:ImporteTotal>
+          <sii:ImporteTotal>-92,99</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a CASALTA PRADES MARIA BELEN, f. A10991</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>CASALTA PRADES MARIA BELEN</sii:NombreRazon>
@@ -2843,7 +2843,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>-16,16</sii:ImporteTotal>
+          <sii:ImporteTotal>-37,16</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a BRENDORFER HERMINA , f. A10992</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>BRENDORFER HERMINA </sii:NombreRazon>
@@ -2882,7 +2882,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>-18,91</sii:ImporteTotal>
+          <sii:ImporteTotal>-39,91</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a BRENDORFER HERMINA , f. A10993</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>BRENDORFER HERMINA </sii:NombreRazon>
@@ -2921,7 +2921,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>-1428,26</sii:ImporteTotal>
+          <sii:ImporteTotal>-1459,26</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a ROMPLAST GROUP, f. A10994</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>ROMPLAST GROUP</sii:NombreRazon>
@@ -2960,7 +2960,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>21</sii:ImporteTotal>
+          <sii:ImporteTotal>0</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a AÑO94 SL, f. A10995</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>AÑO94 SL</sii:NombreRazon>
@@ -2999,7 +2999,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>121,16</sii:ImporteTotal>
+          <sii:ImporteTotal>90,16</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a JAVIER AIRE ACONDICIONADO,SL, f. A10996</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>JAVIER AIRE ACONDICIONADO,SL</sii:NombreRazon>
@@ -3038,7 +3038,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>1959,76</sii:ImporteTotal>
+          <sii:ImporteTotal>1928,76</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a USO CARAVACA,HECTOR, f. A10997</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>USO CARAVACA,HECTOR</sii:NombreRazon>
@@ -3077,7 +3077,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>6938,99</sii:ImporteTotal>
+          <sii:ImporteTotal>6907,99</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a SUMMER OF MUSIC FESTIVAL CASTELLO, f. A10998</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>SUMMER OF MUSIC FESTIVAL CASTELLO</sii:NombreRazon>
@@ -3116,7 +3116,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>21</sii:ImporteTotal>
+          <sii:ImporteTotal>0</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a USO CARAVACA,HECTOR, f. A10999</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>USO CARAVACA,HECTOR</sii:NombreRazon>
@@ -3155,7 +3155,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>893,18</sii:ImporteTotal>
+          <sii:ImporteTotal>872,18</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a ISMOMASA,S.L., f. A11000</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>ISMOMASA,S.L.</sii:NombreRazon>
@@ -3194,7 +3194,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>21,02</sii:ImporteTotal>
+          <sii:ImporteTotal>0,02</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a ALONSO SAFONT JUAN JOSE, f. A11001</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>ALONSO SAFONT JUAN JOSE</sii:NombreRazon>
@@ -3233,7 +3233,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>23,42</sii:ImporteTotal>
+          <sii:ImporteTotal>2,42</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a ESPECTACULOS AMB PRODUCCIONES S.L., f. A11002</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>ESPECTACULOS AMB PRODUCCIONES S.L.</sii:NombreRazon>
@@ -3272,7 +3272,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>175,78</sii:ImporteTotal>
+          <sii:ImporteTotal>154,78</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a CARRASCO CHINCHILLA OLGA, f. A11003</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>CARRASCO CHINCHILLA OLGA</sii:NombreRazon>
@@ -3311,7 +3311,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>21</sii:ImporteTotal>
+          <sii:ImporteTotal>0</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a DUMITRASCU RODICA, f. A11004</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>DUMITRASCU RODICA</sii:NombreRazon>
@@ -3350,7 +3350,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>21</sii:ImporteTotal>
+          <sii:ImporteTotal>0</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a GIOCAS ANA, f. A11005</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>GIOCAS ANA</sii:NombreRazon>
@@ -3389,7 +3389,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>21</sii:ImporteTotal>
+          <sii:ImporteTotal>0</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a CASTROM GASTRONOMIA Y HOSTELERIA S.L, f. A11006</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>CASTROM GASTRONOMIA Y HOSTELERIA S.L</sii:NombreRazon>
@@ -3428,7 +3428,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>41,33</sii:ImporteTotal>
+          <sii:ImporteTotal>20,33</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a S.A.DAMM, f. A11007</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>S.A.DAMM</sii:NombreRazon>
@@ -3467,7 +3467,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>45,89</sii:ImporteTotal>
+          <sii:ImporteTotal>24,89</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a S.A.DAMM, f. A11008</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>S.A.DAMM</sii:NombreRazon>
@@ -3506,7 +3506,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>37,07</sii:ImporteTotal>
+          <sii:ImporteTotal>16,07</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a S.A.DAMM, f. A11009</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>S.A.DAMM</sii:NombreRazon>
@@ -3545,7 +3545,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>76,27</sii:ImporteTotal>
+          <sii:ImporteTotal>55,27</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a S.A.DAMM, f. A11010</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>S.A.DAMM</sii:NombreRazon>
@@ -3584,7 +3584,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>24,81</sii:ImporteTotal>
+          <sii:ImporteTotal>3,81</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a S.A.DAMM, f. A11011</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>S.A.DAMM</sii:NombreRazon>
@@ -3623,7 +3623,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>29,47</sii:ImporteTotal>
+          <sii:ImporteTotal>8,47</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a S.A.DAMM, f. A11012</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>S.A.DAMM</sii:NombreRazon>
@@ -3662,7 +3662,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>32,64</sii:ImporteTotal>
+          <sii:ImporteTotal>11,64</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a S.A.DAMM, f. A11013</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>S.A.DAMM</sii:NombreRazon>
@@ -3701,7 +3701,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>58,27</sii:ImporteTotal>
+          <sii:ImporteTotal>37,27</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a S.A.DAMM, f. A11014</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>S.A.DAMM</sii:NombreRazon>
@@ -3740,7 +3740,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>51,49</sii:ImporteTotal>
+          <sii:ImporteTotal>30,49</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a S.A.DAMM, f. A11015</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>S.A.DAMM</sii:NombreRazon>
@@ -3779,7 +3779,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>24,81</sii:ImporteTotal>
+          <sii:ImporteTotal>3,81</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a S.A.DAMM, f. A11016</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>S.A.DAMM</sii:NombreRazon>
@@ -3818,7 +3818,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>44,72</sii:ImporteTotal>
+          <sii:ImporteTotal>23,72</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a S.A.DAMM, f. A11017</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>S.A.DAMM</sii:NombreRazon>
@@ -3857,7 +3857,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>41,33</sii:ImporteTotal>
+          <sii:ImporteTotal>20,33</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a S.A.DAMM, f. A11018</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>S.A.DAMM</sii:NombreRazon>
@@ -3896,7 +3896,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>27,03</sii:ImporteTotal>
+          <sii:ImporteTotal>6,03</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a S.A.DAMM, f. A11019</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>S.A.DAMM</sii:NombreRazon>
@@ -3935,7 +3935,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>45,1</sii:ImporteTotal>
+          <sii:ImporteTotal>24,1</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a S.A.DAMM, f. A11020</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>S.A.DAMM</sii:NombreRazon>
@@ -3974,7 +3974,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>26,08</sii:ImporteTotal>
+          <sii:ImporteTotal>5,08</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a S.A.DAMM, f. A11021</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>S.A.DAMM</sii:NombreRazon>
@@ -4013,7 +4013,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>29,47</sii:ImporteTotal>
+          <sii:ImporteTotal>8,47</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a S.A.DAMM, f. A11022</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>S.A.DAMM</sii:NombreRazon>
@@ -4052,7 +4052,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>24,81</sii:ImporteTotal>
+          <sii:ImporteTotal>3,81</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a S.A.DAMM, f. A11023</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>S.A.DAMM</sii:NombreRazon>
@@ -4091,7 +4091,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>36,45</sii:ImporteTotal>
+          <sii:ImporteTotal>15,45</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a S.A.DAMM, f. A11024</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>S.A.DAMM</sii:NombreRazon>
@@ -4130,7 +4130,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>36,25</sii:ImporteTotal>
+          <sii:ImporteTotal>15,25</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a S.A.DAMM, f. A11025</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>S.A.DAMM</sii:NombreRazon>
@@ -4169,7 +4169,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>39,55</sii:ImporteTotal>
+          <sii:ImporteTotal>18,55</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a S.A.DAMM, f. A11026</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>S.A.DAMM</sii:NombreRazon>
@@ -4208,7 +4208,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>21</sii:ImporteTotal>
+          <sii:ImporteTotal>0</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a GIL LLORENS JUAN JOSE, f. A11027</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>GIL LLORENS JUAN JOSE</sii:NombreRazon>
@@ -4247,7 +4247,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>21</sii:ImporteTotal>
+          <sii:ImporteTotal>0</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a GIL LLORENS JUAN JOSE, f. A11028</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>GIL LLORENS JUAN JOSE</sii:NombreRazon>
@@ -4286,7 +4286,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>171,16</sii:ImporteTotal>
+          <sii:ImporteTotal>150,16</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a ALCAINA PUENTE ANDRES GABRIEL, f. A11029</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>ALCAINA PUENTE ANDRES GABRIEL</sii:NombreRazon>
@@ -4325,7 +4325,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>121,96</sii:ImporteTotal>
+          <sii:ImporteTotal>100,96</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a EL PERRICO S.L., f. A11030</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>EL PERRICO S.L.</sii:NombreRazon>
@@ -4364,7 +4364,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>-18,78</sii:ImporteTotal>
+          <sii:ImporteTotal>-39,78</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a SANT PAU RESTAURACIÓN S.L., f. A11031</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>SANT PAU RESTAURACIÓN S.L.</sii:NombreRazon>
@@ -4403,7 +4403,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>53,32</sii:ImporteTotal>
+          <sii:ImporteTotal>32,32</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a JATIBEL,S.L, f. A11032</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>JATIBEL,S.L</sii:NombreRazon>
@@ -4442,7 +4442,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>-17,15</sii:ImporteTotal>
+          <sii:ImporteTotal>-38,15</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a BOCAVACA C.B., f. A11033</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>BOCAVACA C.B.</sii:NombreRazon>
@@ -4481,7 +4481,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>44,72</sii:ImporteTotal>
+          <sii:ImporteTotal>23,72</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a S.A.DAMM, f. A11034</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>S.A.DAMM</sii:NombreRazon>
@@ -4520,7 +4520,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>4755</sii:ImporteTotal>
+          <sii:ImporteTotal>4724</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a BAR HNOS.ZAFON C.B., f. A11035</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>BAR HNOS.ZAFON C.B.</sii:NombreRazon>
@@ -4559,7 +4559,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>114,9</sii:ImporteTotal>
+          <sii:ImporteTotal>93,89999</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a ENCARNA ALCUTEN ORTEGA, f. A11036</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>ENCARNA ALCUTEN ORTEGA</sii:NombreRazon>
@@ -4598,7 +4598,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>151,14</sii:ImporteTotal>
+          <sii:ImporteTotal>130,14</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a BELTAN BELLES ROSA, f. A11037</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>BELTAN BELLES ROSA</sii:NombreRazon>
@@ -4637,7 +4637,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>1744,2</sii:ImporteTotal>
+          <sii:ImporteTotal>1713,2</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a KELLY LEON, f. A11038</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>KELLY LEON</sii:NombreRazon>
@@ -4676,7 +4676,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>129,79</sii:ImporteTotal>
+          <sii:ImporteTotal>108,79</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a FABREGAT BARREDA ANGEL, f. A11039</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>FABREGAT BARREDA ANGEL</sii:NombreRazon>
@@ -4715,7 +4715,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>384,85</sii:ImporteTotal>
+          <sii:ImporteTotal>353,85</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a CLAUDIU SIME RAUL, f. A11040</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>CLAUDIU SIME RAUL</sii:NombreRazon>
@@ -4754,7 +4754,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>1230,79</sii:ImporteTotal>
+          <sii:ImporteTotal>1209,79</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a IACONI CLAUDIA, f. A11041</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>IACONI CLAUDIA</sii:NombreRazon>
@@ -4793,7 +4793,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>611,4401</sii:ImporteTotal>
+          <sii:ImporteTotal>580,44</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a IACONI CLAUDIA, f. A11042</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>IACONI CLAUDIA</sii:NombreRazon>
@@ -4832,7 +4832,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>406,54</sii:ImporteTotal>
+          <sii:ImporteTotal>375,54</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a MUNTEAN DANIELA, f. A11043</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>MUNTEAN DANIELA</sii:NombreRazon>
@@ -4871,7 +4871,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>58,16</sii:ImporteTotal>
+          <sii:ImporteTotal>37,16</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a MUNTEAN DANIELA, f. A11044</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>MUNTEAN DANIELA</sii:NombreRazon>
@@ -4910,7 +4910,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>310,12</sii:ImporteTotal>
+          <sii:ImporteTotal>279,12</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a VALENTIN BELLES FRANCISCO JOSE, f. A11045</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>VALENTIN BELLES FRANCISCO JOSE</sii:NombreRazon>
@@ -4949,7 +4949,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>415,42</sii:ImporteTotal>
+          <sii:ImporteTotal>384,42</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a HERMANOS GRANADOS PATRICIOS,SL, f. A11046</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>HERMANOS GRANADOS PATRICIOS,SL</sii:NombreRazon>
@@ -4988,7 +4988,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>48,65</sii:ImporteTotal>
+          <sii:ImporteTotal>27,65</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a HERMANOS GRANADOS PATRICIOS,SL, f. A11047</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>HERMANOS GRANADOS PATRICIOS,SL</sii:NombreRazon>
@@ -5027,7 +5027,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>198,16</sii:ImporteTotal>
+          <sii:ImporteTotal>167,16</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a CRUZ GOMEZ CAFETERIA S.L., f. A11048</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>CRUZ GOMEZ CAFETERIA S.L.</sii:NombreRazon>
@@ -5066,7 +5066,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>1212,3</sii:ImporteTotal>
+          <sii:ImporteTotal>1181,3</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a ENEIDA &amp; CALINA SL, f. A11049</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>ENEIDA &amp; CALINA SL</sii:NombreRazon>
@@ -5105,7 +5105,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>1933,56</sii:ImporteTotal>
+          <sii:ImporteTotal>1912,56</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a MINGLIANG ZHOU, f. A11050</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>MINGLIANG ZHOU</sii:NombreRazon>
@@ -5144,7 +5144,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>129,27</sii:ImporteTotal>
+          <sii:ImporteTotal>108,27</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a AZUCENA MATEU NUÑEZ, f. A11051</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>AZUCENA MATEU NUÑEZ</sii:NombreRazon>
@@ -5183,7 +5183,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>432,32</sii:ImporteTotal>
+          <sii:ImporteTotal>401,32</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a JUAN CARLOS GARCIA ALARCON, f. A11052</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>JUAN CARLOS GARCIA ALARCON</sii:NombreRazon>
@@ -5222,7 +5222,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>292,79</sii:ImporteTotal>
+          <sii:ImporteTotal>271,79</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a EL NOU SISTRES,CB, f. A11053</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>EL NOU SISTRES,CB</sii:NombreRazon>
@@ -5261,7 +5261,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>126,19</sii:ImporteTotal>
+          <sii:ImporteTotal>105,19</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a SUGLAGU SLU, f. A11054</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>SUGLAGU SLU</sii:NombreRazon>
@@ -5300,7 +5300,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>23,12</sii:ImporteTotal>
+          <sii:ImporteTotal>2,12</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a SUGLAGU SLU, f. A11055</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>SUGLAGU SLU</sii:NombreRazon>
@@ -5339,7 +5339,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>164</sii:ImporteTotal>
+          <sii:ImporteTotal>133</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a SANCHEZ HEREDIA,MARIA ESTHER, f. A11056</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>SANCHEZ HEREDIA,MARIA ESTHER</sii:NombreRazon>
@@ -5378,7 +5378,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>723,3</sii:ImporteTotal>
+          <sii:ImporteTotal>702,3</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a CAFE 56 REY DON JAIME SL, f. A11057</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>CAFE 56 REY DON JAIME SL</sii:NombreRazon>
@@ -5417,7 +5417,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>338,12</sii:ImporteTotal>
+          <sii:ImporteTotal>317,12</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a CAFE 56 REY DON JAIME, SL, f. A11058</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>CAFE 56 REY DON JAIME, SL</sii:NombreRazon>
@@ -5456,7 +5456,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>488,57</sii:ImporteTotal>
+          <sii:ImporteTotal>467,57</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a CAFÉ 56 REY DON JAIME S.L ., f. A11059</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>CAFÉ 56 REY DON JAIME S.L .</sii:NombreRazon>
@@ -5495,7 +5495,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>361,15</sii:ImporteTotal>
+          <sii:ImporteTotal>330,15</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a ALONSO SAFONT JUAN JOSE, f. A11060</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>ALONSO SAFONT JUAN JOSE</sii:NombreRazon>
@@ -5534,7 +5534,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>377,77</sii:ImporteTotal>
+          <sii:ImporteTotal>346,77</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a MAESTRO PIZZA &amp; DELIVERY , f. A11061</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>MAESTRO PIZZA &amp; DELIVERY </sii:NombreRazon>
@@ -5573,7 +5573,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>195,08</sii:ImporteTotal>
+          <sii:ImporteTotal>164,08</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a SERVENCAS SL, f. A11062</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>SERVENCAS SL</sii:NombreRazon>
@@ -5612,7 +5612,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>103,22</sii:ImporteTotal>
+          <sii:ImporteTotal>72,22</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a SERVENCAS SL, f. A11063</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>SERVENCAS SL</sii:NombreRazon>
@@ -5651,7 +5651,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>174,58</sii:ImporteTotal>
+          <sii:ImporteTotal>143,58</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a SERVENCAS SL, f. A11064</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>SERVENCAS SL</sii:NombreRazon>
@@ -5690,7 +5690,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>181,14</sii:ImporteTotal>
+          <sii:ImporteTotal>150,14</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a SERVENCAS SL, f. A11065</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>SERVENCAS SL</sii:NombreRazon>
@@ -5729,7 +5729,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>152,82</sii:ImporteTotal>
+          <sii:ImporteTotal>131,82</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a SERVENCAS SL, f. A11066</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>SERVENCAS SL</sii:NombreRazon>
@@ -5768,7 +5768,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>295,55</sii:ImporteTotal>
+          <sii:ImporteTotal>264,55</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a SERVENCAS SL, f. A11067</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>SERVENCAS SL</sii:NombreRazon>
@@ -5807,7 +5807,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>301,34</sii:ImporteTotal>
+          <sii:ImporteTotal>280,34</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a CAFETERIA AMADO S.L.L, f. A11068</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>CAFETERIA AMADO S.L.L</sii:NombreRazon>
@@ -5846,7 +5846,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>179,78</sii:ImporteTotal>
+          <sii:ImporteTotal>158,78</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a DNEPR 23, SL, f. A11069</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>DNEPR 23, SL</sii:NombreRazon>
@@ -5885,7 +5885,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>-19,28</sii:ImporteTotal>
+          <sii:ImporteTotal>-40,28</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a SALTA CASTELLON,S.L., f. A11070</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>SALTA CASTELLON,S.L.</sii:NombreRazon>
@@ -5924,7 +5924,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>9,070001</sii:ImporteTotal>
+          <sii:ImporteTotal>-11,93</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a IONUT DIMA BOGDAN, f. A11071</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>IONUT DIMA BOGDAN</sii:NombreRazon>
@@ -5963,7 +5963,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>52,82</sii:ImporteTotal>
+          <sii:ImporteTotal>31,82</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a CAFE A2, f. A11072</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>CAFE A2</sii:NombreRazon>
@@ -6002,7 +6002,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>184,12</sii:ImporteTotal>
+          <sii:ImporteTotal>163,12</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a MOYA DENIA, PEDRO, f. A11073</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>MOYA DENIA, PEDRO</sii:NombreRazon>
@@ -6041,7 +6041,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>21,24</sii:ImporteTotal>
+          <sii:ImporteTotal>0,24</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a JATIBEL S.L., f. A11074</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>JATIBEL S.L.</sii:NombreRazon>
@@ -6080,7 +6080,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>48,85</sii:ImporteTotal>
+          <sii:ImporteTotal>27,85</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a LA PASTISSERIA, f. A11075</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>LA PASTISSERIA</sii:NombreRazon>
@@ -6119,7 +6119,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>140,84</sii:ImporteTotal>
+          <sii:ImporteTotal>109,84</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a BOBROVA KSENIA, f. A11076</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>BOBROVA KSENIA</sii:NombreRazon>
@@ -6158,7 +6158,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>-7,680001</sii:ImporteTotal>
+          <sii:ImporteTotal>-28,68</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a BOBROVA KSENIA, f. A11077</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>BOBROVA KSENIA</sii:NombreRazon>
@@ -6197,7 +6197,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>15,39</sii:ImporteTotal>
+          <sii:ImporteTotal>-5,61</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a FALAT LILIANA, f. A11078</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>FALAT LILIANA</sii:NombreRazon>
@@ -6236,7 +6236,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>17,02</sii:ImporteTotal>
+          <sii:ImporteTotal>-3,98</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a MIRELA CATINCA ANDREA, f. A11079</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>MIRELA CATINCA ANDREA</sii:NombreRazon>
@@ -6275,7 +6275,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>96,23</sii:ImporteTotal>
+          <sii:ImporteTotal>65,23</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a RAVEANCA,74,S.L, f. A11081</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>RAVEANCA,74,S.L</sii:NombreRazon>
@@ -6314,7 +6314,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>211,76</sii:ImporteTotal>
+          <sii:ImporteTotal>180,76</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a BONDARU SIMONA, f. A11082</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>BONDARU SIMONA</sii:NombreRazon>
@@ -6353,7 +6353,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>260,46</sii:ImporteTotal>
+          <sii:ImporteTotal>229,46</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a DEUTSCH JUAN PEDRO, f. A11083</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>DEUTSCH JUAN PEDRO</sii:NombreRazon>
@@ -6392,7 +6392,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>95,82999</sii:ImporteTotal>
+          <sii:ImporteTotal>74,83</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a COTRINA RODRIGUEZ, LUCIO, f. A11084</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>COTRINA RODRIGUEZ, LUCIO</sii:NombreRazon>
@@ -6431,7 +6431,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>99,64</sii:ImporteTotal>
+          <sii:ImporteTotal>78,64</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a PALOMARES FERNANDEZ, S.L, f. A11085</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>PALOMARES FERNANDEZ, S.L</sii:NombreRazon>
@@ -6470,7 +6470,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>180,78</sii:ImporteTotal>
+          <sii:ImporteTotal>159,78</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a WANG XI LONG , f. A11086</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>WANG XI LONG </sii:NombreRazon>
@@ -6509,7 +6509,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>135,44</sii:ImporteTotal>
+          <sii:ImporteTotal>104,44</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a RETGERABRUNCH2020 SL, f. A11087</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>RETGERABRUNCH2020 SL</sii:NombreRazon>
@@ -6548,7 +6548,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>110,3</sii:ImporteTotal>
+          <sii:ImporteTotal>79,3</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a CARLOS GIACOMO PIZZAS,S.L., f. A11088</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>CARLOS GIACOMO PIZZAS,S.L.</sii:NombreRazon>
@@ -6587,7 +6587,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>96,24</sii:ImporteTotal>
+          <sii:ImporteTotal>75,24</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a MAI TAI OROPESA,S.C.R, f. A11089</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>MAI TAI OROPESA,S.C.R</sii:NombreRazon>
@@ -6626,7 +6626,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>252,78</sii:ImporteTotal>
+          <sii:ImporteTotal>231,78</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a PONS BENICASIM SL, f. A11090</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>PONS BENICASIM SL</sii:NombreRazon>
@@ -6665,7 +6665,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>654,57</sii:ImporteTotal>
+          <sii:ImporteTotal>623,57</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a EJARQUE BOU MIGUEL , f. A11091</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>EJARQUE BOU MIGUEL </sii:NombreRazon>
@@ -6704,7 +6704,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>500,15</sii:ImporteTotal>
+          <sii:ImporteTotal>479,15</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a S.A.DAMM, f. A11092</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>S.A.DAMM</sii:NombreRazon>
@@ -6743,7 +6743,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>198,14</sii:ImporteTotal>
+          <sii:ImporteTotal>177,14</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a S.A.DAMM, f. A11093</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>S.A.DAMM</sii:NombreRazon>
@@ -6782,7 +6782,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>463,32</sii:ImporteTotal>
+          <sii:ImporteTotal>442,32</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a S.A.DAMM, f. A11094</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>S.A.DAMM</sii:NombreRazon>
@@ -6821,7 +6821,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>44,87</sii:ImporteTotal>
+          <sii:ImporteTotal>23,87</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a EBISU GOURMETS SLU, f. A11095</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>EBISU GOURMETS SLU</sii:NombreRazon>
@@ -6860,7 +6860,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>123,08</sii:ImporteTotal>
+          <sii:ImporteTotal>102,08</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a S.A.DAMM, f. A11096</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>S.A.DAMM</sii:NombreRazon>
@@ -6899,7 +6899,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>-64,03</sii:ImporteTotal>
+          <sii:ImporteTotal>-85,03</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a LIMBO, f. A11097</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>LIMBO</sii:NombreRazon>
@@ -6938,7 +6938,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>28,96</sii:ImporteTotal>
+          <sii:ImporteTotal>7,96</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a PARLA DINO, f. A11098</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>PARLA DINO</sii:NombreRazon>
@@ -6977,7 +6977,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>24,98</sii:ImporteTotal>
+          <sii:ImporteTotal>3,98</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a JORNET I OLIVARES CAFETERIA, f. A11099</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>JORNET I OLIVARES CAFETERIA</sii:NombreRazon>
@@ -7016,7 +7016,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>28,96</sii:ImporteTotal>
+          <sii:ImporteTotal>7,96</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a TIKITAKA GAME,S.L, f. A11100</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>TIKITAKA GAME,S.L</sii:NombreRazon>
@@ -7055,7 +7055,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>92,61</sii:ImporteTotal>
+          <sii:ImporteTotal>71,61</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a HILARIO SANCHEZ LOPEZ, f. A11101</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>HILARIO SANCHEZ LOPEZ</sii:NombreRazon>
@@ -7094,7 +7094,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>-217,71</sii:ImporteTotal>
+          <sii:ImporteTotal>-238,71</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a J.VENTURA LA MASIA,S.L, f. A11102</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>J.VENTURA LA MASIA,S.L</sii:NombreRazon>
@@ -7133,7 +7133,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>55,01</sii:ImporteTotal>
+          <sii:ImporteTotal>34,01</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a S.A.DAMM, f. A11103</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>S.A.DAMM</sii:NombreRazon>
@@ -7172,7 +7172,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>9,070001</sii:ImporteTotal>
+          <sii:ImporteTotal>-11,93</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a FUENTES USO YOLANDA, f. A11104</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>FUENTES USO YOLANDA</sii:NombreRazon>
@@ -7211,7 +7211,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>-6,85</sii:ImporteTotal>
+          <sii:ImporteTotal>-27,85</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a SANCHEZ MANCEBO,RAMON ENRIQUE, f. A11105</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>SANCHEZ MANCEBO,RAMON ENRIQUE</sii:NombreRazon>
@@ -7250,7 +7250,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>13,04</sii:ImporteTotal>
+          <sii:ImporteTotal>-7,96</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a ATIENZA COLGADO JAVIER, f. A11106</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>ATIENZA COLGADO JAVIER</sii:NombreRazon>
@@ -7289,7 +7289,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>647,64</sii:ImporteTotal>
+          <sii:ImporteTotal>616,64</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a YOKAURY LINARES, SEVERINO, f. A11107</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>YOKAURY LINARES, SEVERINO</sii:NombreRazon>
@@ -7328,7 +7328,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>49,12</sii:ImporteTotal>
+          <sii:ImporteTotal>28,12</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a S.A.DAMM, f. A11108</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>S.A.DAMM</sii:NombreRazon>
@@ -7367,7 +7367,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>134,03</sii:ImporteTotal>
+          <sii:ImporteTotal>113,03</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a TAMARA MUÑOZ RAMOS, f. A11109</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>TAMARA MUÑOZ RAMOS</sii:NombreRazon>
@@ -7406,7 +7406,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>857,86</sii:ImporteTotal>
+          <sii:ImporteTotal>826,86</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a DISTRIBUCIONS BON BEURE SL, f. A11110</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>DISTRIBUCIONS BON BEURE SL</sii:NombreRazon>
@@ -7445,7 +7445,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>188,43</sii:ImporteTotal>
+          <sii:ImporteTotal>167,43</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a SUN XIAOYONG, f. A11111</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>SUN XIAOYONG</sii:NombreRazon>
@@ -7484,7 +7484,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>368,63</sii:ImporteTotal>
+          <sii:ImporteTotal>347,63</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a DUMITRASCU RODICA, f. A11112</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>DUMITRASCU RODICA</sii:NombreRazon>
@@ -7523,7 +7523,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>214,58</sii:ImporteTotal>
+          <sii:ImporteTotal>193,58</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a SUYUN XU, f. A11113</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>SUYUN XU</sii:NombreRazon>
@@ -7562,7 +7562,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>107,61</sii:ImporteTotal>
+          <sii:ImporteTotal>86,61</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a SANCHEZ MARTIN OSCAR, f. A11114</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>SANCHEZ MARTIN OSCAR</sii:NombreRazon>
@@ -7601,7 +7601,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>304,18</sii:ImporteTotal>
+          <sii:ImporteTotal>283,18</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a VICENTE MIRAVETE S.L., f. A11115</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>VICENTE MIRAVETE S.L.</sii:NombreRazon>
@@ -7640,7 +7640,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>242,14</sii:ImporteTotal>
+          <sii:ImporteTotal>221,14</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a IOANA NICULAE DIANA, f. A11117</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>IOANA NICULAE DIANA</sii:NombreRazon>
@@ -7679,7 +7679,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>297,12</sii:ImporteTotal>
+          <sii:ImporteTotal>276,12</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a SOMNIA TYCHE,SLU, f. A11118</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>SOMNIA TYCHE,SLU</sii:NombreRazon>
@@ -7718,7 +7718,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>109,11</sii:ImporteTotal>
+          <sii:ImporteTotal>78,11</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a BOTANIC CAFE C.B., f. A11119</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>BOTANIC CAFE C.B.</sii:NombreRazon>
@@ -7757,7 +7757,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>307,5</sii:ImporteTotal>
+          <sii:ImporteTotal>286,5</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a MIHALCEA ADRIANA NICILETA, f. A11120</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>MIHALCEA ADRIANA NICILETA</sii:NombreRazon>
@@ -7796,7 +7796,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>244,34</sii:ImporteTotal>
+          <sii:ImporteTotal>213,34</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a TRIBUTO A MIS RAICES SL, f. A11121</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>TRIBUTO A MIS RAICES SL</sii:NombreRazon>
@@ -7835,7 +7835,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>88,45</sii:ImporteTotal>
+          <sii:ImporteTotal>67,45</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a TRIBUTO A MIS RAICES SL, f. A11122</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>TRIBUTO A MIS RAICES SL</sii:NombreRazon>
@@ -7874,7 +7874,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>339,77</sii:ImporteTotal>
+          <sii:ImporteTotal>308,77</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a PEANCI MANUELA, f. A11123</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>PEANCI MANUELA</sii:NombreRazon>
@@ -7913,7 +7913,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>193,13</sii:ImporteTotal>
+          <sii:ImporteTotal>162,13</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a LOPEZ GARCIA EFREN, f. A11124</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>LOPEZ GARCIA EFREN</sii:NombreRazon>
@@ -7952,7 +7952,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>434,41</sii:ImporteTotal>
+          <sii:ImporteTotal>403,41</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a RESTAURANTE HERRERO MARTI SL, f. A11125</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>RESTAURANTE HERRERO MARTI SL</sii:NombreRazon>
@@ -7991,7 +7991,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>261,81</sii:ImporteTotal>
+          <sii:ImporteTotal>240,81</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a BAR RTE. PAQUITA C.B., f. A11126</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>BAR RTE. PAQUITA C.B.</sii:NombreRazon>
@@ -8030,7 +8030,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>419,38</sii:ImporteTotal>
+          <sii:ImporteTotal>388,38</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a DAMASCHIN IONUT, f. A11127</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>DAMASCHIN IONUT</sii:NombreRazon>
@@ -8069,7 +8069,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>260,79</sii:ImporteTotal>
+          <sii:ImporteTotal>239,79</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a VENTURA USO GRISELA, f. A11128</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>VENTURA USO GRISELA</sii:NombreRazon>
@@ -8108,7 +8108,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>186,3</sii:ImporteTotal>
+          <sii:ImporteTotal>155,3</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a CAFETERIA PEIRO SCP EN CONSTITUCIÓN, f. A11129</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>CAFETERIA PEIRO SCP EN CONSTITUCIÓN</sii:NombreRazon>
@@ -8147,7 +8147,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>405,57</sii:ImporteTotal>
+          <sii:ImporteTotal>384,57</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a SANCHEZ MORALES MARGARITA, f. A11130</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>SANCHEZ MORALES MARGARITA</sii:NombreRazon>
@@ -8186,7 +8186,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>86,03001</sii:ImporteTotal>
+          <sii:ImporteTotal>65,03</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a LUCERO CATAÑO MARTA, f. A11131</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>LUCERO CATAÑO MARTA</sii:NombreRazon>
@@ -8225,7 +8225,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>80,5</sii:ImporteTotal>
+          <sii:ImporteTotal>59,5</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a MORALES CASTAÑO CARMEN OFELIA, f. A11132</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>MORALES CASTAÑO CARMEN OFELIA</sii:NombreRazon>
@@ -8264,7 +8264,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>81,25</sii:ImporteTotal>
+          <sii:ImporteTotal>50,25</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a LOPEZ MARTINEZ RAMON, f. A11133</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>LOPEZ MARTINEZ RAMON</sii:NombreRazon>
@@ -8303,7 +8303,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>292,58</sii:ImporteTotal>
+          <sii:ImporteTotal>261,58</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a GASTRO BETXI S.L., f. A11134</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>GASTRO BETXI S.L.</sii:NombreRazon>
@@ -8342,7 +8342,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>21</sii:ImporteTotal>
+          <sii:ImporteTotal>0</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a ZHENG CHEN SIA HAO, f. A11135</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>ZHENG CHEN SIA HAO</sii:NombreRazon>
@@ -8381,7 +8381,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>587,12</sii:ImporteTotal>
+          <sii:ImporteTotal>556,12</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a ZHENG CHEN SIA HAO, f. A11136</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>ZHENG CHEN SIA HAO</sii:NombreRazon>
@@ -8420,7 +8420,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>877,67</sii:ImporteTotal>
+          <sii:ImporteTotal>846,67</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a RTE.FLORIDA 2015 ALMAZORA SLU, f. A11137</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>RTE.FLORIDA 2015 ALMAZORA SLU</sii:NombreRazon>
@@ -8459,7 +8459,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>673,97</sii:ImporteTotal>
+          <sii:ImporteTotal>642,97</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a LLAVES GOMEZ MIGUEL ANGEL, f. A11138</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>LLAVES GOMEZ MIGUEL ANGEL</sii:NombreRazon>
@@ -8498,7 +8498,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>166,2</sii:ImporteTotal>
+          <sii:ImporteTotal>135,2</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a ELENA MARTINEZ GARCIA, f. A11139</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>ELENA MARTINEZ GARCIA</sii:NombreRazon>
@@ -8537,7 +8537,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>295,49</sii:ImporteTotal>
+          <sii:ImporteTotal>274,49</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a ZAS GARCIA, JUAN JOSE, f. A11140</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>ZAS GARCIA, JUAN JOSE</sii:NombreRazon>
@@ -8576,7 +8576,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>234,2</sii:ImporteTotal>
+          <sii:ImporteTotal>213,2</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a CATANA ELENA, f. A11141</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>CATANA ELENA</sii:NombreRazon>
@@ -8615,7 +8615,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>96,29001</sii:ImporteTotal>
+          <sii:ImporteTotal>65,29</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a ALMAZAN LOPEZ, ANTONIA, f. A11142</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>ALMAZAN LOPEZ, ANTONIA</sii:NombreRazon>
@@ -8654,7 +8654,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>72,75999</sii:ImporteTotal>
+          <sii:ImporteTotal>41,76</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a MUNDINA EIXEA MARIA ASUNCION, f. A11143</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>MUNDINA EIXEA MARIA ASUNCION</sii:NombreRazon>
@@ -8693,7 +8693,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>129,38</sii:ImporteTotal>
+          <sii:ImporteTotal>108,38</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a WU CHEN ZHONGYI, f. A11144</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>WU CHEN ZHONGYI</sii:NombreRazon>
@@ -8732,7 +8732,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>82,11</sii:ImporteTotal>
+          <sii:ImporteTotal>51,11</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a RICARTE GARCIA CRISTINA, f. A11145</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>RICARTE GARCIA CRISTINA</sii:NombreRazon>
@@ -8771,7 +8771,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>602,99</sii:ImporteTotal>
+          <sii:ImporteTotal>581,99</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a RODRIGUEZ BEADE IVAN, f. A11146</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>RODRIGUEZ BEADE IVAN</sii:NombreRazon>
@@ -8810,7 +8810,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>30,08</sii:ImporteTotal>
+          <sii:ImporteTotal>9,08</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a SIMON JABROER, DAVINIA, f. A11147</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>SIMON JABROER, DAVINIA</sii:NombreRazon>
@@ -8849,7 +8849,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>31,24</sii:ImporteTotal>
+          <sii:ImporteTotal>10,24</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a SIMON JABROER, DAVINIA, f. A11148</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>SIMON JABROER, DAVINIA</sii:NombreRazon>
@@ -8888,7 +8888,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>215,18</sii:ImporteTotal>
+          <sii:ImporteTotal>194,18</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a ANDREEA IVAN, f. A11149</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>ANDREEA IVAN</sii:NombreRazon>
@@ -8927,7 +8927,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>124,43</sii:ImporteTotal>
+          <sii:ImporteTotal>103,43</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a TORO MARCELLO, f. A11150</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>TORO MARCELLO</sii:NombreRazon>
@@ -8966,7 +8966,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>1852,97</sii:ImporteTotal>
+          <sii:ImporteTotal>1821,97</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a FANDOS ARIÑO PILAR, f. A11151</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>FANDOS ARIÑO PILAR</sii:NombreRazon>
@@ -9005,7 +9005,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>132,94</sii:ImporteTotal>
+          <sii:ImporteTotal>111,94</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a ROKELIN SC, f. A11152</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>ROKELIN SC</sii:NombreRazon>
@@ -9044,7 +9044,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>36,38</sii:ImporteTotal>
+          <sii:ImporteTotal>26,38</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a MALACLAN 2013 S.L, f. A11153</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>MALACLAN 2013 S.L</sii:NombreRazon>
@@ -9086,7 +9086,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>31,04</sii:ImporteTotal>
+          <sii:ImporteTotal>10,04</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a S.A.DAMM, f. A11155</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>S.A.DAMM</sii:NombreRazon>
@@ -9125,7 +9125,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>2073,18</sii:ImporteTotal>
+          <sii:ImporteTotal>2052,18</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a HAYDEE LLIMPE NINO, f. A11156</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>HAYDEE LLIMPE NINO</sii:NombreRazon>
@@ -9164,7 +9164,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>47,11</sii:ImporteTotal>
+          <sii:ImporteTotal>26,11</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a S.A.DAMM, f. A11157</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>S.A.DAMM</sii:NombreRazon>
@@ -9203,7 +9203,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>27,03</sii:ImporteTotal>
+          <sii:ImporteTotal>6,03</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a S.A.DAMM, f. A11158</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>S.A.DAMM</sii:NombreRazon>
@@ -9242,7 +9242,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>23,01</sii:ImporteTotal>
+          <sii:ImporteTotal>2,01</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a S.A.DAMM, f. A11159</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>S.A.DAMM</sii:NombreRazon>
@@ -9281,7 +9281,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>26,61</sii:ImporteTotal>
+          <sii:ImporteTotal>5,61</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a MARTINEZ RAMOS MARIA EUGENIA, f. A11160</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>MARTINEZ RAMOS MARIA EUGENIA</sii:NombreRazon>
@@ -9320,7 +9320,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>-21,28</sii:ImporteTotal>
+          <sii:ImporteTotal>-42,28</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a MARTINEZ RAMOS MARIA EUGENIA, f. A11161</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>MARTINEZ RAMOS MARIA EUGENIA</sii:NombreRazon>
@@ -9359,7 +9359,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>21</sii:ImporteTotal>
+          <sii:ImporteTotal>0</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a VICENTE MIRAVETE S.L., f. A11162</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>VICENTE MIRAVETE S.L.</sii:NombreRazon>
@@ -9398,7 +9398,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>32,93</sii:ImporteTotal>
+          <sii:ImporteTotal>11,93</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a MURILLO RUEDA, ELENA, f. A11163</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>MURILLO RUEDA, ELENA</sii:NombreRazon>
@@ -9437,7 +9437,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>58,55</sii:ImporteTotal>
+          <sii:ImporteTotal>27,55</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a SAMIT GARCIA ESTHER, f. A11164</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>SAMIT GARCIA ESTHER</sii:NombreRazon>
@@ -9476,7 +9476,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>165,83</sii:ImporteTotal>
+          <sii:ImporteTotal>134,83</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a JESUS MUÑOZ ALONSO, f. A11165</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>JESUS MUÑOZ ALONSO</sii:NombreRazon>
@@ -9515,7 +9515,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>13,04</sii:ImporteTotal>
+          <sii:ImporteTotal>-7,96</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a BARTOLOME GARCIA ALVARO , f. A11166</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>BARTOLOME GARCIA ALVARO </sii:NombreRazon>
@@ -9554,7 +9554,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>31,42</sii:ImporteTotal>
+          <sii:ImporteTotal>10,42</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a BARTOLOME GARCIA ALVARO , f. A11167</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>BARTOLOME GARCIA ALVARO </sii:NombreRazon>
@@ -9593,7 +9593,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>93,6</sii:ImporteTotal>
+          <sii:ImporteTotal>72,6</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a TAPES.C.B., f. A11168</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>TAPES.C.B.</sii:NombreRazon>
@@ -9632,7 +9632,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>26,06</sii:ImporteTotal>
+          <sii:ImporteTotal>5,06</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a SERVICIOS MONTEBEL,S.L., f. A11169</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>SERVICIOS MONTEBEL,S.L.</sii:NombreRazon>
@@ -9671,7 +9671,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>119,68</sii:ImporteTotal>
+          <sii:ImporteTotal>98,68</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a TAPES.C.B., f. A11170</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>TAPES.C.B.</sii:NombreRazon>
@@ -9710,7 +9710,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>16,02</sii:ImporteTotal>
+          <sii:ImporteTotal>6,02</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a CAÑADAS GOURMET S.L., f. A11171</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>CAÑADAS GOURMET S.L.</sii:NombreRazon>
@@ -9752,7 +9752,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>401,69</sii:ImporteTotal>
+          <sii:ImporteTotal>370,69</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a STAMATE ADRIANA, f. A11172</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>STAMATE ADRIANA</sii:NombreRazon>
@@ -9791,7 +9791,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>310,08</sii:ImporteTotal>
+          <sii:ImporteTotal>289,08</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a BERIVOE CRISTIAN FLORIN, f. A11173</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>BERIVOE CRISTIAN FLORIN</sii:NombreRazon>
@@ -9830,7 +9830,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>33,1</sii:ImporteTotal>
+          <sii:ImporteTotal>12,1</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a  IULIANA NAE ALINA, f. A11174</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon> IULIANA NAE ALINA</sii:NombreRazon>
@@ -9869,7 +9869,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>92,92999</sii:ImporteTotal>
+          <sii:ImporteTotal>71,93</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a COLOMA MASIA ANGEL, f. A11175</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>COLOMA MASIA ANGEL</sii:NombreRazon>
@@ -9908,7 +9908,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>3,32</sii:ImporteTotal>
+          <sii:ImporteTotal>-17,68</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a STAMATE ADRIANA, f. A11176</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>STAMATE ADRIANA</sii:NombreRazon>
@@ -9947,7 +9947,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>117,47</sii:ImporteTotal>
+          <sii:ImporteTotal>96,47</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a LUIS DOMINGUEZ LOPEZ, f. A11177</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>LUIS DOMINGUEZ LOPEZ</sii:NombreRazon>
@@ -9986,7 +9986,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>-2,869999</sii:ImporteTotal>
+          <sii:ImporteTotal>-23,87</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a MARGARITA ESTURILLO PEREZ, f. A11178</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>MARGARITA ESTURILLO PEREZ</sii:NombreRazon>
@@ -10064,7 +10064,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>320,34</sii:ImporteTotal>
+          <sii:ImporteTotal>299,34</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a HAI LI, f. A11180</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>HAI LI</sii:NombreRazon>
@@ -10103,7 +10103,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>504,21</sii:ImporteTotal>
+          <sii:ImporteTotal>483,21</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a LAS BOCAS CASTELLON S.L, f. A11181</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>LAS BOCAS CASTELLON S.L</sii:NombreRazon>
@@ -10142,7 +10142,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>111,62</sii:ImporteTotal>
+          <sii:ImporteTotal>90,62</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a HERRADOR GUAL OLGA, f. A11182</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>HERRADOR GUAL OLGA</sii:NombreRazon>
@@ -10181,7 +10181,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>109,04</sii:ImporteTotal>
+          <sii:ImporteTotal>78,04</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a RILA 500 S.L., f. A11183</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>RILA 500 S.L.</sii:NombreRazon>
@@ -10220,7 +10220,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>44,7</sii:ImporteTotal>
+          <sii:ImporteTotal>23,7</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a RILA 500 S.L., f. A11184</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>RILA 500 S.L.</sii:NombreRazon>
@@ -10259,7 +10259,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>51,55</sii:ImporteTotal>
+          <sii:ImporteTotal>30,55</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a RILA 500 S.L., f. A11185</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>RILA 500 S.L.</sii:NombreRazon>
@@ -10298,7 +10298,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>61,21</sii:ImporteTotal>
+          <sii:ImporteTotal>30,21</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a NICOLAE DOMINICA MARIANA, f. A11186</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>NICOLAE DOMINICA MARIANA</sii:NombreRazon>
@@ -10337,7 +10337,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>163,74</sii:ImporteTotal>
+          <sii:ImporteTotal>153,74</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a RIBES-MAISE DISTRIBUCIONES, S.L., f. A11187</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>RIBES-MAISE DISTRIBUCIONES, S.L.</sii:NombreRazon>
@@ -10379,7 +10379,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>158,37</sii:ImporteTotal>
+          <sii:ImporteTotal>137,37</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a MURILLO ZAVALETA, YOLANDA, f. A11188</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>MURILLO ZAVALETA, YOLANDA</sii:NombreRazon>
@@ -10418,7 +10418,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>531,65</sii:ImporteTotal>
+          <sii:ImporteTotal>500,65</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a RUYGI S.L., f. A11189</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>RUYGI S.L.</sii:NombreRazon>
@@ -10457,7 +10457,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>147,6</sii:ImporteTotal>
+          <sii:ImporteTotal>126,6</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a CHIQUILLO JAIME MAURY ESPERANZA, f. A11190</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>CHIQUILLO JAIME MAURY ESPERANZA</sii:NombreRazon>
@@ -10496,7 +10496,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>21</sii:ImporteTotal>
+          <sii:ImporteTotal>0</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a AÑO94 SL, f. A11191</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>AÑO94 SL</sii:NombreRazon>
@@ -10535,7 +10535,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>75,51</sii:ImporteTotal>
+          <sii:ImporteTotal>54,51</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a CAÑADAS GOURMET S.L., f. A11192</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>CAÑADAS GOURMET S.L.</sii:NombreRazon>
@@ -10574,7 +10574,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>739,67</sii:ImporteTotal>
+          <sii:ImporteTotal>708,67</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a SIMION IONELA, f. A11193</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>SIMION IONELA</sii:NombreRazon>
@@ -10613,7 +10613,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>21</sii:ImporteTotal>
+          <sii:ImporteTotal>0</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a ALMERICH BIOSCA,C.B., f. A11194</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>ALMERICH BIOSCA,C.B.</sii:NombreRazon>
@@ -10652,7 +10652,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>66,54</sii:ImporteTotal>
+          <sii:ImporteTotal>35,54</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a ASESORIA MIGUEL PALLARES SL, f. A11195</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>ASESORIA MIGUEL PALLARES SL</sii:NombreRazon>
@@ -10691,7 +10691,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>66,34</sii:ImporteTotal>
+          <sii:ImporteTotal>45,34</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a BORT ALBIACH Mª DOLORES, f. A11197</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>BORT ALBIACH Mª DOLORES</sii:NombreRazon>
@@ -10730,7 +10730,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>201,99</sii:ImporteTotal>
+          <sii:ImporteTotal>170,99</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a QIU PANLIANG, f. A11198</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>QIU PANLIANG</sii:NombreRazon>
@@ -10769,7 +10769,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>130,78</sii:ImporteTotal>
+          <sii:ImporteTotal>109,78</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a ROSSI MARCELO , f. A11199</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>ROSSI MARCELO </sii:NombreRazon>
@@ -10808,7 +10808,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>176,36</sii:ImporteTotal>
+          <sii:ImporteTotal>155,36</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a BULMADA IULIANA SIMONA, f. A11200</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>BULMADA IULIANA SIMONA</sii:NombreRazon>
@@ -10847,7 +10847,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>209,36</sii:ImporteTotal>
+          <sii:ImporteTotal>188,36</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a MOLINA GIL FERNANDO, f. A11201</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>MOLINA GIL FERNANDO</sii:NombreRazon>
@@ -10886,7 +10886,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>1925,65</sii:ImporteTotal>
+          <sii:ImporteTotal>1894,65</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a OLARIA MIRARLES,VERONICA, f. A11202</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>OLARIA MIRARLES,VERONICA</sii:NombreRazon>
@@ -10925,7 +10925,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>451,83</sii:ImporteTotal>
+          <sii:ImporteTotal>430,83</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a CAMPING TORRELASAL SL, f. A11203</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>CAMPING TORRELASAL SL</sii:NombreRazon>
@@ -10964,7 +10964,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>85,19</sii:ImporteTotal>
+          <sii:ImporteTotal>64,19</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a OROCHICOS,S.L., f. A11204</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>OROCHICOS,S.L.</sii:NombreRazon>
@@ -11003,7 +11003,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>64,64</sii:ImporteTotal>
+          <sii:ImporteTotal>43,64</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a PEDRO SALINAS CANDIA, f. A11205</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>PEDRO SALINAS CANDIA</sii:NombreRazon>
@@ -11042,7 +11042,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>174,6</sii:ImporteTotal>
+          <sii:ImporteTotal>153,6</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a SIMONA BUCURESCU CRISTINA, f. A11206</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>SIMONA BUCURESCU CRISTINA</sii:NombreRazon>
@@ -11081,7 +11081,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>-25,16</sii:ImporteTotal>
+          <sii:ImporteTotal>-56,16</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a ASESORIA MIGUEL PALLARES SL, f. A11207</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>ASESORIA MIGUEL PALLARES SL</sii:NombreRazon>
@@ -11120,7 +11120,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>9,070001</sii:ImporteTotal>
+          <sii:ImporteTotal>-11,93</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a GARCIA ALVAREZ MARI CARMEN, f. A11208</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>GARCIA ALVAREZ MARI CARMEN</sii:NombreRazon>
@@ -11159,7 +11159,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>17,02</sii:ImporteTotal>
+          <sii:ImporteTotal>-3,98</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a PEREZ RODRIGUEZ FRANCISCO, f. A11209</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>PEREZ RODRIGUEZ FRANCISCO</sii:NombreRazon>
@@ -11198,7 +11198,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>17,02</sii:ImporteTotal>
+          <sii:ImporteTotal>-3,98</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a ALCIVAR VELEZ, CARMEN MIRIAM, f. A11210</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>ALCIVAR VELEZ, CARMEN MIRIAM</sii:NombreRazon>
@@ -11237,7 +11237,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>21,41</sii:ImporteTotal>
+          <sii:ImporteTotal>0,41</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a STELUTA GHERGA NINA, f. A11211</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>STELUTA GHERGA NINA</sii:NombreRazon>
@@ -11276,7 +11276,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>9,070001</sii:ImporteTotal>
+          <sii:ImporteTotal>-11,93</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a MARIA DOLORES BALAGUER PEIRO, f. A11212</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>MARIA DOLORES BALAGUER PEIRO</sii:NombreRazon>
@@ -11315,7 +11315,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>28,96</sii:ImporteTotal>
+          <sii:ImporteTotal>7,96</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a RESTAURANTE REI EN JAUME,S.L, f. A11213</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>RESTAURANTE REI EN JAUME,S.L</sii:NombreRazon>
@@ -11354,7 +11354,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>17,02</sii:ImporteTotal>
+          <sii:ImporteTotal>-3,98</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a CANDIA MACEDA, DANIEL MICHAEL, f. A11214</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>CANDIA MACEDA, DANIEL MICHAEL</sii:NombreRazon>
@@ -11393,7 +11393,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>24,98</sii:ImporteTotal>
+          <sii:ImporteTotal>3,98</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a KELKRI C.B, f. A11215</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>KELKRI C.B</sii:NombreRazon>
@@ -11432,7 +11432,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>13,04</sii:ImporteTotal>
+          <sii:ImporteTotal>-7,96</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a VIOLETA FLONIA TATIANA , f. A11216</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>VIOLETA FLONIA TATIANA </sii:NombreRazon>
@@ -11471,7 +11471,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>60,78</sii:ImporteTotal>
+          <sii:ImporteTotal>39,78</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a GIL RODRIGUEZ MARIA JOSE, f. A11217</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>GIL RODRIGUEZ MARIA JOSE</sii:NombreRazon>
@@ -11510,7 +11510,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>13,04</sii:ImporteTotal>
+          <sii:ImporteTotal>-7,96</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a PEREZ GIL RAFAEL, f. A11218</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>PEREZ GIL RAFAEL</sii:NombreRazon>
@@ -11549,7 +11549,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>53,32</sii:ImporteTotal>
+          <sii:ImporteTotal>32,32</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a COSMINA STANCIU ALINA, f. A11219</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>COSMINA STANCIU ALINA</sii:NombreRazon>
@@ -11588,7 +11588,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>28,96</sii:ImporteTotal>
+          <sii:ImporteTotal>7,96</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a ABASEACA GABRIELA NARCISA, f. A11220</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>ABASEACA GABRIELA NARCISA</sii:NombreRazon>
@@ -11627,7 +11627,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>13,04</sii:ImporteTotal>
+          <sii:ImporteTotal>-7,96</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a HERRANDIS GUILLAMON,JAVIER, f. A11221</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>HERRANDIS GUILLAMON,JAVIER</sii:NombreRazon>
@@ -11666,7 +11666,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>-19,28</sii:ImporteTotal>
+          <sii:ImporteTotal>-40,28</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a MARTINEZ MOLINA ANTONIO, f. A11222</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>MARTINEZ MOLINA ANTONIO</sii:NombreRazon>
@@ -11705,7 +11705,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>49,26</sii:ImporteTotal>
+          <sii:ImporteTotal>18,26</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a JUMILLA GOMEZ ANA, f. A11223</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>JUMILLA GOMEZ ANA</sii:NombreRazon>
@@ -11744,7 +11744,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>2670,97</sii:ImporteTotal>
+          <sii:ImporteTotal>2639,97</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a ERNESTO-LA OFICINA S.L, f. A11224</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>ERNESTO-LA OFICINA S.L</sii:NombreRazon>
@@ -11783,7 +11783,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>15,19</sii:ImporteTotal>
+          <sii:ImporteTotal>-5,81</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a LUIS SERRANO FELIP, f. A11225</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>LUIS SERRANO FELIP</sii:NombreRazon>
@@ -11822,7 +11822,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>145,97</sii:ImporteTotal>
+          <sii:ImporteTotal>124,97</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a RODRIGUEZ MONROY CARLOS ALFONSO, f. A11226</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>RODRIGUEZ MONROY CARLOS ALFONSO</sii:NombreRazon>
@@ -11861,7 +11861,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>105,53</sii:ImporteTotal>
+          <sii:ImporteTotal>84,53</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a FERRANDO MATEU EVA DOLORES, f. A11227</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>FERRANDO MATEU EVA DOLORES</sii:NombreRazon>
@@ -11900,7 +11900,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>61,72</sii:ImporteTotal>
+          <sii:ImporteTotal>40,72</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a VILLALONGA ALCACER MARISOL, f. A11228</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>VILLALONGA ALCACER MARISOL</sii:NombreRazon>
@@ -11939,7 +11939,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>12,22</sii:ImporteTotal>
+          <sii:ImporteTotal>-8,780001</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a VILLALONGA ALCACER MARISOL, f. A11229</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>VILLALONGA ALCACER MARISOL</sii:NombreRazon>
@@ -11978,7 +11978,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>213,73</sii:ImporteTotal>
+          <sii:ImporteTotal>192,73</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a MARIA LUISA GIMENEZ PEREZ, f. A11230</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>MARIA LUISA GIMENEZ PEREZ</sii:NombreRazon>
@@ -12017,7 +12017,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>-328,62</sii:ImporteTotal>
+          <sii:ImporteTotal>-349,62</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a ERNESTO-LA OFICINA S.L, f. A11231</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>ERNESTO-LA OFICINA S.L</sii:NombreRazon>
@@ -12056,7 +12056,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>21</sii:ImporteTotal>
+          <sii:ImporteTotal>0</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a MINGLIANG ZHOU, f. A11232</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>MINGLIANG ZHOU</sii:NombreRazon>
@@ -12095,7 +12095,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>359,59</sii:ImporteTotal>
+          <sii:ImporteTotal>328,59</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a MARIN CERASELA FLORENTINA, f. A11233</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>MARIN CERASELA FLORENTINA</sii:NombreRazon>
@@ -12134,7 +12134,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>-228,65</sii:ImporteTotal>
+          <sii:ImporteTotal>-259,65</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a D'OR RONDA,S.L, f. A11234</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>D'OR RONDA,S.L</sii:NombreRazon>
@@ -12173,7 +12173,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>21</sii:ImporteTotal>
+          <sii:ImporteTotal>0</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a CORTES COLADO CHELSEA, f. A11235</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>CORTES COLADO CHELSEA</sii:NombreRazon>
@@ -12212,7 +12212,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>21,23</sii:ImporteTotal>
+          <sii:ImporteTotal>0,23</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a PEREIRA NUNES LUCIENE, f. A11236</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>PEREIRA NUNES LUCIENE</sii:NombreRazon>
@@ -12251,7 +12251,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>21</sii:ImporteTotal>
+          <sii:ImporteTotal>0</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a FANDOS ARIÑO PILAR, f. A11237</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>FANDOS ARIÑO PILAR</sii:NombreRazon>
@@ -12290,7 +12290,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>21</sii:ImporteTotal>
+          <sii:ImporteTotal>0</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a TABERNA'S KARAGOLS CB, f. A11238</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>TABERNA'S KARAGOLS CB</sii:NombreRazon>
@@ -12329,7 +12329,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>15,98</sii:ImporteTotal>
+          <sii:ImporteTotal>-15,02</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a LA BIRRERIA CASTELLON SL, f. A11239</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>LA BIRRERIA CASTELLON SL</sii:NombreRazon>
@@ -12368,7 +12368,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>510,18</sii:ImporteTotal>
+          <sii:ImporteTotal>479,18</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a BASICO GASTRONIMIA, S.L., f. A11240</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>BASICO GASTRONIMIA, S.L.</sii:NombreRazon>
@@ -12407,7 +12407,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>68,75</sii:ImporteTotal>
+          <sii:ImporteTotal>47,75</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a ALVARADO BAZAN SANDRA PATRICIA, f. A11241</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>ALVARADO BAZAN SANDRA PATRICIA</sii:NombreRazon>
@@ -12446,7 +12446,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>472,63</sii:ImporteTotal>
+          <sii:ImporteTotal>451,63</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a AGUILERA CATALAN ADRIAN, f. A11242</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>AGUILERA CATALAN ADRIAN</sii:NombreRazon>
@@ -12485,7 +12485,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>21</sii:ImporteTotal>
+          <sii:ImporteTotal>0</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a VERTIGO PARK S.L., f. A11243</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>VERTIGO PARK S.L.</sii:NombreRazon>
@@ -12524,7 +12524,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>82,49</sii:ImporteTotal>
+          <sii:ImporteTotal>61,49</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a MALACLAN 2013 S.L, f. A11244</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>MALACLAN 2013 S.L</sii:NombreRazon>
@@ -12563,7 +12563,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>-15,88</sii:ImporteTotal>
+          <sii:ImporteTotal>-36,88</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a MALACLAN 2013 S.L, f. A11245</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>MALACLAN 2013 S.L</sii:NombreRazon>
@@ -12602,7 +12602,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>129,42</sii:ImporteTotal>
+          <sii:ImporteTotal>108,42</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a BLABLA Y COPAS SL, f. A11246</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>BLABLA Y COPAS SL</sii:NombreRazon>
@@ -12641,7 +12641,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>2123,94</sii:ImporteTotal>
+          <sii:ImporteTotal>2092,94</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a CABA BEATRICE, f. A11247</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>CABA BEATRICE</sii:NombreRazon>
@@ -12680,7 +12680,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>-152,68</sii:ImporteTotal>
+          <sii:ImporteTotal>-173,68</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a CABA EDUARD CORVIN , f. A11248</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>CABA EDUARD CORVIN </sii:NombreRazon>
@@ -12719,7 +12719,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>297,49</sii:ImporteTotal>
+          <sii:ImporteTotal>276,49</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a GUEVARA FERRER CARMEN ROSA, f. A11249</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>GUEVARA FERRER CARMEN ROSA</sii:NombreRazon>
@@ -12758,7 +12758,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>123,54</sii:ImporteTotal>
+          <sii:ImporteTotal>102,54</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a MORTERAS S.L., f. A11250</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>MORTERAS S.L.</sii:NombreRazon>
@@ -12797,7 +12797,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>769,4899</sii:ImporteTotal>
+          <sii:ImporteTotal>738,4899</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a AGUILAR MARTIN, OSCAR, f. A11251</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>AGUILAR MARTIN, OSCAR</sii:NombreRazon>
@@ -12836,7 +12836,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>-9,889999</sii:ImporteTotal>
+          <sii:ImporteTotal>-19,89</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a RAMIREZ MUÑOZ MARIA DOLORES, f. A11252</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>RAMIREZ MUÑOZ MARIA DOLORES</sii:NombreRazon>
@@ -12878,7 +12878,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>35,42</sii:ImporteTotal>
+          <sii:ImporteTotal>4,42</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a SILVEYRA GASTON MARTIN TECHERA, f. A11253</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>SILVEYRA GASTON MARTIN TECHERA</sii:NombreRazon>
@@ -12917,7 +12917,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>1,69</sii:ImporteTotal>
+          <sii:ImporteTotal>-19,31</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a ALEGRE MERCE ROSA ANA, f. A11254</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>ALEGRE MERCE ROSA ANA</sii:NombreRazon>
@@ -12956,7 +12956,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>593,96</sii:ImporteTotal>
+          <sii:ImporteTotal>572,96</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a INTEGRAL DE COMUNICACIÓN SL, f. A11255</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>INTEGRAL DE COMUNICACIÓN SL</sii:NombreRazon>
@@ -12995,7 +12995,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>31,42</sii:ImporteTotal>
+          <sii:ImporteTotal>10,42</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a RILA 500, S.L., f. A11256</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>RILA 500, S.L.</sii:NombreRazon>
@@ -13034,7 +13034,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>-55,63</sii:ImporteTotal>
+          <sii:ImporteTotal>-76,63</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a ASOCIACION COSA NOSTRA, f. A11257</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>ASOCIACION COSA NOSTRA</sii:NombreRazon>
@@ -13073,7 +13073,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>-269,52</sii:ImporteTotal>
+          <sii:ImporteTotal>-290,52</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a JATIBEL S.L., f. A11258</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>JATIBEL S.L.</sii:NombreRazon>
@@ -13112,7 +13112,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>848</sii:ImporteTotal>
+          <sii:ImporteTotal>827</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a ASOCIACION DM 2.0, f. A11259</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>ASOCIACION DM 2.0</sii:NombreRazon>
@@ -13151,7 +13151,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>68,14999</sii:ImporteTotal>
+          <sii:ImporteTotal>37,15</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a IORDACHE IOANA ALIS, f. A11260</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>IORDACHE IOANA ALIS</sii:NombreRazon>
@@ -13190,7 +13190,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>40,89</sii:ImporteTotal>
+          <sii:ImporteTotal>19,89</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a LES ELISETES S.C., f. A11261</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>LES ELISETES S.C.</sii:NombreRazon>
@@ -13229,7 +13229,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>26,61</sii:ImporteTotal>
+          <sii:ImporteTotal>5,61</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a VOIA ESTERA TIPEI, f. A11262</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>VOIA ESTERA TIPEI</sii:NombreRazon>
@@ -13268,7 +13268,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>24,76</sii:ImporteTotal>
+          <sii:ImporteTotal>-6,24</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a BRENDORFER HERMINA , f. A11263</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>BRENDORFER HERMINA </sii:NombreRazon>
@@ -13307,7 +13307,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>274,77</sii:ImporteTotal>
+          <sii:ImporteTotal>253,77</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a ROMPLAST GROUP, f. A11264</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>ROMPLAST GROUP</sii:NombreRazon>
@@ -13346,7 +13346,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>21</sii:ImporteTotal>
+          <sii:ImporteTotal>0</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a ROMPLAST GROUP, f. A11265</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>ROMPLAST GROUP</sii:NombreRazon>
@@ -13385,7 +13385,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>-50,7</sii:ImporteTotal>
+          <sii:ImporteTotal>-81,7</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a VILA-REAL CASINO S.L, f. A11266</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>VILA-REAL CASINO S.L</sii:NombreRazon>
@@ -13424,7 +13424,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>94,46</sii:ImporteTotal>
+          <sii:ImporteTotal>73,46</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a COLLA REI BARBUT, f. A11267</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>COLLA REI BARBUT</sii:NombreRazon>
@@ -13463,7 +13463,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>425,31</sii:ImporteTotal>
+          <sii:ImporteTotal>404,31</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a PEREIRA NUNES LUCIENE, f. A11268</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>PEREIRA NUNES LUCIENE</sii:NombreRazon>
@@ -13502,7 +13502,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>36,91</sii:ImporteTotal>
+          <sii:ImporteTotal>15,91</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a CASTROM GASTRONOMIA Y HOSTELERIA S.L, f. A11269</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>CASTROM GASTRONOMIA Y HOSTELERIA S.L</sii:NombreRazon>
@@ -13541,7 +13541,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>73,21</sii:ImporteTotal>
+          <sii:ImporteTotal>52,21</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a EL MEJILLON BENICASIM, C.B., f. A11270</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>EL MEJILLON BENICASIM, C.B.</sii:NombreRazon>
@@ -13580,7 +13580,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>57,3</sii:ImporteTotal>
+          <sii:ImporteTotal>36,3</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a PONS GUAL SERGIO, f. A11271</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>PONS GUAL SERGIO</sii:NombreRazon>
@@ -13619,7 +13619,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>198,18</sii:ImporteTotal>
+          <sii:ImporteTotal>167,18</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a ARANDA ROMERO, MARIA SUSANA, f. A11272</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>ARANDA ROMERO, MARIA SUSANA</sii:NombreRazon>
@@ -13658,7 +13658,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>-195,32</sii:ImporteTotal>
+          <sii:ImporteTotal>-216,32</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a MIHALCEA CAMELIA, f. A11273</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>MIHALCEA CAMELIA</sii:NombreRazon>
@@ -13697,7 +13697,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>56,8</sii:ImporteTotal>
+          <sii:ImporteTotal>35,8</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a MEI GALI CB, f. A11274</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>MEI GALI CB</sii:NombreRazon>
@@ -13736,7 +13736,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>152,89</sii:ImporteTotal>
+          <sii:ImporteTotal>121,89</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a GALITA ANA MARIA, f. A11275</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>GALITA ANA MARIA</sii:NombreRazon>
@@ -13775,7 +13775,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>65,26</sii:ImporteTotal>
+          <sii:ImporteTotal>44,26</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a EDO SAURA TANIA, f. A11276</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>EDO SAURA TANIA</sii:NombreRazon>
@@ -13814,7 +13814,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>1548,27</sii:ImporteTotal>
+          <sii:ImporteTotal>1527,27</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a GRUPO MOSTELEDO D´ACOSTA, f. A11277</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>GRUPO MOSTELEDO D´ACOSTA</sii:NombreRazon>
@@ -13853,7 +13853,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>5469,04</sii:ImporteTotal>
+          <sii:ImporteTotal>5438,04</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a ASOCIACION CULTURAL COLLAS C/BENICARLO, f. A11278</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>ASOCIACION CULTURAL COLLAS C/BENICARLO</sii:NombreRazon>
@@ -13892,7 +13892,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>1521,8</sii:ImporteTotal>
+          <sii:ImporteTotal>1500,8</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a ASOCIACION COLLA RAKO CASTELLON, f. A11279</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>ASOCIACION COLLA RAKO CASTELLON</sii:NombreRazon>
@@ -13931,7 +13931,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>851,37</sii:ImporteTotal>
+          <sii:ImporteTotal>830,37</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a ASOCIACION CULTURAL COLLA 54, f. A11280</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>ASOCIACION CULTURAL COLLA 54</sii:NombreRazon>
@@ -13970,7 +13970,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>1311,66</sii:ImporteTotal>
+          <sii:ImporteTotal>1290,66</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a ASOCIACION QUIMIKOLLA, f. A11281</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>ASOCIACION QUIMIKOLLA</sii:NombreRazon>
@@ -14009,7 +14009,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>2685,65</sii:ImporteTotal>
+          <sii:ImporteTotal>2664,65</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a ASOCIACION CULTURAL COLLA MEK CASTELLON, f. A11282</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>ASOCIACION CULTURAL COLLA MEK CASTELLON</sii:NombreRazon>
@@ -14048,7 +14048,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>988,75</sii:ImporteTotal>
+          <sii:ImporteTotal>967,75</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a ASOCIACION CULTURAL COLLA GARU, f. A11283</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>ASOCIACION CULTURAL COLLA GARU</sii:NombreRazon>
@@ -14087,7 +14087,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>391,09</sii:ImporteTotal>
+          <sii:ImporteTotal>370,09</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a ASOC.CULTURAL SOMOS LOS QUE SOMOS Y PUNTO, f. A11284</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>ASOC.CULTURAL SOMOS LOS QUE SOMOS Y PUNTO</sii:NombreRazon>
@@ -14126,7 +14126,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>73,21</sii:ImporteTotal>
+          <sii:ImporteTotal>52,21</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a BURLEA FAURAS OLGA, f. A11285</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>BURLEA FAURAS OLGA</sii:NombreRazon>
@@ -14165,7 +14165,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>119,65</sii:ImporteTotal>
+          <sii:ImporteTotal>88,64999</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a STAMATE ADRIANA, f. A11286</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>STAMATE ADRIANA</sii:NombreRazon>
@@ -14204,7 +14204,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>166,2</sii:ImporteTotal>
+          <sii:ImporteTotal>145,2</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a GONZALEZ RUIZ JUANA, f. A11287</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>GONZALEZ RUIZ JUANA</sii:NombreRazon>
@@ -14243,7 +14243,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>93,6</sii:ImporteTotal>
+          <sii:ImporteTotal>72,6</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a IONUT IULIAN AMARINTEI, f. A11288</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>IONUT IULIAN AMARINTEI</sii:NombreRazon>
@@ -14282,7 +14282,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>50,49</sii:ImporteTotal>
+          <sii:ImporteTotal>29,49</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a GIOCAS ANA, f. A11289</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>GIOCAS ANA</sii:NombreRazon>
@@ -14321,7 +14321,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>32,93</sii:ImporteTotal>
+          <sii:ImporteTotal>11,93</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a LONGHER LUCIA, f. A11290</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>LONGHER LUCIA</sii:NombreRazon>
@@ -14360,7 +14360,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>44,16</sii:ImporteTotal>
+          <sii:ImporteTotal>23,16</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a BUSTAMANTE VAZQUEZ LUZ ANGELICA, f. A11291</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>BUSTAMANTE VAZQUEZ LUZ ANGELICA</sii:NombreRazon>
@@ -14399,7 +14399,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>68,53</sii:ImporteTotal>
+          <sii:ImporteTotal>47,53</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a GEORGETA USURELLU,ELENA, f. A11292</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>GEORGETA USURELLU,ELENA</sii:NombreRazon>
@@ -14438,7 +14438,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>21</sii:ImporteTotal>
+          <sii:ImporteTotal>0</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a GEORGETA USURELLU,ELENA, f. A11293</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>GEORGETA USURELLU,ELENA</sii:NombreRazon>
@@ -14477,7 +14477,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>214,19</sii:ImporteTotal>
+          <sii:ImporteTotal>193,19</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a FENER XIA, f. A11294</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>FENER XIA</sii:NombreRazon>
@@ -14516,7 +14516,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>52,82</sii:ImporteTotal>
+          <sii:ImporteTotal>31,82</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a ALBU FLOREA ANGELA, f. A11295</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>ALBU FLOREA ANGELA</sii:NombreRazon>
@@ -14555,7 +14555,7 @@
         <siiLR:FacturaExpedida>
           <sii:TipoFactura>F1</sii:TipoFactura>
           <sii:ClaveRegimenEspecialOTrascendencia>01</sii:ClaveRegimenEspecialOTrascendencia>
-          <sii:ImporteTotal>2077,05</sii:ImporteTotal>
+          <sii:ImporteTotal>2041,05</sii:ImporteTotal>
           <sii:DescripcionOperacion>Venta de productos de hostelería a BELLMUNT PORTOLES PAU, f. A11296</sii:DescripcionOperacion>
           <sii:Contraparte>
             <sii:NombreRazon>BELLMUNT PORTOLES PAU</sii:NombreRazon>
