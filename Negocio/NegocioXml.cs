@@ -15,7 +15,7 @@ namespace Negocio
 
         private void CrearEsructuraXML()
         {
-            _constructor.EstructuraXML().EstructuraCabeceraXML().EstructuraFacturaXML(_excelReader.GetDiccionario());
+            _constructor.EstructuraXML()?.EstructuraCabeceraXML()?.EstructuraFacturaXML(_excelReader.GetDiccionario());
             _constructor.GuardarXML();
         }
     }

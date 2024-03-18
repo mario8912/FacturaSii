@@ -1,11 +1,12 @@
-﻿using System.Collections.Generic;
+﻿using Entidades.utils.XML.Factura;
+using System.Collections.Generic;
 using System.Xml;
 using G = Entidades.utils.Global;
 using H = Entidades.utils.Helper;
 
 namespace Entidades.utils.XML
 {
-    public class Factura
+    public class FacturaEmitida
     {
         private static Dictionary<int, dynamic> _diccionarioValores;
 
@@ -142,7 +143,15 @@ namespace Entidades.utils.XML
             NoExenta.AppendChild(DesgloseIVA);
 
             #region DetalleIVA!!!!!!!!!
-            //DesgloseIVA.AppendChild(XmlDetalleIva());
+            for (int i = 4; i < 27; i += 5)
+            {
+                dynamic tipoImpositivo = _diccionarioValores[i];
+                dynamic baseImponible = _diccionarioValores[i + 1];
+                dynamic cuotaRepercutida = _diccionarioValores[i + 2];
+
+                if (tipoImpositivo != "")
+                    DesgloseIVA.AppendChild(DetalleIva.XmlDetalleIva(tipoImpositivo, baseImponible, cuotaRepercutida));
+            }
             #endregion
 
             XmlDocumentFragment frag = G.XmlDocument.CreateDocumentFragment();
@@ -150,28 +159,5 @@ namespace Entidades.utils.XML
 
             return frag;
         }
-
-        public static XmlDocumentFragment XmlDetalleIva()
-        {
-            XmlElement DetalleIVA = G.XmlDocument.CreateElement("sii", "DetalleIVA", G.SII);
-
-            XmlElement TipoImpositivo = G.XmlDocument.CreateElement("sii", "TipoImpositivo", G.SII);
-            TipoImpositivo.InnerText = _diccionarioValores[5]; //tipoImpositivo
-            DetalleIVA.AppendChild(TipoImpositivo);
-
-            XmlElement BaseImponible = G.XmlDocument.CreateElement("sii", "BaseImponible", G.SII);
-            BaseImponible.InnerText = _diccionarioValores[4]; //baseImponible
-            DetalleIVA.AppendChild(BaseImponible);
-
-            XmlElement CuotaRepercutida = G.XmlDocument.CreateElement("sii", "CuotaRepercutida", G.SII);
-            CuotaRepercutida.InnerText = _diccionarioValores[6]; //cuotaRepercutida
-            DetalleIVA.AppendChild(CuotaRepercutida);
-
-            XmlDocumentFragment frag = G.XmlDocument.CreateDocumentFragment();
-            frag.AppendChild(DetalleIVA);
-
-            return frag;
-        }
-
     }
 }

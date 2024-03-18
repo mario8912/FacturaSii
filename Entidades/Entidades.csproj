@@ -47,7 +47,8 @@
     <Compile Include="utils\Helper.cs" />
     <Compile Include="utils\XML\Cabecera.cs" />
     <Compile Include="utils\XML\Envoltorio.cs" />
-    <Compile Include="utils\XML\Factura.cs" />
+    <Compile Include="utils\XML\Factura\DetalleIva.cs" />
+    <Compile Include="utils\XML\Factura\FacturaEmitida.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -3,19 +3,24 @@ using Entidades.utils.XML;
 using System.Xml;
 using System.Collections.Generic;
 using System;
+using OfficeOpenXml.FormulaParsing.FormulaExpressions;
+using Entidades.utils.XML.Factura;
+using System.Security.Cryptography;
 
 namespace Datos.XML
 {
     public class ConstructorXML : IConstructorXML
     {
         private XmlElement _suministroLR;
+        private XmlDocumentFragment _desgloseIVA;
+
         private readonly Envoltorio _envoltorio = new Envoltorio();
+        private IEnumerable<Dictionary<int, dynamic>> _listaDiccionarioValores;
 
         public ConstructorXML EstructuraXML()
         {
             _envoltorio.EstructuraPrincipalXML();
             _suministroLR = Envoltorio.SuministroLR;
-
             return this;
         }
 
@@ -28,9 +33,10 @@ namespace Datos.XML
 
         public void EstructuraFacturaXML(IEnumerable<Dictionary<int, dynamic>> diccionarioValores)
         {
-            foreach (Dictionary<int, dynamic> item in diccionarioValores)
-                _suministroLR.AppendChild(Factura.XmlFactura(item));
+            _listaDiccionarioValores = diccionarioValores;
 
+            foreach (Dictionary<int, dynamic> item in diccionarioValores)
+                _suministroLR.AppendChild(FacturaEmitida.XmlFactura(item));
         }
 
         public void GuardarXML()
