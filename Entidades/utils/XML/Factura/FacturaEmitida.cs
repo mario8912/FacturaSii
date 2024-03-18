@@ -143,6 +143,17 @@ namespace Entidades.utils.XML
             NoExenta.AppendChild(DesgloseIVA);
 
             #region DetalleIVA!!!!!!!!!
+            BucleDetalleIva(DesgloseIVA);
+            #endregion
+
+            XmlDocumentFragment frag = G.XmlDocument.CreateDocumentFragment();
+            frag.AppendChild(DesgloseFactura);
+
+            return frag;
+        }
+
+        private static void BucleDetalleIva(XmlElement DesgloseIVA)
+        {
             for (int i = 4; i < 27; i += 5)
             {
                 dynamic tipoImpositivo = _diccionarioValores[i];
@@ -152,12 +163,7 @@ namespace Entidades.utils.XML
                 if (tipoImpositivo != "")
                     DesgloseIVA.AppendChild(DetalleIva.XmlDetalleIva(tipoImpositivo, baseImponible, cuotaRepercutida));
             }
-            #endregion
-
-            XmlDocumentFragment frag = G.XmlDocument.CreateDocumentFragment();
-            frag.AppendChild(DesgloseFactura);
-
-            return frag;
         }
+
     }
 }

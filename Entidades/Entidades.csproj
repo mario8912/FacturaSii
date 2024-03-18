@@ -50,5 +50,8 @@
     <Compile Include="utils\XML\Factura\DetalleIva.cs" />
     <Compile Include="utils\XML\Factura\FacturaEmitida.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="utils\XML\factura.xml" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -24,7 +24,7 @@ namespace Datos.Excel
 
         private DataTable PasarExcelADataTable()
         {
-            var sConnectionString = string.Format(XLSX_CONNECTION_STRING, G.ExcelFile);
+            var sConnectionString = string.Format(XLS_CONNECTION_STRING, G.ExcelFile);
 
             using (_ = new Excel())
             using (OleDbConnection objConn = new OleDbConnection(sConnectionString))
@@ -48,9 +48,8 @@ namespace Datos.Excel
 
                 return objDataset1.Tables[0];
             }
-            
         }
-
+        
         private OleDbConnection TryOpenConnection(OleDbConnection objConn)
         {
             try
@@ -58,9 +57,13 @@ namespace Datos.Excel
                 objConn.Open();
                 return objConn;
             }
-            catch (Exception)
+            catch (OleDbException)
             {
-                return new OleDbConnection(string.Format(XLS_CONNECTION_STRING, G.ExcelFile));
+                return new OleDbConnection(string.Format(XLSX_CONNECTION_STRING, G.ExcelFile));
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error al abrir la conexión con el archivo Excel.", ex);
             }
         }
 
