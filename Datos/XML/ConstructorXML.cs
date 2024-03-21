@@ -4,7 +4,6 @@ using System.Xml;
 using System.Collections.Generic;
 using System;
 using System.IO;
-using System.Linq;
 
 namespace Datos.XML
 {
@@ -28,7 +27,8 @@ namespace Datos.XML
 
         public void EstructuraFacturaXML(IEnumerable<Dictionary<int, dynamic>> diccionarioValores)
         {
-            diccionarioValores.ToList().ForEach(item => _suministroLR.AppendChild(FacturaEmitida.XmlFactura(item)));
+            foreach (var item in diccionarioValores)
+                _suministroLR.AppendChild(FacturaEmitida.XmlFactura(item));
         }
 
         public void GuardarXML()
