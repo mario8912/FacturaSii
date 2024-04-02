@@ -17,6 +17,7 @@ namespace Presentacion
         public Form1()
         {
             InitializeComponent();
+            _negocioXml = new NegocioXml();
         }
 
         private void botonSelecionArchivo_Click(object sender, EventArgs e)
@@ -47,27 +48,30 @@ namespace Presentacion
 
         private async void btnCrearXml_Click(object sender, EventArgs e)
         {
-
-            textBox1.Text = string.Empty;
-            btnCrearXml.Enabled = false;
+            FormatearControles();
             
             await TaskCrearXml();
             
             MensajeXMLCreado();
-
+            MensajeValidarXML();
             _negocioXml.ValidarXml();
 
             LimpiarRecursos();
         }
 
+        private void FormatearControles()
+        {
+            textBox1.Text = string.Empty;
+            btnCrearXml.Enabled = false;
+        }
+
         private Task TaskCrearXml()
         {
-            _negocioXml = new NegocioXml();
-
             Task task = Task.Run(() => 
             { 
                 _negocioXml.CrearXml(); 
-            });
+            }
+            );
 
             return task;
         }
@@ -78,6 +82,11 @@ namespace Presentacion
 
             if (result is DialogResult.Yes)
                 Process.Start(Global.RutaGuardarXml);
+        }
+
+        private void MensajeValidarXML()
+        {
+            MessageBox.Show("El XML se validará");
         }
 
         private void LimpiarRecursos()

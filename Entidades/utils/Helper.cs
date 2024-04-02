@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Xml.Schema;
+﻿using System.Collections.Generic;
 
 namespace Entidades.utils
 {
@@ -38,31 +36,6 @@ namespace Entidades.utils
             };
         }
 
-        public List<Dictionary<int, dynamic>> DiseccionarIvaEnListas(Dictionary<int, dynamic> diccionario)
-        {
-            List<Dictionary<int, dynamic>> listaIvas = new List<Dictionary<int, dynamic>>();
-            Dictionary<int, dynamic> diccionarioIva;
-
-            for (int i = 4; i <= 26; i += 5)
-            {
-                var value = diccionario[i];
-
-                if (value[0] != null && value[0] != 0)
-                {
-                    diccionarioIva = new Dictionary<int, dynamic>
-                    {
-                        { i, null}, //base
-                        { i + 1, null }, //tipo
-                        { i + 2, null } //cuota
-                    };
-
-                    listaIvas.Add(diccionarioIva);
-                }
-            }
-
-            return listaIvas;
-        }
-
         public static string SumaBases(Dictionary<int, dynamic> diccionarioValores)
         {
             float suma = 0;
@@ -76,4 +49,17 @@ namespace Entidades.utils
         }
     }
 
+    public static class FormatoDatosLista
+    {
+        public static string FormatoEjercicio(string fecha)
+        {
+            return fecha.Substring(6, 4);
+        }
+
+        public static string FormatoPeriodo(string fecha)
+        {
+            return fecha.Substring(3, 2);
+
+        }
+    }
 }
