@@ -94,6 +94,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="XML\ConstructorXML.cs" />
     <Compile Include="XML\IConstructorXML.cs" />
+    <Compile Include="XML\Validacion.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Entidades\Entidades.csproj">

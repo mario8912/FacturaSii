@@ -54,6 +54,9 @@ namespace Presentacion
             await TaskCrearXml();
             
             MensajeXMLCreado();
+
+            _negocioXml.ValidarXml();
+
             LimpiarRecursos();
         }
 

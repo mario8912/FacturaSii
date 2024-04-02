@@ -18,5 +18,10 @@ namespace Negocio
             _constructor.EstructuraXML()?.EstructuraCabeceraXML()?.EstructuraFacturaXML(_excelReader.GetDiccionario());
             _constructor.GuardarXML();
         }
+
+        public void ValidarXml()
+        {
+            _ = new Validacion();
+        }
     }
 }
