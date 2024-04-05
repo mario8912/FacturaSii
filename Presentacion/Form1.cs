@@ -15,6 +15,7 @@ namespace Presentacion
 
         public Form1()
         {
+            BringToFront();
             InitializeComponent();
             _negocioCrearXML = new CrearXML();
         }

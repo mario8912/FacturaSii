@@ -69,11 +69,11 @@ namespace Entidades.utils.XML
             XmlElement periodoLiquidacion = G.XmlDocument.CreateElement("sii", "PeriodoLiquidacion", G.SII);
 
             XmlElement ejercicio = G.XmlDocument.CreateElement("sii", "Ejercicio", G.SII);
-            ejercicio.InnerText = _diccionarioValores[1].Substring(6, 4); //ejercicio
+            ejercicio.InnerText = H.FormatoEjercicio(_diccionarioValores[1]); //ejercicio
             periodoLiquidacion.AppendChild(ejercicio);
 
             XmlElement periodo = G.XmlDocument.CreateElement("sii", "Periodo", G.SII);
-            periodo.InnerText = _diccionarioValores[1].Substring(3, 2); //periodo
+            periodo.InnerText = H.FormatoPeriodo(_diccionarioValores[1]); //periodo
             periodoLiquidacion.AppendChild(periodo);
 
             XmlDocumentFragment frag = G.XmlDocument.CreateDocumentFragment();
@@ -142,7 +142,7 @@ namespace Entidades.utils.XML
             XmlElement DesgloseIVA = G.XmlDocument.CreateElement("sii", "DesgloseIVA", G.SII);
             NoExenta.AppendChild(DesgloseIVA);
 
-            #region DetalleIVA!!!!!!!!!
+            #region DetalleIVA
             BucleDetalleIva(DesgloseIVA);
             #endregion
 
@@ -164,6 +164,5 @@ namespace Entidades.utils.XML
                     DesgloseIVA.AppendChild(DetalleIva.XmlDetalleIva(tipoImpositivo, baseImponible, cuotaRepercutida));
             }
         }
-
     }
 }
