@@ -41,7 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="NegocioXml.cs" />
+    <Compile Include="NegocioXML\CrearXML.cs" />
+    <Compile Include="NegocioXML\ValidarXML.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -4,7 +4,7 @@ using System.Xml.Schema;
 
 namespace Datos.XML
 {
-    public class Validacion
+    public class Validacion : IValidacion
     {
         private readonly string _rutaXsd = @"https://www2.agenciatributaria.gob.es/static_files/common/internet/dep/aplicaciones/es/aeat/ssii/fact/ws/SuministroInformacion.xsd";
         private XmlReaderSettings _settings;
@@ -12,7 +12,6 @@ namespace Datos.XML
         public Validacion()
         {
             CrearEsquemasYSettings();
-            Validar();
         }
 
         private void CrearEsquemasYSettings()
@@ -27,14 +26,14 @@ namespace Datos.XML
             };
         }
 
-        private void Validar()
+        string IValidacion.Validar()
         {
-            if(TryValidar())
-                Console.WriteLine("El XML es válido según el XSD.");
+            if (TryValidar())
+                return "El XML es válido según el XSD.";
             else
-                Console.WriteLine("El XML no es válido según el XSD.");
+                return "El XML no es válido según el XSD.";
         }
-
+        
         private bool TryValidar()
         {
             try
@@ -55,5 +54,6 @@ namespace Datos.XML
                 return false;
             }
         }
+
     }
 }

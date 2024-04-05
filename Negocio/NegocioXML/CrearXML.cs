@@ -3,7 +3,7 @@ using Datos.XML;
 
 namespace Negocio
 {
-    public class NegocioXml
+    public class CrearXML
     {
         private readonly IConstructorXML _constructor = new ConstructorXML();
         private ExcelReader _excelReader;
@@ -24,12 +24,6 @@ namespace Negocio
         private void LeerExcel()
         {
             _excelReader = new ExcelReader();
-        }
-
-
-        public void ValidarXml()
-        {
-            _ = new Validacion();
         }
     }
 }

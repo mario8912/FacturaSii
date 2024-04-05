@@ -1,9 +1,8 @@
 ﻿using Entidades.utils;
 using Negocio;
+using Negocio.NegocioXML;
 using System;
 using System.Diagnostics;
-using System.Net.Http;
-using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -12,16 +11,16 @@ namespace Presentacion
     public partial class Form1 : Form
     {
         private static OpenFileDialog _openFileDialog;
-        private NegocioXml _negocioXml;
+        private readonly CrearXML _negocioCrearXML;
 
         public Form1()
         {
             InitializeComponent();
-            _negocioXml = new NegocioXml();
+            _negocioCrearXML = new CrearXML();
         }
 
         private void botonSelecionArchivo_Click(object sender, EventArgs e)
-        {     
+        {
             if (MostrarSelectorDeArchivo().ComprobarArchivoSeleccionadoExiste())
             {
                 textBox1.Text = Global.ExcelFile = _openFileDialog.FileName;
@@ -49,12 +48,13 @@ namespace Presentacion
         private async void btnCrearXml_Click(object sender, EventArgs e)
         {
             FormatearControles();
-            
+
             await TaskCrearXml();
-            
+
             MensajeXMLCreado();
-            MensajeValidarXML();
-            _negocioXml.ValidarXml();
+
+            MensajeAvisoValidarXML();
+            MensajeResultadoValidacion();
 
             LimpiarRecursos();
         }
@@ -67,26 +67,35 @@ namespace Presentacion
 
         private Task TaskCrearXml()
         {
-            Task task = Task.Run(() => 
-            { 
-                _negocioXml.CrearXml(); 
-            }
-            );
+            Task task = Task.Run(() =>
+            {
+                _negocioCrearXML.CrearXml();
+            });
 
             return task;
         }
 
         private void MensajeXMLCreado()
         {
-            DialogResult result = MessageBox.Show("XML creado\n¿Desea visualizarlo?", "Aviso", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            DialogResult result = MessageBox.Show(
+                "XML creado\n¿Desea visualizarlo?",
+                "Aviso",
+                MessageBoxButtons.YesNo,
+                MessageBoxIcon.Question
+                );
 
             if (result is DialogResult.Yes)
                 Process.Start(Global.RutaGuardarXml);
         }
 
-        private void MensajeValidarXML()
+        private void MensajeAvisoValidarXML()
         {
             MessageBox.Show("El XML se validará");
+        }
+
+        private void MensajeResultadoValidacion()
+        {
+            MessageBox.Show(ValidarXML.ValidarXml());
         }
 
         private void LimpiarRecursos()
