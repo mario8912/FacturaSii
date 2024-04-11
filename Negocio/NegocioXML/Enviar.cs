@@ -7,8 +7,8 @@ namespace Negocio.NegocioXML
     {
         public static void Envio()
         {
-            Envio en = new Envio();
-            en.Request(G.RutaEnvioPruebas ,G.RutaGuardarXml);
+            Envio env = new Envio();
+            env.Request();
         }
     }
 }

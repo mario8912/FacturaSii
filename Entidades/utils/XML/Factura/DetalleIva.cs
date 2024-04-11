@@ -10,7 +10,8 @@ namespace Entidades.utils.XML.Factura
             XmlElement DetalleIVA = G.XmlDocument.CreateElement("sii", "DetalleIVA", G.SII);
 
             XmlElement TipoImpositivo = G.XmlDocument.CreateElement("sii", "TipoImpositivo", G.SII);
-            TipoImpositivo.InnerText = tipoImpositivo.ToString();
+            //TipoImpositivo.InnerText = tipoImpositivo.ToString();
+            TipoImpositivo.InnerText = ParseFloatTipoImp(tipoImpositivo);
             DetalleIVA.AppendChild(TipoImpositivo);
 
             XmlElement BaseImponible = G.XmlDocument.CreateElement("sii", "BaseImponible", G.SII);
@@ -25,6 +26,12 @@ namespace Entidades.utils.XML.Factura
             frag.AppendChild(DetalleIVA);
 
             return frag;
+        }
+
+        public static string ParseFloatTipoImp(dynamic tImp)
+        {
+            float val = float.Parse(tImp);
+            return val.ToString(); 
         }
     }
 }

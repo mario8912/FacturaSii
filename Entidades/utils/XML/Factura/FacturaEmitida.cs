@@ -159,8 +159,8 @@ namespace Entidades.utils.XML
         {
             for (int i = 4; i < 27; i += 5)
             {
-                dynamic tipoImpositivo = _diccionarioValores[i];
-                dynamic baseImponible = _diccionarioValores[i + 1];
+                dynamic tipoImpositivo = _diccionarioValores[i +1];
+                dynamic baseImponible = _diccionarioValores[i];
                 dynamic cuotaRepercutida = _diccionarioValores[i + 2];
 
                 if (tipoImpositivo != "")

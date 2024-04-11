@@ -13,7 +13,6 @@ namespace Entidades.utils.XML
             G.XmlDocument  = new XmlDocument();
 
             XmlDeclaration xmlDeclaration = G.XmlDocument.CreateXmlDeclaration("1.0", "UTF-8", null);
-            xmlDeclaration.Encoding = "UTF-8";
             G.XmlDocument.AppendChild(xmlDeclaration);
 
             XmlElement envelope = G.XmlDocument.CreateElement("soapenv", "Envelope", G.SOAPENV);

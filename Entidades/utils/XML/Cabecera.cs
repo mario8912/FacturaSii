@@ -9,7 +9,7 @@ namespace Entidades.utils.XML
         {
             XmlElement cabecera = Global.XmlDocument.CreateElement("sii", "Cabecera", Global.SII);
 
-            XmlElement idVersion = Global.XmlDocument.CreateElement("sii", "IDVersionii", Global.SII);
+            XmlElement idVersion = Global.XmlDocument.CreateElement("sii", "IDVersionSii", Global.SII);
             idVersion.InnerText = "1.1";
             cabecera.AppendChild(idVersion);
 

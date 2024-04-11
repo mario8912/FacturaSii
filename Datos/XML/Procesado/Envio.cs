@@ -1,48 +1,69 @@
 ﻿using System;
 using System.Net.Http;
-using System.Text;
 using System.IO;
 using System.Diagnostics;
+using System.Security.Cryptography.X509Certificates;
+using G = Entidades.utils.Global;
+using System.Text;
 
 namespace Datos.XML.Procesado
 {
-    public class Envio : /*IEnvio,*/ IDisposable
+    public class Envio : IDisposable
     {
-        private readonly HttpClient _cliente;
+        private readonly HttpClientHandler _handler;
+        private X509Certificate2 _certificate;
+
         private StringContent _contenido;
         private HttpResponseMessage _respuestaServer;
         private string _contenidoRespuesta;
 
         public Envio()
         {
-            _cliente = new HttpClient();
+            _handler = new HttpClientHandler();
         }
 
-        public async void Request(string url, string content)
+        public async void Request()
         {
-            _contenido = new StringContent(content, Encoding.UTF8, "application/xml");
-            _respuestaServer = _cliente.PostAsync(url, _contenido).Result;
+            var xmlFilePath = G.RutaGuardarXml;
 
-            if (_respuestaServer.IsSuccessStatusCode)
+            string xmlContent;
+            using (StreamReader reader = new StreamReader(xmlFilePath, Encoding.UTF8))
             {
-                //Correcto
-                _contenidoRespuesta = await _respuestaServer.Content.ReadAsStringAsync();
-                File.WriteAllText("respuesta.html", _contenidoRespuesta);
-                Process.Start("respuesta.html");
+                xmlContent =  reader.ReadToEnd();
             }
-            else
-            {
-                //Incorrecto
-                Console.WriteLine("Error al enviar XML: " + _respuestaServer);
-            }
+            _contenido  = new StringContent(xmlContent);
 
+            ConfigurarHandler();
+
+            using (HttpClient cliente = new HttpClient(_handler))
+            {
+                _respuestaServer = cliente.PostAsync(G.RutaEnvioPruebas, _contenido).Result;
+
+                if (_respuestaServer.IsSuccessStatusCode)
+                {
+                    //Correcto
+                    _contenidoRespuesta = await _respuestaServer.Content.ReadAsStringAsync();
+                    File.WriteAllText("respuesta.xml", _contenidoRespuesta);
+                    Process.Start("respuesta.xml");
+                }
+                else
+                    Console.WriteLine("Error al enviar XML: " + _respuestaServer);
+
+            }
+        }
+
+        private void ConfigurarHandler()
+        {
+            var rutaCertificado = Path.Combine(G.RutaAppExe, @"DISROSELLSL.pfx");
+            
+            _certificate = new X509Certificate2(rutaCertificado, "1234");
+            _handler.ClientCertificates.Add(_certificate);
         }
 
         public void Dispose()
         {
             GC.SuppressFinalize(this);
             GC.Collect();
-            _cliente.Dispose();
         }
 
         ~Envio()
