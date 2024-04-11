@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="NegocioXML\CrearXML.cs" />
+    <Compile Include="NegocioXML\Enviar.cs" />
     <Compile Include="NegocioXML\ValidarXML.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

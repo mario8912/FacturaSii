@@ -111,9 +111,12 @@ namespace Entidades.utils.XML
         {
             XmlElement Contraparte = G.XmlDocument.CreateElement("sii", "Contraparte", G.SII);
 
+            #region NPMBRE RAZÓN
             XmlElement NombreRazon = G.XmlDocument.CreateElement("sii", "NombreRazon", G.SII);
+
             NombreRazon.InnerText = _diccionarioValores[3]; //nombreRazon
             Contraparte.AppendChild(NombreRazon);
+            #endregion 
 
             XmlElement NIF = G.XmlDocument.CreateElement("sii", "NIF", G.SII); // NIF del emisor de la factura, empresa Rosell
             NIF.InnerText = _diccionarioValores[2];
@@ -163,6 +166,11 @@ namespace Entidades.utils.XML
                 if (tipoImpositivo != "")
                     DesgloseIVA.AppendChild(DetalleIva.XmlDetalleIva(tipoImpositivo, baseImponible, cuotaRepercutida));
             }
+        }
+
+        private static string ReemplazarAmpersandXML()
+        {
+            return string.Empty;
         }
     }
 }

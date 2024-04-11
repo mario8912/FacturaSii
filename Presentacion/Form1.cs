@@ -57,6 +57,8 @@ namespace Presentacion
             MensajeAvisoValidarXML();
             MensajeResultadoValidacion();
 
+            Enviar.Envio();
+
             LimpiarRecursos();
         }
 

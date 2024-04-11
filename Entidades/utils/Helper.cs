@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Runtime.Remoting.Messaging;
-using System.Threading;
-using System.Windows;
-using System.Windows.Forms;
+﻿using System.Collections.Generic;
 
 namespace Entidades.utils
 {
@@ -12,7 +6,7 @@ namespace Entidades.utils
     {
         public static List<int> listaBaseCuotaTipo = new List<int> { 4, 6, 9, 11, 14, 16, 19, 21, 24, 26 };
 
-        //la clave del diccionario hace referencia al indice de la columna del excel dond ese encuentran los datos deseados, 
+        //la clave del diccionario hace referencia al indice de la columna del excel donde ese encuentran los datos deseados, 
         //ya que siempre están en la misma posición pero de forma desordenada, hay columnas vacías, etc.
         //el valor respectivo contiene el propio valor de la casilla a la que la clave hace refrencia, forma así un diccionaro con el que podemos
         //iterar sobre las filas del excel usando la clave como índicie y guardando el valor de la casilla en el valor del diccionario .
@@ -53,8 +47,8 @@ namespace Entidades.utils
 
             foreach (KeyValuePair<int, dynamic> itemDiccionario in diccionarioValores)
                 if (listaBaseCuotaTipo.Contains(itemDiccionario.Key) && itemDiccionario.Value != null && itemDiccionario.Value != "")
-                    suma += TryParseFloat("as");
-                    //suma += TryParseFloat(itemDiccionario.Value);
+                    suma += TryParseFloat(itemDiccionario.Value);
+                    //uma += TryParseFloat("as"); error forzado
 
             return suma.ToString();
         }
@@ -64,12 +58,12 @@ namespace Entidades.utils
             return GestorErrores.TryParseFloat(valor);
         }
 
-        public static string FormatoEjercicio(string fecha)
+        public static string FormatoEjercicio(string fecha) //Extrae el anyo de dd/mm/yyyy
         {
             return fecha.Substring(6, 4);
         }
 
-        public static string FormatoPeriodo(string fecha)
+        public static string FormatoPeriodo(string fecha) //Extrae el mes de dd/mm/yyyy
         {
             return fecha.Substring(3, 2);
 

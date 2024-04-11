@@ -24,7 +24,21 @@ namespace Datos.Excel
         {
             Libro?.Close();  
             ExcelApp?.Quit();
-            LimpiarRecursos();
+            TryLimpiarRecursos();
+        }
+
+        private void TryLimpiarRecursos()
+        {
+            try
+            {
+                LimpiarRecursos();
+            }
+            catch (Exception)
+            {
+
+                throw new Exception();
+            }
+            
         }
 
         private void LimpiarRecursos()
@@ -35,6 +49,7 @@ namespace Datos.Excel
             Marshal.ReleaseComObject(Hoja);
             Marshal.ReleaseComObject(Libro);
             Marshal.ReleaseComObject(ExcelApp);
+
         }
     }
 }

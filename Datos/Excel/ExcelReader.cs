@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Data.OleDb;
 using System.Data;
 using System;
+using System.Linq;
 
 namespace Datos.Excel
 {
@@ -12,7 +13,7 @@ namespace Datos.Excel
         private const string XLS_CONNECTION_STRING = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source={0};Extended Properties=Excel 8.0;";
         private const string XLSX_CONNECTION_STRING = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source={0};Extended Properties=Excel 12.0;";
 
-        private static Dictionary<int, dynamic> _diccionarioValores;
+        private Dictionary<int, dynamic> _diccionarioValores;
         private readonly DataTable _dataTable;
         private readonly Helper _listas;
         public ExcelReader()
@@ -77,15 +78,15 @@ namespace Datos.Excel
         //al recorrer un diccionario y cambiar sus valores en tiempo de ejecución, se produce una excepción.
         private Dictionary<int, dynamic> AsignarValoresAlDiccionario(Dictionary<int, dynamic> diccionarioValores, DataRow fila)
         {
-            var diccionarioTemporal1 = new Dictionary<int, dynamic>(diccionarioValores);
+            var diccionarioValoresTemporal = new Dictionary<int, dynamic>(diccionarioValores);
 
-            foreach (KeyValuePair<int, dynamic> itemDiccionarioColumna in diccionarioTemporal1)
+            foreach (KeyValuePair<int, dynamic> itemDiccionarioColumna in diccionarioValoresTemporal)
             {
                 var valor = fila[itemDiccionarioColumna.Key];
+
                 if (valor != null)
                     diccionarioValores[itemDiccionarioColumna.Key] = valor.ToString();
             }
-
             return diccionarioValores;
         }
     }
