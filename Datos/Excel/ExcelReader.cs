@@ -85,7 +85,9 @@ namespace Datos.Excel
                 var valor = fila[itemDiccionarioColumna.Key];
 
                 if (valor != null)
-                    diccionarioValores[itemDiccionarioColumna.Key] = valor.ToString();
+                    if(itemDiccionarioColumna.Key == 1) 
+                        valor = valor.ToString().Replace('/', '-');
+                diccionarioValores[itemDiccionarioColumna.Key] = valor.ToString();
             }
             return diccionarioValores;
         }

@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Dynamic;
 
 namespace Entidades.utils
 {
@@ -50,7 +51,12 @@ namespace Entidades.utils
                     suma += TryParseFloat(itemDiccionario.Value);
                     //uma += TryParseFloat("as"); error forzado
 
-            return suma.ToString();
+            return ReemplazarComaPunto(suma);
+        }
+
+        public static string ReemplazarComaPunto(dynamic val)
+        {
+            return val.ToString().Replace(',', '.');
         }
 
         private static float TryParseFloat(dynamic valor)

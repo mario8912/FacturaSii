@@ -10,16 +10,16 @@ namespace Entidades.utils.XML.Factura
             XmlElement DetalleIVA = G.XmlDocument.CreateElement("sii", "DetalleIVA", G.SII);
 
             XmlElement TipoImpositivo = G.XmlDocument.CreateElement("sii", "TipoImpositivo", G.SII);
-            //TipoImpositivo.InnerText = tipoImpositivo.ToString();
-            TipoImpositivo.InnerText = ParseFloatTipoImp(tipoImpositivo);
+            //TipoImpositivo.InnerText = Helper.ReemplazarComaPunto(tipoImpositivo);
+            TipoImpositivo.InnerText = Helper.ReemplazarComaPunto(tipoImpositivo) + ".00";
             DetalleIVA.AppendChild(TipoImpositivo);
 
             XmlElement BaseImponible = G.XmlDocument.CreateElement("sii", "BaseImponible", G.SII);
-            BaseImponible.InnerText = baseImponible.ToString();
+            BaseImponible.InnerText = Helper.ReemplazarComaPunto(baseImponible);
             DetalleIVA.AppendChild(BaseImponible);
 
             XmlElement CuotaRepercutida = G.XmlDocument.CreateElement("sii", "CuotaRepercutida", G.SII);
-            CuotaRepercutida.InnerText = cuotaRepercutida.ToString();
+            CuotaRepercutida.InnerText = Helper.ReemplazarComaPunto(cuotaRepercutida);
             DetalleIVA.AppendChild(CuotaRepercutida);
 
             XmlDocumentFragment frag = G.XmlDocument.CreateDocumentFragment();
