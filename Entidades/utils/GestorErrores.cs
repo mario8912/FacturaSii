@@ -11,10 +11,10 @@ namespace Entidades.utils
         private static dynamic _error;
         private static dynamic _valor;
 
-        internal GestorErrores(Exception ex) 
+        /*internal GestorErrores(Exception ex) 
         { 
             _valor = ex;
-        }
+        }*/
         internal static dynamic TryParseFloat(dynamic valor)
         {
             _valor = valor;

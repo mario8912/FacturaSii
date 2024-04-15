@@ -16,5 +16,7 @@ namespace Entidades.utils
         public const string SOAPENV = "http://schemas.xmlsoap.org/soap/envelope/";
         public static XmlDocument XmlDocument { get; set; }
         public static string ExcelFile { get; set; }
+
+        public static string fechaFichero = "";
     }
 }

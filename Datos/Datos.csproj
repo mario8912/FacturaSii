@@ -96,8 +96,6 @@
     <Compile Include="XML\Constructor\IConstructorXML.cs" />
     <Compile Include="XML\Procesado\Envio.cs" />
     <Compile Include="XML\Procesado\Respuesta.cs" />
-    <Compile Include="XML\Validar\IValidacion.cs" />
-    <Compile Include="XML\Validar\Validacion.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Entidades\Entidades.csproj">

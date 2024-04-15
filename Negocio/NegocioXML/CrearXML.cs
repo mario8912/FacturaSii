@@ -15,15 +15,10 @@ namespace Negocio
 
         private void CrearEsructuraXML()
         {
-            LeerExcel();
+            _excelReader = new ExcelReader();
 
             _constructor.EstructuraXML()?.EstructuraCabeceraXML()?.EstructuraFacturaXML(_excelReader.GetDiccionario());
             _constructor.GuardarXML();
-        }
-
-        private void LeerExcel()
-        {
-            _excelReader = new ExcelReader();
         }
     }
 }

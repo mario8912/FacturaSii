@@ -16,6 +16,7 @@ namespace Datos.XML.Procesado
         private StringContent _contenido;
         private HttpResponseMessage _respuestaServer;
         private string _contenidoRespuesta;
+        
 
         public Envio()
         {
@@ -35,17 +36,19 @@ namespace Datos.XML.Procesado
             _contenido  = new StringContent(xmlContent);
 
             ConfigurarHandler();
+            
 
             using (HttpClient cliente = new HttpClient(_handler))
             {
+                
                 _respuestaServer = cliente.PostAsync(G.RutaEnvioPruebas, _contenido).Result;
 
+                var nombreRespuesta = "respuesta.xml";
                 if (_respuestaServer.IsSuccessStatusCode)
                 {
-                    //Correcto
                     _contenidoRespuesta = await _respuestaServer.Content.ReadAsStringAsync();
-                    File.WriteAllText("respuesta.xml", _contenidoRespuesta);
-                    Process.Start("respuesta.xml");
+                    File.WriteAllText(nombreRespuesta, _contenidoRespuesta);
+                    Process.Start(nombreRespuesta);
                 }
                 else
                     Console.WriteLine("Error al enviar XML: " + _respuestaServer);

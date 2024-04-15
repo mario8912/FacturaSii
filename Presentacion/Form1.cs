@@ -12,12 +12,14 @@ namespace Presentacion
     {
         private static OpenFileDialog _openFileDialog;
         private readonly CrearXML _negocioCrearXML;
+        public DateTime fechaActual = DateTime.Now;
 
         public Form1()
         {
             BringToFront();
             InitializeComponent();
             _negocioCrearXML = new CrearXML();
+            Console.WriteLine(fechaActual.ToString("yy-MM-dd-HH-mm-ss-fff"));
         }
 
         private void botonSelecionArchivo_Click(object sender, EventArgs e)
@@ -54,9 +56,6 @@ namespace Presentacion
 
             MensajeXMLCreado();
 
-            MensajeAvisoValidarXML();
-            MensajeResultadoValidacion();
-
             Enviar.Envio();
 
             LimpiarRecursos();
@@ -89,16 +88,6 @@ namespace Presentacion
 
             if (result is DialogResult.Yes)
                 Process.Start(Global.RutaGuardarXml);
-        }
-
-        private void MensajeAvisoValidarXML()
-        {
-            MessageBox.Show("El XML se validará");
-        }
-
-        private void MensajeResultadoValidacion()
-        {
-            MessageBox.Show(ValidarXML.ValidarXml());
         }
 
         private void LimpiarRecursos()

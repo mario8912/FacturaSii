@@ -13,7 +13,7 @@ namespace Datos.Excel
         private const string XLS_CONNECTION_STRING = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source={0};Extended Properties=Excel 8.0;";
         private const string XLSX_CONNECTION_STRING = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source={0};Extended Properties=Excel 12.0;";
 
-        private Dictionary<int, dynamic> _diccionarioValores;
+        private readonly Dictionary<int, dynamic> _diccionarioValores;
         private readonly DataTable _dataTable;
         private readonly Helper _listas;
         public ExcelReader()
