@@ -7,10 +7,16 @@ using System.IO;
 
 namespace Datos.XML
 {
-    public class ConstructorXML : IConstructorXML
+    public class ConstructorXML
     {
         private XmlElement _suministroLR;
         private readonly Envoltorio _envoltorio = new Envoltorio();
+        private readonly IEnumerable<Dictionary<int, dynamic>> _diccionarioValores;
+
+        public ConstructorXML(IEnumerable<Dictionary<int, dynamic>> diccionarioValores) 
+        {
+            _diccionarioValores = new List<Dictionary<int, dynamic>>(diccionarioValores);
+        }
 
         public ConstructorXML EstructuraXML()
         {
@@ -25,9 +31,23 @@ namespace Datos.XML
             return this;
         }
 
-        public void EstructuraFacturaXML(IEnumerable<Dictionary<int, dynamic>> diccionarioValores)
+        public bool TryEstructuraFacturaXML()
         {
-            foreach (var item in diccionarioValores)
+            try
+            {
+                BucleEstructuraFacturaXML();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                new Exception($"Error al crear la estructura XML del Registro de faccturas.{Environment.NewLine} {ex.Message} ");
+                return false;
+            }
+        }
+
+        private void BucleEstructuraFacturaXML()
+        {
+            foreach (var item in _diccionarioValores)
                 _suministroLR.AppendChild(FacturaEmitida.XmlFactura(item));
         }
 

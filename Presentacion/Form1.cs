@@ -12,14 +12,12 @@ namespace Presentacion
     {
         private static OpenFileDialog _openFileDialog;
         private readonly CrearXML _negocioCrearXML;
-        public DateTime fechaActual = DateTime.Now;
-
+        
         public Form1()
         {
             BringToFront();
             InitializeComponent();
             _negocioCrearXML = new CrearXML();
-            Console.WriteLine(fechaActual.ToString("yy-MM-dd-HH-mm-ss-fff"));
         }
 
         private void botonSelecionArchivo_Click(object sender, EventArgs e)
