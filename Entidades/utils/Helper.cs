@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using System.Dynamic;
+using System.IO;
 
 namespace Entidades.utils
 {
@@ -64,15 +64,15 @@ namespace Entidades.utils
             return GestorErrores.TryParseFloat(valor);
         }
 
-        public static string FormatoEjercicio(string fecha) //Extrae el anyo de dd/mm/yyyy
+        public static string GetRutaGuardadoXml(string envioRespuesta)
         {
-            return fecha.Substring(6, 4);
-        }
+            string rutaGuardado;
+            if (envioRespuesta == "envio")
+                rutaGuardado = Path.Combine(Global.RutaGuardarXmlEnvio, $"E-{Global.FechaGuardado}.xml");
+            else 
+                rutaGuardado = Path.Combine(Global.RutaGuardarXmlRespuesta, $"R-{Global.FechaGuardado}.xml");
 
-        public static string FormatoPeriodo(string fecha) //Extrae el mes de dd/mm/yyyy
-        {
-            return fecha.Substring(3, 2);
-
+            return rutaGuardado;
         }
     }
 }

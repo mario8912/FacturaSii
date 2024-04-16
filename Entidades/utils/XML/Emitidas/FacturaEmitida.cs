@@ -4,7 +4,7 @@ using System.Xml;
 using G = Entidades.utils.Global;
 using H = Entidades.utils.Helper;
 
-namespace Entidades.utils.XML
+namespace Entidades.utils.XML.Emitidas
 {
     public class FacturaEmitida
     {
@@ -69,11 +69,11 @@ namespace Entidades.utils.XML
             XmlElement periodoLiquidacion = G.XmlDocument.CreateElement("sii", "PeriodoLiquidacion", G.SII);
 
             XmlElement ejercicio = G.XmlDocument.CreateElement("sii", "Ejercicio", G.SII);
-            ejercicio.InnerText = (string)_diccionarioValores[1].Substring(6, 4); //ejercicio
+            ejercicio.InnerText = _diccionarioValores[1].ToString().Substring(6, 4); //ejercicio
             periodoLiquidacion.AppendChild(ejercicio);
 
             XmlElement periodo = G.XmlDocument.CreateElement("sii", "Periodo", G.SII);
-            periodo.InnerText = (string)_diccionarioValores[1].Substring(3, 2); //periodo
+            periodo.InnerText = _diccionarioValores[1].ToString().Substring(3, 2); //periodo
             periodoLiquidacion.AppendChild(periodo);
 
             XmlDocumentFragment frag = G.XmlDocument.CreateDocumentFragment();

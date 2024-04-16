@@ -4,6 +4,7 @@ using System.Xml;
 using System.Collections.Generic;
 using System;
 using System.IO;
+using Entidades.utils;
 
 namespace Datos.XML
 {
@@ -11,12 +12,7 @@ namespace Datos.XML
     {
         private XmlElement _suministroLR;
         private readonly Envoltorio _envoltorio = new Envoltorio();
-        private readonly IEnumerable<Dictionary<int, dynamic>> _diccionarioValores;
-
-        public ConstructorXML(IEnumerable<Dictionary<int, dynamic>> diccionarioValores) 
-        {
-            _diccionarioValores = new List<Dictionary<int, dynamic>>(diccionarioValores);
-        }
+        private IEnumerable<Dictionary<int, dynamic>> _diccionarioValores;
 
         public ConstructorXML EstructuraXML()
         {
@@ -31,8 +27,9 @@ namespace Datos.XML
             return this;
         }
 
-        public bool TryEstructuraFacturaXML()
+        public bool TryEstructuraFacturaXML(IEnumerable<Dictionary<int, dynamic>> diccionarioValores)
         {
+            _diccionarioValores = diccionarioValores;
             try
             {
                 BucleEstructuraFacturaXML();
@@ -51,23 +48,44 @@ namespace Datos.XML
                 _suministroLR.AppendChild(FacturaEmitida.XmlFactura(item));
         }
 
-        public void GuardarXML()
+        public void TryGuardarXML()
         {
             try
             {
                 BorrarXmlAntiguo();
-                G.XmlDocument.Save(G.RutaGuardarXml);
+                GuardarXML();
+                
             }
-            catch (Exception)
+            catch (Exception ex )
             {
-                throw new Exception("Error al guardar el archivo XML");
+                throw new Exception("Error al guardar el archivo XML" +
+                    $"{Environment.NewLine}{ex.Message}");
             }
         }
 
         private void BorrarXmlAntiguo()
         {
-            if (Directory.Exists(G.RutaGuardarXml))
-                File.Delete(G.RutaGuardarXml);
+            if (Directory.Exists(G.RutaGuardarXmlEnvio))
+                File.Delete(G.RutaGuardarXmlEnvio);
+        }
+
+        private void GuardarXML()
+        {
+            GetHora();
+            GuardarXmlEnvio();
+            
+        }
+
+        private void GuardarXmlEnvio()
+        {
+            string rutaGuardado = Helper.GetRutaGuardadoXml("envio");
+            Console.WriteLine(rutaGuardado);
+            G.XmlDocument.Save(rutaGuardado);
+        }
+
+        private void GetHora()
+        {
+            G.FechaGuardado = DateTime.Now.ToString("yy_MM_dd_HH_mm_ss_ffff");
         }
     }
 }

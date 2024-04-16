@@ -24,38 +24,30 @@ namespace Entidades.utils.XML
             registroLRFacturasEmitidas.AppendChild(XmlIDFactura());
             #endregion
 
-            XmlElement FacturaExpedida = G.XmlDocument.CreateElement("siiLR", "FacturaExpedida", G.SII_LR);
-            registroLRFacturasEmitidas.AppendChild(FacturaExpedida);
+            XmlElement FacturaRecibida = G.XmlDocument.CreateElement("siiLR", "FacturaRecibida", G.SII_LR);
+            registroLRFacturasEmitidas.AppendChild(FacturaRecibida);
 
             #region Bloque primero Factura Expedida
 
             XmlElement TipoFactura = G.XmlDocument.CreateElement("sii", "TipoFactura", G.SII);
             TipoFactura.InnerText = "F1";
-            FacturaExpedida.AppendChild(TipoFactura);
+            FacturaRecibida.AppendChild(TipoFactura);
 
             XmlElement ClaveRegimenEspecialOTrascendencia = G.XmlDocument.CreateElement("sii", "ClaveRegimenEspecialOTrascendencia", G.SII);
             ClaveRegimenEspecialOTrascendencia.InnerText = "01";
-            FacturaExpedida.AppendChild(ClaveRegimenEspecialOTrascendencia);
+            FacturaRecibida.AppendChild(ClaveRegimenEspecialOTrascendencia);
 
             XmlElement ImporteTotal = G.XmlDocument.CreateElement("sii", "ImporteTotal", G.SII);
             ImporteTotal.InnerText = H.SumaBases(_diccionarioValores); //base1
-            FacturaExpedida.AppendChild(ImporteTotal);
+            FacturaRecibida.AppendChild(ImporteTotal);
 
             XmlElement DescripcionOperacion = G.XmlDocument.CreateElement("sii", "DescripcionOperacion", G.SII);
             DescripcionOperacion.InnerText = string.Format("Venta de productos de hostelería a {0}, f. {1}", _diccionarioValores[3], _diccionarioValores[0]); //descripcion   
-            FacturaExpedida.AppendChild(DescripcionOperacion);
-
+            FacturaRecibida.AppendChild(DescripcionOperacion);
             #endregion
-
-            #region Contraparte
-            FacturaExpedida.AppendChild(XmlContraparte());
-            #endregion
-
-            XmlElement TipoDesglose = G.XmlDocument.CreateElement("sii", "TipoDesglose", G.SII);
-            FacturaExpedida.AppendChild(TipoDesglose);
 
             #region DesgloseFactura
-            TipoDesglose.AppendChild(XmlDesgloseFactura());
+            FacturaRecibida.AppendChild(XmlDesgloseFactura());
             #endregion
 
             XmlDocumentFragment frag = G.XmlDocument.CreateDocumentFragment();
@@ -69,11 +61,11 @@ namespace Entidades.utils.XML
             XmlElement periodoLiquidacion = G.XmlDocument.CreateElement("sii", "PeriodoLiquidacion", G.SII);
 
             XmlElement ejercicio = G.XmlDocument.CreateElement("sii", "Ejercicio", G.SII);
-            ejercicio.InnerText = (string)_diccionarioValores[1].Substring(6, 4); //ejercicio
+            ejercicio.InnerText = _diccionarioValores[1].ToString().Substring(6, 4); //ejercicio
             periodoLiquidacion.AppendChild(ejercicio);
 
             XmlElement periodo = G.XmlDocument.CreateElement("sii", "Periodo", G.SII);
-            periodo.InnerText = (string)_diccionarioValores[1].Substring(3, 2); //periodo
+            periodo.InnerText = _diccionarioValores[1].ToString().Substring(3, 2); //periodo
             periodoLiquidacion.AppendChild(periodo);
 
             XmlDocumentFragment frag = G.XmlDocument.CreateDocumentFragment();
@@ -132,18 +124,8 @@ namespace Entidades.utils.XML
         {
             XmlElement DesgloseFactura = G.XmlDocument.CreateElement("sii", "DesgloseFactura", G.SII);
 
-            XmlElement Sujeta = G.XmlDocument.CreateElement("sii", "Sujeta", G.SII);
-            DesgloseFactura.AppendChild(Sujeta);
-
-            XmlElement NoExenta = G.XmlDocument.CreateElement("sii", "NoExenta", G.SII);
-            Sujeta.AppendChild(NoExenta);
-
-            XmlElement TipoNoExenta = G.XmlDocument.CreateElement("sii", "TipoNoExenta", G.SII);
-            TipoNoExenta.InnerText = "S1"; //tipoNoExenta
-            NoExenta.AppendChild(TipoNoExenta);
-
             XmlElement DesgloseIVA = G.XmlDocument.CreateElement("sii", "DesgloseIVA", G.SII);
-            NoExenta.AppendChild(DesgloseIVA);
+            DesgloseFactura.AppendChild(DesgloseIVA);
 
             #region DetalleIVA
             BucleDetalleIva(DesgloseIVA);
@@ -159,18 +141,13 @@ namespace Entidades.utils.XML
         {
             for (int i = 4; i < 27; i += 5)
             {
-                dynamic tipoImpositivo = _diccionarioValores[i +1];
+                dynamic tipoImpositivo = _diccionarioValores[i + 1];
                 dynamic baseImponible = _diccionarioValores[i];
-                dynamic cuotaRepercutida = _diccionarioValores[i + 2];
+                dynamic cuotaSoportada = _diccionarioValores[i + 2];
 
                 if (tipoImpositivo != "")
-                    DesgloseIVA.AppendChild(DetalleIva.XmlDetalleIva(tipoImpositivo, baseImponible, cuotaRepercutida));
+                    DesgloseIVA.AppendChild(DetalleIva.XmlDetalleIva(tipoImpositivo, baseImponible, cuotaSoportada));
             }
-        }
-
-        private static string ReemplazarAmpersandXML()
-        {
-            return string.Empty;
         }
     }
 }

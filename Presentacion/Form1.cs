@@ -85,7 +85,7 @@ namespace Presentacion
                 );
 
             if (result is DialogResult.Yes)
-                Process.Start(Global.RutaGuardarXml);
+                Process.Start(Global.RutaGuardarXmlEnvio);
         }
 
         private void LimpiarRecursos()
@@ -95,5 +95,20 @@ namespace Presentacion
             Dispose();
             Close();
         }
+
+        /*private void Form1_Activated(object sender, EventArgs e)
+        {
+            MessageBox.Show("activao");
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            MessageBox.Show("load");
+        }
+
+        private void Form1_VisibleChanged(object sender, EventArgs e)
+        {
+            MessageBox.Show("visible");
+        }*/
     }
 }

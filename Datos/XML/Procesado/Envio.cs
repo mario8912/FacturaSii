@@ -5,6 +5,7 @@ using System.Diagnostics;
 using System.Security.Cryptography.X509Certificates;
 using G = Entidades.utils.Global;
 using System.Text;
+using Entidades.utils;
 
 namespace Datos.XML.Procesado
 {
@@ -25,7 +26,7 @@ namespace Datos.XML.Procesado
 
         public async void Request()
         {
-            var xmlFilePath = G.RutaGuardarXml;
+            var xmlFilePath = G.RutaGuardarXmlEnvio;
             //var xmlFilePath = @"E:\mipc\escritorio\FacturaSii\Entidades\utils\XML\factura.xml";
 
             string xmlContent;
@@ -43,7 +44,7 @@ namespace Datos.XML.Procesado
                 
                 _respuestaServer = cliente.PostAsync(G.RutaEnvioPruebas, _contenido).Result;
 
-                var nombreRespuesta = "respuesta.xml";
+                var nombreRespuesta = Helper.GetRutaGuardadoXml("respuesta");
                 if (_respuestaServer.IsSuccessStatusCode)
                 {
                     _contenidoRespuesta = await _respuestaServer.Content.ReadAsStringAsync();

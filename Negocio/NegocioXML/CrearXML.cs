@@ -1,24 +1,35 @@
 ﻿using Datos.Excel;
 using Datos.XML;
+using System;
 
 namespace Negocio
 {
     public class CrearXML
     {
-        private readonly IConstructorXML _constructor = new ConstructorXML();
+        private readonly ConstructorXML _constructor = new ConstructorXML();
         private ExcelReader _excelReader;
+
+        public void TryCrearXml()
+        {
+            try
+            {
+                CrearXml();
+            }
+            catch (Exception ex)
+            {
+                new Exception("Error al intentar crear la estructura XML:" 
+                    + $"{Environment.NewLine}{ex.Message}");
+            }   
+        }
 
         public void CrearXml()
         {
-            CrearEsructuraXML();
-        }
-
-        private void CrearEsructuraXML()
-        {
             _excelReader = new ExcelReader();
 
-            _constructor.EstructuraXML()?.EstructuraCabeceraXML()?.EstructuraFacturaXML(_excelReader.GetDiccionario());
-            _constructor.GuardarXML();
+            _constructor.EstructuraXML()?.EstructuraCabeceraXML()?.TryEstructuraFacturaXML(_excelReader.GetDiccionario());
+            _constructor.TryGuardarXML();
         }
+
+        //try catchs
     }
 }

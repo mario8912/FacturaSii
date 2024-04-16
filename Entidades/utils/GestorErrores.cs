@@ -7,7 +7,7 @@ namespace Entidades.utils
 {
     internal class GestorErrores
     {
-        private readonly Exception _ex;
+        //private readonly Exception _ex;
         private static dynamic _error;
         private static dynamic _valor;
 
