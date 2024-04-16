@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System;
 using System.IO;
 using Entidades.utils;
+using System.Windows.Forms;
 
 namespace Datos.XML
 {
@@ -56,11 +57,19 @@ namespace Datos.XML
                 GuardarXML();
                 
             }
+            catch (ArgumentNullException nEx)
+            {
+                MessageBox.Show("Nulo");
+            }
             catch (Exception ex )
             {
                 throw new Exception("Error al guardar el archivo XML" +
                     $"{Environment.NewLine}{ex.Message}");
+                /*
+                 * seguir flujo del programa asumiendo si devuelve nulo
+                 */
             }
+            
         }
 
         private void BorrarXmlAntiguo()
@@ -71,21 +80,7 @@ namespace Datos.XML
 
         private void GuardarXML()
         {
-            GetHora();
-            GuardarXmlEnvio();
-            
-        }
-
-        private void GuardarXmlEnvio()
-        {
-            string rutaGuardado = Helper.GetRutaGuardadoXml("envio");
-            Console.WriteLine(rutaGuardado);
-            G.XmlDocument.Save(rutaGuardado);
-        }
-
-        private void GetHora()
-        {
-            G.FechaGuardado = DateTime.Now.ToString("yy_MM_dd_HH_mm_ss_ffff");
+            //G.RutaGuardarXmlEnvio = Path.Combine(G.RutaDirectorioData, );
         }
     }
 }

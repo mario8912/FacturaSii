@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.IO;
 
 namespace Entidades.utils
@@ -64,15 +65,9 @@ namespace Entidades.utils
             return GestorErrores.TryParseFloat(valor);
         }
 
-        public static string GetRutaGuardadoXml(string envioRespuesta)
+        public static string GetSetHora()
         {
-            string rutaGuardado;
-            if (envioRespuesta == "envio")
-                rutaGuardado = Path.Combine(Global.RutaGuardarXmlEnvio, $"E-{Global.FechaGuardado}.xml");
-            else 
-                rutaGuardado = Path.Combine(Global.RutaGuardarXmlRespuesta, $"R-{Global.FechaGuardado}.xml");
-
-            return rutaGuardado;
+            return Global.FechaGuardado = DateTime.Now.ToString("yy_MM_dd_HH_mm_ss_ffff");
         }
     }
 }
