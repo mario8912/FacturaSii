@@ -4,47 +4,47 @@ using System.IO;
 using System.Diagnostics;
 using System.Security.Cryptography.X509Certificates;
 using G = Entidades.utils.Global;
+using H = Entidades.utils.Helper;
 using System.Text;
-using Entidades.utils;
+using System.Threading.Tasks;
 
 namespace Datos.XML.Procesado
 {
-    public class Envio : IDisposable
+    public class EnvioXML : IDisposable
     {
         private readonly HttpClientHandler _handler;
         private X509Certificate2 _certificate;
 
-        private StringContent _contenido;
+        private StringContent _httpContenido;
         private HttpResponseMessage _respuestaServer;
         private string _contenidoRespuesta;
         
 
-        public Envio()
+        public EnvioXML()
         {
             _handler = new HttpClientHandler();
         }
 
         public async void Request()
         {
-            var xmlFilePath = G.RutaGuardarXmlEnvio;
-            //var xmlFilePath = @"E:\mipc\escritorio\FacturaSii\Entidades\utils\XML\factura.xml";
-
-            string xmlContent;
-            using (StreamReader reader = new StreamReader(xmlFilePath, Encoding.UTF8))
-            {
-                xmlContent =  reader.ReadToEnd();
-            }
-            _contenido  = new StringContent(xmlContent);
+            string respuesta = await Lectura();
+            _httpContenido = new StringContent(respuesta);
 
             ConfigurarHandler();
-            
 
+            await aaaa();
+
+
+
+        }
+
+        private async Task aaaa()
+        {
             using (HttpClient cliente = new HttpClient(_handler))
             {
-                
-                _respuestaServer = cliente.PostAsync(G.RutaEnvioPruebas, _contenido).Result;
+                _respuestaServer = cliente.PostAsync(G.RutaEnvioPruebas, _httpContenido).Result;
 
-                var nombreRespuesta = Helper.GetRutaGuardadoXml("respuesta");
+                var nombreRespuesta = GuardarRespuesta();
                 if (_respuestaServer.IsSuccessStatusCode)
                 {
                     _contenidoRespuesta = await _respuestaServer.Content.ReadAsStringAsync();
@@ -53,8 +53,21 @@ namespace Datos.XML.Procesado
                 }
                 else
                     Console.WriteLine("Error al enviar XML: " + _respuestaServer);
-
             }
+        }
+
+        private async Task<string> Lectura()
+        {
+            using (StreamReader reader = new StreamReader(G.RutaGuardarXmlEnvio, Encoding.UTF8))
+            {
+                return await reader.ReadToEndAsync();
+            }
+        }
+
+        private string GuardarRespuesta()
+        {
+            var nombreXmlRespuesta = string.Format("R-{0}.xml", G.FechaGuardado);
+            return G.RutaGuardarXmlRespuesta = Path.Combine(G.RutaDirectorioData, nombreXmlRespuesta);
         }
 
         private void ConfigurarHandler()
@@ -67,11 +80,12 @@ namespace Datos.XML.Procesado
 
         public void Dispose()
         {
+            _handler?.Dispose();
             GC.SuppressFinalize(this);
             GC.Collect();
         }
 
-        ~Envio()
+        ~EnvioXML()
         {
             Dispose();
         }

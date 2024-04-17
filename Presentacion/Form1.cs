@@ -1,4 +1,5 @@
-﻿using Entidades.utils;
+﻿using Datos.XML.Procesado;
+using Entidades.utils;
 using Negocio;
 using Negocio.NegocioXML;
 using System;
@@ -54,7 +55,7 @@ namespace Presentacion
 
             MensajeXMLCreado();
 
-            Enviar.Envio();
+            EnvioDelXml();
 
             LimpiarRecursos();
         }
@@ -86,6 +87,12 @@ namespace Presentacion
 
             if (result is DialogResult.Yes)
                 Process.Start(Global.RutaGuardarXmlEnvio);
+        }
+
+        private void EnvioDelXml()
+        {
+            Enviar envio = new Enviar();
+            envio.Envio();
         }
 
         private void LimpiarRecursos()

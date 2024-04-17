@@ -50,14 +50,13 @@ namespace Entidades.utils
             foreach (KeyValuePair<int, dynamic> itemDiccionario in diccionarioValores)
                 if (listaBaseCuotaTipo.Contains(itemDiccionario.Key) && itemDiccionario.Value != null && itemDiccionario.Value != "")
                     suma += TryParseFloat(itemDiccionario.Value);
-                    //uma += TryParseFloat("as"); error forzado
 
             return ReemplazarComaPunto(suma);
         }
 
         public static string ReemplazarComaPunto(dynamic val)
         {
-            return val.ToString().Replace(',', '.');
+            return val.ToString().Replace(',', '.'); //gestorErrores.tryReplace//verificar string
         }
 
         private static float TryParseFloat(dynamic valor)
@@ -65,9 +64,9 @@ namespace Entidades.utils
             return GestorErrores.TryParseFloat(valor);
         }
 
-        public static string GetSetHora()
+        public static void SetHora()
         {
-            return Global.FechaGuardado = DateTime.Now.ToString("yy_MM_dd_HH_mm_ss_ffff");
+            Global.FechaGuardado = DateTime.Now.ToString("yy_MM_dd_HH_mm_ss_fff");
         }
     }
 }

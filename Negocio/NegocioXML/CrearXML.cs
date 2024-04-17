@@ -1,13 +1,18 @@
 ﻿using Datos.Excel;
 using Datos.XML;
 using System;
-
+using H = Entidades.utils.Helper;
 namespace Negocio
 {
     public class CrearXML
     {
         private readonly ConstructorXML _constructor = new ConstructorXML();
         private ExcelReader _excelReader;
+
+        public CrearXML()
+        {
+            H.SetHora();
+        }
 
         public void TryCrearXml()
         {
