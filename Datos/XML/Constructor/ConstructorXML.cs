@@ -6,6 +6,7 @@ using System;
 using System.IO;
 using Entidades.utils;
 using System.Windows.Forms;
+using System.Windows.Media.Animation;
 
 namespace Datos.XML
 {
@@ -54,7 +55,7 @@ namespace Datos.XML
             try
             {
                 BorrarXmlAntiguo();
-                GuardarXML();
+                ConfiguracionGuardarXml();
                 
             }
             catch (ArgumentNullException nEx)
@@ -67,6 +68,8 @@ namespace Datos.XML
                     $"{Environment.NewLine}{ex.Message}");
                 /*
                  * seguir flujo del programa asumiendo si devuelve nulo
+                 * 
+                 * aunque realmente no debería devolver null¿?
                  */
             }
             
@@ -78,9 +81,21 @@ namespace Datos.XML
                 File.Delete(G.RutaGuardarXmlEnvio);
         }
 
+        private void ConfiguracionGuardarXml()
+        {
+            SetNombreXml();
+            GuardarXML();
+        }
+
+        private void SetNombreXml()
+        {
+            var nombreXmlRespuesta = string.Format("E-{0}.xml", G.FechaGuardado);
+            G.RutaGuardarXmlEnvio = Path.Combine(G.RutaDirectorioData, nombreXmlRespuesta);
+        }
+
         private void GuardarXML()
         {
-            //G.RutaGuardarXmlEnvio = Path.Combine(G.RutaDirectorioData, );
+            G.XmlDocument.Save(G.RutaGuardarXmlEnvio);
         }
     }
 }

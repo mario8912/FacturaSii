@@ -44,7 +44,7 @@ namespace Datos.XML.Procesado
                 
                 _respuestaServer = cliente.PostAsync(G.RutaEnvioPruebas, _contenido).Result;
 
-                var nombreRespuesta = Helper.GetRutaGuardadoXml("respuesta");
+                var nombreRespuesta = GuardarRespuesta();
                 if (_respuestaServer.IsSuccessStatusCode)
                 {
                     _contenidoRespuesta = await _respuestaServer.Content.ReadAsStringAsync();
@@ -53,8 +53,13 @@ namespace Datos.XML.Procesado
                 }
                 else
                     Console.WriteLine("Error al enviar XML: " + _respuestaServer);
-
             }
+        }
+
+        private string GuardarRespuesta()
+        {
+            var nombreXmlRespuesta = string.Format("R-{0}.xml", G.FechaGuardado);
+            return G.RutaGuardarXmlRespuesta = Path.Combine(G.RutaDirectorioData, nombreXmlRespuesta);
         }
 
         private void ConfigurarHandler()

@@ -65,9 +65,9 @@ namespace Entidades.utils
             return GestorErrores.TryParseFloat(valor);
         }
 
-        public static string GetSetHora()
+        public static void SetHora()
         {
-            return Global.FechaGuardado = DateTime.Now.ToString("yy_MM_dd_HH_mm_ss_ffff");
+            Global.FechaGuardado = DateTime.Now.ToString("yy_MM_dd_HH_mm_ss_ffff");
         }
     }
 }
