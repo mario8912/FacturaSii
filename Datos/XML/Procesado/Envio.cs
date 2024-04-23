@@ -28,6 +28,8 @@ namespace Datos.XML.Procesado
         {
             var xmlFilePath = G.RutaGuardarXmlEnvio;
             //var xmlFilePath = @"E:\mipc\escritorio\FacturaSii\Entidades\utils\XML\factura.xml";
+            
+
 
             string xmlContent;
             using (StreamReader reader = new StreamReader(xmlFilePath, Encoding.UTF8))

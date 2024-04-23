@@ -50,7 +50,7 @@ namespace Entidades.utils
             foreach (KeyValuePair<int, dynamic> itemDiccionario in diccionarioValores)
                 if (listaBaseCuotaTipo.Contains(itemDiccionario.Key) && itemDiccionario.Value != null && itemDiccionario.Value != "")
                     suma += TryParseFloat(itemDiccionario.Value);
-                    //uma += TryParseFloat("as"); error forzado
+            //uma += TryParseFloat("as"); error forzado
 
             return ReemplazarComaPunto(suma);
         }

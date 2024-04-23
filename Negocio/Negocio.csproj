@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="NegocioXML\CrearXML.cs" />
     <Compile Include="NegocioXML\Enviar.cs" />
+    <Compile Include="NegocioXML\Respuesta.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

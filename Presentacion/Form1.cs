@@ -55,6 +55,8 @@ namespace Presentacion
             MensajeXMLCreado();
 
             Enviar.Envio();
+            string respuesta = new Respuesta().RellenarDataTable();
+            MessageBox.Show(respuesta);
 
             LimpiarRecursos();
         }
