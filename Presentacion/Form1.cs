@@ -1,4 +1,5 @@
-﻿using Entidades.utils;
+﻿using G = Entidades.utils.Global;
+using Entidades.utils;
 using Negocio;
 using Negocio.NegocioXML;
 using System;
@@ -37,7 +38,7 @@ namespace Presentacion
         {
             _openFileDialog = new OpenFileDialog
             {
-                InitialDirectory = @"E:\mipc\escritorio\FacturaSii\data",
+                InitialDirectory = G.RutaDirectorioData,
                 Filter = "Excel Files|*.xlsx",
                 Title = "Selecciona un archivo"
             };
@@ -92,10 +93,7 @@ namespace Presentacion
         private void ProcesadoEnvioRespuesta()
         {
             Enviar.Envio();
-
-            DataTable a = new RespuestaXML().ProcesarRespuesta();
-            FormGrid frm = new FormGrid(a);
-            frm.Show();
+            new FormGrid(new RespuestaXML().ProcesarRespuesta()).Show();
         }
 
         private void LimpiarRecursos()
@@ -120,20 +118,5 @@ namespace Presentacion
         {
             btnSeleccionArchivo.Focus();
         }
-
-        /*private void Form1_Activated(object sender, EventArgs e)
-        {
-            MessageBox.Show("activao");
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            MessageBox.Show("load");
-        }
-
-        private void Form1_VisibleChanged(object sender, EventArgs e)
-        {
-            MessageBox.Show("visible");
-        }*/
     }
 }

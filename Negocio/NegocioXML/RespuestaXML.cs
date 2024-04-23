@@ -1,11 +1,10 @@
-﻿using Datos.XML.Procesado;
-using System.Collections;
-using System.Data;
+﻿using System.Data;
 
 namespace Negocio.NegocioXML
 {
     public class RespuestaXML
     {
+    
         private string _respuesta;
         public DataTable ProcesarRespuesta()
         {

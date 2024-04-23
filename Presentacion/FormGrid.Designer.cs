@@ -49,6 +49,7 @@
             this.Controls.Add(this.dataGridView1);
             this.Name = "FormGrid";
             this.Text = "FormGrid";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormGrid_FormClosing);
             this.Load += new System.EventHandler(this.FormGrid_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
