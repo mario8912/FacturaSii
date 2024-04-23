@@ -25,7 +25,7 @@ namespace Entidades.utils.XML
             titular.AppendChild(nif);
 
             XmlElement TipoComunicacion = Global.XmlDocument.CreateElement("sii", "TipoComunicacion", Global.SII);
-            TipoComunicacion.InnerText = "A0";
+            TipoComunicacion.InnerText = "A0"; //A1 BA
             cabecera.AppendChild(TipoComunicacion);
 
             XmlDocumentFragment frag = Global.XmlDocument.CreateDocumentFragment();

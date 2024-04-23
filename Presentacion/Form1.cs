@@ -2,6 +2,7 @@
 using Negocio;
 using Negocio.NegocioXML;
 using System;
+using System.Data;
 using System.Diagnostics;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -54,9 +55,7 @@ namespace Presentacion
 
             MensajeXMLCreado();
 
-            Enviar.Envio();
-            string respuesta = new Respuesta().RellenarDataTable();
-            MessageBox.Show(respuesta);
+            ProcesadoEnvioRespuesta();
 
             LimpiarRecursos();
         }
@@ -90,12 +89,21 @@ namespace Presentacion
                 Process.Start(Global.RutaGuardarXmlEnvio);
         }
 
+        private void ProcesadoEnvioRespuesta()
+        {
+            Enviar.Envio();
+
+            DataTable a = new RespuestaXML().ProcesarRespuesta();
+            FormGrid frm = new FormGrid(a);
+            frm.Show();
+        }
+
         private void LimpiarRecursos()
         {
             GC.Collect();
             GC.WaitForPendingFinalizers();
             Dispose();
-            Close();
+            //Close();
         }
 
         /*private void Form1_Activated(object sender, EventArgs e)

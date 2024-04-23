@@ -1,5 +1,4 @@
 ﻿using G = Entidades.utils.Global;
-using System.Collections.Generic;
 using System.Xml;
 
 namespace Entidades.utils.XML
