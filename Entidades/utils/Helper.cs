@@ -45,14 +45,17 @@ namespace Entidades.utils
 
         public static string SumaBases(Dictionary<int, dynamic> diccionarioValores)
         {
-            float suma = 0;
+            float suma = 0f;
 
             foreach (KeyValuePair<int, dynamic> itemDiccionario in diccionarioValores)
+            {
                 if (listaBaseCuotaTipo.Contains(itemDiccionario.Key) && itemDiccionario.Value != null && itemDiccionario.Value != "")
+                {
                     suma += TryParseFloat(itemDiccionario.Value);
-            //uma += TryParseFloat("as"); error forzado
-
-            return ReemplazarComaPunto(suma);
+                }
+            }
+                
+            return ReemplazarComaPunto(suma.ToString("0.00"));
         }
 
         public static string ReemplazarComaPunto(dynamic val)

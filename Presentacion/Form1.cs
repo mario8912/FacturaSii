@@ -102,8 +102,23 @@ namespace Presentacion
         {
             GC.Collect();
             GC.WaitForPendingFinalizers();
+        }
+
+        private void Form1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            LimpiarRecursos();
+            CerrarAplicacion();
+        }
+
+        private void CerrarAplicacion()
+        {
             Dispose();
-            //Close();
+            Close();
+        }
+
+        private void Form1_Activated(object sender, EventArgs e)
+        {
+            btnSeleccionArchivo.Focus();
         }
 
         /*private void Form1_Activated(object sender, EventArgs e)

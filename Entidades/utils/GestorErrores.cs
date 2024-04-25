@@ -7,14 +7,9 @@ namespace Entidades.utils
 {
     internal class GestorErrores
     {
-        //private readonly Exception _ex;
         private static dynamic _error;
         private static dynamic _valor;
 
-        /*internal GestorErrores(Exception ex) 
-        { 
-            _valor = ex;
-        }*/
         internal static dynamic TryParseFloat(dynamic valor)
         {
             _valor = valor;
@@ -52,8 +47,11 @@ namespace Entidades.utils
 
         private static void GuardarErrorEnLog(string log)
         {
+            string dateTime = DateTime.Now.ToString("yy/MM/dd");
+            
             StreamWriter sw = new StreamWriter(Environment.CurrentDirectory + @"\log.txt", true);
-            sw.WriteLine(log);
+
+            sw.WriteLine($"{log} ({dateTime})");
             sw.Close();
         }
     }

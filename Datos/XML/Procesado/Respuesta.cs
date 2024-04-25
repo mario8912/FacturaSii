@@ -45,11 +45,15 @@ public class Respuesta
         DataColumn colEstadoReg = new DataColumn("EstadoRegistro");
         DataColumn colCodError = new DataColumn("CodigoError");
         DataColumn colMensajeError = new DataColumn("MensajeError");
+        DataColumn colCsv = new DataColumn("CSV");
+        DataColumn codEstadoDuplicado = new DataColumn("EstadoDuplicado");
 
         _tabla.Columns.Add(colIdFactura);
         _tabla.Columns.Add(colEstadoReg);
         _tabla.Columns.Add(colCodError);
         _tabla.Columns.Add(colMensajeError);
+        _tabla.Columns.Add(colCsv);
+        _tabla.Columns.Add(codEstadoDuplicado);
     }
 
     public DataTable Tabla()
@@ -73,7 +77,8 @@ public class Respuesta
             {
                 codigoError = nodoFacturas.ChildNodes[2].InnerText;
                 descripcionError = nodoFacturas.ChildNodes[3].InnerText;
-                if (descripcionError == "Factura duplicada")
+
+                if (codigoError == "3000")
                 {
                     csv = nodoFacturas.ChildNodes[4].InnerText;
                     estadoDuplicado = nodoFacturas.ChildNodes[5].ChildNodes[0].InnerText;
@@ -86,8 +91,12 @@ public class Respuesta
             fila["EstadoRegistro"] = estadoRegistro;
             fila["CodigoError"] = codigoError;
             fila["MensajeError"] = descripcionError;
+            fila["CSV"] = csv;
+            fila["EstadoDuplicado"] = estadoDuplicado;
+
             _tabla.Rows.Add(fila);
         }
+
         sp.Stop();
         Console.WriteLine(sp.Elapsed.ToString());
 
