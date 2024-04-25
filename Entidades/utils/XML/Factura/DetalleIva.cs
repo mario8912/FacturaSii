@@ -5,7 +5,13 @@ namespace Entidades.utils.XML.Factura
 {       
     public class DetalleIva
     {
-        public static XmlDocumentFragment XmlDetalleIva(dynamic tipoImpositivo, dynamic baseImponible, dynamic cuotaRepercutida)
+        public static XmlDocumentFragment XmlDetalleIva(
+            dynamic tipoImpositivo, 
+            dynamic baseImponible, 
+            dynamic cuotaRepercutida,
+            dynamic tipoRE = null,
+            dynamic cuotaRE = null
+            )
         {
             XmlElement DetalleIVA = G.XmlDocument.CreateElement("sii", "DetalleIVA", G.SII);
 
@@ -21,6 +27,17 @@ namespace Entidades.utils.XML.Factura
             XmlElement CuotaRepercutida = G.XmlDocument.CreateElement("sii", "CuotaRepercutida", G.SII);
             CuotaRepercutida.InnerText = Helper.ReemplazarComaPunto(cuotaRepercutida);
             DetalleIVA.AppendChild(CuotaRepercutida);
+
+            if (tipoRE != null)
+            {
+                XmlElement TipoRE = G.XmlDocument.CreateElement("sii", "TipoRecargoEquivalencia", G.SII);
+                TipoRE.InnerText = Helper.ReemplazarComaPunto(tipoRE);
+                DetalleIVA.AppendChild(TipoRE);
+
+                XmlElement CuotaRE = G.XmlDocument.CreateElement("sii", "CuotaRecargoEquivalencia", G.SII);
+                CuotaRE.InnerText = Helper.ReemplazarComaPunto(cuotaRE);
+                DetalleIVA.AppendChild(CuotaRE);
+            }
 
             XmlDocumentFragment frag = G.XmlDocument.CreateDocumentFragment();
             frag.AppendChild(DetalleIVA);

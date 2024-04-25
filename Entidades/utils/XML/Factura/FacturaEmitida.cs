@@ -159,18 +159,21 @@ namespace Entidades.utils.XML
         {
             for (int i = 4; i < 27; i += 5)
             {
-                dynamic tipoImpositivo = _diccionarioValores[i +1];
+                dynamic tipoImpositivo = _diccionarioValores[i + 1];
                 dynamic baseImponible = _diccionarioValores[i];
                 dynamic cuotaRepercutida = _diccionarioValores[i + 2];
 
-                if (tipoImpositivo != "")
-                    DesgloseIVA.AppendChild(DetalleIva.XmlDetalleIva(tipoImpositivo, baseImponible, cuotaRepercutida));
-            }
-        }
+                dynamic tipoRE = _diccionarioValores[i + 3];
+                dynamic cuotaRE = _diccionarioValores[i + 4];
 
-        private static string ReemplazarAmpersandXML()
-        {
-            return string.Empty;
+                if (tipoImpositivo != "")
+                {
+                    if (tipoRE != "")
+                        DesgloseIVA.AppendChild(DetalleIva.XmlDetalleIva(tipoImpositivo, baseImponible, cuotaRepercutida, tipoRE, cuotaRE));
+                    else
+                        DesgloseIVA.AppendChild(DetalleIva.XmlDetalleIva(tipoImpositivo, baseImponible, cuotaRepercutida));
+                }
+            }
         }
     }
 }

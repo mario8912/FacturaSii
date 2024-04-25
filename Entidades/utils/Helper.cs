@@ -6,7 +6,7 @@ namespace Entidades.utils
 {
     public class Helper
     {
-        public static List<int> listaBaseCuotaTipo = new List<int> { 4, 6, 9, 11, 14, 16, 19, 21, 24, 26 };
+        public static List<int> listaBaseCuotaTipo = new List<int> { 4, 6, 8, 9, 11, 13, 14, 16, 18, 19, 21, 23, 24, 26, 28 };
 
         //la clave del diccionario hace referencia al indice de la columna del excel donde ese encuentran los datos deseados, 
         //ya que siempre están en la misma posición pero de forma desordenada, hay columnas vacías, etc.
@@ -24,22 +24,32 @@ namespace Entidades.utils
                 { 4, null }, //b1
                 { 5, null }, //t1
                 { 6, null }, //c1
-
+                { 7, null }, //tre1
+                { 8, null }, //cre1
+               
                 { 9, null }, //b2
                 { 10, null }, //t2
                 { 11, null }, //c2
+                { 12, null }, //tre2
+                { 13, null }, //cre2
 
                 { 14, null }, //b3
                 { 15, null }, //t3
                 { 16, null }, //c3
+                { 17, null }, //tre3
+                { 18, null }, //cre3
 
                 { 19, null }, //b4
                 { 20, null }, //t4
                 { 21, null }, //c4
+                { 22, null }, //tre4
+                { 23, null }, //cre4
 
                 { 24, null }, //b5
                 { 25, null }, //t5
-                { 26, null }  //c5
+                { 26, null }, //c5
+                { 27, null }, //tre5
+                { 28, null }  //cre5
             };
         }
 
