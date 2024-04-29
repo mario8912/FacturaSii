@@ -90,10 +90,20 @@ namespace Presentacion
                 Process.Start(Global.RutaGuardarXmlEnvio);
         }
 
-        private void ProcesadoEnvioRespuesta()
+        private async void ProcesadoEnvioRespuesta()
         {
-            Enviar.Envio();
+            await TaskEnvio(); 
             new FormGrid(new RespuestaXML().ProcesarRespuesta()).Show();
+        }
+
+        private Task TaskEnvio()
+        {
+            Task task = Task.Run(() =>
+            {
+                new Enviar().Envio();
+            });
+
+            return task;
         }
 
         private void LimpiarRecursos()

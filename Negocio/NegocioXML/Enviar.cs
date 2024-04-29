@@ -5,7 +5,7 @@ namespace Negocio.NegocioXML
 {
     public class Enviar
     {
-        public static void Envio()
+        public void Envio()
         {
             new Envio().Request();
         }

@@ -1,11 +1,11 @@
 ﻿using System;
-using System.Net.Http;
-using System.IO;
 using System.Diagnostics;
+using System.IO;
+using System.Net.Http;
 using System.Security.Cryptography.X509Certificates;
-using G = Entidades.utils.Global;
 using System.Text;
 using System.Threading.Tasks;
+using G = Entidades.utils.Global;
 
 namespace Datos.XML.Procesado
 {
@@ -17,32 +17,37 @@ namespace Datos.XML.Procesado
         private HttpResponseMessage _respuestaServer;
         private string _contenidoRespuesta;
         private StreamReader _reader;
-        
+
         public Envio()
         {
             _handler = new HttpClientHandler();
         }
 
-        public async void Request()
+        public void Request()
         {
-            _contenido  = new StringContent(await LeerContenidoXML().Start());
+            var resultado = "";
+
+            Task tarea = new Task(() =>
+            {
+               resultado = LeerContenidoXML().Result;
+            });
+            tarea.Start();
+            tarea.Wait();
+
+            _contenido = new StringContent(resultado);
 
             ConfigurarHandler();
-            
+
             using (HttpClient cliente = new HttpClient(_handler))
             {
                 _respuestaServer = cliente.PostAsync(G.RutaEnvioPruebas, _contenido).Result;
-
                 TryGuardarRespuesa();
             }
         }
 
-        private Task LeerContenidoXML()
+        private async Task<string> LeerContenidoXML()
         {
-            _reader = new StreamReader(G.RutaGuardarXmlEnvio, Encoding.UTF8);
-            return new Task(() => {
-                _reader.ReadToEndAsync();
-            });
+            return await new StreamReader(G.RutaGuardarXmlEnvio, Encoding.UTF8).ReadToEndAsync();
         }
 
         private async void TryGuardarRespuesa()
@@ -58,7 +63,7 @@ namespace Datos.XML.Procesado
                 Console.WriteLine("Error al enviar XML: " + _respuestaServer);
         }
 
-        
+
 
         private void ConfigurarHandler()
         {
@@ -76,7 +81,7 @@ namespace Datos.XML.Procesado
 
         public void Dispose()
         {
-            _reader.Dispose();
+            _reader?.Dispose();
             GC.SuppressFinalize(this);
             GC.Collect();
         }
