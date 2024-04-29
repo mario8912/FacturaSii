@@ -8,9 +8,10 @@ using G = Entidades.utils.Global;
 public class Respuesta
 {
     private readonly XmlDocument _xmlDoc;
-    private XmlNamespaceManager _nsMgr;
+    private XmlNamespaceManager _namespaceManager;
     private string _xmlPath;
     private DataTable _tabla;
+
     public Respuesta()
     {
         _xmlDoc = new XmlDocument();
@@ -24,18 +25,12 @@ public class Respuesta
     {
         _xmlPath = "env:Envelope/env:Body/siiR:RespuestaLRFacturasEmitidas/siiR:EstadoEnvio";
 
-        _nsMgr = new XmlNamespaceManager(_xmlDoc.NameTable);
-        _nsMgr.AddNamespace("env", G.SOAPENV);
-        _nsMgr.AddNamespace("sii", G.SII);
-        _nsMgr.AddNamespace("siiR", G.SII_R);
+        _namespaceManager = new XmlNamespaceManager(_xmlDoc.NameTable);
+        _namespaceManager.AddNamespace("env", G.SOAPENV);
+        _namespaceManager.AddNamespace("sii", G.SII);
+        _namespaceManager.AddNamespace("siiR", G.SII_R);
 
-        return _xmlDoc.SelectSingleNode(_xmlPath, _nsMgr);
-    }
-
-    private string RespuestaEstadoEnvio()
-    {
-        XmlNode nodo = ConfiguracionNamespace();
-        return nodo.InnerText; //try
+        return _xmlDoc.SelectSingleNode(_xmlPath, _namespaceManager);
     }
 
     private void CrearTabla()
@@ -58,11 +53,8 @@ public class Respuesta
 
     public DataTable Tabla()
     {
-        Stopwatch sp = new Stopwatch();
-        sp.Start();
-
         _xmlPath = "env:Envelope/env:Body/siiR:RespuestaLRFacturasEmitidas/siiR:RespuestaLinea";
-        XmlNodeList node = _xmlDoc.SelectNodes(_xmlPath, _nsMgr);
+        XmlNodeList node = _xmlDoc.SelectNodes(_xmlPath, _namespaceManager);
 
         foreach (XmlNode nodoFacturas in node)
         {
@@ -85,7 +77,6 @@ public class Respuesta
                 }
             }
 
-
             DataRow fila = _tabla.NewRow();
             fila["IdFactura"] = idFactura;
             fila["EstadoRegistro"] = estadoRegistro;
@@ -96,9 +87,6 @@ public class Respuesta
 
             _tabla.Rows.Add(fila);
         }
-
-        sp.Stop();
-        Console.WriteLine(sp.Elapsed.ToString());
 
         _tabla.TableName = "Facturas";
         _tabla.WriteXml("datos.xml");
